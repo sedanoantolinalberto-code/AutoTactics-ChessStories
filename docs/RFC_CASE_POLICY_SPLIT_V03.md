@@ -84,3 +84,21 @@ No test execution or Policy B qualification has occurred.
 Retain the v0.2 artifacts as historical documentary baselines. Review this RFC first, then independently qualify a v0.3 policy loader and schema validation path; only after a safe runner exists can a new validation phase be authorized. Do not immediately migrate production data, renderers or media publication.
 
 **This RFC is not a mechanism to bypass frozen checks. Its purpose is to prevent EP01 rules from being silently treated as universal while preserving them exactly for EP01.**
+
+
+## New cross-case finding: consultation games (Morphy's Opera Game)
+
+The independent EP02 secondary score identifies Paul Morphy playing White against **Duke Karl of Brunswick and Count Isouard as two consulting Black participants**. Treating their group as one historical person would fabricate an identity relationship.
+
+The proposed \`contracts/scene-contract-v0.3-draft.schema.json\` now supports either:
+- \`$defs/player\`: an individually identified person with separate evidence references; or
+- \`$defs/consultationTeam\`: a \`group_kind: "CONSULTATION_TEAM"\` record containing at least two distinct referenced member identities and group-level evidence references.
+
+The side's member IDs remain subject to a future cross-record uniqueness check. A game's PGN records the Black moves **by side**, not by which consulting member physically selected or moved each piece. Individual move attribution must remain unsupported without a source.
+
+Additional documentary negative scenarios (not executed):
+- P13: Duplicate the same person ID twice inside a consultation team; future semantic validator must reject member-ID collisions.
+- P14: Replace the consultation-team record with one individual's identity while retaining two-person assertions; content-to-source review must reject an unsupported identity simplification.
+- P15: Assign a specific 13...Rxd7 decision to an individual consultative member without evidence; claim admissibility review must reject unsupported attribution.
+
+This extension changes **only** the new v0.3 candidate schema, not the EP01 v0.2 schema, its original case data, the frozen sidecar, or any gate.
