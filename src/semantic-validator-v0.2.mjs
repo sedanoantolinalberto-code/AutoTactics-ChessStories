@@ -297,6 +297,13 @@ export function validateSemanticCase(document) {
     if (c.admissibility_status === "ADMISSIBILITY_REVIEW_REPORTED" &&
         (!arr(c.evidence_refs).length || !arr(c.admissibility_review_refs).length))
       fail("UNSUPPORTED_CLAIM_PROMOTION", "claims."+c.id);
+    // A typed end-of-game assertion at ply 50 contradicts EP01's documented
+    // source-declared continuation. Plain-language semantics still need review.
+    if (document.case_id === "ED-CASE-REAL-01" &&
+        c.subject === "25...Nxd1" &&
+        ["HISTORICAL_GAME_END","GAME_TERMINATED","CHECKMATE",
+         "SOURCE_DECLARED_GAME_ENDS"].includes(c.predicate))
+      fail("PILOT_PREMATURE_END_ASSERTION","claims."+c.id);
     // F03 textual cue is only a defensive veto, never a complete NLP classifier.
     if (document.case_id === "ED-CASE-REAL-01" && str(c.text) &&
         /24\s*\.{3}\s*Ra4/i.test(c.text) &&
