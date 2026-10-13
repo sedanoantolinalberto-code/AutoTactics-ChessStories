@@ -117,3 +117,16 @@ A 20 April 1992 public statement by Hanon W. Russell adds a material unresolved 
 **Consequence:** the modern-secondary line ending in `41...Rc2#` remains a secondary terminal candidate. A reported primary-witness disagreement now gives an additional reason not to label that exact mate entry as historically authenticated. Both reported endings remain compatible with a Black win, but “mate recorded” and “resignation before mate” are distinct termination records.
 
 The new `sources/EP01-SCORESHEET-WITNESS-LEADS.v0.1.json` records these witness classes and the unresolved discrepancy. It does not populate the blind 82-row magazine comparison and does not clear reproduction rights for any scoresheet image.
+
+
+## Chess Life 20 Dec 1956 — Fischer/Collins annotated contemporary witness
+
+A third contemporaneous periodical witness is now documented from the official US Chess PDF: *Chess Life*, Vol. XI No. 8, 20 Dec 1956, printed p.6 / PDF index 5, “Games by USCF Members”, game heading “One of the Greatest”.
+
+The page credits the game notes to **Robert J. Fischer** and states that Bobby's notes were “written in collaboration with the Editor” (John W. Collins). In the official PDF's structured text extraction, the terminal score reads **41.K-B1 R-B7 mate**, immediately following the note that Black mates from the displayed position.
+
+This source is materially useful because it is a 1956 publication tied to Fischer's own annotations and agrees with the modern-secondary mate ending. It still does **not** settle the reported Byrne-scoresheet resignation discrepancy: a contemporaneous edited publication is not the same evidentiary object as direct inspection of each player's original tournament scoresheet.
+
+A page-render screenshot was attempted through the connected PDF viewer and failed by timeout. Accordingly, this record is classified as **official-PDF text extraction**, not a blind visual transcription. The connected research agent is also ineligible as a blind Reader A/B because it had already seen the modern SAN candidate.
+
+See `sources/EP01-1956-DEC20-FISCHER-ANNOTATED-WITNESS.v0.1.json`.
