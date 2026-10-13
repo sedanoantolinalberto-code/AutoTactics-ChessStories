@@ -100,3 +100,20 @@ A direct visual inspection of the publisher-hosted *Chess Life* 5 Nov 1956 PDF, 
 For *Chess Review* Dec 1956, the archive issue and pp. 374–375 location remain established; a historical reproduction corroborates the opening portion of p.374. The full publisher PDF exceeded the connected web fetch limit in this session, so a complete visual transcription was not claimed.
 
 To prevent answer-key leakage, PR #3 now also carries a blind 82-row reader worksheet with **no modern SAN values** and a protocol that freezes raw descriptive notation before SAN conversion. The existing comparison template remains blank.
+
+
+## Scoresheet witness divergence — 2026-10-14
+
+A separate provenance review found that “the Fischer scoresheet” must not be treated as a single undifferentiated object.
+
+John Donaldson's 2025 research distinguishes:
+- a tournament original in Fischer's handwriting, traced through collectors and currently attributed to David DeLucia; and
+- a later reconstruction in Fischer's handwriting in the John W. Collins manuscripts at Lilly Library. Donaldson explicitly states that the Lilly item is neither the tournament original nor Fischer's carbon copy.
+
+The Lilly Library collection catalog independently confirms the Collins manuscripts (LMC 2411), that the collection is open for research, and that it currently has zero online items. The connected review therefore has **not** inspected the repository object itself.
+
+A 20 April 1992 public statement by Hanon W. Russell adds a material unresolved discrepancy. Russell said that, when he examined the Fischer and Donald Byrne original scoresheets in his collection, Fischer's sheet recorded mate whereas Byrne's recorded resignation one move before the mate. This is a first-person provenance statement, not a fresh primary inspection by this project.
+
+**Consequence:** the modern-secondary line ending in `41...Rc2#` remains a secondary terminal candidate. A reported primary-witness disagreement now gives an additional reason not to label that exact mate entry as historically authenticated. Both reported endings remain compatible with a Black win, but “mate recorded” and “resignation before mate” are distinct termination records.
+
+The new `sources/EP01-SCORESHEET-WITNESS-LEADS.v0.1.json` records these witness classes and the unresolved discrepancy. It does not populate the blind 82-row magazine comparison and does not clear reproduction rights for any scoresheet image.
