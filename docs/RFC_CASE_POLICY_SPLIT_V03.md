@@ -106,10 +106,21 @@ This extension changes **only** the new v0.3 candidate schema, not the EP01 v0.2
 
 ## CHESS-CODEX-09 policy binder review protocol — static extension
 
-\`policies/POLICY_BINDING_V03_REVIEW_SPEC.json\` now provides a **documentary proposal** for an eight-stage fail-closed policy-binding pipeline with **22 additional negative test cases**, all UNEXECUTED.
+\`policies/POLICY_BINDING_V03_REVIEW_SPEC.json\` now provides a **documentary proposal** for an eight-stage fail-closed policy-binding pipeline with **24 additional negative test cases**, all UNEXECUTED.
 
 The separate v0.3 source-text inspection identified **43 reusable \`$defs\` declarations** and **161 \`$ref\` references to \`#/$defs/...\`**, with **zero unresolved definition names**, and confirmed the exact EP01 case-policy literal lock matches the preserved policy JSON. The inspection did **not** execute an approved Draft 2020-12 validator or prove cross-file trust.
 
-Do not confuse the 15 RFC negative scenario ideas above with the 22 dedicated binder scenarios: they have distinct scopes and are proposed documentary checks, NOT PASS counts. An independently qualified trusted-byte source, immutable lock, duplicate-key-safe decoder, source-chained digest and cross-file policy resolver are mandatory before representing the binding as authenticated.
+Do not confuse the 15 RFC negative scenario ideas above with the 24 dedicated binder scenarios: they have distinct scopes and are proposed documentary checks, NOT PASS counts. An independently qualified trusted-byte source, immutable lock, duplicate-key-safe decoder, source-chained digest and cross-file policy resolver are mandatory before representing the binding as authenticated.
 
 The policy digest in the v0.3 case proposal remains \`null\` and \`binding_status\` remains \`DECLARED_NOT_VERIFIED\`. No R6/IVV or E5B4D status changes follow from this draft.
+
+
+## 2026-10-14 mutable-ref / Git-object identity follow-up
+
+Static cross-branch review confirmed that the six EP01 states and twelve timeline events in the v0.3 proposal still match the v0.2 baseline on the migrated state/event fields. No v0.3 adoption follows from that comparison.
+
+Two additional unexecuted binder threats are now recorded:
+- **PB23**: a named branch remains the same while its resolved policy blob changes. A branch/tag is a mutable locator, not immutable identity.
+- **PB24**: a Git commit/blob object ID is misused as the policy's qualified raw-byte SHA-256 digest.
+
+This preserves a three-layer distinction: mutable repository locator → immutable Git provenance object → separately qualified raw-byte digest. The latter remains unavailable; `declared_digest_sha256=null` and `binding_status=DECLARED_NOT_VERIFIED` are unchanged.
