@@ -287,7 +287,7 @@ export function validateSemanticCase(document) {
       fail("SPECIAL_MOVE_NOT_QUALIFIED","timeline."+e.id); return;
     }
     if (!SQ.test(String(m.from)) || !SQ.test(String(m.to)) ||
-        !PIECES.includes(m.moving_piece) || !COLORS.has(m.moving_color)) {
+        !(typeof m.moving_piece === "string" && m.moving_piece.length === 1 && PIECES.includes(m.moving_piece)) || !COLORS.has(m.moving_color)) {
       fail("MOVE_FIELDS_INVALID","timeline."+e.id); return;
     }
     if (before.ply+1 !== after.ply) fail("MOVE_PLY_MISMATCH","timeline."+e.id);
@@ -299,7 +299,7 @@ export function validateSemanticCase(document) {
     if (capture) {
       if (!obj(m.capture) || !SQ.test(String(m.capture.capture_square)) ||
           m.capture.capture_square !== m.to ||
-          !PIECES.includes(m.capture.captured_piece) ||
+          !(typeof m.capture.captured_piece === "string" && m.capture.captured_piece.length === 1 && PIECES.includes(m.capture.captured_piece)) ||
           m.capture.captured_piece === "K" ||
           !COLORS.has(m.capture.captured_color) ||
           m.capture.captured_color === m.moving_color)
