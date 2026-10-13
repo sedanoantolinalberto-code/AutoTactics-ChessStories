@@ -1,0 +1,55 @@
+{
+  "artifact_version": "chess-stories-ep01-1956-dec20-fischer-annotated-witness/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "CONTEMPORARY_PERIODICAL_TEXT_WITNESS_NOT_BLIND_VISUAL_TRANSCRIPTION",
+  "source": {
+    "publication": "Chess Life",
+    "issue_date": "1956-12-20",
+    "volume_issue": "Vol. XI, No. 8",
+    "printed_page": 6,
+    "pdf_page_index": 5,
+    "official_pdf_url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_12_2.pdf",
+    "section": "GAMES BY USCF MEMBERS",
+    "column_editor": "John W. Collins",
+    "game_heading": "ONE OF THE GREATEST",
+    "game_notes_credit": "Robert J. Fischer",
+    "collaboration_statement": "Bobby's notes (written in collaboration with the Editor) represent his first effort in this field."
+  },
+  "acquisition_observation": {
+    "method": "CONNECTED_OFFICIAL_PDF_STRUCTURED_TEXT_EXTRACTION",
+    "screenshot_attempt": "FAILED_TIMEOUT",
+    "visual_transcription_claimed": false,
+    "blind_reader_eligible": false,
+    "reason_not_blind": "The connected research agent had already seen the modern SAN candidate before inspecting this source."
+  },
+  "terminal_record_observed_in_pdf_text": {
+    "move_number": 41,
+    "white_descriptive": "K-B1",
+    "black_descriptive": "R-B7 mate",
+    "normalized_modern_candidate": "41...Rc2#",
+    "normalization_status": "DOCUMENTARY_MAPPING_CANDIDATE_NOT_CHESS_ORACLE_REPLAY",
+    "nearby_statement": "Now Black mates in six moves. But on 36.K-R1, Black mates in three.",
+    "terminal_class": "PUBLISHED_MATE_RECORD"
+  },
+  "provenance_weight": {
+    "contemporaneous": true,
+    "notes_attributed_to_player": true,
+    "notes_collaborative_with_editor": true,
+    "original_scoresheet": false,
+    "independent_of_later_modern_transcriptions": "STRONGER_TEMPORAL_PROXIMITY_BUT_TEXTUAL_LINEAGE_NOT_FULLY_ESTABLISHED"
+  },
+  "relationship_to_reported_scoresheet_divergence": {
+    "fischer_original_reported_by_russell": "MATE",
+    "byrne_original_reported_by_russell": "RESIGNATION_ONE_MOVE_BEFORE_MATE",
+    "this_periodical_record": "MATE",
+    "resolution": "UNRESOLVED_BECAUSE_PERIODICAL_PUBLICATION_DOES_NOT_REPLACE_DIRECT_INSPECTION_OF_BOTH_REPORTED_ORIGINAL_SCORESHEETS"
+  },
+  "forbidden_promotions": [
+    "FULL_PRIMARY_SCORE_AUTHENTICATED",
+    "BYRNE_SCORESHEET_DISCREPANCY_RESOLVED",
+    "CHESS_LEGALITY_CONFIRMED",
+    "R6_CLEARED",
+    "IVV_GLOBAL_PASS",
+    "PUBLISH_APPROVED"
+  ]
+}
