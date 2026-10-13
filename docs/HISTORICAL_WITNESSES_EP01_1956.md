@@ -55,3 +55,30 @@ describes the final mate and 0–1 and reproduces a photograph of a scoresheet d
 ## 5. Frozen statuses
 
 R1–R5 and R7–R8: previous PASS LIMITED where reported; R6 PENDING. IVV-01/02/04/07/08/11 PASS LIMITED; IVV-03/05/06/09/10/12 PENDING; IVV GLOBAL and ED-CASE-REAL-01 NOT APPROVED. E5B4D NO-GO under model M. No tests executed or authorizations changed by this source-discovery note.
+
+
+## 6. Additional **earlier contemporary witness located**: Chess Life, 5 November 1956
+
+**Significant documentary advance, but not a completed 82-ply transcription.**
+
+- **Original publication:** *Chess Life*, Vol. XI, No. 5, Monday **5 November 1956** (printed on first page).
+- **Archive provenance:** US Chess historical digital archive, https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_1.pdf
+- **PDF locator:** **PDF page index 1 / printed page 2**, under "GRUENFELD DEFENSE", "Rosenwald Trophy Tournament", New York, 1956, "White D. Byrne / Black R. Fischer" (name scan/OCR garbled in places).
+- **Game record format:** 41 numbered full moves in **English descriptive chess notation** and a declared final **mate** on move 41, rather than modern SAN.
+- **Observed retrieval evidence:** indexed extraction of the publisher-archived eight-page PDF includes the game table on PDF page 2, approximately text lines 445–471 in its full text response. The article is not merely a modern paraphrase.
+- **Publisher's retrospective corroboration:** US Chess, "Throwback Thursday: Game of the Century Goes Viral in November 1956" (https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956) identifies this issue as the first printed appearance of the game's score and the later November brilliancy-prize reporting.
+- **Important limitation:** scan text extraction badly confuses typeset Kt, B, numbers and capture symbols; the full notation has **not** been independently checked visually, transcribed into normalized SAN, or compared across all 82 plies. Attempts to request the archived PDF's individual page screenshot through the research viewer returned a cache-miss error. Do not turn garbled OCR symbols into asserted move facts.
+
+### Resulting evidence distinction
+
+Before this discovery, the file only identified December 1956 *Chess Review* as the primary-periodical lead. We now have a **publisher-archived earlier primary-period original publication directly locatable by page and table heading**. That increases historical source coverage, but **does not change** the original-score authentication gate from NOT_VERIFIED. The November record has a different publication/editorial chain from Kmoch's December article, but actual transcription-level agreement and independence remain to be verified.
+
+### Specific next documentary checks
+
+1. Access the November issue's printed page 2 at sufficient visual resolution for every numeral and piece designation (without reproducing copyrighted page images in the repository).
+2. Perform a qualified two-reader descriptive-notation transcription with per-move source-locator confidence and a signed discrepancy trail. Compare all 82 plies with independently held modern SAN sources and December 1956 printing; resolve any differences transparently.
+3. Preserve original source URL, retrieval date, print/PDF page, and independently observed scan-byte identity or checksums if a qualified source acquisition is later authorized.
+4. Maintain strict separation between using public archives as **research witnesses** and seeking rights for incorporating scans, historical photographs or Kmoch prose in any monetized video.
+5. The first-publication lead does not change F03, R6, IVV, E5B4D or Policy B.
+
+The prior sections of this document are retained as the historical state of discovery and must be interpreted together with this later addendum.
