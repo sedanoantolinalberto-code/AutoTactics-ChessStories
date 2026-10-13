@@ -47,3 +47,14 @@ A license on one *component* does not automatically clear the composite finished
 ## Frozen statements
 
 **No PDF reprint, image, font software, audio or final rendered MP4 is committed here.** No usage license is conferred by this dossier. IVV-09 and R6 remain PENDING; EP01 and IVV global NOT APPROVED. E5B4D NO-GO under failure model M and strict Policy B unchanged. No tests executed.
+
+
+## 2026-10-14 clean-room production baseline
+
+A convergence decision now excludes the legacy v4 stills, unidentified v4 silhouettes/font and historical facsimiles from the default EP01 release dependency set. They remain uncleared reference/research items.
+
+Noto Sans is recorded only as the preferred future typography candidate because official Noto documentation describes Noto fonts as OFL-licensed and usable in commercial digital/print products; no exact binary has been selected, hashed or cleared. The production path therefore still requires exact asset binding.
+
+The US Chess archive's own personal/research-use limitation confirms the conservative default: periodical facsimiles remain out of release media absent a separate permission or fair-use determination.
+
+See `docs/R6_EP01_CLEAN_ROOM_PRODUCTION_BASELINE.v0.1.md`.
