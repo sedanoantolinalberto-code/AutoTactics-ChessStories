@@ -282,6 +282,264 @@ const PINNED_EVENT_DECLARATIONS = Object.freeze([
     "omitted_plies": null
   }
 ]);
+const PINNED_EVENT_PROVENANCE = Object.freeze({
+  "disclosure": [
+    "PARTIDA REAL",
+    "PARTIDA REAL",
+    "PARTIDA REAL",
+    "REBOBINADO A 17.Kf1",
+    "ALTERNATIVA NO JUGADA",
+    "VARIANTE HIPOTÉTICA — NO JUGADA",
+    "VOLVEMOS A LA PARTIDA REAL: 17.Kf1",
+    "PARTIDA REAL",
+    "PARTIDA REAL",
+    "SALTO TEMPORAL: SE OMITEN JUGADAS DE LA PARTIDA REAL",
+    "PARTIDA REAL — LA PARTIDA CONTINÚA",
+    "CIERRE EDITORIAL: NO ES EL FINAL DE LA PARTIDA"
+  ],
+  "claim_refs": [
+    [],
+    [
+      "CLAIM-REAL-MOVES"
+    ],
+    [
+      "CLAIM-REAL-MOVES"
+    ],
+    [],
+    [
+      "CLAIM-HYPOTHETICAL-QD8"
+    ],
+    [
+      "CLAIM-HYPOTHETICAL-QD8"
+    ],
+    [],
+    [
+      "CLAIM-REAL-MOVES"
+    ],
+    [
+      "CLAIM-REAL-MOVES"
+    ],
+    [
+      "CLAIM-EDITORIAL-ELLIPSIS"
+    ],
+    [
+      "CLAIM-REAL-MOVES",
+      "CLAIM-CONTINUATION"
+    ],
+    [
+      "CLAIM-CONTINUATION",
+      "CLAIM-EDITORIAL-END"
+    ]
+  ],
+  "evidence_refs": [
+    [
+      "EVID-LEDGER-R2"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    [
+      "EVID-LEDGER-R2"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-SUPPLIED-CASE-CONTEXT"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-SUPPLIED-CASE-CONTEXT"
+    ],
+    [
+      "EVID-LEDGER-R2"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    [
+      "EVID-R2-RESULTS",
+      "EVID-LEDGER-R2"
+    ],
+    [
+      "EVID-R2-RESULTS"
+    ],
+    [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ]
+  ],
+  "asset_refs": [
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ],
+    [
+      "ASSET-SUPPLIED-POSITION-DATA"
+    ]
+  ],
+  "timing": [
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    },
+    {
+      "status": "TIMING_UNSPECIFIED"
+    }
+  ]
+});
+const PINNED_VISUAL_TRUTH = Object.freeze([
+  {
+    "id": "T01",
+    "label": "PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T02",
+    "label": "PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T03",
+    "label": "PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T04",
+    "label": "REBOBINADO · PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T05",
+    "label": "HIPOTÉTICA · NO JUGADA",
+    "persistent_hypothetical": true,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NEVER_DURING_HYPOTHETICAL_FRAMES"
+  },
+  {
+    "id": "T06",
+    "label": "HIPOTÉTICA · NO JUGADA",
+    "persistent_hypothetical": true,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NEVER_DURING_HYPOTHETICAL_FRAMES"
+  },
+  {
+    "id": "T07",
+    "label": "REGRESO A LA PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "ONLY_AFTER_EXACT_V-P1_REAL_BOARD_AND_MAIN_CONTEXT_RESTORED"
+  },
+  {
+    "id": "T08",
+    "label": "PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T09",
+    "label": "PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T10",
+    "label": "SE OMITEN JUGADAS REALES",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T11",
+    "label": "PARTIDA REAL",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  },
+  {
+    "id": "T12",
+    "label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+    "persistent_hypothetical": false,
+    "audio_independent_factuality_label": true,
+    "release_rule": "NOT_APPLICABLE"
+  }
+]);
 const isRecord = x => x!==null && typeof x==="object" && !Array.isArray(x);
 const plainText = x => typeof x==="string" && x.length>0 && x.length<=4096;
 const own = (o,k) => Object.prototype.hasOwnProperty.call(o,k);
@@ -399,6 +657,12 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     if(!sameDeclaredJson(event.move??null,pinned.move) ||
        !sameDeclaredJson(event.omitted_plies??null,pinned.omitted_plies))
       fault("EP01_MOVE_OR_GAP_DECLARATION_CHANGED",p);
+    if(event.disclosure!==PINNED_EVENT_PROVENANCE.disclosure[i] ||
+       !sameDeclaredJson(event.claim_refs,PINNED_EVENT_PROVENANCE.claim_refs[i]) ||
+       !sameDeclaredJson(event.evidence_refs,PINNED_EVENT_PROVENANCE.evidence_refs[i]) ||
+       !sameDeclaredJson(event.asset_refs,PINNED_EVENT_PROVENANCE.asset_refs[i]) ||
+       !sameDeclaredJson(event.timing,PINNED_EVENT_PROVENANCE.timing[i]))
+      fault("EP01_EVENT_EVIDENCE_OR_TIMING_CHANGED",p);
     if(!own(KIND,event.kind)) {
       fault("UNKNOWN_EVENT_KIND",p);continue;
     }
@@ -417,6 +681,13 @@ export function proposeEp01Routing(caseV02, overlayV01) {
       fault("UNKNOWN_FROM_STATE",p);
     if(!plainText(ov.display_label)||!plainText(ov.rendering_policy))
       fault("TRUTH_OVERLAY_MISSING",p);
+    const truth=PINNED_VISUAL_TRUTH[i];
+    if(ov.id!==truth.id ||
+       ov.display_label!==truth.label ||
+       ov.persistent_hypothetical!==truth.persistent_hypothetical ||
+       ov.audio_independent_factuality_label!==true ||
+       ov.hypothetical_warning_release_rule!==truth.release_rule)
+      fault("EP01_VISUAL_FACTUALITY_CHANGED",p);
     const isAlt=id==="T05"||id==="T06";
     if(isAlt&&(!ov.persistent_hypothetical ||
        !ov.display_label.includes("HIPOTÉTICA")||
