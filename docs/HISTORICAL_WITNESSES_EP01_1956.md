@@ -130,3 +130,14 @@ This source is materially useful because it is a 1956 publication tied to Fische
 A page-render screenshot was attempted through the connected PDF viewer and failed by timeout. Accordingly, this record is classified as **official-PDF text extraction**, not a blind visual transcription. The connected research agent is also ineligible as a blind Reader A/B because it had already seen the modern SAN candidate.
 
 See `sources/EP01-1956-DEC20-FISCHER-ANNOTATED-WITNESS.v0.1.json`.
+
+
+## Chess Life 5 Nov 1956 — visual terminal confirmation
+
+The official US Chess scan at printed p.2 / PDF index 1 has now been successfully rendered and inspected as an image. The complete Byrne–Fischer 41-move table is visible under “GRUENFELD DEFENSE”. The terminal row visibly reads **41.K-B1 R-B7 mate**.
+
+This is stronger than the earlier “table located/legible” note because the terminal record is now visually confirmed in the contemporaneous page itself. It remains **non-blind** evidence for this connected research agent, which had already seen the modern SAN candidate and therefore cannot populate Reader A/B fields.
+
+Together with the 20 Dec 1956 Fischer/Collins annotated publication, there are now two contemporaneous *Chess Life* publications that record the mate ending. This establishes a strong **contemporaneous published-mate tradition**, not direct agreement between both players' original tournament scoresheets. Hanon Russell's later report that Byrne's original recorded resignation one move earlier remains an unresolved object-level discrepancy.
+
+See `sources/EP01-1956-NOV05-CHESS-LIFE-SCORE-WITNESS.v0.1.json`.
