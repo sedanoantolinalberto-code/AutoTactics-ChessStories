@@ -95,3 +95,14 @@ R6 and IVV-03/05/06/09/10/12 remain PENDING. IVV GLOBAL and ED-CASE-REAL-01 rema
 No new code was executed, no videos/audio were rendered, no protected files moved, and no production or publishing permissions changed.
 
 **The module should be reconsidered as a presentation contract only when a legal renderer and measured narration assets exist.**
+
+
+## 2026-10-14 source-identity clarification
+
+The existing `source_document_commit` field in the EP01 overlay map contains a branch label, not an immutable commit. It is preserved for compatibility but is now explicitly classified as `BRANCH_LABEL_NOT_IMMUTABLE`.
+
+The overlay map also records the PR #1 source identity observed during this static review:
+- head commit: `8e3da6639060a1605947bfc3aedd4113ab0068a1`
+- Git blob for `cases/ED-CASE-REAL-01.v0.2.json`: `3514f19ac355763a5b4c61d5c573df090b0eccc1`
+
+These are repository provenance anchors only. A Git object ID is **not** being promoted to the separate qualified raw-byte SHA-256 trust mechanism contemplated by the v0.3 policy work. If the base fixture changes, this overlay source binding must be reviewed/versioned rather than silently following the branch.
