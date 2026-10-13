@@ -175,8 +175,9 @@ export function runDraftNegativeTests(validate, original) {
         !actual.errors.some(e => e.code === test.code)) {
       throw new Error(test.name + ": expected " + test.code + " rejection");
     }
-    result.push({ name:test.name, expected_code:test.code, observed:false,
-      note:"This return is produced only when a future authorized harness invokes the function." });
+    result.push({ name:test.name, expected_code:test.code,
+      evaluated_in_this_invocation:true,
+      scope:"Documentary semantic checks only; external evidence and runner qualification required." });
   }
   return result;
 }
