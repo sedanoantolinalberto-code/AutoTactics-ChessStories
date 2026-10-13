@@ -127,4 +127,9 @@ The new `integration/EP01-ORACLE-SOURCE-BRIDGE.v0.1.json` links the existing L06
 
 Static review identified a downstream misuse hazard: a rejected input previously returned `REJECTED_SOURCE_ROUTING` while still including routes derived from the rejected document. The source API now suppresses `event_routes` whenever any routing fault exists and exposes `rejected_routes_suppressed=true`. The future-only negative harness is strengthened to require that property for every rejected mutation.
 
-The same review pins the top-level muted-viewing requirement and documentary provenance attribution. Two additional mutations bring the catalog to **56 proposed / 0 executed**. No runtime behavior has been observed.
+The same review pins the top-level muted-viewing requirement and documentary provenance attribution. Two global-overlay mutations plus the later source-identity drift mutation bring the catalog to **57 proposed / 0 executed**. No runtime behavior has been observed.
+
+
+### CHESS-INTEGRATION-03C Git source provenance pin
+
+PR #11 now distinguishes its legacy branch-label field from immutable repository provenance and records the observed PR #1 commit/blob identities. The router pins those fields and IR-57 proposes a same-branch / changed-blob rejection. The Git object identity is deliberately labelled as repository provenance only, **not** the qualified raw SHA-256 byte-trust mechanism of the future v0.3 policy design.
