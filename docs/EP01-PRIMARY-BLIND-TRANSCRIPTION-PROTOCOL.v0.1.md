@@ -8,6 +8,14 @@ The 82-row comparison template contains the modern Winter SAN reference for late
 
 The connected research agent has already inspected the modern secondary SAN sequence during source integration work. It is therefore **not eligible to act as Reader A or Reader B** for the blind primary transcription. This is a contamination-control rule, not a judgment about the underlying score.
 
+## Clean handout separation (2026-10-14)
+
+The reader-facing packet is now specifically `docs/EP01-BLIND-READER-HANDOUT.NO-ANSWER-KEY.v0.1.md` **plus** the assigned contemporary witness and an **empty copy** of `sources/EP01-1956-PRIMARY-BLIND-READER-WORKSHEET.v0.1.json`. The reader-facing handout is self-contained and carries no internet links, 1956 game-score transcription, source-derived FEN, results or modern SAN key.
+
+The longer `docs/EP01-NEUTRAL-DESCRIPTIVE-NOTATION-READER-GUIDE.v0.1.md` is a curator-side draft that contains background references; it must **not** be supplied wholesale to blind readers. The project issue/PR description, source-side validation code, FEN fixture and modern score are likewise forbidden reader inputs.
+
+Neither document certifies that a prospective reader is actually unexposed. Each independent reader must affirm the no-answer-key protocol and record raw observations before any conversion. The source material and reader record remain subject to privacy/access governance. The two readers must inspect the **same witness** independently before any cross-witness comparison.
+
 ## Reader workflow
 
 1. Assign one witness and one fresh reader who has not been shown a Byrne–Fischer SAN/PGN score in the review task.
