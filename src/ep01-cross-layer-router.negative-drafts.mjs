@@ -60,6 +60,18 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{delete c.states;}},
   {id:"IR-25",description:"Remove all six state entries",expected:"EP01_SIX_STATES_REQUIRED",
    mutate:(c,o)=>{c.states=[];}},
+  {id:"IR-27",description:"Historical bishop position silently replaced",expected:"EP01_PINNED_STATE_CHANGED",
+   mutate:(c,o)=>{state(c,"V-P1").fen="8/8/8/8/8/8/8/8 b - - 3 17";}},
+  {id:"IR-28",description:"Hypothetical V-HYP rewritten as real factuality",expected:"EP01_PINNED_STATE_CHANGED",
+   mutate:(c,o)=>{state(c,"V-HYP").factuality="REAL";}},
+  {id:"IR-29",description:"T02 real move silently reclassified as hypothetical in both case and overlay",expected:"EP01_EVENT_FACTUALITY_CHANGED",
+   mutate:(c,o)=>{event(c,"T02").kind="HYPOTHETICAL_MOVE";overlay(o,"T02").event_kind="HYPOTHETICAL_MOVE";}},
+  {id:"IR-30",description:"IVV-03 falsely changed to PASS LIMITED",expected:"FROZEN_GATE_MISMATCH",
+   mutate:(c,o)=>{c.frozen_gates["IVV-03"]="PASS LIMITED";}},
+  {id:"IR-31",description:"Termination confirmation condition weakened without changing deadline",expected:"POLICY_B_UNCHANGED_REQUIRED",
+   mutate:(c,o)=>{c.execution_policy.termination_requirement="TIMEOUT_ONLY";}},
+  {id:"IR-32",description:"Technical pre-capture ply changed without explicit case version",expected:"EP01_PINNED_STATE_CHANGED",
+   mutate:(c,o)=>{state(c,"V-PRE-EV2").ply=48;}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
