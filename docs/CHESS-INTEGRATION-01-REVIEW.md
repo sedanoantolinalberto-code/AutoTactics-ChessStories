@@ -133,3 +133,10 @@ The same review pins the top-level muted-viewing requirement and documentary pro
 ### CHESS-INTEGRATION-03C Git source provenance pin
 
 PR #11 now distinguishes its legacy branch-label field from immutable repository provenance and records the observed PR #1 commit/blob identities. The router pins those fields and IR-57 proposes a same-branch / changed-blob rejection. The Git object identity is deliberately labelled as repository provenance only, **not** the qualified raw SHA-256 byte-trust mechanism of the future v0.3 policy design.
+
+
+### 2026-10-14 bridge provenance refresh after PR #3 witness update
+
+PR #3 changed the Git blob of the 82-ply source file when witness/provenance metadata was strengthened. The 82 SAN entries themselves were not edited. The connected static comparison was repeated for plies 36–49 against the separate T10 candidate and remained **14/14 exact** on `ply`, `move_number`, `side` and `san`. The bridge now records the new Git blob identity.
+
+This is a provenance refresh only: oracle outcome remains `NOT_RUN`, legality `UNKNOWN`, and no primary-source or execution gate is promoted.
