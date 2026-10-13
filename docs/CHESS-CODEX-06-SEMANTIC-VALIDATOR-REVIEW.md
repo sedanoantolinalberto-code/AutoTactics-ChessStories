@@ -79,3 +79,14 @@ The current draft adds fail-closed **necessary** FEN metadata checks to ordinary
 - Three draft negative mutations cover these metadata constraints, bringing the negative mutation catalog to **53 proposed scenarios; 0 executed**.
 
 This is an intentionally narrow improvement to FEN bookkeeping, **not** qualified chess-rule replay. The existing original-history and commercial-rights blockers are unchanged.
+
+
+## CHESS-CODEX-08 audit supersession (2026-10-13, no execution)
+
+The earlier counts of 50 and 53 in this historical review are previous source-draft checkpoints, **not current test results**. Current catalog: **65 negative mutation specifications, 0 executed**.
+
+The checker is now explicitly **EP01-only** for v0.2 by \`V02_CASE_POLICY_SCOPE_UNSUPPORTED\`. It also asserts frozen gates irrespective of \`case_id\`, so relabeling a case cannot evade those documentary guards. Any reuse outside EP01 must be a new, independently qualified contract and policy loader, not a silent v0.2 retag.
+
+Additional necessary (not sufficient) position checks reject zero-displacement ordinary moves, FEN pawns on ranks 1/8, more than 16 pieces per side and contradictory declared digests for the same exact source-object/byte-scope identity.
+
+See \`docs/CHESS-CODEX-08-STATIC-AUDIT.md\` for the exact scope of the static string/reference audit and its unsupported execution claims. No tests or Policy B runs were performed.
