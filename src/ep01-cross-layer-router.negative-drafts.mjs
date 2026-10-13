@@ -120,6 +120,8 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{o.muted_viewing_requirements="Audio required to identify hypothetical content.";}},
   {id:"IR-56",description:"Overlay provenance attribution falsely claims original authentication",expected:"OVERLAY_PROVENANCE_ATTRIBUTION_CHANGED",
    mutate:(c,o)=>{o.policy_disclosure_attribution="Original 1956 history authenticated";}},
+  {id:"IR-57",description:"Overlay source Git blob identity drifts while branch label remains unchanged",expected:"OVERLAY_SOURCE_BINDING_CHANGED",
+   mutate:(c,o)=>{o.source_document_git_blob_sha_observed="0000000000000000000000000000000000000000";}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
