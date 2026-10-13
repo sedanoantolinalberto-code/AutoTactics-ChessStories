@@ -48,7 +48,14 @@
     "current_ep01_secondary_final_san": "Rc2#",
     "primary_historical_terminal_authentication": "NOT_VERIFIED",
     "additional_contemporary_support": "Chess Life 20 Dec 1956 Fischer/Collins annotated publication records 41...R-B7 mate in official PDF text extraction.",
-    "resolution_status": "UNRESOLVED_PENDING_DIRECT_OR_BLIND_PRIMARY_WITNESS_ADJUDICATION"
+    "resolution_status": "UNRESOLVED_PENDING_DIRECT_OR_BLIND_PRIMARY_WITNESS_ADJUDICATION",
+    "contemporary_publication_summary": {
+      "chess_life_1956_11_05": "41.K-B1 R-B7 mate — visually confirmed",
+      "chess_life_1956_12_20": "41.K-B1 R-B7 mate — official PDF structured text extraction, Fischer notes with editor",
+      "consensus_class": "TWO_CONTEMPORARY_PUBLICATIONS_RECORD_MATE",
+      "independence_status": "TEXTUAL_LINEAGE_NOT_PROVEN_INDEPENDENT",
+      "conflict_remaining": "Russell 1992 reports Byrne original scoresheet recorded resignation one move before mate"
+    }
   },
   "rights_boundary": {
     "release_use_of_scoresheet_images": "EXCLUDED_BY_DEFAULT_UNDER_PR7_CLEAN_ROOM_BASELINE",
@@ -95,6 +102,15 @@
       "normalized_candidate": "41...Rc2#",
       "visual_transcription": "NOT_PERFORMED_SCREENSHOT_TIMEOUT",
       "evidentiary_class": "CONTEMPORARY_PLAYER_ATTRIBUTED_EDITED_PERIODICAL_WITNESS",
+      "relationship_to_scoresheet_divergence": "SUPPORTS_MATE_PUBLICATION_TRADITION_BUT_DOES_NOT_RESOLVE_REPORTED_BYRNE_ORIGINAL_RESIGNATION_RECORD"
+    },
+    {
+      "id": "CHESS-LIFE-1956-11-05-SCORE-TABLE",
+      "source": "Chess Life, 5 Nov 1956, printed p.2 / PDF index 1",
+      "observation": "VISUAL_PAGE_RENDER_INSPECTED",
+      "observed_terminal_record": "41.K-B1 R-B7 mate",
+      "normalized_candidate": "41...Rc2#",
+      "evidentiary_class": "CONTEMPORARY_PUBLISHED_SCORE_TABLE",
       "relationship_to_scoresheet_divergence": "SUPPORTS_MATE_PUBLICATION_TRADITION_BUT_DOES_NOT_RESOLVE_REPORTED_BYRNE_ORIGINAL_RESIGNATION_RECORD"
     }
   ]
