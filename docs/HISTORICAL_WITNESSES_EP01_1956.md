@@ -91,3 +91,12 @@ The prior sections of this document are retained as the historical state of disc
 Static authoring-time documentary checks compared the critical EP01 anchors (17...Be6, 18.Bxb6 and 25...Nxd1) and the proposed unplayed 17...Qd8 against the score's real-versus-hypothetical design. The independent T10 modern-secondary bridge of 14 plies agrees with the corresponding slice of the new source-scoped array. This is a *source comparison*, not a chess engine run or an independent original-score authentication.
 
 Outstanding: visually transcribe the November 5, 1956 descriptive score and December 1956 source print; perform the full 82-ply two-reader comparison with source-exception evidence, and verify legal chess replay through a separately qualified mechanism. R6 and all IVV/E5B4D statuses remain unchanged.
+
+
+## 2026-10-14 access/readability follow-up — no primary authentication promotion
+
+A direct visual inspection of the publisher-hosted *Chess Life* 5 Nov 1956 PDF, printed page 2 / PDF index 1, found the Byrne–Fischer descriptive-notation table visually legible as a complete 41-move table. This is an **access/readability observation only**: the reviewing research agent had already seen the modern 82-ply SAN candidate, so the agent is disqualified from serving as a blind Reader A/B under the existing protocol. No comparison-template row was populated.
+
+For *Chess Review* Dec 1956, the archive issue and pp. 374–375 location remain established; a historical reproduction corroborates the opening portion of p.374. The full publisher PDF exceeded the connected web fetch limit in this session, so a complete visual transcription was not claimed.
+
+To prevent answer-key leakage, PR #3 now also carries a blind 82-row reader worksheet with **no modern SAN values** and a protocol that freezes raw descriptive notation before SAN conversion. The existing comparison template remains blank.
