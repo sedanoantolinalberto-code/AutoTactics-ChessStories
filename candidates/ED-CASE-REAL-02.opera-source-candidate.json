@@ -1,0 +1,148 @@
+{
+  "artifact_version": "chess-stories-source-candidate/0.1",
+  "case_id": "ED-CASE-REAL-02",
+  "title": "Paul Morphy vs Duke of Brunswick and Count Isouard — consultation game at the opera, Paris 1858",
+  "status": "SOURCE_CANDIDATE_ONLY_NOT_SCHEMA_V02",
+  "players": {
+    "white": {
+      "display_name": "Paul Morphy",
+      "historical_identity_status": "SECONDARY_REFERENCES"
+    },
+    "black": {
+      "display_name": "Duke Karl of Brunswick and Count Isouard",
+      "historical_identity_status": "SECONDARY_REFERENCES",
+      "format": "CONSULTATION_GAME_TWO_PLAYERS_ONE_SIDE"
+    }
+  },
+  "historical_context": {
+    "year": 1858,
+    "city": "Paris",
+    "exact_date": "UNKNOWN_CONTESTED",
+    "exact_opera_work": "UNKNOWN_CONTESTED",
+    "venue_detail": "OPERATIC_BOX_SECONDARY_AND_EARLY_REPORT",
+    "warnings": [
+      "No 1858 exact-date proof has been independently inspected.",
+      "Sources disagree between Norma, The Barber of Seville, and other proposed opera works; do not claim a unique performance.",
+      "Do not invent imagined spoken exchanges, player intentions or a historical single opponent for Black."
+    ]
+  },
+  "secondary_source_game": {
+    "san_plies": [
+      "e4",
+      "e5",
+      "Nf3",
+      "d6",
+      "d4",
+      "Bg4",
+      "dxe5",
+      "Bxf3",
+      "Qxf3",
+      "dxe5",
+      "Bc4",
+      "Nf6",
+      "Qb3",
+      "Qe7",
+      "Nc3",
+      "c6",
+      "Bg5",
+      "b5",
+      "Nxb5",
+      "cxb5",
+      "Bxb5+",
+      "Nbd7",
+      "O-O-O",
+      "Rd8",
+      "Rxd7",
+      "Rxd7",
+      "Rd1",
+      "Qe6",
+      "Bxd7+",
+      "Nxd7",
+      "Qb8+",
+      "Nxb8",
+      "Rd8#"
+    ],
+    "total_plies_declared": 33,
+    "actual_legal_replay_status": "NOT_EXECUTED",
+    "secondary_result_declared": "1-0",
+    "terminal_move_declared": "17.Rd8#",
+    "initial_position": {
+      "type": "STANDARD_CHESS_STARTING_POSITION",
+      "verified_by_qualified_replay": false
+    },
+    "hash_of_external_pgn_bytes": null
+  },
+  "evidence": [
+    {
+      "id": "EP02-E01",
+      "source_type": "CHESS_HISTORIAN_SECONDARY",
+      "title": "Morphy v the Duke and Count",
+      "author": "Edward Winter",
+      "url": "https://www.chesshistory.com/winter/extra/morphy.html",
+      "scope": "Full 33-ply SAN as secondary historical score; dispute about the specific opera and precise date",
+      "original_1858_record_inspected": false
+    },
+    {
+      "id": "EP02-E02",
+      "source_type": "PLATFORM_COMMUNITY_STUDY",
+      "title": "Morphy's Opera Game",
+      "url": "https://lichess.org/study/aVdQHxwx",
+      "scope": "Independent platform metadata about White/Black names, 1858, 1-0; not an original score",
+      "original_1858_record_inspected": false
+    },
+    {
+      "id": "EP02-E03",
+      "source_type": "EARLY_WITNESS_QUOTED_BY_HISTORIAN",
+      "title": "F.M. Edge 1859 recollection as discussed by Edward Winter",
+      "url": "https://www.chesshistory.com/winter/extra/morphy.html",
+      "scope": "Early witness description of the Duke's opera box; exact original copy not authenticated in this project",
+      "original_1858_record_inspected": false
+    }
+  ],
+  "candidate_chess_story_beats": [
+    {
+      "id": "EP02-M1",
+      "move": "12.O-O-O",
+      "ply": 23,
+      "editorial_hypothesis": "Long castling puts Morphy's rook on d1; do not pretend rook magically appears."
+    },
+    {
+      "id": "EP02-M2",
+      "move": "13.Rxd7",
+      "ply": 25,
+      "editorial_hypothesis": "Rook capture on d7, followed by black rook recapture 13...Rxd7 at ply26."
+    },
+    {
+      "id": "EP02-M3",
+      "move": "16.Qb8+",
+      "ply": 31,
+      "editorial_hypothesis": "White offers the queen; black plays 16...Nxb8 in the candidate score."
+    },
+    {
+      "id": "EP02-M4",
+      "move": "17.Rd8#",
+      "ply": 33,
+      "editorial_hypothesis": "Game-end mate in candidate secondary notation; unlike EP01, editorial ending can coincide with source-declared game end only after independent verification."
+    }
+  ],
+  "historical_claims_not_admissible_without_review": [
+    "Exact day 2 November 1858",
+    "It was definitively The Barber of Seville",
+    "It was definitively Norma",
+    "Players said specific dialogue during a performance",
+    "All black moves were chosen by one of the two advisors without consultation",
+    "Morphy intentionally sacrificed a queen for a certain personal reason",
+    "Any particular move is uniquely best from an unverified engine"
+  ],
+  "asset_rights": "UNASSESSED_FOR_THIS_EPISODE",
+  "publication_status": "NOT_APPROVED",
+  "no_execution": true,
+  "adapter_status": {
+    "v02": "NOT_CONFORMANT_SOURCE_CANDIDATE",
+    "v03": "NOT_MIGRATED",
+    "fen_checkpoints": "NOT_GENERATED",
+    "qualified_chess_oracle": "PENDING",
+    "historical_primary_authentication": "PENDING",
+    "commercial_permissions": "PENDING"
+  }
+}
