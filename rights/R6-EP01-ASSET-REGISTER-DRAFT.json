@@ -7,7 +7,8 @@
   "source_limitations": [
     "No original v4 PNG files, font binaries, certified creator records or rendered media are in this GitHub repository.",
     "Only documented source-level license texts and source URLs are recorded; no rights grant to publish.",
-    "Per-platform clearances are unreviewed and explicit NOT_CLEARED."
+    "Per-platform clearances are unreviewed and explicit NOT_CLEARED.",
+    "Legacy/reference assets marked excluded are not thereby cleared; exclusion only removes them from the proposed release dependency set if they are in fact not used."
   ],
   "assets": [
     {
@@ -20,7 +21,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "ORIGIN_UNVERIFIED",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -29,7 +30,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Obtain original image bytes, provenance, piece/font dependencies, creator/review signoff; inspect commercial use terms.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "BOARD-V-EV1",
@@ -41,7 +43,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "ORIGIN_UNVERIFIED",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -50,7 +52,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Preserve bytes and original input FEN, document silhouettes/fonts, verify output creator and license chain.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "BOARD-V-REAL",
@@ -62,7 +65,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "ORIGIN_UNVERIFIED",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -71,7 +74,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "As above, include displayed capture labels and independent asset rights decision.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "BOARD-V-HYP",
@@ -83,7 +87,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "ORIGIN_UNVERIFIED",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -92,7 +96,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Require conspicuous hypothetical watermark and independent rights/provenance review.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "BOARD-V-EV2",
@@ -104,7 +109,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "ORIGIN_UNVERIFIED",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -113,7 +118,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Confirm exact font/pieces and separate editorial ending labels from historical ending.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "BOARD-V-PRE-EV2",
@@ -146,7 +152,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "DERIVATION_CHAIN_PENDING",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -155,7 +161,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Recover exact generation source, inputs and reviewer; ensure not copied from nonlicensed chess piece vectors.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "FONT-DEJAVU-V4",
@@ -167,7 +174,7 @@
       "license_basis": "CANDIDATE_OPEN_LICENSE_NOT_YET_ASSET_BOUND",
       "license_source": "https://dejavu-fonts.github.io/License.html",
       "rights_review_status": "LICENSE_TEXT_FOUND_FILE_UNVERIFIED",
-      "commercial_use_status": "PENDING",
+      "commercial_use_status": "NOT_CLEARED_AND_NOT_REQUIRED_IF_EXCLUDED",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -176,7 +183,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Identify exact font by file SHA and full bundled license including Bitstream Vera and possible Arev glyph conditions. Do not assume SIL OFL; do not redistribute the font without requirements satisfied.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "REFERENCE_ONLY_EXCLUDED_FROM_CLEAN_ROOM_RELEASE_BASELINE"
     },
     {
       "asset_id": "SCRIPT-EP01-SPANISH",
@@ -251,7 +259,7 @@
       "license_basis": "ARCHIVE_ACCESS_NOT_COMMERCIAL_LICENSE",
       "license_source": "https://new.uschess.org/chess-life-digital-archives",
       "rights_review_status": "RESEARCH_VIEW_ONLY",
-      "commercial_use_status": "NOT_AUTHORIZED",
+      "commercial_use_status": "NOT_AUTHORIZED_AND_EXCLUDED_BY_DEFAULT",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -260,7 +268,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Do not place facsimile, cover or article in released media without separately obtained permissions or independent documented fair-use assessment.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "RESEARCH_ONLY_EXCLUDED_FROM_RELEASE_BASELINE"
     },
     {
       "asset_id": "FISCHER-SCORESHEET-PHOTO",
@@ -272,7 +281,7 @@
       "license_basis": "UNKNOWN",
       "license_source": null,
       "rights_review_status": "UNAUTHENTICATED_AND_UNLICENSED",
-      "commercial_use_status": "NOT_AUTHORIZED",
+      "commercial_use_status": "NOT_AUTHORIZED_AND_EXCLUDED_BY_DEFAULT",
       "per_platform_clearance": {
         "YouTube Shorts": "NOT_CLEARED",
         "Instagram Reels": "NOT_CLEARED",
@@ -281,7 +290,8 @@
         "eBook": "NOT_CLEARED"
       },
       "required_action": "Avoid use until both manuscript provenance and reproduction permission independently reviewed.",
-      "original_rights_documents_committed": false
+      "original_rights_documents_committed": false,
+      "release_baseline_disposition": "RESEARCH_ONLY_EXCLUDED_FROM_RELEASE_BASELINE"
     },
     {
       "asset_id": "FINAL-MP4-EP01",
@@ -313,11 +323,47 @@
     "ED_CASE_REAL_01": "NOT APPROVED"
   },
   "procedural_next_steps": [
-    "Acquire exact original produced bytes and immutable SHA-256 for each intended visual/audio asset.",
-    "Bind the specific font binary to its correct license distribution and comply with terms.",
-    "Review piece silhouettes' source, derivation and original authorship metadata.",
-    "Identify third-party screenshot/scan/photos separately; obtain permissions where required.",
-    "Record independent commercial use review for each platform and type of exploitation.",
-    "Require a human commercial rights signoff; do not self-promote R6 from JSON fields."
-  ]
+    "Author clean-room board/piece geometry as project-owned source when execution becomes authorized; do not derive shapes by tracing a third-party chess set.",
+    "Select one exact Noto Sans (or equivalent OFL) binary later, record version/SHA-256/license text, and confirm intended embedding/distribution mode.",
+    "Keep US Chess facsimiles and historical scoresheet photos out of release media unless a separate permission/fair-use decision is documented.",
+    "Select voice/TTS and music/SFX only when production requirements are known; bind exact provider terms and asset IDs before use.",
+    "Generate a final upstream manifest mapping every rendered asset byte to creator/license evidence.",
+    "Require human commercial-rights signoff; clean-room policy alone does not promote R6."
+  ],
+  "production_baseline_policy": {
+    "version": "EP01_CLEAN_ROOM_RELEASE_BASELINE/0.1",
+    "status": "DESIGN_DECISION_NOT_RIGHTS_CLEARANCE",
+    "rationale": "Avoid making release depend on provenance recovery for legacy stills, unidentified piece graphics/font, or archival facsimiles.",
+    "required_future_assets": [
+      "NEW_PROCEDURAL_BOARD_AND_PIECES_FROM_PROJECT_OWN_GEOMETRY",
+      "EXACT_HASHED_OFL_FONT_BINARY_CANDIDATE_NOTO_SANS_OR_EQUIVALENT",
+      "ORIGINAL_EP01_SCRIPT_AND_CAPTIONS",
+      "SELECTED_COMMERCIAL_VOICE_OR_TTS_WITH_RECORDED_TERMS",
+      "SELECTED_MUSIC_SFX_WITH_RECORDED_TERMS_OR_INTENTIONAL_NO_MUSIC",
+      "FINAL_RENDER_WITH_UPSTREAM_MANIFEST"
+    ],
+    "excluded_by_default": [
+      "LEGACY_V4_STILLS",
+      "LEGACY_UNVERIFIED_PIECE_SILHOUETTES",
+      "LEGACY_UNVERIFIED_DEJAVU_BINARY",
+      "US_CHESS_PERIODICAL_FACSIMILES",
+      "HISTORICAL_SCORESHEET_PHOTO",
+      "THIRD_PARTY_PLAYER_PHOTOS"
+    ],
+    "font_candidate": {
+      "family": "Noto Sans",
+      "current_basis": "Official Noto documentation states OFL and permits commercial print/digital product use; exact future binary still requires SHA-256, version and bundled license record.",
+      "official_docs": "https://notofonts.github.io/",
+      "google_fonts_metadata": "https://github.com/google/fonts/blob/main/ofl/notosans/METADATA.pb",
+      "exact_binary_selected": false,
+      "exact_binary_sha256": null,
+      "rights_status": "CANDIDATE_ONLY_NOT_ASSET_BOUND"
+    },
+    "archival_policy": {
+      "us_chess_archive": "RESEARCH_ONLY_BY_DEFAULT",
+      "basis": "US Chess archive states PDFs are for personal and research use only and permission is required beyond fair use.",
+      "release_facsimile_allowed": false
+    },
+    "R6_remains": "PENDING"
+  }
 }
