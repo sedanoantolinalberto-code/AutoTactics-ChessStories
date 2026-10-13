@@ -1,0 +1,85 @@
+# CHESS-INTEGRATION-01 — EP01 three-layer semantic/oracle/presentation routing
+
+**Status:** SOURCE IMPLEMENTATION DRAFT; NO EXECUTION, NO CHESS ORACLE, NO RENDER OR HUMAN IVV. **Do not interpret this as a new technical PASS.**
+
+## Goal
+
+Connect existing Chess Stories documents without collapsing distinct kinds of evidence into one green check:
+
+1. **v0.2 documentary case:** twelve ordered semantic events, six declared FEN board states, evidence, historical-vs-hypothetical status and immutable gates (draft PR #1).
+2. **Qualified chess-rules oracle boundary:** would independently replay legal moves and derive full target FENs rather than trusting supplied output. Currently a proposed interface only (draft PR #10).
+3. **Presentation truth layer:** requires persistent visual "HIPOTÉTICA · NO JUGADA", exact return-to-real restoration, explicit skipped plies and no false game ending. Currently a proposed contract only (draft PR #11).
+
+The new source-only integration files are:
+- \`integration/EP01-CROSS-LAYER-ROUTING.v0.1.json\`
+- \`src/ep01-cross-layer-router.v0.1.mjs\`
+- \`src/ep01-cross-layer-router.negative-drafts.mjs\`
+
+They **do not** depend on installing, invoking or simulating a chess rules package, nor do they run when fetched from GitHub.
+
+## Twelve-event routing matrix
+
+| ID | Semantic action | Future rules oracle? | Required presentation truth |
+|---|---|---|---|
+| T01 | Initialize V-P1 | No move; source-state verification separate | PARTIDA REAL |
+| T02 | 17...Be6 | Yes, independently replay declared real move | PARTIDA REAL |
+| T03 | 18.Bxb6 | Yes, independently verify queen capture | PARTIDA REAL |
+| T04 | Rewind to V-P1 | NO: editorial rewind | REBOBINADO |
+| T05 | Enter ALT_QD8 | NO: editorial context switch | HIPOTÉTICA before motion |
+| T06 | 17...Qd8, unplayed | Yes, test legal possibility; NEVER promote historical status | HIPOTÉTICA · NO JUGADA |
+| T07 | Return V-HYP → V-P1 | NO: atomic editorial restoration, not SAN | Keep warning until exact MAIN+V-P1 recovered |
+| T08 | Replay 17...Be6 | Yes, with context-pinned oracle evidence | PARTIDA REAL |
+| T09 | Replay 18.Bxb6 | Yes, with context-pinned oracle evidence | PARTIDA REAL |
+| T10 | Omit real plies 36–49 | A full, independently sourced 14-ply gap replay would be needed; current case lacks intermediate record | SE OMITEN JUGADAS REALES |
+| T11 | 25...Nxd1 | Yes, independently verify capture of white rook | PARTIDA REAL; game continues |
+| T12 | Editorial ending at V-EV2 | NO: closing is not a chess move or source game end | CIERRE EDITORIAL · LA PARTIDA CONTINÚA |
+
+No event is permitted to become executable simply by gaining an oracle integration field.
+
+## Fail-closed code-source guard
+
+\`proposeEp01Routing(caseV02, overlayV01)\` is a **pure proposed API** that builds a routing observation rather than a runtime command. It uses:
+- The original EP01 twelve-event order, types, declared move/capture properties and omitted-ply ranges.
+- The exact six EP01 declared FEN states, branches and ply numbers, frozen independently in the source module. These remain **documentary declarations**, not 1956 authenticated originals.
+- All **22 frozen pilot gate declarations**, including six pending IVV entries, R6 and E5B4D, plus the complete currently unqualified strict Policy B settings.
+- Exact reference agreement between the documentary events and their proposed overlay entries.
+- The mandatory hypothetical and return labels and EP01 editorial game-continuation distinction.
+
+A mismatched case ID, unauthorized status, relabeled move, altered FEN, modified branch transition, omitted marker or loosened Policy B declaration returns \`REJECTED_SOURCE_ROUTING\`.
+
+Even if no documentary mismatch is found, the output must remain \`SOURCE_ROUTING_PROPOSAL_ONLY\`; \`safe_to_publish\`, \`safe_to_render\`, \`execution_authorized\`, \`policy_b_qualified_under_m\`, \`legal_oracle_qualified\`, \`historical_score_authenticated\` and \`commercial_rights_cleared\` must all remain \`false\`.
+
+**Caution:** comparing exact FEN strings and pinned move declarations rejects changes against this fixture version. It does **not** derive an independent answer, prove that the historical move was played, validate a FEN as a legal chess position or substitute for authenticated source bytes. The new module also assumes schema-validated ordinary JSON and uncompromised JS intrinsics, and is not yet a qualified hostile-input verifier.
+
+## Negative mutation design
+
+\`src/ep01-cross-layer-router.negative-drafts.mjs\` specifies **36 future-only rejection scenarios**: cross-case/cross-version confusion, fictitious IVV and R6 promotion, Policy B downgrades, event reordering, duplicate/changed FENs, invalid state transitions, missing hypothesis disclosure, premature return, wrong omitted interval, false 25...Nxd1 ending, altered SAN/captured piece and policy/status retagging. None has been executed.
+
+The accompanying proposed future-only harness validates its own baseline *only when invoked*. Its presence in GitHub is not permission to invoke it. All results are currently **NOT_RUN**. Later source-reviewers must scrutinize mutation oracle assumptions; a lexical match of an expected error code is not a behavioral test.
+
+## Outstanding independent evidence / release barriers
+
+| Layer | Currently established | Still required |
+|---|---|---|
+| Raw source identity | Observed GitHub blob SHA of document files | Independently qualified source-byte trust and duplicate-key-safe parsing |
+| Structure | Existing v0.2 JSON Schema draft | Qualified Draft 2020-12 runner + evidence |
+| Semantics | v0.2 source checker and 65 mutation proposals | Authorized qualified execution and independently reviewed results |
+| Chess legality | Review vectors, no oracle engine | Qualified replay with legal path, king safety, special moves and source-anchored gap |
+| History | Secondary PGN and a located Dec 1956 *Chess Review* periodical lead | Inspect contemporary full game score and reconcile with secondary 82 plies |
+| Presentation | 12 event overlay proposals and nine-shot 45s target | Rights-cleared render, measured soundtrack/subtitle timings and device testing |
+| R6 / rights | 14-asset incomplete chain-of-title inventory | Real license/creator evidence and independent clearance for used assets |
+| IVV human | Preregistration and empty record template | Consented participants, measured stimuli, assessor records |
+| Strict Policy B E5B4D | NO-GO under model M, unchanged | Independently qualified execution model under the user's unchanged guarantees |
+| Publication | ED-CASE-REAL-01 NOT APPROVED | Explicit independent release decision after all required checks |
+
+**This RFC changes none of the above states.** No programme, test, dependency, production render, GitHub workflow or chess engine was invoked. The original Windows AutoTactics project was not accessed or changed. All changes remain isolated in a draft source branch outside \`main\`.
+
+## Later adoption sequence (not authorization)
+
+1. Independently review and reconcile draft PRs #1/#2/#10/#11 with the cross-layer router.
+2. Verify source integrity and historic witness evidence without using a legal engine as a substitute for history.
+3. Qualify executor separately against E5B4D strict Policy B under model M; do not substitute generic timeout settings or truncated output logs.
+4. Only after a supported go decision, run actual negative and legal-oracle tests, then review results independently.
+5. Acquire rights-cleared visuals/audio, test mobile comprehension, and require an independent R6/IVV/release decision.
+
+The user has not been asked to approve repeated documentary edits, but that operational autonomy **does not** waive the protected execution and evidence conditions.
