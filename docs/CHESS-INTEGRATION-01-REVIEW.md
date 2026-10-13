@@ -83,3 +83,16 @@ The accompanying proposed future-only harness validates its own baseline *only w
 5. Acquire rights-cleared visuals/audio, test mobile comprehension, and require an independent R6/IVV/release decision.
 
 The user has not been asked to approve repeated documentary edits, but that operational autonomy **does not** waive the protected execution and evidence conditions.
+
+
+## Secondary T10 bridge found in two modern published scores — NOT original 1956 authentication
+
+The file \`sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json\` records fourteen SAN half-moves separately, indexed by global ply, from 18...Bxc4+ (ply 36) to 25.Qxb6 (ply 49). The same visible sequence appears in:
+- Edward Winter, *The Byrne v Fischer 'Game of the Century'* — https://www.chesshistory.com/winter/extra/byrnefischer.html
+- Chess.com, *Game of the Century | Byrne vs Fischer (1956)* — https://www.chess.com/article/view/game-of-the-century-chess
+
+The original v0.2 case file still only contains the endpoint FENs for T10; the new candidate is a **separate** source-scoped documentary artifact, not an automatically merged historical proof. Those two modern scores might share source lineage; their agreement is not a demonstration of witness independence or archival originality.
+
+As no qualified legal engine has replayed the exact sequence and the contemporaneous 1956 Chess Review page scan has not been newly transcribed and authenticated in this task, the T10 oracle status remains **NOT_RUN / INCONCLUSIVE** and release status remains BLOCKED. This source discovery is useful input to future independent replay and full original-witness reconciliation, not permission to animate a purported single move between two FEN endpoints.
+
+No original magazine image or copyrighted historical annotation prose has been reuploaded into GitHub.
