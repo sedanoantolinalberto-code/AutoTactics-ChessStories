@@ -1,0 +1,53 @@
+{
+  "schema_version": "chess-stories-case-policy/0.1",
+  "policy_id": "POLICY-EP01-2026-10-13-FROZEN",
+  "case_id": "ED-CASE-REAL-01",
+  "policy_status": "FROZEN_DOCUMENTARY_SNAPSHOT_NOT_APPROVAL",
+  "frozen_gates": {
+    "IVV-01": "PASS LIMITED",
+    "IVV-02": "PASS LIMITED",
+    "IVV-03": "PENDING",
+    "IVV-04": "PASS LIMITED",
+    "IVV-05": "PENDING",
+    "IVV-06": "PENDING",
+    "IVV-07": "PASS LIMITED",
+    "IVV-08": "PASS LIMITED",
+    "IVV-09": "PENDING",
+    "IVV-10": "PENDING",
+    "IVV-11": "PASS LIMITED",
+    "IVV-12": "PENDING",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "ED-CASE-REAL-01": "NOT APPROVED",
+    "CASE_APPROVAL": "NOT APPROVED",
+    "MOTION_GATE_2": "NOT PASSED",
+    "GATE_3": "NOT RUN",
+    "SI-G0": "NOT RUN",
+    "E5B4D": "NO-GO under failure model M",
+    "FOOTBALL_P1": "NO-GO",
+    "PERMISSION_TO_PUBLISH": false
+  },
+  "execution_policy": {
+    "policy": "STRICT_POLICY_B",
+    "failure_model": "M",
+    "execution_authorized": false,
+    "runner_qualification": "NOT_ESTABLISHED",
+    "termination_requirement": "ALL_RELEVANT_PROCESSES_TERMINATED_AND_TERMINATION_CONFIRMED_BEFORE_DEADLINE",
+    "termination_deadline_seconds_exclusive": 120,
+    "stdout_lifetime_emitted_accepted_limit_bytes": 1048576,
+    "stderr_lifetime_emitted_accepted_limit_bytes": 1048576,
+    "stream_limits_independent": true,
+    "schema_validation_establishes_compliance": false
+  },
+  "rules": [
+    {
+      "id": "F03",
+      "kind": "HISTORICAL_OPTIMALITY_RESTRICTION",
+      "protected_move": "24...Ra4",
+      "claim": "NO_UNIQUE_BEST_CLAIM_WITHOUT_COMPETENT_PROOF_AND_INDEPENDENT_REVIEW",
+      "category_exemptions_allowed": false
+    }
+  ],
+  "permission_to_publish": false,
+  "evidence_status": "DECLARATIONS_NOT_INDEPENDENTLY_AUTHENTICATED"
+}
