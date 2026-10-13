@@ -39,3 +39,19 @@ The v0.2 event schema requires both `shared_anchor_state_id` and `return_anchor_
 The source-only router now pins both the **presence and exact value** of those anchor keys. Four additional negative specifications were added: IR-62 T05 shared-anchor drift; IR-63 required T05 return-anchor deletion; IR-64 T07 return-anchor drift into V-HYP; IR-65 forbidden anchor insertion on T08 REAL_MOVE. The proposed catalog now has **65 identified cases**, with **zero executed**. Anchor checks do not establish actual rendering-phase warning persistence; semantic/static correspondence does not substitute for visual tests or the certified legal oracle.
 
 The 82-ply modern secondary score, T10 14-ply documentary bridge, original 1956 witness comparison, qualified hash/byte trust, R6 and IVV outcomes are not upgraded. Frozen E5B4D = **NO-GO under M**, strict Policy B identical, `main` unchanged, all permissions to run/render/publish remain false.
+
+## CHESS-INTEGRATION-06 — EP01 claim/F03/terminal distinction pin (2026-10-14, SOURCE ONLY)
+
+The v0.2 semantic validator contains only a defensive **textual cue veto** for F03 and explicitly does not claim to be a complete natural-language classifier. The router previously pinned event-level claim IDs/references but not the seven referenced claim bodies or the entire case admissibility map. An altered assertion could therefore retain the same ID while changing its meaning; this is a source-only interface review finding, **not a demonstrated end-to-end exploit** because independent upstream validation and review are mandatory.
+
+The EP01-only router source now pins four additional documentary records against the observed PR #1 case fixture:
+- All seven canonical claim records, including text, category, predicate, scope, review state and evidence refs;
+- The case claim-admissibility mapping including the exact F03 prohibition and review status;
+- The secondary-source historical terminal declaration (with `original_historical_authentication=NOT_VERIFIED`);
+- The editorial `sequence_end` record (not game termination).
+
+This is a **literal case-specific source contract**; changing these declarations legitimately requires versioned review of the fixture and router. It is not a claim about actual legal validity, historical evidence independence or raw-byte trust.
+
+New **proposed but NOT RUN** mutation specifications: IR-66 rewriting a real-move claim into a forced/optimal assertion without changing its ID; IR-67 introducing a prohibited F03 category exemption; IR-68 falsely authenticating the historical terminal declaration; IR-69 relabeling editorial closure as historical termination. Combined EP01 router catalog: **69 distinct proposed negatives; 0 executed**. This specification count is not test coverage proof.
+
+The Nov/Dec 1956 printed-mate tradition, later reported player-original resignation/mate divergence, and the separated modern 82-ply SAN reference remain historical source issues, not magically resolved by pinned text. The 1956 first-hand 82-row comparison records remain blank pending independent unexposed readers. Independently qualified legality replay has NOT_RUN/UNKNOWN status. E5B4D NO-GO under model M, strict Policy B unchanged (confirmed termination before 120 seconds and independent lifetime stdout/stderr emitted/accepted limits of 1,048,576 each). R6 PENDING, IVV_GLOBAL NOT APPROVED, CASE_APPROVAL NOT APPROVED, render/publish false, no main merge.
