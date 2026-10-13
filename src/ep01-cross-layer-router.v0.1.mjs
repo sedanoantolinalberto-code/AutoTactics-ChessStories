@@ -282,6 +282,14 @@ const PINNED_EVENT_DECLARATIONS = Object.freeze([
     "omitted_plies": null
   }
 ]);
+// v0.2 defines anchor keys by event kind. Pin the EP01 values as well as
+// their presence, so an otherwise schema-shaped context switch cannot drift.
+const PINNED_EVENT_ANCHORS = Object.freeze({
+  "T05": Object.freeze({shared_anchor_state_id:"V-P1",return_anchor_state_id:"V-P1"}),
+  "T07": Object.freeze({return_anchor_state_id:"V-P1"})
+});
+const ANCHOR_FIELDS = Object.freeze(["shared_anchor_state_id","return_anchor_state_id"]);
+
 const PINNED_EVENT_PROVENANCE = Object.freeze({
   "disclosure": [
     "PARTIDA REAL",
@@ -714,6 +722,12 @@ export function proposeEp01Routing(caseV02, overlayV01) {
        (own(event,"move") && !sameDeclaredJson(event.move,pinned.move)) ||
        (own(event,"omitted_plies") && !sameDeclaredJson(event.omitted_plies,pinned.omitted_plies)))
       fault("EP01_MOVE_OR_GAP_DECLARATION_CHANGED",p);
+    const anchors=PINNED_EVENT_ANCHORS[id]??{};
+    for(const key of ANCHOR_FIELDS) {
+      const required=own(anchors,key),present=own(event,key);
+      if(present!==required || (present && event[key]!==anchors[key]))
+        fault("EP01_EVENT_ANCHOR_CHANGED",p+"."+key);
+    }
     if(event.disclosure!==PINNED_EVENT_PROVENANCE.disclosure[i] ||
        !sameDeclaredJson(event.claim_refs,PINNED_EVENT_PROVENANCE.claim_refs[i]) ||
        !sameDeclaredJson(event.evidence_refs,PINNED_EVENT_PROVENANCE.evidence_refs[i]) ||
