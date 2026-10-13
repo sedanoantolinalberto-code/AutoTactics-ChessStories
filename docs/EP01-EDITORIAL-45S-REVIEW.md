@@ -13,10 +13,10 @@ The plan below translates the *12 ordered semantic events* in v0.2 into *nine ed
 | S03 | 10–17s | T02 | V-EV1: 17...Be6 | PARTIDA REAL |
 | S04 | 17–23s | T03 | V-REAL: 18.Bxb6 captures queen | PARTIDA REAL |
 | S05 | 23–29s | T03 hold | Real position held; no extra moves invented | PARTIDA REAL |
-| S06 | 29–34s | T04, T05, T06 | REWIND; branch switch; V-HYP 17...Qd8 | HIPOTÉTICA / NO JUGADA |
-| S07 | 34–36s | T07 | RETURN_TO_REAL exact V-P1 | REGRESO A LA PARTIDA REAL |
-| S08 | 36–42s | T08, T09, T10, T11 | Real replay, visible ellipsis **36–49 inclusive**, 25...Nxd1 | PARTIDA REAL / SE OMITEN JUGADAS |
-| S09 | 42–45s | T12 | V-EV2 held; **the game continues** | CIERRE EDITORIAL, NO FINAL DE PARTIDA |
+| S06 | 29–34s | T04, T05, T06 | REWIND; branch switch; V-HYP 17...Qd8 | **phased:** REBOBINADO · PARTIDA REAL → HIPOTÉTICA · NO JUGADA |
+| S07 | 34–36s | T07 | RETURN_TO_REAL exact V-P1 | **REGRESO A LA PARTIDA REAL** |
+| S08 | 36–42s | T08, T09, T10, T11 | Real replay, visible ellipsis **36–49 inclusive**, 25...Nxd1 | **phased:** PARTIDA REAL → SE OMITEN JUGADAS REALES → PARTIDA REAL |
+| S09 | 42–45s | T12 | V-EV2 held; **the game continues** | **CIERRE EDITORIAL · LA PARTIDA CONTINÚA** |
 
 ## Editorial checks and source bounds
 
@@ -50,3 +50,10 @@ None of these timings are observations. We do not infer that a 45-second version
 5. Runner and tool qualification under strict Policy B remain unavailable for E5B4D failure model M, which is NO-GO.
 
 **This is an editorial design deliverable, not a video, tested storyboard or publication authority.**
+
+
+## 2026-10-14 static truth-overlay reconciliation
+
+Cross-branch comparison against the twelve-event presentation overlay found that a single shot-wide label was not sufficient for multi-event S06 and S08. The shotplan now records an ordered `event_truth_sequence` so T04 remains `REBOBINADO · PARTIDA REAL` before T05/T06 enter `HIPOTÉTICA · NO JUGADA`, and so T10 visibly changes to `SE OMITEN JUGADAS REALES` between the real T08/T09 and T11 phases.
+
+S07 and S09 now use the exact T07/T12 display literals. This is source reconciliation only. The existing 29–45 second allocations remain unmeasured high-risk design hypotheses; no timing, comprehension or render result is promoted.
