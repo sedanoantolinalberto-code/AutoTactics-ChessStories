@@ -68,3 +68,14 @@ Until then:
 | Football P1 | NO-GO |
 
 **Next permitted documentary action:** independent static code review of the semantic checker and its mutation catalog, including confirmed code-path traces and source-data/oracle dependency analysis. No test-pass or integration claim is allowed without real evidence.
+
+
+## Static follow-up (2026-10-13; not executed)
+
+The current draft adds fail-closed **necessary** FEN metadata checks to ordinary moves:
+
+- \`FEN_CASTLING_RIGHT_GAIN\` if an after-state declares castling rights absent in the before-state. A transition cannot recover a right once lost, but removing rights and general castling legality remain outside this lightweight checker.
+- \`FEN_EP_TARGET_UNJUSTIFIED\` if an after-state declares an en-passant square without a same-file double pawn move with the correct ranks. The checker accepts \`-\` when a serializer uses a legal-capture-only EP convention; it does not qualify the full set of double-pawn path legality rules.
+- Three draft negative mutations cover these metadata constraints, bringing the negative mutation catalog to **53 proposed scenarios; 0 executed**.
+
+This is an intentionally narrow improvement to FEN bookkeeping, **not** qualified chess-rule replay. The existing original-history and commercial-rights blockers are unchanged.
