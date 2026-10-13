@@ -585,6 +585,7 @@ export function validateSemanticCase(document) {
   if(!obj(policy) ||
     policy.policy!=="STRICT_POLICY_B" || policy.failure_model!=="M" ||
     policy.execution_authorized!==false || policy.runner_qualification!=="NOT_ESTABLISHED" ||
+    policy.termination_requirement!=="ALL_RELEVANT_PROCESSES_TERMINATED_AND_TERMINATION_CONFIRMED_BEFORE_DEADLINE" ||
     policy.termination_deadline_seconds_exclusive!==120 ||
     policy.stdout_lifetime_emitted_accepted_limit_bytes!==1048576 ||
     policy.stderr_lifetime_emitted_accepted_limit_bytes!==1048576 ||
