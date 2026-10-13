@@ -706,8 +706,13 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     }
     // This EP01-only guard compares exact documentary move and gap declarations,
     // not independent move legality, historical source bytes or PGN authenticity.
-    if(!sameDeclaredJson(event.move??null,pinned.move) ||
-       !sameDeclaredJson(event.omitted_plies??null,pinned.omitted_plies))
+    // Schema v0.2 requires "move" only for move kinds and "omitted_plies"
+    // only for ELLIPSIS; other event kinds prohibit these keys entirely.
+    // Reinforce that prevalidation boundary without treating missing as null.
+    if(own(event,"move") !== (pinned.move!==null) ||
+       own(event,"omitted_plies") !== (pinned.omitted_plies!==null) ||
+       (own(event,"move") && !sameDeclaredJson(event.move,pinned.move)) ||
+       (own(event,"omitted_plies") && !sameDeclaredJson(event.omitted_plies,pinned.omitted_plies)))
       fault("EP01_MOVE_OR_GAP_DECLARATION_CHANGED",p);
     if(event.disclosure!==PINNED_EVENT_PROVENANCE.disclosure[i] ||
        !sameDeclaredJson(event.claim_refs,PINNED_EVENT_PROVENANCE.claim_refs[i]) ||
