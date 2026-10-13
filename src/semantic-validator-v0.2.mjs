@@ -153,6 +153,10 @@ export function validateSemanticCase(document) {
   }
   if (document.schema_version !== "chess-stories-semantic-case/0.2") fail("VERSION_UNSUPPORTED", "schema_version");
   if (!idOK(document.case_id)) fail("CASE_ID_INVALID", "case_id");
+  // v0.2 carries one pilot's frozen policy. Generic transition checks do
+  // not make this document format safe for a different historical case.
+  if (document.case_id !== "ED-CASE-REAL-01")
+    fail("V02_CASE_POLICY_SCOPE_UNSUPPORTED", "case_id");
   if (document.status !== "DOCUMENTARY_CANDIDATE_NOT_APPROVED") fail("UNAUTHORIZED_STATUS", "status");
   const groups = ["branches","states","timeline","evidence","claims","assets"];
   const indexes = Object.create(null);
@@ -188,6 +192,7 @@ export function validateSemanticCase(document) {
   }
   const sourceIDs = new Set();
   const sourceIdentities = new Map();
+  const sourceByteIdentities = new Map();
   for (const e of evidence.values()) {
     if (!obj(e.source) || !idOK(e.source.source_id)) fail("SOURCE_ID_INVALID", "evidence."+e.id);
     else {
@@ -218,6 +223,19 @@ export function validateSemanticCase(document) {
         fail("UNSUPPORTED_BYTE_MATCH_PROMOTION", "evidence."+e.id);
       if (arr(e.declared_hash.check_evidence_refs).includes(e.id))
         fail("HASH_SELF_QUALIFICATION", "evidence."+e.id);
+      if (obj(e.source) && idOK(e.source.source_id) &&
+          str(e.declared_hash.object_identity) &&
+          str(e.declared_hash.byte_scope) &&
+          str(e.declared_hash.digest)) {
+        // Contradictory *declarations* of the same named byte object
+        // cannot both hold. Matching declarations still prove no hash.
+        const k = JSON.stringify([e.source.source_id,
+          e.declared_hash.object_identity, e.declared_hash.byte_scope]);
+        const previous = sourceByteIdentities.get(k);
+        if (previous && previous !== e.declared_hash.digest)
+          fail("SOURCE_BYTE_DIGEST_CONFLICT", "evidence."+e.id);
+        else sourceByteIdentities.set(k, e.declared_hash.digest);
+      }
     }
   }
   // Verification evidence must be acyclic, not merely different from itself.
@@ -554,14 +572,15 @@ export function validateSemanticCase(document) {
         fail("HISTORICAL_END_CONTRADICTION","historical_game_end.final_ply");
     }
   }
-  if(document.case_id==="ED-CASE-REAL-01"){
-    for(const [key,value] of Object.entries(PILOT_GATES))
-      if(!obj(document.frozen_gates)||document.frozen_gates[key]!==value)
-        fail("FROZEN_GATE_CHANGE","frozen_gates."+key);
-    // This is pilot-specific: ordinary cases must not inherit its gates implicitly.
-    if(document.sequence_end?.historical_relation!=="GAME_CONTINUES")
-      fail("PILOT_END_PREMATURE","sequence_end.historical_relation");
-  }
+  // Fail closed even if a caller changes case_id to evade pilot checks.
+  // The v0.3 draft has a different policy-binding model and requires its
+  // own separately qualified validator before use.
+  for(const [key,value] of Object.entries(PILOT_GATES))
+    if(!obj(document.frozen_gates)||document.frozen_gates[key]!==value)
+      fail("FROZEN_GATE_CHANGE","frozen_gates."+key);
+  if(document.case_id==="ED-CASE-REAL-01" &&
+     document.sequence_end?.historical_relation!=="GAME_CONTINUES")
+    fail("PILOT_END_PREMATURE","sequence_end.historical_relation");
   const policy=document.execution_policy;
   if(!obj(policy) ||
     policy.policy!=="STRICT_POLICY_B" || policy.failure_model!=="M" ||
