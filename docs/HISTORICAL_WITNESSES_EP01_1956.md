@@ -82,3 +82,12 @@ Before this discovery, the file only identified December 1956 *Chess Review* as 
 5. The first-publication lead does not change F03, R6, IVV, E5B4D or Policy B.
 
 The prior sections of this document are retained as the historical state of discovery and must be interpreted together with this later addendum.
+
+
+## 7. Complete modern scholarly **secondary** SAN candidate, all 82 plies
+
+\`sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json\` stores a source-scoped, 82-ply modern SAN move list derived from the *factual score* in Edward Winter's article (URL above). The final displayed "41...Rc2 mate" is normalized as \`41...Rc2#\` with an explicit normalization note; the \`0-1\` result is separately attributed to the prior reported R2 PGN, **not** falsely described as a result tag printed by Winter.
+
+Static authoring-time documentary checks compared the critical EP01 anchors (17...Be6, 18.Bxb6 and 25...Nxd1) and the proposed unplayed 17...Qd8 against the score's real-versus-hypothetical design. The independent T10 modern-secondary bridge of 14 plies agrees with the corresponding slice of the new source-scoped array. This is a *source comparison*, not a chess engine run or an independent original-score authentication.
+
+Outstanding: visually transcribe the November 5, 1956 descriptive score and December 1956 source print; perform the full 82-ply two-reader comparison with source-exception evidence, and verify legal chess replay through a separately qualified mechanism. R6 and all IVV/E5B4D statuses remain unchanged.
