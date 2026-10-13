@@ -635,7 +635,11 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     overlayV01.artifact_version!=="chess-stories-ep01-truth-overlay-map/0.1-draft")
     fault("OVERLAY_VERSION_OR_CASE","overlay");
   if(overlayV01.source_document!=="cases/ED-CASE-REAL-01.v0.2.json" ||
-     overlayV01.source_document_commit!=="chess-stories/semantic-contract-v0.2")
+     overlayV01.source_document_commit!=="chess-stories/semantic-contract-v0.2" ||
+     overlayV01.source_document_ref_kind!=="BRANCH_LABEL_NOT_IMMUTABLE" ||
+     overlayV01.source_document_head_commit_sha_observed!=="8e3da6639060a1605947bfc3aedd4113ab0068a1" ||
+     overlayV01.source_document_git_blob_sha_observed!=="3514f19ac355763a5b4c61d5c573df090b0eccc1" ||
+     overlayV01.source_identity_qualification!=="GIT_REPOSITORY_IDENTITY_ONLY_NOT_RAW_SHA256_BYTE_TRUST")
     fault("OVERLAY_SOURCE_BINDING_CHANGED","overlay");
   if(overlayV01.status!=="EDITORIAL_SPEC_NOT_RENDERED" ||
      overlayV01.all_time_values!=="UNSPECIFIED_UNMEASURED" ||
