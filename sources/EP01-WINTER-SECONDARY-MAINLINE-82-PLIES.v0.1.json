@@ -16,13 +16,13 @@
       "date": "1956-11-05",
       "source": "Chess Life Vol. XI No. 5, PDF page index 1/printed page 2",
       "url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_1.pdf",
-      "status": "SCANNED_CONTEMPORARY_TABLE_LOCATED_OCR_CORRUPT_FULL_VISUAL_TRANSCRIPTION_PENDING"
+      "status": "SCANNED_CONTEMPORARY_41_MOVE_TABLE_VISUALLY_LEGIBLE_BLIND_TRANSCRIPTION_PENDING_AGENT_ALREADY_EXPOSED_TO_SAN"
     },
     {
       "date": "1956-12",
       "source": "Chess Review Vol.24 No.12, printed pages 374–375",
       "url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CR-ALL/CR1956/CR1956_12.pdf",
-      "status": "ISSUE_LOCATED_NOT_FULLY_INSPECTED"
+      "status": "ISSUE_AND_PP374_375_LOCATED_PARTIAL_P374_REPRODUCTION_SEEN_FULL_ORIGINAL_PAGES_NOT_TRANSCRIBED"
     }
   ],
   "candidate_secondary_mainline_plies": [
@@ -794,10 +794,18 @@
     "hypothetical": "17...Qd8 excluded from played mainline; legal status unverified"
   },
   "full_chess_rules_replay": "NOT_RUN",
-  "primary_score_transcription_and_comparison": "PENDING",
+  "primary_score_transcription_and_comparison": "PENDING_TWO_FRESH_BLIND_READERS_PLUS_TERMINAL_WITNESS_ADJUDICATION",
   "modern_source_lineage_independence": "NOT_ESTABLISHED",
   "video_audio_assets_or_rights": "NONE_GRANTED",
   "case_frozen_gates_unchanged": true,
   "E5B4D": "NO-GO under failure model M",
-  "approved_for_publication": false
+  "approved_for_publication": false,
+  "terminal_witness_divergence": {
+    "artifact_ref": "sources/EP01-SCORESHEET-WITNESS-LEADS.v0.1.json",
+    "status": "UNRESOLVED_PRIMARY_WITNESS_LEAD",
+    "reported_fischer_original": "MATE",
+    "reported_byrne_original": "RESIGNATION_ONE_MOVE_BEFORE_MATE",
+    "implication_for_ply_82": "Keep Rc2# as modern-secondary candidate only; do not promote to authenticated primary terminal move.",
+    "black_win_result_compatibility": "Both reported terminal conventions are compatible with 0-1, but they differ on whether 41...Rc2 mate was actually entered/played as the terminal record."
+  }
 }
