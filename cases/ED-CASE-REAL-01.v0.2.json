@@ -568,17 +568,18 @@
       "supported_assertions": [
         "The supplied context identifies the source as a secondary handoff PGN.",
         "The supplied context declares that the candidate PGN contains 82 plies and ends with 41...Rc2#.",
-        "The supplied context expressly does not authenticate the original 1956 score."
+        "The supplied context expressly does not authenticate the original 1956 score.",
+        "The preserved R2 secondary PGN declares [Result \"0-1\"] and its movetext ends 41...Rc2# 0-1 (ply 82). The declared SHA-256 of this PGN matches its bytes in the assistant-isolated documentary ZIP; original historical authentication remains NOT_VERIFIED."
       ],
       "verification": {
         "declared_level": "SECONDARY_CANDIDATE",
         "original_historical_authentication": "NOT_VERIFIED",
         "verification_record_refs": [],
-        "scope": "Source identity, declared digest, length, and ending are preserved from the supplied context, without accessing the PGN.",
+        "scope": "The full secondary PGN is available to the assistant in the previously generated, isolated CHESS-CODEX-02 ZIP. Assistant-side byte hash matched the declared SHA-256. Codex 05B did not have access to these bytes. Source authenticity and independent historical confirmation remain NOT_VERIFIED.",
         "limitations": [
-          "The PGN text and bytes are unavailable in this task.",
-          "No byte identity check or independent historical authentication was performed.",
-          "No explicit PGN result tag was supplied; the historical ending result remains UNKNOWN in this fixture."
+          "The complete secondary PGN was not provided inside the Codex 05B prompt; later assistant-side ZIP inspection confirmed the secondary [Result \"0-1\"] tag.",
+          "The original 1956 planilla or contemporary game score has not been independently authenticated.",
+          "The PGN byte match is not an independent assessment of chess legality or historical truth."
         ]
       }
     },
@@ -875,8 +876,8 @@
     "source_id": "SOURCE-R2-PGN",
     "final_ply": 82,
     "final_san": "Rc2#",
-    "result": "UNKNOWN",
-    "termination_description": "The supplied secondary candidate declares its ending as 41...Rc2# at ply 82. No explicit PGN result tag or authenticated original score was supplied.",
+    "result": "0-1",
+    "termination_description": "The preserved secondary R2 handoff PGN has a [Result \"0-1\"] tag and ends at ply 82 with 41...Rc2# 0-1. This is a statement about the secondary PGN, not authenticated historical adjudication.",
     "original_historical_authentication": "NOT_VERIFIED",
     "evidence_refs": [
       "EVID-R2-PGN-DECLARATION",
