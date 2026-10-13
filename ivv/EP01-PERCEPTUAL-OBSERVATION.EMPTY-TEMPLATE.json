@@ -1,0 +1,110 @@
+{
+  "schema_version": "chess-stories-ivv-observation/0.1-draft",
+  "status": "EMPTY_TEMPLATE_NO_HUMAN_DATA",
+  "case_id": "ED-CASE-REAL-01",
+  "ivv_scope": "PERCEPTUAL_HUMAN_STUDY_NOT_PERFORMED",
+  "record_id": null,
+  "participant_code": null,
+  "consent_record_reference": null,
+  "consent_received": null,
+  "assessor_code": null,
+  "group_self_report": null,
+  "stimulus": {
+    "version": null,
+    "byte_sha256": null,
+    "source_branch": null,
+    "actual_duration_ms": null,
+    "rights_for_private_study_verified": null
+  },
+  "device": {
+    "model": null,
+    "physical_screen_diagonal_inches": null,
+    "viewport_width_px": null,
+    "viewport_height_px": null,
+    "viewing_distance_cm": null,
+    "orientation": "PORTRAIT_UNCONFIRMED",
+    "platform_overlay_visible": null,
+    "audio_mode": null
+  },
+  "view": {
+    "variant": null,
+    "exposure_order": null,
+    "first_view_completed": null,
+    "repeat_count": null,
+    "replay_reason": null
+  },
+  "comprehension_responses": [
+    {
+      "question_id": "Q01",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    },
+    {
+      "question_id": "Q02",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    },
+    {
+      "question_id": "Q03",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    },
+    {
+      "question_id": "Q04",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    },
+    {
+      "question_id": "Q05",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    },
+    {
+      "question_id": "Q06",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    },
+    {
+      "question_id": "Q07",
+      "raw_response": null,
+      "scoring": "NOT_SCORED",
+      "assessor_note": null
+    }
+  ],
+  "accessibility": {
+    "piece_recognition_errors": null,
+    "hypothetical_label_legible": null,
+    "return_to_real_legible": null,
+    "ellipsis_legible": null,
+    "ui_occlusion_observed": null,
+    "subtitles_legibility_rating_1_5": null,
+    "cognitive_load_rating_1_5": null
+  },
+  "qualitative": {
+    "verbatim_confusion_notes": null,
+    "additional_observations": null
+  },
+  "deviation_or_exclusion": {
+    "occurred": null,
+    "reason": null,
+    "excluded_from_analysis": null
+  },
+  "audit": {
+    "observation_timestamp_iso8601": null,
+    "assessor_signature_reference": null,
+    "independent_review_reference": null
+  },
+  "approval": {
+    "ivv_03": "PENDING",
+    "ivv_global": "NOT APPROVED",
+    "r6": "PENDING",
+    "pilot": "NOT APPROVED",
+    "publish_allowed": false
+  }
+}
