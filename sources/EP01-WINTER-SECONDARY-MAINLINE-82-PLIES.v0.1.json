@@ -16,7 +16,8 @@
       "date": "1956-11-05",
       "source": "Chess Life Vol. XI No. 5, PDF page index 1/printed page 2",
       "url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_1.pdf",
-      "status": "SCANNED_CONTEMPORARY_41_MOVE_TABLE_VISUALLY_LEGIBLE_BLIND_TRANSCRIPTION_PENDING_AGENT_ALREADY_EXPOSED_TO_SAN"
+      "status": "SCANNED_CONTEMPORARY_41_MOVE_TABLE_VISUALLY_INSPECTED_TERMINAL_41_K-B1_R-B7_MATE_BLIND_82_PLY_TRANSCRIPTION_STILL_PENDING",
+      "terminal_record_visual": "41.K-B1 R-B7 mate"
     },
     {
       "date": "1956-12",
@@ -806,6 +807,11 @@
     "reported_fischer_original": "MATE",
     "reported_byrne_original": "RESIGNATION_ONE_MOVE_BEFORE_MATE",
     "implication_for_ply_82": "Keep Rc2# as modern-secondary candidate only; do not promote to authenticated primary terminal move.",
-    "black_win_result_compatibility": "Both reported terminal conventions are compatible with 0-1, but they differ on whether 41...Rc2 mate was actually entered/played as the terminal record."
+    "black_win_result_compatibility": "Both reported terminal conventions are compatible with 0-1, but they differ on whether 41...Rc2 mate was actually entered/played as the terminal record.",
+    "contemporary_publication_support": [
+      "Chess Life 5 Nov 1956 p.2: visual table records 41.K-B1 R-B7 mate",
+      "Chess Life 20 Dec 1956 p.6: official PDF text records 41.K-B1 R-B7 mate in Fischer/Collins annotated publication"
+    ],
+    "interpretation": "Strong contemporaneous published support for mate; does not resolve reported disagreement between Fischer and Byrne original tournament scoresheets."
   }
 }
