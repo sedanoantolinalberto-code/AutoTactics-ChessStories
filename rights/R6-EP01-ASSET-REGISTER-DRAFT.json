@@ -1,0 +1,323 @@
+{
+  "schema_version": "chess-stories-r6-asset-register/0.1-draft",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "INCOMPLETE_RIGHTS_DUE_DILIGENCE",
+  "purpose": "Per-asset chain of title and rights scope; none of these entries grants use.",
+  "snapshot_timestamp_date": "2026-10-13",
+  "source_limitations": [
+    "No original v4 PNG files, font binaries, certified creator records or rendered media are in this GitHub repository.",
+    "Only documented source-level license texts and source URLs are recorded; no rights grant to publish.",
+    "Per-platform clearances are unreviewed and explicit NOT_CLEARED."
+  ],
+  "assets": [
+    {
+      "asset_id": "BOARD-V-P1",
+      "medium": "IMAGE",
+      "description": "EP01 v4 vertical board after 17.Kf1",
+      "origin_evidence": "Prior chat artifact, 1080x1920 design; no authenticated source file in this GitHub repository.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "ORIGIN_UNVERIFIED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Obtain original image bytes, provenance, piece/font dependencies, creator/review signoff; inspect commercial use terms.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "BOARD-V-EV1",
+      "medium": "IMAGE",
+      "description": "EP01 v4 vertical board after real 17...Be6",
+      "origin_evidence": "Prior chat visual candidate; not uploaded here.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "ORIGIN_UNVERIFIED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Preserve bytes and original input FEN, document silhouettes/fonts, verify output creator and license chain.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "BOARD-V-REAL",
+      "medium": "IMAGE",
+      "description": "EP01 v4 vertical board after real 18.Bxb6",
+      "origin_evidence": "Prior chat visual candidate; not uploaded here.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "ORIGIN_UNVERIFIED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "As above, include displayed capture labels and independent asset rights decision.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "BOARD-V-HYP",
+      "medium": "IMAGE",
+      "description": "EP01 v4 vertical board after UNPLAYED 17...Qd8",
+      "origin_evidence": "Prior chat candidate; no original asset copy here.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "ORIGIN_UNVERIFIED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Require conspicuous hypothetical watermark and independent rights/provenance review.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "BOARD-V-EV2",
+      "medium": "IMAGE",
+      "description": "EP01 v4 vertical board after real 25...Nxd1; game continues",
+      "origin_evidence": "Prior chat candidate; no original asset copy here.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "ORIGIN_UNVERIFIED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Confirm exact font/pieces and separate editorial ending labels from historical ending.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "BOARD-V-PRE-EV2",
+      "medium": "DATA",
+      "description": "Technical-only FEN state after 25.Qxb6, not a visual still",
+      "origin_evidence": "Present as a textual state in cases/ED-CASE-REAL-01.v0.2.json.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "USER_SUPPLIED_DECLARATION",
+      "license_source": null,
+      "rights_review_status": "DOCUMENTARY_DATA_ONLY",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Do not represent this technical state as a commercial still or prove rights from chess moves alone.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "PIECE-SILHOUETTES-V4",
+      "medium": "GRAPHIC",
+      "description": "Custom pawn/knight/bishop/rook/queen/king silhouettes in earlier Python/Pillow still workflow",
+      "origin_evidence": "Previous design notes describe Python/Pillow shapes; creator/derivation metadata not independently attested.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "DERIVATION_CHAIN_PENDING",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Recover exact generation source, inputs and reviewer; ensure not copied from nonlicensed chess piece vectors.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "FONT-DEJAVU-V4",
+      "medium": "FONT",
+      "description": "Likely DejaVu/Bitstream Vera-family font used in visual candidates; exact file/version not checked",
+      "origin_evidence": "Prior design notes mention DejaVu Bitstream Vera fonts; no exact file SHA, font file or sublicense package reviewed.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "CANDIDATE_OPEN_LICENSE_NOT_YET_ASSET_BOUND",
+      "license_source": "https://dejavu-fonts.github.io/License.html",
+      "rights_review_status": "LICENSE_TEXT_FOUND_FILE_UNVERIFIED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Identify exact font by file SHA and full bundled license including Bitstream Vera and possible Arev glyph conditions. Do not assume SIL OFL; do not redistribute the font without requirements satisfied.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "SCRIPT-EP01-SPANISH",
+      "medium": "TEXT",
+      "description": "Proposed 45-second original Spanish narrative script and captions",
+      "origin_evidence": "editorial/EP01-45S-SHOTPLAN-DRAFT.json in another open draft PR.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "ORIGINALITY_REVIEW_PENDING",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Check originality, factual sourcing, editorial disclosure and exploitation rights; no copied magazine annotation passages.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "VOICE-EP01",
+      "medium": "AUDIO",
+      "description": "Future narration or TTS output; no voice file has been selected",
+      "origin_evidence": "No audio asset exists in repository or original package.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "NOT_SELECTED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Choose voice/provider with explicit commercial platform, derivative and sublicensing terms; no historic voice cloning without rights.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "MUSIC-SFX-EP01",
+      "medium": "AUDIO",
+      "description": "Future musical bed and sound effects; none selected",
+      "origin_evidence": "No licensed music or SFX currently supplied.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "NOT_SELECTED",
+      "commercial_use_status": "PENDING",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "License track/SFX by exact file/creator/publisher and permitted platforms, territories and monetization.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "PERIODICAL-CHESS-REVIEW-1956",
+      "medium": "IMAGE",
+      "description": "Contemporary 1956 Chess Review cover/pages 374–375, historical research lead only",
+      "origin_evidence": "Official US Chess archives; this PDF is NOT acquired or published in repository.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "ARCHIVE_ACCESS_NOT_COMMERCIAL_LICENSE",
+      "license_source": "https://new.uschess.org/chess-life-digital-archives",
+      "rights_review_status": "RESEARCH_VIEW_ONLY",
+      "commercial_use_status": "NOT_AUTHORIZED",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Do not place facsimile, cover or article in released media without separately obtained permissions or independent documented fair-use assessment.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "FISCHER-SCORESHEET-PHOTO",
+      "medium": "IMAGE",
+      "description": "Purported period manuscript facsimile referenced by later books and historical websites",
+      "origin_evidence": "Historical lead only; original handwritten score was not authenticated, photo license not obtained.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "UNAUTHENTICATED_AND_UNLICENSED",
+      "commercial_use_status": "NOT_AUTHORIZED",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "Avoid use until both manuscript provenance and reproduction permission independently reviewed.",
+      "original_rights_documents_committed": false
+    },
+    {
+      "asset_id": "FINAL-MP4-EP01",
+      "medium": "VIDEO",
+      "description": "Final export and mixes, including clips, fonts, audio and overlays",
+      "origin_evidence": "No final render exists.",
+      "source_blob_sha256": null,
+      "author_or_rightsholder": "NOT_VERIFIED",
+      "license_basis": "UNKNOWN",
+      "license_source": null,
+      "rights_review_status": "NOT_CREATED",
+      "commercial_use_status": "NOT_AUTHORIZED",
+      "per_platform_clearance": {
+        "YouTube Shorts": "NOT_CLEARED",
+        "Instagram Reels": "NOT_CLEARED",
+        "TikTok": "NOT_CLEARED",
+        "Newsletter": "NOT_CLEARED",
+        "eBook": "NOT_CLEARED"
+      },
+      "required_action": "No publication until all used upstream assets cleared and IVV/rights gates independently approved.",
+      "original_rights_documents_committed": false
+    }
+  ],
+  "restricted_overlays": {
+    "publication": false,
+    "R6": "PENDING",
+    "IVV09": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "ED_CASE_REAL_01": "NOT APPROVED"
+  },
+  "procedural_next_steps": [
+    "Acquire exact original produced bytes and immutable SHA-256 for each intended visual/audio asset.",
+    "Bind the specific font binary to its correct license distribution and comply with terms.",
+    "Review piece silhouettes' source, derivation and original authorship metadata.",
+    "Identify third-party screenshot/scan/photos separately; obtain permissions where required.",
+    "Record independent commercial use review for each platform and type of exploitation.",
+    "Require a human commercial rights signoff; do not self-promote R6 from JSON fields."
+  ]
+}
