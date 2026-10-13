@@ -300,6 +300,10 @@ export function validateSemanticCase(document) {
         !(typeof m.moving_piece === "string" && m.moving_piece.length === 1 && PIECES.includes(m.moving_piece)) || !COLORS.has(m.moving_color)) {
       fail("MOVE_FIELDS_INVALID","timeline."+e.id); return;
     }
+    if (!int(before.ply) || !int(after.ply)) {
+      fail("MOVE_PLY_MISMATCH","timeline."+e.id); return;
+    }
+    if (!str(m.san)) { fail("SAN_MISSING","timeline."+e.id); return; }
     if (before.ply+1 !== after.ply) fail("MOVE_PLY_MISMATCH","timeline."+e.id);
     // A declared state label must agree with the current move and absolute ply.
     // This is SAN *label correspondence*, not SAN legality or historical proof.
@@ -326,11 +330,9 @@ export function validateSemanticCase(document) {
         if (a.board[m.to] !== victim) fail("CAPTURE_PIECE_MISMATCH","timeline."+e.id);
       }
     } else if (a.board[m.to]) fail("UNDECLARED_CAPTURE","timeline."+e.id);
-    if (str(m.san)) {
-      const hasCapture = m.san.includes("x");
-      if (hasCapture !== capture || !m.san.includes(m.to))
-        fail("SAN_DECLARATION_CONFLICT","timeline."+e.id);
-    } else fail("SAN_MISSING","timeline."+e.id);
+    const hasCapture = m.san.includes("x");
+    if (hasCapture !== capture || !m.san.includes(m.to))
+      fail("SAN_DECLARATION_CONFLICT","timeline."+e.id);
     const expected={...a.board};
     delete expected[m.from];
     expected[m.to]=moving;
@@ -417,7 +419,7 @@ export function validateSemanticCase(document) {
         if(to)visitedReal.add(to.id);
         break;
       case "REWIND":
-        if(excursion||!sameReal||!from||!to||to.ply>=from.ply||!visitedReal.has(to.id))
+        if(excursion||!sameReal||!from||!to||!int(from.ply)||!int(to.ply)||to.ply>=from.ply||!visitedReal.has(to.id))
           fail("REWIND_ANCHOR_INVALID",at);
         break;
       case "ENTER_HYPOTHETICAL":
@@ -451,9 +453,9 @@ export function validateSemanticCase(document) {
         excursion=null;
         break;
       case "ELLIPSIS":
-        if(excursion || !sameReal || !from||!to || !(to.ply>from.ply+1))
+        if(excursion || !sameReal || !from||!to || !int(from.ply)||!int(to.ply)||!(to.ply>from.ply+1))
           fail("ELLIPSIS_BRANCH_OR_DIRECTION",at);
-        if(!obj(e.omitted_plies)||!from||!to||
+        if(!obj(e.omitted_plies)||!from||!to||!int(from.ply)||!int(to.ply)||
            e.omitted_plies.first!==from.ply+1||
            e.omitted_plies.last!==to.ply||
            e.omitted_plies.semantics!=="INCLUSIVE_MOVES_NOT_SHOWN")
@@ -467,7 +469,8 @@ export function validateSemanticCase(document) {
         seenEnd=true;
         break;
     }
-    if(sameReal && from && to && to.ply>from.ply+1 && e.kind!=="ELLIPSIS")
+    if(sameReal && from && to && int(from.ply) && int(to.ply) &&
+       to.ply>from.ply+1 && e.kind!=="ELLIPSIS")
       fail("ELLIPSIS_REQUIRED",at);
     currentState=e.to_state;
     active=e.to_branch_id;
@@ -487,7 +490,7 @@ export function validateSemanticCase(document) {
     if(end.status==="SOURCE_DECLARED") {
       if(!sourceIDs.has(end.source_id))fail("HISTORICAL_SOURCE_UNKNOWN","historical_game_end.source_id");
       const final=state.get(currentState);
-      if(final && int(end.final_ply) && end.final_ply <= final.ply &&
+      if(final && int(final.ply) && int(end.final_ply) && end.final_ply <= final.ply &&
          document.sequence_end?.historical_relation==="GAME_CONTINUES")
         fail("HISTORICAL_END_CONTRADICTION","historical_game_end.final_ply");
     }
