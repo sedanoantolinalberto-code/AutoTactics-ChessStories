@@ -83,7 +83,7 @@ This is an intentionally narrow improvement to FEN bookkeeping, **not** qualifie
 
 ## CHESS-CODEX-08 audit supersession (2026-10-13, no execution)
 
-The earlier counts of 50 and 53 in this historical review are previous source-draft checkpoints, **not current test results**. Current catalog: **65 negative mutation specifications, 0 executed**.
+The earlier counts of 50 and 53 in this historical review are previous source-draft checkpoints, **not current test results**. Current catalog: **66 negative mutation specifications, 0 executed**.
 
 The checker is now explicitly **EP01-only** for v0.2 by \`V02_CASE_POLICY_SCOPE_UNSUPPORTED\`. It also asserts frozen gates irrespective of \`case_id\`, so relabeling a case cannot evade those documentary guards. Any reuse outside EP01 must be a new, independently qualified contract and policy loader, not a silent v0.2 retag.
 
