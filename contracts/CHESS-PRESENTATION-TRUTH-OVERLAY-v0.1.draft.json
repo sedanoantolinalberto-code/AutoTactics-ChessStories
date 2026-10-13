@@ -1,0 +1,122 @@
+{
+  "contract_version": "chess-stories-presentation-truth-contract/0.1-draft",
+  "status": "SOURCE_SPEC_ONLY_NOT_RENDERED_NOT_PROVEN",
+  "applicability": "Chess Stories real/hypothetical/editorial transitions; future vertical or horizontal video adaptations",
+  "input_dependencies": [
+    "Frozen documentary semantic event sequence with event IDs and stable state FENs",
+    "Independently verified move legality when required (no qualified oracle currently available)",
+    "Case-specific historical witness and claim admissibility status",
+    "Rights-cleared board, piece, typography and audio assets (R6 PENDING)",
+    "Measured narration and shot timings, only after lawful stimulus generation and approval"
+  ],
+  "audiences": [
+    "CHESS_NOVICE",
+    "CHESS_FAMILIAR"
+  ],
+  "output_profiles": [
+    {
+      "id": "VERTICAL_9_16",
+      "aspect_ratio": "9:16",
+      "target_platforms": [
+        "YouTube Shorts",
+        "Instagram Reels",
+        "TikTok"
+      ],
+      "device_comprehension_test": "NOT_RUN"
+    },
+    {
+      "id": "HORIZONTAL_16_9",
+      "aspect_ratio": "16:9",
+      "target_platforms": [
+        "YouTube long-form"
+      ],
+      "device_comprehension_test": "NOT_RUN"
+    }
+  ],
+  "transition_classes": {
+    "REAL_MOVE": {
+      "factuality": "REAL",
+      "mandatory_overlay": "PARTIDA REAL",
+      "board_rule": "Use declared real state only; qualified legal replay separate",
+      "conditional_audio": "May narrate verified claim only, never rely solely on voice for real/hyp context"
+    },
+    "REWIND": {
+      "factuality": "REAL",
+      "mandatory_overlay": "REBOBINADO · PARTIDA REAL",
+      "board_rule": "Reverse time explicitly, do not treat as played backward chess move"
+    },
+    "ENTER_HYPOTHETICAL": {
+      "factuality": "HYPOTHETICAL",
+      "mandatory_overlay": "HIPOTÉTICA · NO JUGADA",
+      "board_rule": "Apply visible fictional label BEFORE any hypothetical piece motion"
+    },
+    "HYPOTHETICAL_MOVE": {
+      "factuality": "HYPOTHETICAL",
+      "mandatory_overlay": "HIPOTÉTICA · NO JUGADA",
+      "board_rule": "Persistent overlay for every displayed hypothetical frame, including pauses, captions and silent viewing"
+    },
+    "RETURN_TO_REAL": {
+      "factuality": "REAL",
+      "mandatory_overlay": "REGRESO A LA PARTIDA REAL",
+      "board_rule": "Restore correct saved real state and provenance atomically; retain hypothetical context until restoration visually complete"
+    },
+    "ELLIPSIS": {
+      "factuality": "REAL",
+      "mandatory_overlay": "SE OMITEN JUGADAS REALES",
+      "board_rule": "Explicit omitted interval in plies; no board tween suggesting one legal move across gap"
+    },
+    "SEQUENCE_END": {
+      "factuality": "REAL",
+      "mandatory_overlay": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+      "board_rule": "Cannot label historical game end unless independently attested; EP01 ends editorially after 25...Nxd1"
+    }
+  },
+  "safety_invariants": [
+    "An overlay about factuality must be visible without audio on every frame that shows a non-historical line.",
+    "The hypothetical warning must appear before the first piece movement on the unplayed branch, not afterward.",
+    "When returning from an alternative, restore exact historical branch/state before removing alternative label; an uninterrupted fade without truth transition is insufficient.",
+    "An editorial ELLIPSIS explicitly identifies omitted real moves and start/end ply; cannot be disguised as a single move.",
+    "A source-declared chess mate is distinct from a video editorial closure; epilogue must not assert completion when the source game continues.",
+    "A source/rights validation PASS must not be inferred from subtitles, clean rendering, voice or viewer engagement.",
+    "The voice track may add explanation but may never be the only carrier of hypothetical or game-end truth.",
+    "Source screenshots, historical images or typeface files may only be used after R6 permissions and asset-level records.",
+    "No frame durations or readability thresholds have been measured or approved in this RFC."
+  ],
+  "frame_spec_proposal": {
+    "event_id": "string referring to documentary timeline",
+    "frame_state_id": "string referring to exact state registry entry",
+    "source_branch_id": "string, including editorial transitions",
+    "intended_factuality": "REAL | HYPOTHETICAL | EDITORIAL_CONTROL",
+    "overlay_text": "from fixed truthful overlay class, no unsourced historical or move-optimality claim",
+    "overlay_presence": "REQUIRED_WHEN_HYPOTHETICAL_OR_TRANSITION",
+    "overlay_transition_order": "before_visual_move | during_return_with_restoration | after_stable_REAL",
+    "background_board_render": "requires separate board asset provenance",
+    "narration_claim_ids": "references only documented claim registry IDs",
+    "voice_start_ms": "null until measured",
+    "shot_start_ms": "null until measured",
+    "shot_end_ms": "null until measured",
+    "captions_text": "must be fact-checkable and legible muted",
+    "skip_range": {
+      "first_ply": "nullable integer",
+      "last_ply": "nullable integer"
+    },
+    "evidence_level": "DECLARED / SECONDARY / ORIGINAL_WITNESS_REVIEWED / UNKNOWN",
+    "render_qa": "NOT_RUN"
+  },
+  "non_goals": [
+    "Automatic fixed-duration animation derived solely from SAN",
+    "Determining historical game truth from chess legality",
+    "Audio understanding or TTS generation",
+    "Copyright clearance, social publishing or approval",
+    "E5B4D process supervision"
+  ],
+  "gate_status": {
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "ED_CASE_REAL_01": "NOT APPROVED",
+    "E5B4D": "NO-GO under failure model M",
+    "Policy_B": "STRICT_UNCHANGED",
+    "execution_allowed": false
+  },
+  "release_allowed": false
+}
