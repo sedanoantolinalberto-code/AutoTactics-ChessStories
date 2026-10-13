@@ -1,0 +1,230 @@
+{
+  "spec_version": "chess-stories-policy-bind-safety-spec/0.1",
+  "status": "DOCUMENTARY_REVIEW_SPEC_NOT_IMPLEMENTED_OR_EXECUTED",
+  "target_contract": "chess-stories-semantic-case/0.3-draft",
+  "target_policy": "chess-stories-case-policy/0.1",
+  "approval_effect": "NONE",
+  "pipeline": [
+    {
+      "step": 1,
+      "id": "RAW_SOURCE_IDENTITY",
+      "operation": "Receive immutable bytes, capture trusted repository commit/blob SHA, enforce external maximum document bytes, reject duplicate raw JSON keys before deserialization",
+      "when_failed": "RAW_INPUT_UNTRUSTED"
+    },
+    {
+      "step": 2,
+      "id": "CASE_SCHEMA",
+      "operation": "Validate parsed case against separately qualified Draft 2020-12 v0.3 schema",
+      "when_failed": "CASE_SCHEMA_REJECTED"
+    },
+    {
+      "step": 3,
+      "id": "POLICY_SCHEMA",
+      "operation": "Validate parsed policy against generic schema, and require separately trusted case-specific literal policy lock",
+      "when_failed": "POLICY_SCHEMA_OR_LOCK_REJECTED"
+    },
+    {
+      "step": 4,
+      "id": "BINDING_IDENTITY",
+      "operation": "Require exact case_id/policy_id/schema_version binding and case_id equality across case and policy; reject null or merely self-declared hash as authenticated link",
+      "when_failed": "POLICY_BINDING_NOT_VERIFIED"
+    },
+    {
+      "step": 5,
+      "id": "TRUSTED_BYTE_HASH",
+      "operation": "Compute SHA-256 of source raw bytes under a qualified mechanism; require independent trusted digest and verify identity before promotion from UNVERIFIED",
+      "when_failed": "POLICY_DIGEST_NOT_TRUSTED"
+    },
+    {
+      "step": 6,
+      "id": "RULE_RESOLUTION",
+      "operation": "Every policy_rule_ref must match an immutable rule in the trusted case-specific policy; deny foreign, missing and duplicate policy IDs",
+      "when_failed": "POLICY_RULE_UNKNOWN_OR_AMBIGUOUS"
+    },
+    {
+      "step": 7,
+      "id": "POLICY_CONSISTENCY",
+      "operation": "Check policy gates against document evidence/asset claims and editorial closing statements; self-asserted licenses never clear R6",
+      "when_failed": "POLICY_ASSERTION_CONFLICT"
+    },
+    {
+      "step": 8,
+      "id": "ASSURANCE_SCOPE",
+      "operation": "Emit separately scoped structural, rule-link, byte-check, source/history, rights, IVV and runner states; no aggregate PASS from documentary matching",
+      "when_failed": "ASSURANCE_SCOPE_INCOMPLETE"
+    }
+  ],
+  "invariant_requirements": [
+    "An EP01 policy document MUST retain the exact immutable snapshot as the frozen lock for the pilot until an authorized signed review replaces it.",
+    "A v0.3 case with binding_status=DECLARED_NOT_VERIFIED MUST NOT be publishable or treated as RIGHTS_CLEARED, historical source authenticated, execution qualified or global IVV approved.",
+    "Policy hash is determined from raw bytes and trusted identity, not from an arbitrary JSON field; canonical JSON normalization requires a separately fixed algorithm and cannot be silently assumed.",
+    "Policy references and asset/evidence IDs are typed registries; identical spelling across different namespaces is not a cross-record validation success.",
+    "Historic opponent side may be a consultation team; a team move cannot be assigned to an individual member absent independently supported evidence.",
+    "No Policy B qualification may be inferred from a process timeout, source input-size checks, short output, streaming log truncation, repository protection or passing JSON validation.",
+    "A branch or tag name is a mutable locator, not an immutable policy identity; any review claim tied only to a named ref must remain unverified until an immutable repository object identity is captured and checked.",
+    "A Git commit or blob object ID may serve as repository provenance, but MUST NOT be substituted for the separately specified qualified raw-byte SHA-256 policy digest."
+  ],
+  "proposed_negative_cases": [
+    {
+      "id": "PB01",
+      "mutation": "v0.3 case has no policy file",
+      "expected_rejection": "POLICY_DOCUMENT_MISSING",
+      "executed": false
+    },
+    {
+      "id": "PB02",
+      "mutation": "case points to foreign case_id in policy",
+      "expected_rejection": "CASE_POLICY_ID_MISMATCH",
+      "executed": false
+    },
+    {
+      "id": "PB03",
+      "mutation": "case policy_id mismatches actual policy record",
+      "expected_rejection": "POLICY_ID_MISMATCH",
+      "executed": false
+    },
+    {
+      "id": "PB04",
+      "mutation": "wrong policy schema version",
+      "expected_rejection": "POLICY_VERSION_MISMATCH",
+      "executed": false
+    },
+    {
+      "id": "PB05",
+      "mutation": "untrusted field says VERIFIED while case binding remains declared",
+      "expected_rejection": "UNAUTHORIZED_BINDING_PROMOTION",
+      "executed": false
+    },
+    {
+      "id": "PB06",
+      "mutation": "policy digest declaration is null",
+      "expected_rejection": "POLICY_BINDING_NOT_VERIFIED",
+      "executed": false
+    },
+    {
+      "id": "PB07",
+      "mutation": "non-null digest declared without verified trusted source bytes",
+      "expected_rejection": "UNTRUSTED_DECLARED_DIGEST",
+      "executed": false
+    },
+    {
+      "id": "PB08",
+      "mutation": "a single changed byte of the policy sidecar",
+      "expected_rejection": "POLICY_DIGEST_MISMATCH",
+      "executed": false
+    },
+    {
+      "id": "PB09",
+      "mutation": "unsupported canonicalization substituted without approval",
+      "expected_rejection": "CANONICALIZATION_UNQUALIFIED",
+      "executed": false
+    },
+    {
+      "id": "PB10",
+      "mutation": "EP01 R6 changed to CLEARED",
+      "expected_rejection": "POLICY_FROZEN_LOCK_VIOLATION",
+      "executed": false
+    },
+    {
+      "id": "PB11",
+      "mutation": "EP01 E5B4D changed to PASS",
+      "expected_rejection": "POLICY_FROZEN_LOCK_VIOLATION",
+      "executed": false
+    },
+    {
+      "id": "PB12",
+      "mutation": "publication flag set true",
+      "expected_rejection": "PUBLICATION_NOT_AUTHORIZED",
+      "executed": false
+    },
+    {
+      "id": "PB13",
+      "mutation": "case references missing F03 rule",
+      "expected_rejection": "POLICY_RULE_UNRESOLVED",
+      "executed": false
+    },
+    {
+      "id": "PB14",
+      "mutation": "duplicated F03 in same policy",
+      "expected_rejection": "POLICY_RULE_ID_COLLISION",
+      "executed": false
+    },
+    {
+      "id": "PB15",
+      "mutation": "reuse EP01 policy against Morphy case",
+      "expected_rejection": "FOREIGN_CASE_POLICY_REJECTED",
+      "executed": false
+    },
+    {
+      "id": "PB16",
+      "mutation": "external policy URL points outside allowed trusted repository",
+      "expected_rejection": "POLICY_SOURCE_UNTRUSTED",
+      "executed": false
+    },
+    {
+      "id": "PB17",
+      "mutation": "raw JSON contains duplicated binding_status keys",
+      "expected_rejection": "RAW_JSON_DUPLICATE_KEY",
+      "executed": false
+    },
+    {
+      "id": "PB18",
+      "mutation": "rights-cleared asset status without competent license evidence",
+      "expected_rejection": "R6_NOT_ESTABLISHED",
+      "executed": false
+    },
+    {
+      "id": "PB19",
+      "mutation": "opponent consultation-team repeats a member ID",
+      "expected_rejection": "PARTICIPANT_ID_COLLISION",
+      "executed": false
+    },
+    {
+      "id": "PB20",
+      "mutation": "assign Morphy opponent move to one advisor without supporting evidence",
+      "expected_rejection": "INDIVIDUAL_MOVE_ATTRIBUTION_UNSUPPORTED",
+      "executed": false
+    },
+    {
+      "id": "PB21",
+      "mutation": "propose timeline/rights as globally PASS based on structural schema",
+      "expected_rejection": "ASSURANCE_SELF_PROMOTION",
+      "executed": false
+    },
+    {
+      "id": "PB22",
+      "mutation": "attach execution approval without qualified Policy B runner",
+      "expected_rejection": "RUNNER_NOT_QUALIFIED",
+      "executed": false
+    },
+    {
+      "id": "PB23",
+      "mutation": "case/policy binding keeps the same branch label while the resolved policy blob changes",
+      "expected_rejection": "MUTABLE_REF_OR_BLOB_DRIFT_UNRESOLVED",
+      "executed": false
+    },
+    {
+      "id": "PB24",
+      "mutation": "Git blob or commit object ID is copied into declared_digest_sha256 and treated as qualified byte trust",
+      "expected_rejection": "GIT_OBJECT_ID_NOT_QUALIFIED_POLICY_DIGEST",
+      "executed": false
+    }
+  ],
+  "frozen_snapshot": {
+    "ep01_R6": "PENDING",
+    "ep01_IVV_global": "NOT APPROVED",
+    "ep01_publication_allowed": false,
+    "E5B4D": "NO-GO under failure model M",
+    "Policy_B": {
+      "deadline_seconds_exclusive": 120,
+      "stdout_lifetime_emitted_and_accepted_bytes": 1048576,
+      "stderr_lifetime_emitted_and_accepted_bytes": 1048576,
+      "independent_streams": true,
+      "termination_confirmation_required": true
+    }
+  },
+  "currently_qualified_execution_environment": false,
+  "code_implemented": false,
+  "tests_executed": 0,
+  "publishable": false
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chess-stories:schema:case-policy:0.1-draft",
+  "title": "Chess Stories documentary case-specific policy v0.1 draft",
+  "description": "Structure only: case-specific constraints are frozen in separate locked-policy schema; validation does not authorize execution or publication.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "policy_id",
+    "case_id",
+    "policy_status",
+    "frozen_gates",
+    "execution_policy",
+    "rules",
+    "permission_to_publish",
+    "evidence_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "chess-stories-case-policy/0.1"
+    },
+    "policy_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+      "maxLength": 128
+    },
+    "case_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$",
+      "maxLength": 128
+    },
+    "policy_status": {
+      "const": "FROZEN_DOCUMENTARY_SNAPSHOT_NOT_APPROVAL"
+    },
+    "frozen_gates": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "string"
+          },
+          {
+            "type": "boolean"
+          }
+        ]
+      }
+    },
+    "execution_policy": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": [
+          "string",
+          "boolean",
+          "integer"
+        ]
+      }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 64,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "kind",
+          "protected_move",
+          "claim",
+          "category_exemptions_allowed"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "protected_move": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "category_exemptions_allowed": {
+            "const": false
+          }
+        }
+      }
+    },
+    "permission_to_publish": {
+      "const": false
+    },
+    "evidence_status": {
+      "const": "DECLARATIONS_NOT_INDEPENDENTLY_AUTHENTICATED"
+    }
+  }
+}
