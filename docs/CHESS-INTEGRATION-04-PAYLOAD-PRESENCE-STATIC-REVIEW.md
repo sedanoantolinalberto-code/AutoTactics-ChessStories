@@ -55,3 +55,35 @@ This is a **literal case-specific source contract**; changing these declarations
 New **proposed but NOT RUN** mutation specifications: IR-66 rewriting a real-move claim into a forced/optimal assertion without changing its ID; IR-67 introducing a prohibited F03 category exemption; IR-68 falsely authenticating the historical terminal declaration; IR-69 relabeling editorial closure as historical termination. Combined EP01 router catalog: **69 distinct proposed negatives; 0 executed**. This specification count is not test coverage proof.
 
 The Nov/Dec 1956 printed-mate tradition, later reported player-original resignation/mate divergence, and the separated modern 82-ply SAN reference remain historical source issues, not magically resolved by pinned text. The 1956 first-hand 82-row comparison records remain blank pending independent unexposed readers. Independently qualified legality replay has NOT_RUN/UNKNOWN status. E5B4D NO-GO under model M, strict Policy B unchanged (confirmed termination before 120 seconds and independent lifetime stdout/stderr emitted/accepted limits of 1,048,576 each). R6 PENDING, IVV_GLOBAL NOT APPROVED, CASE_APPROVAL NOT APPROVED, render/publish false, no main merge.
+
+
+## CHESS-INTEGRATION-07 — EP01 identity, branch, witness and asset integrity (2026-10-14, SOURCE ONLY)
+
+### Reason for change
+
+The router already pinned case identifier, individual state FEN/ply/branch declarations, event move and truth labels, full claim bodies, policy F03, and both ending declarations. However, **it did not require exact equality of `case.title`, `case.players`, `case.branches`, `case.evidence`, or `case.assets`**. Those fields influence what the source *means* even if each referenced ID remains valid. In particular:
+
+- A source-only change in `players.white.display_name` could relabel the player while keeping the player ID and claim references unchanged. The separately drafted validator checks player identity IDs and references, **not fixed EP01 spelling/name equality**.
+- A source evidence title or explanation could overstate original 1956 authentication while retaining the exact evidence ID referenced by the case's immutable claim declarations.
+- An asset use's purpose could be rewritten to imply publication without changing its asset ID or the string `clearance_status`. This does **not** legally grant any rights, but unpinned declarations should not appear to be the unchanged EP01 source candidate.
+
+These are **static code-review findings about the router interface**; no hypothetical mutated document has been submitted to a qualified schema/semantic validator or project runtime. Do not present them as observed or exploitable production execution failures.
+
+### Source-only remediation
+
+Pinned `case.title` by exact string and the following EP01 draft fixture sections by structural JSON comparison:
+
+1. `players` — names, IDs, colors-by-map-key and declared supporting evidence.
+2. `branches` — real/hypothetical hierarchy, anchor declarations, and supporting evidence refs.
+3. `evidence` — the complete four source candidate records, each record's claims, verification limits, source identifiers and metadata.
+4. `assets` — the one documentary position-data asset and its clearance/use declarations.
+
+These are source-to-source **fixture integrity pins only**. They do not establish external provenance, independent historical witnesses, qualified byte hashes, asset originality or commercial license, and do not replace external schema/runtime validation. Future legitimate fixture revisions require a deliberate, independently reviewed rebase/re-pin, not a silent follower of mutable branch refs.
+
+Five **proposed NOT RUN** negatives added: IR-70 altered title, IR-71 swapped white display name, IR-72 missing hypothetical evidence reference, IR-73 falsely relabeled evidence source title, IR-74 falsely repurposed asset for commercial publication. Current router catalogue: **74 proposed distinct mutation specs, 0 executed**.
+
+### Static boundary review
+
+The `sameDeclaredJson` source comparator has a bound of 1024 visited item pairs. An authoring-time inspection of the original fixture's four pinned sections counted **11 / 18 / 119 / 29 nested JSON values** respectively (players / branches / evidence / assets), safely below that bound **as source structure**, not as observed runtime behavior. This does not make the comparator a raw-byte validator, tamper-resistant hash verifier or universally safe JSON parser.
+
+Frozen E5B4D **NO-GO under failure model M**; strict Policy B and independent lifetime emitted-and-accepted stdout/stderr limits unchanged. No project code/tests/engine/Actions/render ran; R6 PENDING; IVV_GLOBAL / case NOT APPROVED; publishing false; `main` not merged.
