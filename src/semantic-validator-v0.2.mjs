@@ -70,7 +70,7 @@ function fenParse(fen) {
   const ranks = placement.split("/");
   if (ranks.length !== 8) return null;
   const board = Object.create(null);
-  let whiteK = 0, blackK = 0;
+  let whiteK = 0, blackK = 0, whitePieces = 0, blackPieces = 0;
   for (let rank = 8; rank >= 1; rank--) {
     const row = ranks[8 - rank];
     let file = 0, digitBefore = false;
@@ -86,11 +86,16 @@ function fenParse(fen) {
         digitBefore = false;
         if (ch === "K") whiteK++;
         if (ch === "k") blackK++;
+        if (ch === ch.toUpperCase()) whitePieces++;
+        else blackPieces++;
+        if ((rank === 1 || rank === 8) && ch.toUpperCase() === "P")
+          return null;
       } else return null;
     }
     if (file !== 8) return null;
   }
-  if (whiteK !== 1 || blackK !== 1) return null;
+  if (whiteK !== 1 || blackK !== 1 || whitePieces > 16 || blackPieces > 16)
+    return null;
   return { board, turn, castle, ep, half, full };
 }
 
@@ -354,6 +359,10 @@ export function validateSemanticCase(document) {
       fail("MOVE_PLY_MISMATCH","timeline."+e.id); return;
     }
     if (!str(m.san)) { fail("SAN_MISSING","timeline."+e.id); return; }
+    if (m.from === m.to) {
+      fail("MOVE_NOOP_SQUARE", "timeline."+e.id);
+      return;
+    }
     if (before.ply+1 !== after.ply) fail("MOVE_PLY_MISMATCH","timeline."+e.id);
     // A declared state label must agree with the current move and absolute ply.
     // This is SAN *label correspondence*, not SAN legality or historical proof.
