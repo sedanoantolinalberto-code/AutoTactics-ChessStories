@@ -285,6 +285,29 @@ const PINNED_EVENT_DECLARATIONS = Object.freeze([
 const isRecord = x => x!==null && typeof x==="object" && !Array.isArray(x);
 const plainText = x => typeof x==="string" && x.length>0 && x.length<=4096;
 const own = (o,k) => Object.prototype.hasOwnProperty.call(o,k);
+/**
+ * Bounded structural equality for plain prevalidated JSON. Unlike stringify,
+ * object member order cannot make an otherwise identical move declaration
+ * appear different. This is still NOT a hostile-input or raw-byte validator.
+ */
+function sameDeclaredJson(left,right) {
+  const pending=[[left,right]];
+  let visited=0;
+  while(pending.length) {
+    if(++visited>1024) return false;
+    const [a,b]=pending.pop();
+    if(a===b) continue;
+    if(Array.isArray(a)&&Array.isArray(b)) {
+      if(a.length!==b.length) return false;
+      for(let j=0;j<a.length;j++) pending.push([a[j],b[j]]);
+    } else if(isRecord(a)&&isRecord(b)) {
+      const ak=Object.keys(a).sort(),bk=Object.keys(b).sort();
+      if(ak.length!==bk.length||ak.some((key,j)=>key!==bk[j])) return false;
+      for(const key of ak) pending.push([a[key],b[key]]);
+    } else return false;
+  }
+  return true;
+}
 
 /**
  * @param {object} caseV02 - independently validated v0.2 EP01 documentary case
@@ -373,8 +396,8 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     }
     // This EP01-only guard compares exact documentary move and gap declarations,
     // not independent move legality, historical source bytes or PGN authenticity.
-    if(JSON.stringify(event.move??null)!==JSON.stringify(pinned.move) ||
-       JSON.stringify(event.omitted_plies??null)!==JSON.stringify(pinned.omitted_plies))
+    if(!sameDeclaredJson(event.move??null,pinned.move) ||
+       !sameDeclaredJson(event.omitted_plies??null,pinned.omitted_plies))
       fault("EP01_MOVE_OR_GAP_DECLARATION_CHANGED",p);
     if(!own(KIND,event.kind)) {
       fault("UNKNOWN_EVENT_KIND",p);continue;
