@@ -286,7 +286,7 @@ export function validateSemanticCase(document) {
     if (m.special_move !== "NONE") {
       fail("SPECIAL_MOVE_NOT_QUALIFIED","timeline."+e.id); return;
     }
-    if (!SQ.test(String(m.from)) || !SQ.test(String(m.to)) ||
+    if (!(str(m.from) && SQ.test(m.from)) || !(str(m.to) && SQ.test(m.to)) ||
         !(typeof m.moving_piece === "string" && m.moving_piece.length === 1 && PIECES.includes(m.moving_piece)) || !COLORS.has(m.moving_color)) {
       fail("MOVE_FIELDS_INVALID","timeline."+e.id); return;
     }
@@ -297,7 +297,7 @@ export function validateSemanticCase(document) {
         z.turn !== (a.turn==="w"?"b":"w")) fail("MOVE_TURN","timeline."+e.id);
     const capture = own(m,"capture");
     if (capture) {
-      if (!obj(m.capture) || !SQ.test(String(m.capture.capture_square)) ||
+      if (!obj(m.capture) || !(str(m.capture.capture_square) && SQ.test(m.capture.capture_square)) ||
           m.capture.capture_square !== m.to ||
           !(typeof m.capture.captured_piece === "string" && m.capture.captured_piece.length === 1 && PIECES.includes(m.capture.captured_piece)) ||
           m.capture.captured_piece === "K" ||
