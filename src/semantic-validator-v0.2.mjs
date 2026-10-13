@@ -188,15 +188,22 @@ export function validateSemanticCase(document) {
     if (!obj(e.verification)) fail("EVIDENCE_VERIFICATION_MISSING", "evidence."+e.id);
     else {
       refs(e.verification.verification_record_refs, evidence, "evidence."+e.id+".verification_record_refs");
-      if (e.verification.original_historical_authentication === "REVIEW_REPORTED_NOT_ESTABLISHED_BY_SCHEMA" &&
-          !arr(e.verification.verification_record_refs).length)
+      const support = arr(e.verification.verification_record_refs);
+      const declaredHigh = ["INDEPENDENT_TECHNICAL_REVIEW_REPORTED",
+        "QUALIFIED_ORACLE_REVIEW_REPORTED"].includes(e.verification.declared_level);
+      if ((declaredHigh || e.verification.original_historical_authentication ===
+          "REVIEW_REPORTED_NOT_ESTABLISHED_BY_SCHEMA") && !support.length)
         fail("UNSUPPORTED_VERIFICATION_PROMOTION", "evidence."+e.id);
+      if (support.includes(e.id))
+        fail("EVIDENCE_SELF_QUALIFICATION", "evidence."+e.id);
     }
     if (e.declared_hash && obj(e.declared_hash)) {
       refs(e.declared_hash.check_evidence_refs, evidence, "evidence."+e.id+".hash");
       if (e.declared_hash.check_status === "BYTE_MATCH_REPORTED" &&
           !arr(e.declared_hash.check_evidence_refs).length)
         fail("UNSUPPORTED_BYTE_MATCH_PROMOTION", "evidence."+e.id);
+      if (arr(e.declared_hash.check_evidence_refs).includes(e.id))
+        fail("HASH_SELF_QUALIFICATION", "evidence."+e.id);
     }
   }
   if (obj(document.players)) {
@@ -268,6 +275,9 @@ export function validateSemanticCase(document) {
     }
     refs(a.provenance.evidence_refs,evidence,"assets."+a.id+".provenance");
     refs(a.license.evidence_refs,evidence,"assets."+a.id+".license");
+    if (a.provenance.status === "REVIEW_REPORTED" &&
+        !arr(a.provenance.evidence_refs).length)
+      fail("ASSET_PROVENANCE_SELF_PROMOTION","assets."+a.id);
     if (str(a.provenance.source_identity) && !sourceIDs.has(a.provenance.source_identity))
       fail("ASSET_SOURCE_UNRESOLVED","assets."+a.id);
     if (!Array.isArray(a.uses) || !a.uses.length) fail("ASSET_USES_MISSING","assets."+a.id);
@@ -347,6 +357,10 @@ export function validateSemanticCase(document) {
     refs(e.evidence_refs,evidence,at+".evidence_refs");
     refs(e.claim_refs,claim,at+".claim_refs");
     refs(e.asset_refs,asset,at+".asset_refs");
+    if (document.case_id === "ED-CASE-REAL-01" && str(e.disclosure) &&
+        /24\s*\.{3}\s*Ra4/i.test(e.disclosure) &&
+        /\b(unique|uniquely|only best|únic[ao]|únicamente|la mejor)\b/i.test(e.disclosure))
+      fail("F03_UNSUPPORTED_UNIQUENESS",at+".disclosure");
     if(!KINDS.has(e.kind)){fail("EVENT_KIND_UNSUPPORTED",at);continue;}
     const from=ref(e.from_state,state,at+".from_state",e.kind==="SET_POSITION");
     const to=ref(e.to_state,state,at+".to_state");
