@@ -114,3 +114,10 @@ New proposed negative scenarios bring the integration catalog to **44**, all **N
 The integration routing manifest references the full modern-scholarly **82-ply** Byrne–Fischer game candidate from historical PR #3 by its observed GitHub blob identity and branch, in addition to the 14-ply T10 source candidate. These are separate documentary drafts, **not a merged source-tree or independently authenticated bytes**. Both original November 5, 1956 *Chess Life* and December 1956 *Chess Review* still require an independent full-score visual transcription; an empty 82-row historical comparison template is in PR #3.
 
 All documentary progress remains subordinate to strict Policy B, R6, IVV and the E5B4D NO-GO under failure model M.
+
+
+## CHESS-INTEGRATION-03 static overlay hardening and oracle-source bridge
+
+A fresh static review found that the router previously required a non-empty `rendering_policy` but did not pin its content, and did not fail closed on several truth-bearing overlay fields. The source guard now pins the overlay source binding, unrendered/unmeasured top-level state, release block, mandatory story-truth record, event index, mandatory-label flag, atomic-return flag, displayed SAN, T10 omission language, exact rendering policy, null timing fields, `visual_comprehension_test=NOT_RUN` and `historical_authentication=NOT_VERIFIED`.
+
+The new `integration/EP01-ORACLE-SOURCE-BRIDGE.v0.1.json` links the existing L06 gap-replay interface to the separate 14-ply T10 source candidate and the 82-ply Winter secondary candidate. A connected-GitHub static field comparison observed **14/14 documentary matches** for `ply`, `move_number`, `side` and `san` across plies 36–49. This was not project-code execution, a rules replay, primary-source authentication, source-byte qualification or an IVV result. Oracle outcome therefore remains `NOT_RUN`, legality remains `UNKNOWN`, derived target FEN remains null and no gate is promoted.
