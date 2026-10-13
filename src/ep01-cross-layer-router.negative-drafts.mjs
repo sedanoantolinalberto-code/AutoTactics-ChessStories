@@ -122,6 +122,14 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{o.policy_disclosure_attribution="Original 1956 history authenticated";}},
   {id:"IR-57",description:"Overlay source Git blob identity drifts while branch label remains unchanged",expected:"OVERLAY_SOURCE_BINDING_CHANGED",
    mutate:(c,o)=>{o.source_document_git_blob_sha_observed="0000000000000000000000000000000000000000";}},
+  {id:"IR-58",description:"Required REAL_MOVE move key absent despite a declared destination",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{delete event(c,"T02").move;}},
+  {id:"IR-59",description:"Required ELLIPSIS omitted_plies key absent",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{delete event(c,"T10").omitted_plies;}},
+  {id:"IR-60",description:"Non-move event covertly supplies a null move key forbidden by v0.2 schema",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{event(c,"T04").move=null;}},
+  {id:"IR-61",description:"Non-ellipsis event covertly supplies a null omission key forbidden by v0.2 schema",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{event(c,"T02").omitted_plies=null;}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
