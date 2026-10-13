@@ -167,6 +167,15 @@ export const NEGATIVE_MUTATIONS = [
   { name: "Unqualified historical technical verification has no evidence records",
     code: "UNSUPPORTED_VERIFICATION_PROMOTION",
     mutate: v => { evidence(v,"EVID-R2-RESULTS").verification.declared_level="QUALIFIED_ORACLE_REVIEW_REPORTED"; } },
+  { name: "Two evidence records cannot share a source ID with contradictory identity metadata",
+    code: "SOURCE_ID_CONFLICT",
+    mutate: v => { evidence(v,"EVID-R2-RESULTS").source.source_id="SOURCE-SUPPLIED-V01-CASE"; } },
+  { name: "Mutually dependent evidence reviews form a circular qualification",
+    code: "EVIDENCE_CIRCULAR_VERIFICATION",
+    mutate: v => {
+      evidence(v,"EVID-LEDGER-R2").verification.verification_record_refs=["EVID-R2-RESULTS"];
+      evidence(v,"EVID-R2-RESULTS").verification.verification_record_refs=["EVID-LEDGER-R2"];
+    } },
   { name: "Evidence must not independently qualify itself",
     code: "EVIDENCE_SELF_QUALIFICATION",
     mutate: v => { evidence(v,"EVID-LEDGER-R2").verification.verification_record_refs=["EVID-LEDGER-R2"]; } },
