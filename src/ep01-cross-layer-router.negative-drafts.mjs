@@ -72,6 +72,14 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{c.execution_policy.termination_requirement="TIMEOUT_ONLY";}},
   {id:"IR-32",description:"Technical pre-capture ply changed without explicit case version",expected:"EP01_PINNED_STATE_CHANGED",
    mutate:(c,o)=>{state(c,"V-PRE-EV2").ply=48;}},
+  {id:"IR-33",description:"T02 played move SAN silently changed while source and target boards remain fixed",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{event(c,"T02").move.san="Qd8";}},
+  {id:"IR-34",description:"T11 rook capture victim covertly replaced by a bishop",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{event(c,"T11").move.capture.captured_piece="B";}},
+  {id:"IR-35",description:"T09 real continuation silently moved to alternative branch with matching overlay change",expected:"EP01_TRANSITION_CHANGED",
+   mutate:(c,o)=>{event(c,"T09").to_branch_id="ALT_QD8";overlay(o,"T09").to_branch_id="ALT_QD8";}},
+  {id:"IR-36",description:"T10 omitted plies semantics text silently changed",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
+   mutate:(c,o)=>{event(c,"T10").omitted_plies.semantics="NOT_REAL_MOVES";}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
