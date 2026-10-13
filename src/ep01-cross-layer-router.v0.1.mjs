@@ -111,6 +111,177 @@ const PINNED_EVENT_KINDS = Object.freeze([
   "REAL_MOVE",
   "SEQUENCE_END"
 ]);
+const PINNED_EVENT_DECLARATIONS = Object.freeze([
+  {
+    "kind": "SET_POSITION",
+    "from_branch_id": null,
+    "to_branch_id": "MAIN",
+    "from_state": null,
+    "to_state": "V-P1",
+    "move": null,
+    "omitted_plies": null
+  },
+  {
+    "kind": "REAL_MOVE",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-P1",
+    "to_state": "V-EV1",
+    "move": {
+      "san": "Be6",
+      "from": "g4",
+      "to": "e6",
+      "moving_piece": "B",
+      "moving_color": "black",
+      "special_move": "NONE"
+    },
+    "omitted_plies": null
+  },
+  {
+    "kind": "REAL_MOVE",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-EV1",
+    "to_state": "V-REAL",
+    "move": {
+      "san": "Bxb6",
+      "from": "c5",
+      "to": "b6",
+      "moving_piece": "B",
+      "moving_color": "white",
+      "special_move": "NONE",
+      "capture": {
+        "captured_piece": "Q",
+        "captured_color": "black",
+        "capture_square": "b6"
+      }
+    },
+    "omitted_plies": null
+  },
+  {
+    "kind": "REWIND",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-REAL",
+    "to_state": "V-P1",
+    "move": null,
+    "omitted_plies": null
+  },
+  {
+    "kind": "ENTER_HYPOTHETICAL",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "ALT_QD8",
+    "from_state": "V-P1",
+    "to_state": "V-P1",
+    "move": null,
+    "omitted_plies": null
+  },
+  {
+    "kind": "HYPOTHETICAL_MOVE",
+    "from_branch_id": "ALT_QD8",
+    "to_branch_id": "ALT_QD8",
+    "from_state": "V-P1",
+    "to_state": "V-HYP",
+    "move": {
+      "san": "Qd8",
+      "from": "b6",
+      "to": "d8",
+      "moving_piece": "Q",
+      "moving_color": "black",
+      "special_move": "NONE"
+    },
+    "omitted_plies": null
+  },
+  {
+    "kind": "RETURN_TO_REAL",
+    "from_branch_id": "ALT_QD8",
+    "to_branch_id": "MAIN",
+    "from_state": "V-HYP",
+    "to_state": "V-P1",
+    "move": null,
+    "omitted_plies": null
+  },
+  {
+    "kind": "REAL_MOVE",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-P1",
+    "to_state": "V-EV1",
+    "move": {
+      "san": "Be6",
+      "from": "g4",
+      "to": "e6",
+      "moving_piece": "B",
+      "moving_color": "black",
+      "special_move": "NONE"
+    },
+    "omitted_plies": null
+  },
+  {
+    "kind": "REAL_MOVE",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-EV1",
+    "to_state": "V-REAL",
+    "move": {
+      "san": "Bxb6",
+      "from": "c5",
+      "to": "b6",
+      "moving_piece": "B",
+      "moving_color": "white",
+      "special_move": "NONE",
+      "capture": {
+        "captured_piece": "Q",
+        "captured_color": "black",
+        "capture_square": "b6"
+      }
+    },
+    "omitted_plies": null
+  },
+  {
+    "kind": "ELLIPSIS",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-REAL",
+    "to_state": "V-PRE-EV2",
+    "move": null,
+    "omitted_plies": {
+      "first": 36,
+      "last": 49,
+      "semantics": "INCLUSIVE_MOVES_NOT_SHOWN"
+    }
+  },
+  {
+    "kind": "REAL_MOVE",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-PRE-EV2",
+    "to_state": "V-EV2",
+    "move": {
+      "san": "Nxd1",
+      "from": "c3",
+      "to": "d1",
+      "moving_piece": "N",
+      "moving_color": "black",
+      "special_move": "NONE",
+      "capture": {
+        "captured_piece": "R",
+        "captured_color": "white",
+        "capture_square": "d1"
+      }
+    },
+    "omitted_plies": null
+  },
+  {
+    "kind": "SEQUENCE_END",
+    "from_branch_id": "MAIN",
+    "to_branch_id": "MAIN",
+    "from_state": "V-EV2",
+    "to_state": "V-EV2",
+    "move": null,
+    "omitted_plies": null
+  }
+]);
 const isRecord = x => x!==null && typeof x==="object" && !Array.isArray(x);
 const plainText = x => typeof x==="string" && x.length>0 && x.length<=4096;
 const own = (o,k) => Object.prototype.hasOwnProperty.call(o,k);
@@ -196,6 +367,15 @@ export function proposeEp01Routing(caseV02, overlayV01) {
       fault("EVENT_ORDER_KIND_MISMATCH",p);
     if(event.kind!==PINNED_EVENT_KINDS[i])
       fault("EP01_EVENT_FACTUALITY_CHANGED",p);
+    const pinned=PINNED_EVENT_DECLARATIONS[i];
+    for(const key of ["from_branch_id","to_branch_id","from_state","to_state"]){
+      if(event[key]!==pinned[key]) fault("EP01_TRANSITION_CHANGED",p+"."+key);
+    }
+    // This EP01-only guard compares exact documentary move and gap declarations,
+    // not independent move legality, historical source bytes or PGN authenticity.
+    if(JSON.stringify(event.move??null)!==JSON.stringify(pinned.move) ||
+       JSON.stringify(event.omitted_plies??null)!==JSON.stringify(pinned.omitted_plies))
+      fault("EP01_MOVE_OR_GAP_DECLARATION_CHANGED",p);
     if(!own(KIND,event.kind)) {
       fault("UNKNOWN_EVENT_KIND",p);continue;
     }
