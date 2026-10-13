@@ -131,6 +131,21 @@ export const NEGATIVE_MUTATIONS = [
   { name: "Per-asset clearance falsely promoted without evidence",
     code: "UNSUPPORTED_RIGHTS_PROMOTION",
     mutate: v => { asset(v,"ASSET-SUPPLIED-POSITION-DATA").uses[0].clearance_status="CLEARANCE_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"; } },
+  { name: "v0.2 EP01 policy cannot silently be reused for an unrelated case",
+    code: "V02_CASE_POLICY_SCOPE_UNSUPPORTED",
+    mutate: v => { v.case_id="ED-CASE-REAL-02"; } },
+  { name: "Changing case ID cannot bypass the frozen R6 gate",
+    code: "FROZEN_GATE_CHANGE",
+    mutate: v => { v.case_id="ED-CASE-REAL-02"; v.frozen_gates.R6="CLEARED"; } },
+  { name: "Same declared source bytes cannot have two contradictory SHA-256 digests",
+    code: "SOURCE_BYTE_DIGEST_CONFLICT",
+    mutate: v => {
+      const original=evidence(v,"EVID-R2-PGN-DECLARATION");
+      const duplicate=clone(original);
+      duplicate.id="EVID-R2-PGN-ALTERNATE";
+      duplicate.declared_hash.digest="0000000000000000000000000000000000000000000000000000000000000000";
+      v.evidence.push(duplicate);
+    } },
   { name: "R6 falsely changed from PENDING to CLEARED",
     code: "FROZEN_GATE_CHANGE",
     mutate: v => { v.frozen_gates.R6="CLEARED"; } },
