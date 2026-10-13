@@ -102,3 +102,14 @@ Additional documentary negative scenarios (not executed):
 - P15: Assign a specific 13...Rxd7 decision to an individual consultative member without evidence; claim admissibility review must reject unsupported attribution.
 
 This extension changes **only** the new v0.3 candidate schema, not the EP01 v0.2 schema, its original case data, the frozen sidecar, or any gate.
+
+
+## CHESS-CODEX-09 policy binder review protocol — static extension
+
+\`policies/POLICY_BINDING_V03_REVIEW_SPEC.json\` now provides a **documentary proposal** for an eight-stage fail-closed policy-binding pipeline with **22 additional negative test cases**, all UNEXECUTED.
+
+The separate v0.3 source-text inspection identified **43 reusable \`$defs\` declarations** and **161 \`$ref\` references to \`#/$defs/...\`**, with **zero unresolved definition names**, and confirmed the exact EP01 case-policy literal lock matches the preserved policy JSON. The inspection did **not** execute an approved Draft 2020-12 validator or prove cross-file trust.
+
+Do not confuse the 15 RFC negative scenario ideas above with the 22 dedicated binder scenarios: they have distinct scopes and are proposed documentary checks, NOT PASS counts. An independently qualified trusted-byte source, immutable lock, duplicate-key-safe decoder, source-chained digest and cross-file policy resolver are mandatory before representing the binding as authenticated.
+
+The policy digest in the v0.3 case proposal remains \`null\` and \`binding_status\` remains \`DECLARED_NOT_VERIFIED\`. No R6/IVV or E5B4D status changes follow from this draft.
