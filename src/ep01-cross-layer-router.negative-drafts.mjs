@@ -138,6 +138,14 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{event(c,"T07").return_anchor_state_id="V-HYP";}},
   {id:"IR-65",description:"REAL_MOVE smuggles prohibited extra return anchor key",expected:"EP01_EVENT_ANCHOR_CHANGED",
    mutate:(c,o)=>{event(c,"T08").return_anchor_state_id="V-P1";}},
+  {id:"IR-66",description:"Case claim rewritten to imply unique forced 24...Ra4 despite F03, evading simple text cue",expected:"EP01_CASE_CLAIMS_CHANGED",
+   mutate:(c,o)=>{c.claims.find(x=>x.id==="CLAIM-REAL-MOVES").text="24...Ra4 was the forced and exclusively optimal real continuation.";}},
+  {id:"IR-67",description:"F03 case policy silently permits category exemptions",expected:"EP01_F03_ADMISSIBILITY_CHANGED",
+   mutate:(c,o)=>{c.claim_admissibility.f03.category_exemption_allowed=true;}},
+  {id:"IR-68",description:"Historical terminal declaration falsely promotes original authenticity",expected:"EP01_HISTORICAL_END_CHANGED",
+   mutate:(c,o)=>{c.historical_game_end.original_historical_authentication="VERIFIED";}},
+  {id:"IR-69",description:"Editorial-only sequence closure silently rewritten as a real game ending",expected:"EP01_EDITORIAL_END_DECLARATION_CHANGED",
+   mutate:(c,o)=>{c.sequence_end.closure="HISTORICAL_GAME_TERMINATION";}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
