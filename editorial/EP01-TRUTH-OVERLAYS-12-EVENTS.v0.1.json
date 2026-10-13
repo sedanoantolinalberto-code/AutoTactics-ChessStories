@@ -349,5 +349,9 @@
     "permit": false,
     "R6": "PENDING",
     "IVV_GLOBAL": "NOT APPROVED"
-  }
+  },
+  "source_document_ref_kind": "BRANCH_LABEL_NOT_IMMUTABLE",
+  "source_document_head_commit_sha_observed": "8e3da6639060a1605947bfc3aedd4113ab0068a1",
+  "source_document_git_blob_sha_observed": "3514f19ac355763a5b4c61d5c573df090b0eccc1",
+  "source_identity_qualification": "GIT_REPOSITORY_IDENTITY_ONLY_NOT_RAW_SHA256_BYTE_TRUST"
 }
