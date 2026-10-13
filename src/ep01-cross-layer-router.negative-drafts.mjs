@@ -130,6 +130,14 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{event(c,"T04").move=null;}},
   {id:"IR-61",description:"Non-ellipsis event covertly supplies a null omission key forbidden by v0.2 schema",expected:"EP01_MOVE_OR_GAP_DECLARATION_CHANGED",
    mutate:(c,o)=>{event(c,"T02").omitted_plies=null;}},
+  {id:"IR-62",description:"T05 shared anchor silently replaced by another existing real state",expected:"EP01_EVENT_ANCHOR_CHANGED",
+   mutate:(c,o)=>{event(c,"T05").shared_anchor_state_id="V-EV1";}},
+  {id:"IR-63",description:"T05 return anchor absent despite ENTER_HYPOTHETICAL schema requirement",expected:"EP01_EVENT_ANCHOR_CHANGED",
+   mutate:(c,o)=>{delete event(c,"T05").return_anchor_state_id;}},
+  {id:"IR-64",description:"T07 return anchor replaced with hypothetical branch state",expected:"EP01_EVENT_ANCHOR_CHANGED",
+   mutate:(c,o)=>{event(c,"T07").return_anchor_state_id="V-HYP";}},
+  {id:"IR-65",description:"REAL_MOVE smuggles prohibited extra return anchor key",expected:"EP01_EVENT_ANCHOR_CHANGED",
+   mutate:(c,o)=>{event(c,"T08").return_anchor_state_id="V-P1";}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
