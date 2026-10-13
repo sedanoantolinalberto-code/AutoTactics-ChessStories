@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "urn:chess-stories:schema:semantic-case:0.3-draft",
   "title": "Chess Stories general documentary semantic case v0.3 — architecture candidate",
-  "description": "Unapproved DRAFT. Generic structural case contract; F03/IVV/E5B4D frozen gates are carried via a separate case-policy manifest. Structural validation alone cannot verify the policy binding, rights, original score, chess legality, or executor.",
+  "description": "Unapproved DRAFT. Generic structural case contract; F03/IVV/E5B4D frozen gates are carried via a separate case-policy manifest. Structural validation alone cannot verify the policy binding, rights, original score, chess legality, or executor. Participant sides may be individual people or consultation teams; who chose any move remains a separately authenticated claim.",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -214,10 +214,10 @@
       ],
       "properties": {
         "white": {
-          "$ref": "#/$defs/player"
+          "$ref": "#/$defs/sideParticipant"
         },
         "black": {
-          "$ref": "#/$defs/player"
+          "$ref": "#/$defs/sideParticipant"
         }
       }
     },
@@ -1657,6 +1657,52 @@
           "const": "DECLARED_NOT_VERIFIED"
         }
       }
+    },
+    "consultationTeam": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "display_name",
+        "group_kind",
+        "members",
+        "evidence_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "display_name": {
+          "$ref": "#/$defs/shortText"
+        },
+        "group_kind": {
+          "const": "CONSULTATION_TEAM"
+        },
+        "members": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 16,
+          "items": {
+            "$ref": "#/$defs/player"
+          },
+          "description": "Distinct human member identities by ID; repeated member IDs and cross-side collisions require semantic validation."
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      },
+      "description": "A historically documented consultation side. Does not attribute individual moves to a named member without separate evidence."
+    },
+    "sideParticipant": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/player"
+        },
+        {
+          "$ref": "#/$defs/consultationTeam"
+        }
+      ],
+      "description": "Individual player or separately identified consulting team."
     }
   }
 }
