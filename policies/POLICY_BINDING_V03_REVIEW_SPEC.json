@@ -60,7 +60,9 @@
     "Policy hash is determined from raw bytes and trusted identity, not from an arbitrary JSON field; canonical JSON normalization requires a separately fixed algorithm and cannot be silently assumed.",
     "Policy references and asset/evidence IDs are typed registries; identical spelling across different namespaces is not a cross-record validation success.",
     "Historic opponent side may be a consultation team; a team move cannot be assigned to an individual member absent independently supported evidence.",
-    "No Policy B qualification may be inferred from a process timeout, source input-size checks, short output, streaming log truncation, repository protection or passing JSON validation."
+    "No Policy B qualification may be inferred from a process timeout, source input-size checks, short output, streaming log truncation, repository protection or passing JSON validation.",
+    "A branch or tag name is a mutable locator, not an immutable policy identity; any review claim tied only to a named ref must remain unverified until an immutable repository object identity is captured and checked.",
+    "A Git commit or blob object ID may serve as repository provenance, but MUST NOT be substituted for the separately specified qualified raw-byte SHA-256 policy digest."
   ],
   "proposed_negative_cases": [
     {
@@ -193,6 +195,18 @@
       "id": "PB22",
       "mutation": "attach execution approval without qualified Policy B runner",
       "expected_rejection": "RUNNER_NOT_QUALIFIED",
+      "executed": false
+    },
+    {
+      "id": "PB23",
+      "mutation": "case/policy binding keeps the same branch label while the resolved policy blob changes",
+      "expected_rejection": "MUTABLE_REF_OR_BLOB_DRIFT_UNRESOLVED",
+      "executed": false
+    },
+    {
+      "id": "PB24",
+      "mutation": "Git blob or commit object ID is copied into declared_digest_sha256 and treated as qualified byte trust",
+      "expected_rejection": "GIT_OBJECT_ID_NOT_QUALIFIED_POLICY_DIGEST",
       "executed": false
     }
   ],
