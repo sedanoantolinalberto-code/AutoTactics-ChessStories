@@ -1,7 +1,7 @@
 {
   "artifact_version": "chess-stories-editorial-shotplan/0.1",
   "case_id": "ED-CASE-REAL-01",
-  "status": "DRAFT_NOT_RENDERED",
+  "status": "DRAFT_NOT_RENDERED_TRUTH_OVERLAY_HARDENED",
   "project": "Chess Stories",
   "language": "es",
   "target": {
@@ -17,9 +17,11 @@
   "timing_semantics": "EDITORIAL_DESIGN_TARGET_NOT_TIMING_MEASURED",
   "required_disclosures": {
     "real": "PARTIDA REAL",
-    "hypothetical": "HIPOTÉTICA / NO JUGADA",
+    "rewind": "REBOBINADO · PARTIDA REAL",
+    "hypothetical": "HIPOTÉTICA · NO JUGADA",
     "return": "REGRESO A LA PARTIDA REAL",
-    "ellipsis": "SE OMITEN JUGADAS REALES"
+    "ellipsis": "SE OMITEN JUGADAS REALES",
+    "editorial_close": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA"
   },
   "assets_status": "VISUALS_MUSIC_FONTS_VOICES_RIGHTS_UNCLEARED",
   "story_end_is_game_end": false,
@@ -109,7 +111,7 @@
       "id": "S06",
       "start_ms": 29000,
       "end_ms": 34000,
-      "label": "HIPOTÉTICA / NO JUGADA",
+      "label": "MULTI_PHASE_EVENT_TRUTH",
       "state": "V-HYP",
       "events": [
         "T04",
@@ -119,14 +121,31 @@
       "purpose": "Illustrate a clearly unplayed Qd8 alternative",
       "narration_es": "¿Y si hubiera jugado 17...Qd8? Es una alternativa no jugada.",
       "caption_es": "HIPOTÉTICA · NO JUGADA · 17...Qd8",
-      "visual": "Explicit rewind to V-P1; switch banner BEFORE moving queen b6→d8; maintain label throughout.",
-      "risk": "Five-second rewind/branch/move segment has HIGH perceptual risk. No human test performed."
+      "visual": "First show explicit rewind to exact V-P1 with `REBOBINADO · PARTIDA REAL`; only after rewind completion switch to `HIPOTÉTICA · NO JUGADA`, then animate queen b6→d8 while that warning remains persistent.",
+      "risk": "Five-second rewind/branch/move segment has HIGH perceptual risk. No human test performed.",
+      "event_truth_sequence": [
+        {
+          "event_id": "T04",
+          "display_label": "REBOBINADO · PARTIDA REAL",
+          "release_condition": "Rewind completes at exact V-P1 on MAIN."
+        },
+        {
+          "event_id": "T05",
+          "display_label": "HIPOTÉTICA · NO JUGADA",
+          "release_condition": "Do not release during hypothetical branch."
+        },
+        {
+          "event_id": "T06",
+          "display_label": "HIPOTÉTICA · NO JUGADA",
+          "release_condition": "Persist for every frame of unplayed 17...Qd8."
+        }
+      ]
     },
     {
       "id": "S07",
       "start_ms": 34000,
       "end_ms": 36000,
-      "label": "PARTIDA REAL",
+      "label": "REGRESO A LA PARTIDA REAL",
       "state": "V-P1",
       "events": [
         "T07"
@@ -135,13 +154,20 @@
       "narration_es": "Volvemos a la partida real.",
       "caption_es": "REGRESO A LA PARTIDA REAL",
       "visual": "Restore exact V-P1 board; remove hypothetical banner only after board restoration.",
-      "risk": "Two-second return may be too short for novice viewers."
+      "risk": "Two-second return may be too short for novice viewers.",
+      "event_truth_sequence": [
+        {
+          "event_id": "T07",
+          "display_label": "REGRESO A LA PARTIDA REAL",
+          "release_condition": "Hypothetical warning may disappear only after exact V-P1 and MAIN context are restored."
+        }
+      ]
     },
     {
       "id": "S08",
       "start_ms": 36000,
       "end_ms": 42000,
-      "label": "PARTIDA REAL",
+      "label": "MULTI_PHASE_EVENT_TRUTH",
       "state": "V-EV2",
       "events": [
         "T08",
@@ -151,27 +177,53 @@
       ],
       "purpose": "Bridge real line and show 25...Nxd1 with visible omission",
       "narration_es": "Más tarde, 25...Nxd1 capturó la torre blanca en d1.",
-      "caption_es": "… se omiten jugadas … · 25...Nxd1",
-      "visual": "Show REAL continuation; explicit ellipsis for plies 36–49; technical state V-PRE-EV2 only as internal input, final visual V-EV2.",
-      "risk": "Four semantic events within six seconds is UNTESTED and likely too dense. Requires longer edit trial."
+      "caption_es": "T08/T09: PARTIDA REAL → T10: SE OMITEN JUGADAS REALES · 14 medias jugadas → T11: PARTIDA REAL · 25...Nxd1",
+      "visual": "Replay T08 and T09 as REAL; then explicitly change overlay to `SE OMITEN JUGADAS REALES` for T10 (plies 36–49 inclusive, 14 half-moves); only after the ellipsis completes return to `PARTIDA REAL` and show 25...Nxd1. V-PRE-EV2 remains technical input, not a silently presented move.",
+      "risk": "Four semantic events within six seconds is UNTESTED and likely too dense. Requires longer edit trial.",
+      "event_truth_sequence": [
+        {
+          "event_id": "T08",
+          "display_label": "PARTIDA REAL"
+        },
+        {
+          "event_id": "T09",
+          "display_label": "PARTIDA REAL"
+        },
+        {
+          "event_id": "T10",
+          "display_label": "SE OMITEN JUGADAS REALES",
+          "mandatory_omission": "14 medias jugadas omitidas · plies 36–49 inclusive"
+        },
+        {
+          "event_id": "T11",
+          "display_label": "PARTIDA REAL"
+        }
+      ]
     },
     {
       "id": "S09",
       "start_ms": 42000,
       "end_ms": 45000,
-      "label": "PARTIDA REAL",
+      "label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
       "state": "V-EV2",
       "events": [
         "T12"
       ],
       "purpose": "Close editorially without confusing 25...Nxd1 with game end",
       "narration_es": "Y la partida siguió: este no fue su final.",
-      "caption_es": "CIERRE DEL VÍDEO · LA PARTIDA CONTINÚA",
+      "caption_es": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
       "visual": "Hold V-EV2, no fake mate scene or publication CTA.",
-      "risk": "Avoid misleading impression that the game ends at ply 50."
+      "risk": "Avoid misleading impression that the game ends at ply 50.",
+      "event_truth_sequence": [
+        {
+          "event_id": "T12",
+          "display_label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA"
+        }
+      ]
     }
   ],
   "open_qa": [
+    "Per-event truth labels are now explicit inside multi-event shots; no renderer may treat a shot-summary label as a substitute for the ordered event overlays.",
     "Verify full structural JSON 05A and semantic validator as separate actions; this shot plan is neither.",
     "IVV-03 novice human perceptual comprehension panel missing.",
     "IVV-05/06/09/10/12 pending; no media use authorization.",
@@ -180,5 +232,11 @@
     "S06 and S07 branch transition comprehension and S08 omission density are priority risk hypotheses."
   ],
   "publication_status": "NOT_APPROVED",
-  "process_execution_authorized": false
+  "process_execution_authorized": false,
+  "overlay_contract_binding": {
+    "artifact": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+    "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+    "status": "CROSS_BRANCH_SOURCE_REFERENCE_NOT_MERGED",
+    "rule": "Every event must display the exact event-level truth label; a multi-event shot may change labels in ordered phases and must not flatten them into one shot-wide label."
+  }
 }
