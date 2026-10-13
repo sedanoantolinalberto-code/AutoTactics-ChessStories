@@ -101,3 +101,14 @@ This plan is not a human study, completed informed consent, cleared third-party 
 The preregistration now explicitly prevents a human-perception result from being misread as historical authentication. Q01/Q02/Q03/Q05/Q07 are keyed to what the EP01 stimulus **presents**, not to an independent claim that the 1956 primary record has been authenticated. The protocol also adds a stimulus-level observation for the T06→T07 warning-release order required by the presentation contract.
 
 No participant, stimulus, score, threshold or IVV state was created by this edit.
+
+
+## 2026-10-14 — Explicit 45 s / 60 s preregistration candidate cross-reference
+
+A **new unrendered 60,000 ms target** has been proposed in PR #4 as `editorial/EP01-60S-COMPREHENSION-ALTERNATIVE.v0.1.json`. The existing 45,000 ms source candidate remains unchanged. Connected GitHub *text inspection* (not a project test or timing validation) found matching concatenated Spanish narration and the same ordered T01–T12 first-occurrence events / exact event label declarations. The 60s plan intentionally assigns longer spans to T04–T07 and T08–T11 but shortens a previous board hold by one second.
+
+**Experimental interpretation constraint:** treating this as a simple one-variable `45 vs 60 seconds` test would be invalid unless the protocol explicitly characterizes the treatment as a **different time-allocation plan**. The candidates alter relative dwell times, not merely total length. Any future inference should be limited to viewer comprehension of these two precisely identified stimuli, with order, device, mute setting, version, exposure and potential learning controlled, and without extrapolating duration causality in general.
+
+The R6 clean-room working branch proposes a **silent-first, captions-only research stimulus**. This reduces prospective voice/music dependencies *only if* a later lawful stimulus really omits both; it does not clear or create boards/fonts/media, grant R6 rights, or authorize reproduction/recruitment. A silent stimulus would allow testing the already mandatory audio-independent factuality labels. To compare silent versus voiced versions in future, treat voice presence as a separate experimental factor with a separate approved design; do not combine it silently with the duration intervention.
+
+No numeric acceptance threshold, participant allocation, randomization outcome, signed consent, actual media, performance score or IVV approval is entered here. Protocol-owner independent approval remains required prior to recruiting, showing lawful stimuli or changing a frozen gate. E5B4D NO-GO under M and strict Policy B unchanged; no code, tests, renders or GitHub Actions performed by this edit.
