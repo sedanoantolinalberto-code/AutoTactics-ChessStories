@@ -48,20 +48,26 @@ Suggested pilot planning target: 12 adult novices + 12 experienced adults, with 
 
 | ID | Question | Evidence-consistent answer | What a wrong answer indicates |
 |---|---|---|---|
-| Q01 | Which black move was played in the real game after 17.Kf1? | 17...Be6 | REAL/HYPOTHETICAL confusion |
-| Q02 | Was the black queen move to d8 shown as a real move? | No; 17...Qd8 was hypothetical, NOT PLAYED | Alternative mistaken for history |
-| Q03 | When the imagined line ended, did the video return to the original real position or continue the imagined position? | Return to the real position V-P1 | Failure of explicit return |
+| Q01 | Which black move did the video present as the **real-line** move after 17.Kf1? | 17...Be6 | REAL/HYPOTHETICAL presentation confusion |
+| Q02 | Did the video label the black queen move to d8 as part of the real line? | No; 17...Qd8 was labelled hypothetical / NO JUGADA | Alternative presentation mistaken for real-line content |
+| Q03 | When the hypothetical line ended, what did the video show next: a return to the saved real position or continuation of the hypothetical board? | Return to the saved real position V-P1 / MAIN | Failure of explicit return |
 | Q04 | What did 18.Bxb6 capture? | The black queen | Piece/board ambiguity |
-| Q05 | Were there real moves between 18.Bxb6 and 25...Nxd1 that the video did not show? | Yes; plies 36–49 were omitted | Omission misinterpreted |
+| Q05 | Did the video explicitly tell you that it skipped moves between 18.Bxb6 and the later 25...Nxd1 segment? | Yes; it displayed `SE OMITEN JUGADAS REALES` for 14 omitted half-moves / plies 36–49 | Omission presentation misinterpreted |
 | Q06 | What was captured by 25...Nxd1? | A white rook on d1 | Piece/capture confusion |
-| Q07 | Did 25...Nxd1 end the historical game? | No; game continued | Editorial ending conflated with historical ending |
+| Q07 | Did the video present 25...Nxd1 as the end of the game, or did it explicitly say the game continues? | It explicitly said the game continues / editorial close only | Editorial ending conflated with presented game continuation |
 
 For novices unable to interpret move notation, ask a plain-language paraphrase of each question without supplying the move's answer. Use the same paraphrase for every participant; do not silently vary scripts between candidates.
+
+## Factuality boundary for scoring
+
+Question scoring measures **stimulus comprehension only**. A participant cannot establish that a move was historically played, that a source score is authentic, or that a chess move is legal. Keyed answers refer to the current EP01 documentary/source-candidate contract and exact display overlays. Historical authentication and rules-oracle outcomes remain separate evidence layers.
+
+The assessor must also record one technical presentation observation for the T06→T07 transition: whether `HIPOTÉTICA · NO JUGADA` remained visible until the exact V-P1 / MAIN restoration was complete, and whether `REGRESO A LA PARTIDA REAL` appeared for T07. This is an observation of the stimulus bytes, not a substitute for viewer comprehension.
 
 ## Secondary perception and accessibility measures
 
 - Ask to identify black and white piece types on actual device with no explanatory pointer or external legend. Record per-square error without guessing missing data.
-- Ask when the real/hypothetical context changed and whether the labeling was readable without narration.
+- Ask when the real/hypothetical context changed and whether the exact labels `REBOBINADO · PARTIDA REAL`, `HIPOTÉTICA · NO JUGADA`, `REGRESO A LA PARTIDA REAL`, `SE OMITEN JUGADAS REALES` and `CIERRE EDITORIAL · LA PARTIDA CONTINÚA` were readable without narration.
 - Assess muted comprehension separately from narrated comprehension. If silence causes failure, that is diagnostic; do not silently exclude muted responses.
 - Record legibility and cognitive-load ratings 1–5 (scale anchors preregistered; 1 = very difficult, 5 = effortless).
 - Record subtitle truncation, UI-occlusion, safe-area collision, color/piece ambiguity, over-dense arrows and narration mismatch as individual defects.
@@ -88,3 +94,10 @@ For novices unable to interpret move notation, ask a plain-language paraphrase o
 ## Frozen operational position
 
 This plan is not a human study, completed informed consent, cleared third-party rights, source authentication, production render or evidence of runner execution. **No tools or participant events from this protocol have been run.** E5B4D remains NO-GO under failure model M; Policy B requires **all relevant processes terminated and confirmed before 120 s** and **independent stdout/stderr emitted/accepted lifetime ceilings of 1,048,576 bytes each**. No changes to AutoTactics/Motion.
+
+
+## 2026-10-14 static reconciliation
+
+The preregistration now explicitly prevents a human-perception result from being misread as historical authentication. Q01/Q02/Q03/Q05/Q07 are keyed to what the EP01 stimulus **presents**, not to an independent claim that the 1956 primary record has been authenticated. The protocol also adds a stimulus-level observation for the T06→T07 warning-release order required by the presentation contract.
+
+No participant, stimulus, score, threshold or IVV state was created by this edit.
