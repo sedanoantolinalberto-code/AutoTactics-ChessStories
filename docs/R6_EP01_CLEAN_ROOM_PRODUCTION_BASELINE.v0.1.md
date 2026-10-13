@@ -43,3 +43,23 @@ These materials may remain research evidence. They can enter release media only 
 “Excluded from release baseline” means **not used**, not “cleared”. If any excluded item later appears in a stimulus, thumbnail, newsletter, eBook or video, it becomes an active R6 dependency again.
 
 This policy reduces the number of legacy provenance recoveries needed for a future release, but it does not change any frozen state: R6 PENDING, IVV_GLOBAL NOT APPROVED, ED-CASE-REAL-01 NOT APPROVED, E5B4D NO-GO under M, and no publication permission.
+
+
+## 2026-10-14 — Silent-first private stimulus **proposal** (no production)
+
+For the **first potential lawful comprehension-only stimulus**, prefer a deliberately silent, caption-and-board-only research variant derived from the existing twelve-event EP01 truth overlays (PR #11) and the alternative 45s/60s editorial targets (PR #4). This is a **design choice for a future evaluation**, not the channel's final audio strategy and not a current authorization to build or show a stimulus.
+
+### Planned scope
+
+- **No external music or sound effects:** no music/SFX files may be embedded or required in this deliberately silent candidate.
+- **No recorded or synthetic voice:** the first silent candidate contains no voice file, speaker impersonation, speech recording, or external TTS output. The Spanish script stays as editorial text reference; all factual real/hypothetical/return/ellipsis distinctions must be visible as text and board state without sound.
+- **Project-owned geometry remains only proposed:** the board and piece set must be newly authored and independently assessed for originality/provenance. An existing v4 raster/vector/silhouette is not silently reused.
+- **Font is not selected yet:** a later exact binary/version, license, hash and use-mode review are still prerequisites. Noto Sans remains candidate-only, not a verified installed or released asset.
+- **Exclude all archival facsimiles and third-party portraits:** use historical periodicals and scoresheets for private research citations only, not as imagery in the stimulus.
+- **No media is made by this specification:** even a silent internal stimulus would still depend on lawful graphics and font, preapproved protocol/consent if exposed to humans, and separately qualified execution under Policy B/model M.
+
+### Dependency accounting
+
+Under this **specific proposed silent configuration**, the *voice* and *music/SFX* roles would be marked `NOT_USED_IN_SILENT_STIMULUS` **only after** the eventual media manifest confirms absence. This is **not** `CLEARED` for those assets and does **not** change their standing in the R6 ledger or in any later voiced/public version. A separate narrated cut would reactivate exact voice/TTS/audio terms and evidence.
+
+**No R6 gate promotion.** The planned omission of two asset categories reduces prospective dependencies, but it does not establish rights in geometry/font/script/finished media, source authenticity, legal chess playback or viewer comprehension. R6 PENDING; IVV_GLOBAL NOT APPROVED; CASE_APPROVAL NOT APPROVED; E5B4D NO-GO under M; strict Policy B and publication prohibition unchanged. No execution, render, tests, human recruitment, or `main` merge.
