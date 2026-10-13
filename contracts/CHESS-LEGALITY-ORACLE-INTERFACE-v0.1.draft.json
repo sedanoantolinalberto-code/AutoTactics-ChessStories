@@ -1,0 +1,119 @@
+{
+  "contract_version": "chess-stories-legal-oracle-interface/0.1-draft",
+  "status": "RFC_SOURCE_ONLY_UNEXECUTED",
+  "intended_scope": "CHESS_MOVE_RULES_ONLY",
+  "non_goals": [
+    "Original historical game authentication",
+    "R6 asset and publishing rights",
+    "Narration or claim admissibility",
+    "Visual perceptual IVV",
+    "Process termination and Policy B runner qualification",
+    "Choosing best chess move or player intentions"
+  ],
+  "execution_allowed": false,
+  "required_runner_qualification": "UNAVAILABLE_E5B4D_NO_GO_UNDER_M",
+  "input_model": {
+    "request_id": "validated stable ID, not security identity",
+    "case_id": "case identifier, e.g. ED-CASE-REAL-01",
+    "narrative_branch_id": "real or hypothetical branch; classification is input metadata, never inferred from legality",
+    "historical_provenance_status": "external history witness state; may never be promoted by this oracle",
+    "source_state_id": "validated state ID",
+    "destination_state_id": "validated state ID",
+    "source_fen": "strict six-field FEN, whose provenance and bytes are independently checked upstream",
+    "declared_san": "candidate move SAN text supplied by case",
+    "declared_move": {
+      "from": "two-character square when applicable",
+      "to": "two-character square when applicable",
+      "moving_piece": "K Q R B N P when applicable",
+      "moving_color": "white or black",
+      "capture": "explicit victim and capture square when applicable",
+      "special_move": "NONE | CASTLING_KINGSIDE | CASTLING_QUEENSIDE | EN_PASSANT | PROMOTION"
+    },
+    "target_fen": "declared downstream six-field FEN, independently validated upstream",
+    "expected_source_ply": "safe nonnegative integer",
+    "expected_destination_ply": "safe nonnegative integer",
+    "expected_capture_metadata": "source declaration only, not a proof of legality",
+    "request_profile": "SINGLE_MOVE | GAP_REPLAY | TERMINAL",
+    "gap_replay_san": "for gap replay only: continuous intermediate source-score sequence with verified source identification, not invented algebraic plies",
+    "historical_witness_id": "optional, never used to infer legal status or conversely establish historical truth"
+  },
+  "response_model": {
+    "request_id": "echo validated identifier",
+    "outcome": "RULES_CONFIRMED | RULES_REJECTED | INCONCLUSIVE | NOT_RUN",
+    "legality_status": "LEGAL | ILLEGAL | UNKNOWN",
+    "canonical_san": "nullable, computed by pinned qualified rules engine only",
+    "canonical_uci": "nullable, computed by pinned qualified rules engine only",
+    "normalized_source_fen": "nullable, independently normalized by rules library",
+    "derived_target_fen": "nullable, independently computed from the source and move (not copied from declared target)",
+    "target_matches_declaration": "true | false | null; null unless derived target is available",
+    "side_to_move_after": "w | b | null",
+    "check_status": "CHECK | NOT_CHECK | UNKNOWN",
+    "mate_status": "CHECKMATE | NOT_CHECKMATE | UNKNOWN",
+    "played_historically": "NOT_EVALUATED_BY_RULES_ORACLE",
+    "historical_score_authenticated": "NOT_EVALUATED_BY_RULES_ORACLE",
+    "commercial_rights_cleared": "NOT_EVALUATED_BY_RULES_ORACLE",
+    "evidence": {
+      "pinned_rules_library": "exact package/release/commit and independent trust attestation or null",
+      "pinned_rig_or_oracle_build": "exact content hash or null",
+      "run_evidence_id": "exact qualified run record identity or null",
+      "source_bytes_digest_measured": "null unless separately qualified and independently measured",
+      "snapshot_time": "nullable attested timestamp, do not manufacture",
+      "failure_reason": "exact enum or bounded text for rejected / inconclusive only"
+    },
+    "assurance": {
+      "may_upgrade_IVV_global": false,
+      "may_upgrade_R6": false,
+      "may_upgrade_E5B4D": false,
+      "may_upgrade_historical_authentication": false,
+      "may_publish": false,
+      "qualified_execution_mechanism_established": false
+    }
+  },
+  "invariant_obligations": [
+    "An ordinary bishop must not jump over pieces; a king cannot pass through check in castling; an en passant pawn is captured on a square distinct from the destination; promotions update piece type.",
+    "For each real/hypothetical single-move step, derive destination from source independently and compare full board, side, castling rights, en-passant conventions and move clocks under an explicitly fixed FEN representation profile.",
+    "A full chess-legal replay of a candidate PGN does not establish original-game historical authentication; treat original source scans/manuscripts as separate witnesses.",
+    "Hypothetical moves that are legal must remain HYPOTHETICAL/NO JUGADA in the visual timeline. A valid alternative cannot become recorded history.",
+    "A return-to-real is a semantic restoration of the exact real branch anchor, not an additional chess move; do not feed it to the legal oracle as ordinary SAN.",
+    "An ellipsis is an editorial omission. To certify the gap, replay every genuinely attested intervening ply; no fabricated shortcut from 18.Bxb6 to 25.Qxb6.",
+    "An editorial SEQUENCE_END is not a chess move and need not represent game termination. Mate must be checked from board state after an actually replayed move.",
+    "Reject or mark INCONCLUSIVE if FEN conventions, ambiguous SAN, source position, engine version, or evidence status are not independently resolved; never guess missing plies.",
+    "No chess engine 'best move' or intention claim may be promoted from a legality check.",
+    "No invocation may be authorized merely because this source interface exists: E5B4D strict Policy B NO-GO under model M is unchanged."
+  ],
+  "supported_rule_domains_proposed": [
+    "STANDARD_FIDE_CHESS",
+    "KING_SAFETY",
+    "PIECE_GEOMETRY",
+    "CHECK_AND_CHECKMATE",
+    "CAPTURES",
+    "CASTLING_BOTH_SIDES",
+    "EN_PASSANT",
+    "PROMOTION",
+    "SIDE_TO_MOVE",
+    "CASTLING_RIGHTS",
+    "MOVE_COUNTERS",
+    "FEN_ENCODING_PROFILE"
+  ],
+  "forbidden_implicit_promotions": {
+    "from_RULES_CONFIRMED": [
+      "HISTORY_AUTHENTICATED",
+      "IVV_GLOBAL_PASS",
+      "R6_CLEARED",
+      "PUBLISH_APPROVED",
+      "POLICY_B_EXECUTOR_QUALIFIED",
+      "E5B4D_GO"
+    ]
+  },
+  "frozen_execution_policy": {
+    "policy": "STRICT_POLICY_B",
+    "failure_model": "M",
+    "status": "NO_GO",
+    "termination_must_be_confirmed_before_seconds": 120,
+    "stdout_emitted_accepted_lifetime_limit_bytes": 1048576,
+    "stderr_emitted_accepted_lifetime_limit_bytes": 1048576,
+    "streams_independent": true,
+    "allow_execution": false
+  },
+  "acceptance": "NO_ACCEPTANCE_CRITERIA_MET_NO_RUN"
+}
