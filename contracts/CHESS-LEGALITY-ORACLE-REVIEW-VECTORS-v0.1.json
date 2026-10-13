@@ -1,0 +1,227 @@
+{
+  "artifact_version": "chess-stories-legality-oracle-review-vectors/0.1",
+  "status": "UNEXECUTED_SPECIFICATIONS_ONLY",
+  "qualified_oracle_available": false,
+  "source_contract": "contracts/CHESS-LEGALITY-ORACLE-INTERFACE-v0.1.draft.json",
+  "source_case": "cases/ED-CASE-REAL-01.v0.2.json",
+  "classifications": {
+    "REAL": "played in secondary case, not primary-authenticated",
+    "HYPOTHETICAL": "legal status unverified; explicitly never played",
+    "EDITORIAL": "not a chess move"
+  },
+  "vectors": [
+    {
+      "id": "L01",
+      "case_id": "ED-CASE-REAL-01",
+      "event_id": "T02",
+      "branch": "MAIN",
+      "classification": "REAL",
+      "source_state": "V-P1",
+      "source_fen": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17",
+      "san": "Be6",
+      "declared_uci": "g4e6",
+      "target_state": "V-EV1",
+      "target_fen": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "independently derive target full FEN",
+        "confirm g4 bishop path via f5",
+        "do not authenticate original 1956 score"
+      ]
+    },
+    {
+      "id": "L02",
+      "case_id": "ED-CASE-REAL-01",
+      "event_id": "T03",
+      "branch": "MAIN",
+      "classification": "REAL",
+      "source_state": "V-EV1",
+      "source_fen": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "san": "Bxb6",
+      "declared_uci": "c5b6",
+      "target_state": "V-REAL",
+      "target_fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18",
+      "capture": {
+        "piece": "Q",
+        "color": "black",
+        "square": "b6"
+      },
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "confirm capture",
+        "clock reset",
+        "independently derive target FEN"
+      ]
+    },
+    {
+      "id": "L03",
+      "case_id": "ED-CASE-REAL-01",
+      "event_id": "T06",
+      "branch": "ALT_QD8",
+      "classification": "HYPOTHETICAL",
+      "source_state": "V-P1",
+      "source_fen": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17",
+      "san": "Qd8",
+      "declared_uci": "b6d8",
+      "target_state": "V-HYP",
+      "target_fen": "r2qr1k1/pp3pbp/2p3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "verify queen diagonal via c7",
+        "no historical truth promotion",
+        "retain HIPOTÉTICA / NO JUGADA label"
+      ]
+    },
+    {
+      "id": "L04",
+      "case_id": "ED-CASE-REAL-01",
+      "event_id": "T11",
+      "branch": "MAIN",
+      "classification": "REAL",
+      "source_state": "V-PRE-EV2",
+      "source_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25",
+      "san": "Nxd1",
+      "declared_uci": "c3d1",
+      "target_state": "V-EV2",
+      "target_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26",
+      "capture": {
+        "piece": "R",
+        "color": "white",
+        "square": "d1"
+      },
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "verify knight L move",
+        "confirm rook on d1 captured",
+        "do not mark historical end at ply 50"
+      ]
+    },
+    {
+      "id": "L05",
+      "case_id": "ED-CASE-REAL-01",
+      "event_id": "T07",
+      "branch": "ALT_QD8_TO_MAIN",
+      "classification": "EDITORIAL",
+      "operation": "RETURN_TO_REAL",
+      "source_state": "V-HYP",
+      "target_state": "V-P1",
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "should never be fed to legality oracle as an ordinary chess move",
+        "restore saved real anchor after hypothetical branch",
+        "no FEN-derived historical proof"
+      ]
+    },
+    {
+      "id": "L06",
+      "case_id": "ED-CASE-REAL-01",
+      "event_id": "T10",
+      "branch": "MAIN",
+      "classification": "EDITORIAL",
+      "operation": "ELLIPSIS",
+      "source_state": "V-REAL",
+      "target_state": "V-PRE-EV2",
+      "omitted_inclusive_start_ply": 36,
+      "omitted_inclusive_end_ply": 49,
+      "declared_intermediate_moves_available_in_this_case": false,
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "must remain INCONCLUSIVE for full-gap legality without independent complete score",
+        "never bridge board difference as single chess move"
+      ]
+    },
+    {
+      "id": "L07",
+      "case_id": "ED-CASE-REAL-02",
+      "event_id": null,
+      "branch": "MAIN",
+      "classification": "REAL_SECONDARY_SCORE_CANDIDATE",
+      "san": "O-O-O",
+      "source_move_index_1_based": 23,
+      "declared_uci": "e1c1",
+      "source_fen": null,
+      "target_fen": null,
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "derive pre-castling FEN from complete independently replayed PGN first",
+        "check king transit squares, check and a1 rook to d1",
+        "do not claim exact opera/date from legal replay"
+      ]
+    },
+    {
+      "id": "L08",
+      "case_id": "ED-CASE-REAL-02",
+      "event_id": null,
+      "branch": "MAIN",
+      "classification": "REAL_SECONDARY_SCORE_CANDIDATE",
+      "san": "Rd8#",
+      "source_move_index_1_based": 33,
+      "declared_uci": null,
+      "source_fen": null,
+      "target_fen": null,
+      "result": "NOT_RUN",
+      "qualified_expected_obligations": [
+        "independently replay all previous SAN plies",
+        "determine checking and mate status from board only",
+        "no historical/source authentication inferred"
+      ]
+    }
+  ],
+  "negative_review_vectors": [
+    {
+      "id": "N01",
+      "mutation": "T06 move reclassified REAL with same chess geometry",
+      "must_reject_at": "SEMANTIC_FACTUALITY_LAYER",
+      "never_decide_from_chess_legality": true
+    },
+    {
+      "id": "N02",
+      "mutation": "T11 marked historic CHECKMATE despite continuation",
+      "must_reject_at": "HISTORICAL_CONTINUATION_LAYER",
+      "never_decide_from_chess_legality": true
+    },
+    {
+      "id": "N03",
+      "mutation": "O-O-O without rook in original square",
+      "must_reject_at": "LEGAL_RULES_ORACLE",
+      "never_decide_from_chess_legality": false
+    },
+    {
+      "id": "N04",
+      "mutation": "Bishop moves g4-e6 while blocker on f5",
+      "must_reject_at": "LEGAL_RULES_ORACLE",
+      "never_decide_from_chess_legality": false
+    },
+    {
+      "id": "N05",
+      "mutation": "En passant capture claims victim at pawn destination square rather than bypassed square",
+      "must_reject_at": "LEGAL_RULES_ORACLE",
+      "never_decide_from_chess_legality": false
+    },
+    {
+      "id": "N06",
+      "mutation": "Promotion changes pawn to wrong piece without encoded SAN",
+      "must_reject_at": "LEGAL_RULES_ORACLE",
+      "never_decide_from_chess_legality": false
+    },
+    {
+      "id": "N07",
+      "mutation": "ELLIPSIS 36–49 equated with a one-ply move",
+      "must_reject_at": "SEMANTIC_TIMELINE_LAYER",
+      "never_decide_from_chess_legality": true
+    },
+    {
+      "id": "N08",
+      "mutation": "Source PGN says 0–1 and legal replay automatically promotes original 1956 authentication",
+      "must_reject_at": "HISTORICAL_WITNESS_LAYER",
+      "never_decide_from_chess_legality": true
+    }
+  ],
+  "unchanged": {
+    "Policy_B": "STRICT",
+    "E5B4D": "NO-GO under M",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "R6": "PENDING",
+    "execution_permission": false
+  }
+}
