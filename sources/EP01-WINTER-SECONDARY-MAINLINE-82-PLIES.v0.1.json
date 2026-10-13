@@ -1,0 +1,803 @@
+{
+  "artifact_version": "chess-stories-ep01-winter-modern-secondary-mainline/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "purpose": "Reconstruct complete SAN 82-ply candidate from a modern scholarly publication for later original-periodical comparison; this is not an authenticated original score or a legal engine replay.",
+  "reference": {
+    "url": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+    "title": "The Byrne v Fischer 'Game of the Century'",
+    "author": "Edward Winter",
+    "source_class": "MODERN_SCHOLARLY_SECONDARY_TRANSCRIPTION",
+    "locator": "Web article section beginning 'The full score of the Byrne v Fischer game:'",
+    "source_quotation_scope": "Factual chess SAN move list only; no annotations, historical article image, photographs or prose copied.",
+    "published_webpage_last_update": "2025-03-23"
+  },
+  "primary_periodical_witnesses": [
+    {
+      "date": "1956-11-05",
+      "source": "Chess Life Vol. XI No. 5, PDF page index 1/printed page 2",
+      "url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_1.pdf",
+      "status": "SCANNED_CONTEMPORARY_TABLE_LOCATED_OCR_CORRUPT_FULL_VISUAL_TRANSCRIPTION_PENDING"
+    },
+    {
+      "date": "1956-12",
+      "source": "Chess Review Vol.24 No.12, printed pages 374–375",
+      "url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CR-ALL/CR1956/CR1956_12.pdf",
+      "status": "ISSUE_LOCATED_NOT_FULLY_INSPECTED"
+    }
+  ],
+  "candidate_secondary_mainline_plies": [
+    {
+      "ply": 1,
+      "move_number": 1,
+      "side": "white",
+      "san": "Nf3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 2,
+      "move_number": 1,
+      "side": "black",
+      "san": "Nf6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 3,
+      "move_number": 2,
+      "side": "white",
+      "san": "c4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 4,
+      "move_number": 2,
+      "side": "black",
+      "san": "g6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 5,
+      "move_number": 3,
+      "side": "white",
+      "san": "Nc3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 6,
+      "move_number": 3,
+      "side": "black",
+      "san": "Bg7",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 7,
+      "move_number": 4,
+      "side": "white",
+      "san": "d4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 8,
+      "move_number": 4,
+      "side": "black",
+      "san": "O-O",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 9,
+      "move_number": 5,
+      "side": "white",
+      "san": "Bf4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 10,
+      "move_number": 5,
+      "side": "black",
+      "san": "d5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 11,
+      "move_number": 6,
+      "side": "white",
+      "san": "Qb3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 12,
+      "move_number": 6,
+      "side": "black",
+      "san": "dxc4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 13,
+      "move_number": 7,
+      "side": "white",
+      "san": "Qxc4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 14,
+      "move_number": 7,
+      "side": "black",
+      "san": "c6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 15,
+      "move_number": 8,
+      "side": "white",
+      "san": "e4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 16,
+      "move_number": 8,
+      "side": "black",
+      "san": "Nbd7",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 17,
+      "move_number": 9,
+      "side": "white",
+      "san": "Rd1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 18,
+      "move_number": 9,
+      "side": "black",
+      "san": "Nb6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 19,
+      "move_number": 10,
+      "side": "white",
+      "san": "Qc5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 20,
+      "move_number": 10,
+      "side": "black",
+      "san": "Bg4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 21,
+      "move_number": 11,
+      "side": "white",
+      "san": "Bg5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 22,
+      "move_number": 11,
+      "side": "black",
+      "san": "Na4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 23,
+      "move_number": 12,
+      "side": "white",
+      "san": "Qa3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 24,
+      "move_number": 12,
+      "side": "black",
+      "san": "Nxc3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 25,
+      "move_number": 13,
+      "side": "white",
+      "san": "bxc3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 26,
+      "move_number": 13,
+      "side": "black",
+      "san": "Nxe4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 27,
+      "move_number": 14,
+      "side": "white",
+      "san": "Bxe7",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 28,
+      "move_number": 14,
+      "side": "black",
+      "san": "Qb6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 29,
+      "move_number": 15,
+      "side": "white",
+      "san": "Bc4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 30,
+      "move_number": 15,
+      "side": "black",
+      "san": "Nxc3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 31,
+      "move_number": 16,
+      "side": "white",
+      "san": "Bc5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 32,
+      "move_number": 16,
+      "side": "black",
+      "san": "Rfe8+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 33,
+      "move_number": 17,
+      "side": "white",
+      "san": "Kf1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 34,
+      "move_number": 17,
+      "side": "black",
+      "san": "Be6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 35,
+      "move_number": 18,
+      "side": "white",
+      "san": "Bxb6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 36,
+      "move_number": 18,
+      "side": "black",
+      "san": "Bxc4+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 37,
+      "move_number": 19,
+      "side": "white",
+      "san": "Kg1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 38,
+      "move_number": 19,
+      "side": "black",
+      "san": "Ne2+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 39,
+      "move_number": 20,
+      "side": "white",
+      "san": "Kf1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 40,
+      "move_number": 20,
+      "side": "black",
+      "san": "Nxd4+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 41,
+      "move_number": 21,
+      "side": "white",
+      "san": "Kg1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 42,
+      "move_number": 21,
+      "side": "black",
+      "san": "Ne2+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 43,
+      "move_number": 22,
+      "side": "white",
+      "san": "Kf1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 44,
+      "move_number": 22,
+      "side": "black",
+      "san": "Nc3+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 45,
+      "move_number": 23,
+      "side": "white",
+      "san": "Kg1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 46,
+      "move_number": 23,
+      "side": "black",
+      "san": "axb6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 47,
+      "move_number": 24,
+      "side": "white",
+      "san": "Qb4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 48,
+      "move_number": 24,
+      "side": "black",
+      "san": "Ra4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 49,
+      "move_number": 25,
+      "side": "white",
+      "san": "Qxb6",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 50,
+      "move_number": 25,
+      "side": "black",
+      "san": "Nxd1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 51,
+      "move_number": 26,
+      "side": "white",
+      "san": "h3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 52,
+      "move_number": 26,
+      "side": "black",
+      "san": "Rxa2",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 53,
+      "move_number": 27,
+      "side": "white",
+      "san": "Kh2",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 54,
+      "move_number": 27,
+      "side": "black",
+      "san": "Nxf2",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 55,
+      "move_number": 28,
+      "side": "white",
+      "san": "Re1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 56,
+      "move_number": 28,
+      "side": "black",
+      "san": "Rxe1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 57,
+      "move_number": 29,
+      "side": "white",
+      "san": "Qd8+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 58,
+      "move_number": 29,
+      "side": "black",
+      "san": "Bf8",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 59,
+      "move_number": 30,
+      "side": "white",
+      "san": "Nxe1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 60,
+      "move_number": 30,
+      "side": "black",
+      "san": "Bd5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 61,
+      "move_number": 31,
+      "side": "white",
+      "san": "Nf3",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 62,
+      "move_number": 31,
+      "side": "black",
+      "san": "Ne4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 63,
+      "move_number": 32,
+      "side": "white",
+      "san": "Qb8",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 64,
+      "move_number": 32,
+      "side": "black",
+      "san": "b5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 65,
+      "move_number": 33,
+      "side": "white",
+      "san": "h4",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 66,
+      "move_number": 33,
+      "side": "black",
+      "san": "h5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 67,
+      "move_number": 34,
+      "side": "white",
+      "san": "Ne5",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 68,
+      "move_number": 34,
+      "side": "black",
+      "san": "Kg7",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 69,
+      "move_number": 35,
+      "side": "white",
+      "san": "Kg1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 70,
+      "move_number": 35,
+      "side": "black",
+      "san": "Bc5+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 71,
+      "move_number": 36,
+      "side": "white",
+      "san": "Kf1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 72,
+      "move_number": 36,
+      "side": "black",
+      "san": "Ng3+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 73,
+      "move_number": 37,
+      "side": "white",
+      "san": "Ke1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 74,
+      "move_number": 37,
+      "side": "black",
+      "san": "Bb4+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 75,
+      "move_number": 38,
+      "side": "white",
+      "san": "Kd1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 76,
+      "move_number": 38,
+      "side": "black",
+      "san": "Bb3+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 77,
+      "move_number": 39,
+      "side": "white",
+      "san": "Kc1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 78,
+      "move_number": 39,
+      "side": "black",
+      "san": "Ne2+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 79,
+      "move_number": 40,
+      "side": "white",
+      "san": "Kb1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 80,
+      "move_number": 40,
+      "side": "black",
+      "san": "Nc3+",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 81,
+      "move_number": 41,
+      "side": "white",
+      "san": "Kc1",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    },
+    {
+      "ply": 82,
+      "move_number": 41,
+      "side": "black",
+      "san": "Rc2#",
+      "source_printed_notation": "MODERN_SCHOLARLY_SAN_TRANSCRIPTION",
+      "rule_legality": "NOT_VERIFIED_BY_QUALIFIED_ORACLE",
+      "primary_periodical_crosscheck": "PENDING"
+    }
+  ],
+  "source_last_move_printed": "41...Rc2 mate",
+  "last_move_normalization": "41...Rc2# represents source narrative 'Rc2 mate'; this conversion is a documentary normalization, not qualified checkmate recomputation.",
+  "secondary_result_from_prior_PGN_report": "0-1",
+  "result_status": "SEPARATE_SECONDARY_REPORT_NOT_TAG_ON_EDWARD_WINTER_PAGE",
+  "score_count": 82,
+  "crosswalk_documentary_only": {
+    "ep01_event_ids": [
+      "T02",
+      "T03",
+      "T08",
+      "T09",
+      "T11"
+    ],
+    "corresponding_plies": [
+      34,
+      35,
+      34,
+      35,
+      50
+    ],
+    "omitted_plies": {
+      "start": 36,
+      "end": 49,
+      "count": 14,
+      "agree_with_separate_T10_modern_secondary_gap_candidate": true
+    },
+    "hypothetical": "17...Qd8 excluded from played mainline; legal status unverified"
+  },
+  "full_chess_rules_replay": "NOT_RUN",
+  "primary_score_transcription_and_comparison": "PENDING",
+  "modern_source_lineage_independence": "NOT_ESTABLISHED",
+  "video_audio_assets_or_rights": "NONE_GRANTED",
+  "case_frozen_gates_unchanged": true,
+  "E5B4D": "NO-GO under failure model M",
+  "approved_for_publication": false
+}
