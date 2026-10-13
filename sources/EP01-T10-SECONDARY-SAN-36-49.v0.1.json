@@ -1,0 +1,181 @@
+{
+  "artifact_version": "chess-stories-ep01-T10-modern-secondary-gap/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "event_id": "T10",
+  "status": "SECONDARY_TEXT_SEQUENCE_LOCATED_NOT_QUALIFIED_REPLAY",
+  "provenance": [
+    {
+      "source_url": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "author": "Edward Winter",
+      "source_type": "MODERN_HISTORICAL_SCHOLARSHIP",
+      "score_location": "section containing complete Byrne–Fischer score",
+      "transcribed_note": "move sequence reported from published 41-move score, not directly from 1956 primary issue"
+    },
+    {
+      "source_url": "https://www.chess.com/article/view/game-of-the-century-chess",
+      "author": "Chess.com editorial",
+      "source_type": "MODERN_PARALLEL_SCORE",
+      "score_location": "Game section, moves 18... through 25...",
+      "transcribed_note": "agreeing visible SAN sequence; source independence not established"
+    }
+  ],
+  "from": {
+    "ply": 35,
+    "state_id": "V-REAL",
+    "san": "18.Bxb6",
+    "source_fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18"
+  },
+  "to": {
+    "ply": 49,
+    "state_id": "V-PRE-EV2",
+    "san": "25.Qxb6",
+    "declared_target_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25"
+  },
+  "omitted_range": {
+    "first_ply": 36,
+    "last_ply": 49,
+    "number_of_half_moves": 14,
+    "fully_listed_as_modern_secondary_candidate": true
+  },
+  "candidate_intermediate_moves": [
+    {
+      "ply": 36,
+      "move_number": 18,
+      "side": "black",
+      "san": "Bxc4+",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 37,
+      "move_number": 19,
+      "side": "white",
+      "san": "Kg1",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 38,
+      "move_number": 19,
+      "side": "black",
+      "san": "Ne2+",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 39,
+      "move_number": 20,
+      "side": "white",
+      "san": "Kf1",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 40,
+      "move_number": 20,
+      "side": "black",
+      "san": "Nxd4+",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 41,
+      "move_number": 21,
+      "side": "white",
+      "san": "Kg1",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 42,
+      "move_number": 21,
+      "side": "black",
+      "san": "Ne2+",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 43,
+      "move_number": 22,
+      "side": "white",
+      "san": "Kf1",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 44,
+      "move_number": 22,
+      "side": "black",
+      "san": "Nc3+",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 45,
+      "move_number": 23,
+      "side": "white",
+      "san": "Kg1",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 46,
+      "move_number": 23,
+      "side": "black",
+      "san": "axb6",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 47,
+      "move_number": 24,
+      "side": "white",
+      "san": "Qb4",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 48,
+      "move_number": 24,
+      "side": "black",
+      "san": "Ra4",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    },
+    {
+      "ply": 49,
+      "move_number": 25,
+      "side": "white",
+      "san": "Qxb6",
+      "source_level": "MODERN_SECONDARY_SCORES_AGREE",
+      "qualified_legality": "NOT_RUN",
+      "contemporaneous_1956_primary": "NOT_TRANSCRIBED"
+    }
+  ],
+  "source_bytes_or_pgn_digest": null,
+  "independence_of_modern_sources": "NOT_ESTABLISHED",
+  "actual_chess_replay": "NOT_RUN",
+  "derived_target_fen": null,
+  "derived_target_agrees_with_declared": null,
+  "original_1956_score_page_inspected": "NO",
+  "right_to_reproduce_1956_scan": "NOT_CLEARED",
+  "can_promote_T10_legal_or_historical_gate": false,
+  "can_render_or_publish": false,
+  "R6": "PENDING",
+  "IVV_GLOBAL": "NOT APPROVED",
+  "E5B4D": "NO-GO under failure model M",
+  "editorial_instruction": "T10 still appears as explicit omitted real plies 36–49, even if sequence can later be verified; never animate as single move"
+}
