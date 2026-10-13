@@ -612,7 +612,8 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     return {
       decision:faults.length ? "REJECTED_SOURCE_ROUTING" : "SOURCE_ROUTING_PROPOSAL_ONLY",
       faults,
-      event_routes:routes,
+      event_routes:faults.length ? [] : routes,
+      rejected_routes_suppressed:faults.length>0,
       execution_authorized:false,
       legal_oracle_qualified:false,
       human_ivv_approved:false,
@@ -640,6 +641,12 @@ export function proposeEp01Routing(caseV02, overlayV01) {
      overlayV01.all_time_values!=="UNSPECIFIED_UNMEASURED" ||
      overlayV01.frame_timing!==null)
     fault("OVERLAY_TOP_LEVEL_STATE_CHANGED","overlay");
+  if(overlayV01.muted_viewing_requirements!==
+       "No sound is required to distinguish real vs hypothetical; overlays are persistent by design.")
+    fault("OVERLAY_MUTED_TRUTH_REQUIREMENT_CHANGED","overlay.muted_viewing_requirements");
+  if(overlayV01.policy_disclosure_attribution!==
+       "Case source candidates; not original-history authentication")
+    fault("OVERLAY_PROVENANCE_ATTRIBUTION_CHANGED","overlay.policy_disclosure_attribution");
   if(!sameDeclaredJson(overlayV01.release,PINNED_OVERLAY_RELEASE))
     fault("OVERLAY_RELEASE_STATE_CHANGED","overlay.release");
   if(!sameDeclaredJson(overlayV01.mandatory_story_truth,PINNED_STORY_TRUTH))
