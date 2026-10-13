@@ -291,6 +291,12 @@ export function validateSemanticCase(document) {
       fail("MOVE_FIELDS_INVALID","timeline."+e.id); return;
     }
     if (before.ply+1 !== after.ply) fail("MOVE_PLY_MISMATCH","timeline."+e.id);
+    // A declared state label must agree with the current move and absolute ply.
+    // This is SAN *label correspondence*, not SAN legality or historical proof.
+    const moverNumber = Math.floor(before.ply / 2) + 1;
+    const expectedLabel = moverNumber + (before.ply % 2 === 0 ? "." : "...") + m.san;
+    if (after.san_label !== expectedLabel)
+      fail("AFTER_SAN_LABEL_MISMATCH","timeline."+e.id);
     const moving = m.moving_color === "white" ? m.moving_piece : m.moving_piece.toLowerCase();
     if (a.board[m.from] !== moving) fail("MOVE_SOURCE_PIECE","timeline."+e.id);
     if (a.turn !== (m.moving_color === "white"?"w":"b") ||
