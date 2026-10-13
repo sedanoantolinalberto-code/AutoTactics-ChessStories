@@ -14,7 +14,13 @@
     "byte_sha256": null,
     "source_branch": null,
     "actual_duration_ms": null,
-    "rights_for_private_study_verified": null
+    "rights_for_private_study_verified": null,
+    "presentation_truth_contract": {
+      "expected_overlay_artifact": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "exact_contract_bound_to_stimulus": null,
+      "stimulus_truth_contract_reviewed": null,
+      "historical_authentication_not_inferred_from_participant_answers": true
+    }
   },
   "device": {
     "model": null,
@@ -84,7 +90,11 @@
     "ellipsis_legible": null,
     "ui_occlusion_observed": null,
     "subtitles_legibility_rating_1_5": null,
-    "cognitive_load_rating_1_5": null
+    "cognitive_load_rating_1_5": null,
+    "rewind_real_label_legible": null,
+    "hypothetical_warning_persisted_until_exact_real_restore": null,
+    "return_banner_present_after_restore": null,
+    "editorial_close_game_continues_label_legible": null
   },
   "qualitative": {
     "verbatim_confusion_notes": null,
@@ -106,5 +116,11 @@
     "r6": "PENDING",
     "pilot": "NOT APPROVED",
     "publish_allowed": false
+  },
+  "scoring_boundary": {
+    "measures": "STIMULUS_COMPREHENSION_ONLY",
+    "may_establish_historical_authentication": false,
+    "may_establish_chess_legality": false,
+    "may_upgrade_IVV_GLOBAL_automatically": false
   }
 }
