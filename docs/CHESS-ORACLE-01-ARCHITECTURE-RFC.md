@@ -86,3 +86,22 @@ No legal-oracle code is executed, no test packages installed, no GitHub Actions 
 R6 and IVV-03/05/06/09/10/12 remain PENDING; IVV GLOBAL and ED-CASE-REAL-01 remain NOT APPROVED. EP02 has no release authorization.
 
 **Next permitted action:** independent *static* interface review, a source-lock and complete-history provenance specification; no runner execution before independently qualified authorization.
+
+
+## 2026-10-14 cross-branch L06 source-availability clarification
+
+L06 was intentionally authored against the EP01 v0.2 case fixture, where no intermediate move list is embedded. That statement remains true and the vector is not rewritten retrospectively.
+
+A later source-only artifact in PR #12, `integration/EP01-ORACLE-SOURCE-BRIDGE.v0.1.json`, now references:
+- the separate 14-ply modern-secondary T10 candidate (plies 36–49);
+- the separate PR #3 82-ply modern-secondary candidate;
+- this oracle interface and L06 vector.
+
+The connected GitHub documentary comparison records 14/14 field matches for ply/move-number/side/SAN across the gap. It deliberately leaves oracle `outcome=NOT_RUN`, `legality_status=UNKNOWN`, `derived_target_fen=null` and primary 1956 comparison pending.
+
+Therefore, future reviewers must distinguish:
+1. **intermediate moves absent from the v0.2 case fixture**;
+2. **a modern-secondary candidate list available as an external documentary input**; and
+3. **a qualified independently sourced/legal replay**, which still does not exist.
+
+This clarification is source architecture only and changes no execution authorization or gate.
