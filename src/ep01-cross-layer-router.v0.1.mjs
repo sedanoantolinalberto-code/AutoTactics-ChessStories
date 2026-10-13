@@ -540,6 +540,36 @@ const PINNED_VISUAL_TRUTH = Object.freeze([
     "release_rule": "NOT_APPLICABLE"
   }
 ]);
+const PINNED_RENDERING_POLICY = Object.freeze([
+  "Set declared real board and real context before any move.",
+  "Display real 17...Be6, do not infer optimality or intentions.",
+  "Display real 18.Bxb6 queen capture; real game continues.",
+  "Explicit rewind animation; no inverse chess move asserted.",
+  "Raise hypothetical label before any unplayed move animation begins.",
+  "Maintain persistent hypothetical label for all frames of 17...Qd8.",
+  "Replace exact real board V-P1 before releasing hypothetical warning; show return banner.",
+  "Resume the 17...Be6 real event without silent variant leak.",
+  "Resume 18.Bxb6 real event on MAIN before timeline jump.",
+  "Declare fourteen omitted real plies, 36 through 49 inclusive; never interpolate an invented game sequence.",
+  "Show real 25...Nxd1 and correctly identify the white rook capture.",
+  "Show editorial closure, NOT a historical end or checkmate."
+]);
+const PINNED_STORY_TRUTH = Object.freeze({
+  hypothetical_move:"17...Qd8",
+  hypothetical_historical_status:"UNPLAYED",
+  real_move:"17...Be6",
+  queen_taken_at:"18.Bxb6",
+  rook_taken_at:"25...Nxd1",
+  editorial_end_state:"V-EV2",
+  editorial_end_ply:50,
+  final_source_candidate:"41...Rc2# ply 82; secondary witness only",
+  historical_primary_authentication:"NOT_VERIFIED"
+});
+const PINNED_OVERLAY_RELEASE = Object.freeze({
+  permit:false,
+  R6:"PENDING",
+  IVV_GLOBAL:"NOT APPROVED"
+});
 const isRecord = x => x!==null && typeof x==="object" && !Array.isArray(x);
 const plainText = x => typeof x==="string" && x.length>0 && x.length<=4096;
 const own = (o,k) => Object.prototype.hasOwnProperty.call(o,k);
@@ -603,6 +633,17 @@ export function proposeEp01Routing(caseV02, overlayV01) {
   if(overlayV01.case_id!==EP01 ||
     overlayV01.artifact_version!=="chess-stories-ep01-truth-overlay-map/0.1-draft")
     fault("OVERLAY_VERSION_OR_CASE","overlay");
+  if(overlayV01.source_document!=="cases/ED-CASE-REAL-01.v0.2.json" ||
+     overlayV01.source_document_commit!=="chess-stories/semantic-contract-v0.2")
+    fault("OVERLAY_SOURCE_BINDING_CHANGED","overlay");
+  if(overlayV01.status!=="EDITORIAL_SPEC_NOT_RENDERED" ||
+     overlayV01.all_time_values!=="UNSPECIFIED_UNMEASURED" ||
+     overlayV01.frame_timing!==null)
+    fault("OVERLAY_TOP_LEVEL_STATE_CHANGED","overlay");
+  if(!sameDeclaredJson(overlayV01.release,PINNED_OVERLAY_RELEASE))
+    fault("OVERLAY_RELEASE_STATE_CHANGED","overlay.release");
+  if(!sameDeclaredJson(overlayV01.mandatory_story_truth,PINNED_STORY_TRUTH))
+    fault("OVERLAY_STORY_TRUTH_CHANGED","overlay.mandatory_story_truth");
   if(caseV02.status!=="DOCUMENTARY_CANDIDATE_NOT_APPROVED")
     fault("CASE_STATUS_UNAUTHORIZED","case.status");
   for(const [k,v] of Object.entries(FROZEN)) {
@@ -688,6 +729,23 @@ export function proposeEp01Routing(caseV02, overlayV01) {
        ov.audio_independent_factuality_label!==true ||
        ov.hypothetical_warning_release_rule!==truth.release_rule)
       fault("EP01_VISUAL_FACTUALITY_CHANGED",p);
+    const expectedDisplayedMove =
+      (event.kind==="REAL_MOVE"||event.kind==="HYPOTHETICAL_MOVE")
+        ? (event.move?.san??null) : null;
+    const expectedOmission=id==="T10"
+      ? {first_ply:36,last_ply:49,language:"14 medias jugadas omitidas"}
+      : null;
+    if(ov.index!==i+1 ||
+       ov.display_label_required!==true ||
+       ov.special_atomic_return!==(id==="T07") ||
+       ov.displayed_chess_move!==expectedDisplayedMove ||
+       !sameDeclaredJson(ov.mandatory_omission,expectedOmission) ||
+       ov.rendering_policy!==PINNED_RENDERING_POLICY[i] ||
+       ov.shot_start_ms!==null || ov.shot_end_ms!==null ||
+       ov.voice_start_ms!==null || ov.voice_end_ms!==null ||
+       ov.visual_comprehension_test!=="NOT_RUN" ||
+       ov.historical_authentication!=="NOT_VERIFIED")
+      fault("EP01_OVERLAY_RENDERING_DECLARATION_CHANGED",p);
     const isAlt=id==="T05"||id==="T06";
     if(isAlt&&(!ov.persistent_hypothetical ||
        !ov.display_label.includes("HIPOTÉTICA")||
