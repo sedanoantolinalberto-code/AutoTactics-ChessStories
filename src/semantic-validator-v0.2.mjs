@@ -340,6 +340,21 @@ export function validateSemanticCase(document) {
         fail("MOVE_BOARD_MISMATCH","timeline."+e.id); return;
       }
     }
+    // FEN state metadata: an ordinary move cannot reintroduce a lost
+    // castling right. This is a necessary (not sufficient) chess invariant.
+    if (z.castle !== "-" && [...z.castle].some(right => !a.castle.includes(right)))
+      fail("FEN_CASTLING_RIGHT_GAIN", "timeline."+e.id);
+    // A FEN en-passant target can only newly follow a two-square pawn push.
+    // Allow "-" for serializers using legal-EP-only FEN conventions.
+    if (z.ep !== "-") {
+      const fromRank = m.moving_color === "white" ? "2" : "7";
+      const toRank = m.moving_color === "white" ? "4" : "5";
+      const targetRank = m.moving_color === "white" ? "3" : "6";
+      if (m.moving_piece !== "P" || capture ||
+          m.from[0] !== m.to[0] || m.from[1] !== fromRank ||
+          m.to[1] !== toRank || z.ep !== m.from[0]+targetRank)
+        fail("FEN_EP_TARGET_UNJUSTIFIED","timeline."+e.id);
+    }
     const expectedHalf = capture || m.moving_piece === "P" ? 0 : a.half+1;
     const expectedFull = a.full + (a.turn==="b"?1:0);
     if(z.half!==expectedHalf || z.full!==expectedFull)
