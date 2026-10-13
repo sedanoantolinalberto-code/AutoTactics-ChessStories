@@ -121,3 +121,10 @@ All documentary progress remains subordinate to strict Policy B, R6, IVV and the
 A fresh static review found that the router previously required a non-empty `rendering_policy` but did not pin its content, and did not fail closed on several truth-bearing overlay fields. The source guard now pins the overlay source binding, unrendered/unmeasured top-level state, release block, mandatory story-truth record, event index, mandatory-label flag, atomic-return flag, displayed SAN, T10 omission language, exact rendering policy, null timing fields, `visual_comprehension_test=NOT_RUN` and `historical_authentication=NOT_VERIFIED`.
 
 The new `integration/EP01-ORACLE-SOURCE-BRIDGE.v0.1.json` links the existing L06 gap-replay interface to the separate 14-ply T10 source candidate and the 82-ply Winter secondary candidate. A connected-GitHub static field comparison observed **14/14 documentary matches** for `ply`, `move_number`, `side` and `san` across plies 36–49. This was not project-code execution, a rules replay, primary-source authentication, source-byte qualification or an IVV result. Oracle outcome therefore remains `NOT_RUN`, legality remains `UNKNOWN`, derived target FEN remains null and no gate is promoted.
+
+
+### CHESS-INTEGRATION-03B rejected-route suppression
+
+Static review identified a downstream misuse hazard: a rejected input previously returned `REJECTED_SOURCE_ROUTING` while still including routes derived from the rejected document. The source API now suppresses `event_routes` whenever any routing fault exists and exposes `rejected_routes_suppressed=true`. The future-only negative harness is strengthened to require that property for every rejected mutation.
+
+The same review pins the top-level muted-viewing requirement and documentary provenance attribution. Two additional mutations bring the catalog to **56 proposed / 0 executed**. No runtime behavior has been observed.
