@@ -116,6 +116,10 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{overlay(o,"T02").shot_start_ms=1;}},
   {id:"IR-54",description:"Per-event historical authentication is silently promoted",expected:"EP01_OVERLAY_RENDERING_DECLARATION_CHANGED",
    mutate:(c,o)=>{overlay(o,"T02").historical_authentication="VERIFIED";}},
+  {id:"IR-55",description:"Top-level muted-viewing truth is weakened to require audio",expected:"OVERLAY_MUTED_TRUTH_REQUIREMENT_CHANGED",
+   mutate:(c,o)=>{o.muted_viewing_requirements="Audio required to identify hypothetical content.";}},
+  {id:"IR-56",description:"Overlay provenance attribution falsely claims original authentication",expected:"OVERLAY_PROVENANCE_ATTRIBUTION_CHANGED",
+   mutate:(c,o)=>{o.policy_disclosure_attribution="Original 1956 history authenticated";}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
@@ -137,6 +141,8 @@ export function runRoutingNegativeDrafts(propose,baseCase,baseOverlay){
     const result=propose(c,o);
     if(result.decision!=="REJECTED_SOURCE_ROUTING"||
        !result.faults?.some(x=>x.code===t.expected)||
+       !Array.isArray(result.event_routes)||result.event_routes.length!==0||
+       result.rejected_routes_suppressed!==true||
        result.safe_to_publish!==false||result.execution_authorized!==false){
       throw new Error(t.id+": expected fail-closed "+t.expected);
     }
