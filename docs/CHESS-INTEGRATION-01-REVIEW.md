@@ -101,3 +101,16 @@ No original magazine image or copyrighted historical annotation prose has been r
 ## Static reviewer note — document key ordering
 
 The EP01 source snapshot compares \`move\` and \`omitted_plies\` by a bounded, order-insensitive structural JSON equality procedure. Reordering properties in a JSON object must not, by itself, constitute a different chess move; changing a SAN, capture victim, ply range, state ID or branch ID must still be rejected. The proposed comparator has **not been executed or proved on arbitrary hostile input** and assumes the qualified upstream ordinary-JSON preflight; its resource guard is documentary defense-in-depth only.
+
+
+## CHESS-INTEGRATION-02 static hardening — visual factuality and source evidence
+
+The source-only EP01 router now additionally pins all **12 exact visual factuality labels**, their hypothetical persistence flags, audible/muted independence flags and hypothetical warning release order. A nonempty but misleading label (for example marking T02 or T11 as hypothetical) is no longer silently allowed by the *documentary* routing guard.
+
+The router also pins the documentary source event \`disclosure\`, \`claim_refs\`, \`evidence_refs\`, \`asset_refs\` and \`timing\` declarations so a caller cannot silently replace claims, drop supporting sources or assert \`TIMING_MEASURED\` by changing JSON. The comparison is based on a bounded, order-insensitive structural equality for ordinary JSON (NOT a qualified hostile-input parser and not raw file provenance).
+
+New proposed negative scenarios bring the integration catalog to **44**, all **NOT EXECUTED**. Source-text inspection found 44 distinct \`IR-XX\` identifiers, with every expected rejection code appearing in the source; this is not runtime proof.
+
+The integration routing manifest references the full modern-scholarly **82-ply** Byrne–Fischer game candidate from historical PR #3 by its observed GitHub blob identity and branch, in addition to the 14-ply T10 source candidate. These are separate documentary drafts, **not a merged source-tree or independently authenticated bytes**. Both original November 5, 1956 *Chess Life* and December 1956 *Chess Review* still require an independent full-score visual transcription; an empty 82-row historical comparison template is in PR #3.
+
+All documentary progress remains subordinate to strict Policy B, R6, IVV and the E5B4D NO-GO under failure model M.
