@@ -63,3 +63,10 @@ For the **first potential lawful comprehension-only stimulus**, prefer a deliber
 Under this **specific proposed silent configuration**, the *voice* and *music/SFX* roles would be marked `NOT_USED_IN_SILENT_STIMULUS` **only after** the eventual media manifest confirms absence. This is **not** `CLEARED` for those assets and does **not** change their standing in the R6 ledger or in any later voiced/public version. A separate narrated cut would reactivate exact voice/TTS/audio terms and evidence.
 
 **No R6 gate promotion.** The planned omission of two asset categories reduces prospective dependencies, but it does not establish rights in geometry/font/script/finished media, source authenticity, legal chess playback or viewer comprehension. R6 PENDING; IVV_GLOBAL NOT APPROVED; CASE_APPROVAL NOT APPROVED; E5B4D NO-GO under M; strict Policy B and publication prohibition unchanged. No execution, render, tests, human recruitment, or `main` merge.
+
+
+## 2026-10-14 — Candidate vector source, not an asset license
+
+`design/EP01-CLEANROOM-VECTOR-GEOMETRY.v0.1.json` is now a **newly drafted declarative design candidate**, not a production-rendered image. It describes a proposed 8×8 board layout, paired piece contrast styles and six original-geometry **candidates** using basic shapes/path coordinates, plus provisional 9:16 and 16:9 layout zones. The data is not imported from v4 assets, chess-font binaries, magazine facsimiles or external SVG libraries.
+
+**Critical distinctions:** This record does **not** prove uniqueness or independently certify copyright originality; a rights reviewer must inspect final implemented asset bytes and dependencies. The selected font, exact file/hash, screen legibility, safe areas, color accessibility, image quality, motion consistency and media asset manifest remain unset/unreviewed. No renderer, picture, vector export, test, human viewing, legal chess engine or GitHub Action was invoked to make it. R6 remains PENDING and all existing NO-GO gates remain frozen. Do not silently mark `BOARD-V-*` legacy raster classes as cleared merely because candidate replacement source exists.
