@@ -28,6 +28,14 @@
       "observed_git_blob_sha": "06746705894dcd797c13d4775b4367848da61023",
       "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
       "source_level": "MODERN_SECONDARY_CANDIDATE_NOT_PRIMARY_AUTHENTICATED"
+    },
+    {
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "branch": "chess-stories/secondary-pgn-result-reconciliation",
+      "observed_git_blob_sha": "926eae9e8b58d75fbc5f96d5133901f71d8a509b",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
+      "source_level": "MODERN_SCHOLARLY_SECONDARY_82_PLY_CANDIDATE_NOT_ORIGINAL_PERIODICAL",
+      "connection": "Cross-branch documentary dependency. Data not copied or merged into integration branch."
     }
   ],
   "source_case_signature": {
@@ -376,7 +384,7 @@
   ],
   "important_exceptions": {
     "T07": "Return must restore exact V-P1 MAIN context before warning is released; never route as legal move",
-    "T10": "Omitted real plies 36..49 inclusive (14). The v0.2 case has only endpoint states; a separate modern-secondary SAN candidate was added under sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json. No original 1956 authentication or qualified legal replay exists; still INCONCLUSIVE.",
+    "T10": "Omitted real plies 36..49 inclusive (14). The v0.2 case has only endpoint states; a separate modern-secondary SAN candidate was added under sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json. No original 1956 authentication or qualified legal replay exists; still INCONCLUSIVE. Full separate modern-secondary 82-ply mainline is available in the historical witness branch; T10 may still not be treated as a single chess move and must not promote original authentication.",
     "T12": "Editorial sequence end at ply50; terminal PGN candidate at ply82, no checkmate claim at T12",
     "T06": "17...Qd8 is UNPLAYED; independently establishing legality would not make this historically REAL",
     "duplicated_moves": "T08 duplicates T02 and T09 duplicates T03 for narrative replay. Rules-evidence reuse needs exact source FEN+SAN+rules version+trusted original result IDs, not just matching text."
@@ -409,5 +417,5 @@
   "all_gates_satisfied": false,
   "executable": false,
   "source_qa_run": false,
-  "cross_layer_data_maturity": "MODERN_SECONDARY_GAP_CANDIDATE_SOURCE_DISCOVERED; NO QUALIFIED REPLAY; NO HISTORICAL_PROMOTION"
+  "cross_layer_data_maturity": "82-PLY-MODERN-SECONDARY-CANDIDATE_LINKED; PRIMARY_1956_VISUAL_TRANSCRIPTION_PENDING; NO_QUALIFIED_LEGAL_REPLAY"
 }
