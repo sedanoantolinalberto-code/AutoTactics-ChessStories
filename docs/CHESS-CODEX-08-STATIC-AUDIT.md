@@ -10,7 +10,7 @@
 2. **FEN physical bounds:** the lightweight parser now rejects an unmoved pawn on rank 1/8 or more than 16 pieces of one color, while preserving its existing exactly-one-king-per-side checks. This is not legal-position verification; e.g., an actual king in check or wrong piece path remains outside the scope.
 3. **Frozen v0.2 scope:** \`V02_CASE_POLICY_SCOPE_UNSUPPORTED\` rejects non-EP01 case IDs. The source originally used a conditional \`if (case_id === ED-CASE-REAL-01)\` around the immutable gate assertions; that allowed callers who bypassed the upstream schema to avoid this *semantic* guard by relabeling the case. Now the gate assertions apply even if case ID is changed. EP02 must not use this v0.2 checker; v0.3 has a separate unapproved policy architecture.
 4. **Source byte-declaration collisions:** \`SOURCE_BYTE_DIGEST_CONFLICT\` rejects contradictory SHA-256 digest strings bound to the same \`(source_id, object_identity, byte_scope)\` tuple. This is a check of conflicting **claims**, not an independently measured digest or proof of source authenticity.
-5. **Regression specifications:** 6 new negative mutation descriptions exercise the changed rules, bringing the catalog from 59 to **65**.
+5. **Regression specifications:** 7 new negative mutation descriptions exercise the changed rules, bringing the catalog from 59 to **66**.
 
 ## Static coverage and consistency audit
 
@@ -18,8 +18,8 @@ A source-text comparison of the v0.2 checker, its negative mutation catalog and 
 
 | Measure | Static observation |
 |---|---:|
-| Proposed negative mutation names | 65 |
-| Unique mutation names | 65 |
+| Proposed negative mutation names | 66 |
+| Unique mutation names | 66 |
 | Expected rejection codes visibly defined as \`fail("...")\` in checker source | 65/65 |
 | Unknown literal IDs used by mutation helper calls (\`event\`, \`state\`, \`claim\`, \`evidence\`, \`asset\`) | 0 |
 | Fixture's R6 and E5B4D declarations unchanged | Yes |
@@ -27,7 +27,7 @@ A source-text comparison of the v0.2 checker, its negative mutation catalog and 
 | Qualified legal chess replays | **0** |
 | Runtime, memory or process termination measurements | **0** |
 
-**Interpretation:** the 65 expected codes are lexically present. This does NOT prove each mutation reaches the expected condition, that the parser can successfully load the source, that baseline evaluates to \`semantic_consistent=true\`, that the checker cannot throw on other malformed inputs, or that its semantic rules are sound/complete. No claims of test PASS are permitted.
+**Interpretation:** the 66 expected codes are lexically present. This does NOT prove each mutation reaches the expected condition, that the parser can successfully load the source, that baseline evaluates to \`semantic_consistent=true\`, that the checker cannot throw on other malformed inputs, or that its semantic rules are sound/complete. No claims of test PASS are permitted.
 
 ## Architectural decision
 
@@ -49,3 +49,8 @@ The v0.3 generic document remains a separate architecture candidate (draft PR #5
 Document input trust boundaries and fail-closed API profiles; specify how a qualified legal oracle would integrate with the generic semantic contract without overwriting the actual history witness; separately review v0.3 case-policy binding. No test execution or merge is approved.
 
 **No user intervention is needed to retain the code and review documents in GitHub.**
+
+
+### Static follow-up: strict Policy B termination literal
+
+A follow-up source audit found that the v0.2 JSON Schema already pins `termination_requirement` to `ALL_RELEVANT_PROCESSES_TERMINATED_AND_TERMINATION_CONFIRMED_BEFORE_DEADLINE`, but the semantic checker's own defense-in-depth execution-policy comparison did not repeat that literal. The checker source now mirrors the schema requirement and the negative catalog adds one unexecuted timeout-only weakening mutation. This does not qualify an executor or change E5B4D.
