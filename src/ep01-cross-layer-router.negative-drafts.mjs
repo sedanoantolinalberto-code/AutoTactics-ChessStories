@@ -146,6 +146,16 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{c.historical_game_end.original_historical_authentication="VERIFIED";}},
   {id:"IR-69",description:"Editorial-only sequence closure silently rewritten as a real game ending",expected:"EP01_EDITORIAL_END_DECLARATION_CHANGED",
    mutate:(c,o)=>{c.sequence_end.closure="HISTORICAL_GAME_TERMINATION";}},
+  {id:"IR-70",description:"EP01 title altered while immutable case ID remains unchanged",expected:"EP01_CASE_TITLE_CHANGED",
+   mutate:(c,o)=>{c.title="Other historical game deceptively presented under EP01";}},
+  {id:"IR-71",description:"White player's displayed identity changed without changing player ID or case ID",expected:"EP01_PLAYER_IDENTITY_CHANGED",
+   mutate:(c,o)=>{c.players.white.display_name="Bobby Fischer";}},
+  {id:"IR-72",description:"Hypothetical branch evidence reference removed while its anchor and event links remain unchanged",expected:"EP01_BRANCH_DECLARATIONS_CHANGED",
+   mutate:(c,o)=>{c.branches.find(x=>x.id==="ALT_QD8").evidence_refs=[];}},
+  {id:"IR-73",description:"Existing evidence record's claimed source identity title changed while evidence ID remains stable",expected:"EP01_EVIDENCE_DECLARATIONS_CHANGED",
+   mutate:(c,o)=>{c.evidence.find(x=>x.id==="EVID-R2-RESULTS").source.title="Independent original 1956 scoresheet certification";}},
+  {id:"IR-74",description:"Existing asset use repurposed to imply platform-wide commercial publishing while asset ID stays stable",expected:"EP01_ASSET_RIGHTS_DECLARATIONS_CHANGED",
+   mutate:(c,o)=>{c.assets.find(x=>x.id==="ASSET-SUPPLIED-POSITION-DATA").uses[0].purpose="Commercial release on all platforms";}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
