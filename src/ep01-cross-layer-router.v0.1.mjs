@@ -290,6 +290,232 @@ const PINNED_EVENT_ANCHORS = Object.freeze({
 });
 const ANCHOR_FIELDS = Object.freeze(["shared_anchor_state_id","return_anchor_state_id"]);
 
+/** EP01 documentary source identity pins: fixture integrity, not a qualification of the underlying witnesses or rights. */
+const PINNED_EP01_SOURCE_RECORDS=Object.freeze({
+  "title": "Chess Stories: Donald Byrne vs Bobby Fischer, New York, 1956",
+  "players": {
+    "white": {
+      "id": "PLAYER-DONALD-BYRNE",
+      "display_name": "Donald Byrne",
+      "evidence_refs": [
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ]
+    },
+    "black": {
+      "id": "PLAYER-BOBBY-FISCHER",
+      "display_name": "Bobby Fischer",
+      "evidence_refs": [
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ]
+    }
+  },
+  "branches": [
+    {
+      "id": "MAIN",
+      "factuality": "REAL",
+      "anchor_state_id": "V-P1",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ]
+    },
+    {
+      "id": "ALT_QD8",
+      "factuality": "HYPOTHETICAL",
+      "parent_branch_id": "MAIN",
+      "shared_anchor_state_id": "V-P1",
+      "return_anchor_state_id": "V-P1",
+      "source_divergence_ply": 33,
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVID-LEDGER-R2",
+      "source": {
+        "source_id": "SOURCE-SUPPLIED-V01-CASE",
+        "title": "User-supplied immutable v0.1 case JSON carrying EVID-LEDGER-R2 references",
+        "source_class": "USER_SUPPLIED_DECLARATION",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "Literal source case JSON pasted in CHESS-CODEX-03. This entry preserves the supplied evidence identifier and identifies the available declaration; the underlying R2 ledger document was not supplied or inspected."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-03 / Source case JSON (immutable candidate data) / states, timeline, and case_end"
+      },
+      "declared_hash": null,
+      "supported_assertions": [
+        "The supplied case declares six named positions and their exact FEN strings, branch ownership, factuality, ply numbers, and SAN labels.",
+        "The supplied case declares events T01 through T12, including rewind, hypothetical entry, explicit return to the real anchor, and editorial closure.",
+        "V-HYP declares 17...Qd8 as hypothetical; it is not declared to be a historically played move.",
+        "T10 declares an inclusive omitted range of plies 36 through 49, and case_end declares that the sequence ending at ply 50 is not the historical game ending."
+      ],
+      "verification": {
+        "declared_level": "SECONDARY_CANDIDATE",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "Available evidence is the user-pasted candidate declaration. The preserved ledger reference is not an independently inspected original ledger or historical score.",
+        "limitations": [
+          "The underlying EVID-LEDGER-R2 document is unavailable in this task.",
+          "No independent legal replay or original 1956 source authentication was performed.",
+          "The hypothetical FEN is preserved as supplied, not independently established through legal replay."
+        ]
+      }
+    },
+    {
+      "id": "EVID-R2-RESULTS",
+      "source": {
+        "source_id": "SOURCE-R2-RESULTS",
+        "title": "User-supplied technical R2 checkpoint excerpts",
+        "source_class": "TECHNICAL_REPLAY",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "Technical R2 checkpoint excerpts pasted in CHESS-CODEX-03, together with the replay-results hash declaration in the supplied v0.1 case. The full replay-results artifact was not supplied or inspected."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-03 / Technical R2 checkpoint excerpts (limited secondary candidate evidence) / plies 33, 34, 35, 49, 50, 51, and 82"
+      },
+      "declared_hash": {
+        "algorithm": "SHA-256",
+        "digest": "bea694cdfda7f8a8467430d71f993ad1b121fcf29b507daf74deca6e112b31b8",
+        "object_identity": "R2 replay-results artifact referenced by source.replay_results_sha256 in the supplied v0.1 case",
+        "byte_scope": "Declared digest of the referenced replay-results artifact. Original bytes and serialization are unavailable; this digest is not asserted to identify the pasted excerpts or this v0.2 fixture.",
+        "check_status": "DECLARED_NOT_CHECKED",
+        "check_evidence_refs": []
+      },
+      "supported_assertions": [
+        "The supplied excerpts give exact real-line checkpoints at plies 33, 34, 35, 49, and 50.",
+        "The supplied excerpts identify 17...Be6 at ply 34, 18.Bxb6 at ply 35, and 25...Nxd1 at ply 50.",
+        "The supplied excerpts declare continuation at ply 51 with 26.h3 and a candidate ending at ply 82 with 41...Rc2#."
+      ],
+      "verification": {
+        "declared_level": "SAME_LIBRARY_REPRODUCIBILITY_REPORTED",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "The supplied context reports an R2 legal-replay candidate with 82/82 plies and same-library reproducibility using chess.js@1.4.0. This task only preserves the supplied excerpts and report.",
+        "limitations": [
+          "No replay or test was executed in this task.",
+          "The full replay-results artifact and its bytes were not inspected.",
+          "The reported reproducibility is not independent chess-rule validation.",
+          "No original contemporary historical source was authenticated."
+        ]
+      }
+    },
+    {
+      "id": "EVID-R2-PGN-DECLARATION",
+      "source": {
+        "source_id": "SOURCE-R2-PGN",
+        "title": "R2 secondary handoff PGN declaration",
+        "source_class": "PGN",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "The PGN is referenced in the user-supplied CHESS-CODEX-03 source metadata and technical excerpts. Its complete text and bytes were not provided for this task."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-03 / Source case JSON / source; Technical R2 checkpoint excerpts / candidate PGN ending and source PGN SHA256"
+      },
+      "declared_hash": {
+        "algorithm": "SHA-256",
+        "digest": "42f2d04cc2bcd20386f40ca1c97770b2d54e8b1ad5547b5b0cb9f4756a8dc2c8",
+        "object_identity": "R2 secondary handoff PGN referenced by source.pgn_sha256",
+        "byte_scope": "Declared digest of the referenced source PGN bytes. Original bytes, encoding, and line endings are unavailable; this is not a hash of this fixture.",
+        "check_status": "DECLARED_NOT_CHECKED",
+        "check_evidence_refs": []
+      },
+      "supported_assertions": [
+        "The supplied context identifies the source as a secondary handoff PGN.",
+        "The supplied context declares that the candidate PGN contains 82 plies and ends with 41...Rc2#.",
+        "The supplied context expressly does not authenticate the original 1956 score."
+      ],
+      "verification": {
+        "declared_level": "SECONDARY_CANDIDATE",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "Source identity, declared digest, length, and ending are preserved from the supplied context, without accessing the PGN.",
+        "limitations": [
+          "The PGN text and bytes are unavailable in this task.",
+          "No byte identity check or independent historical authentication was performed.",
+          "No explicit PGN result tag was supplied; the historical ending result remains UNKNOWN in this fixture."
+        ]
+      }
+    },
+    {
+      "id": "EVID-SUPPLIED-CASE-CONTEXT",
+      "source": {
+        "source_id": "SOURCE-SUPPLIED-CASE-CONTEXT",
+        "title": "User-supplied Chess Stories case identity and pilot constraints",
+        "source_class": "USER_SUPPLIED_DECLARATION",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "Case identity, player colors, historical-versus-hypothetical classification, and frozen restrictions supplied directly in this conversation."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-01 / Existing Chess Stories context; CHESS-CODEX-03 / Frozen restrictions; CHESS-CODEX-05B / Preserve original pilot facts"
+      },
+      "declared_hash": null,
+      "supported_assertions": [
+        "The pilot identifies ED-CASE-REAL-01 as Donald Byrne playing white against Bobby Fischer playing black in New York in 1956.",
+        "17...Qd8 is an explicitly hypothetical alternative and was not played in the historical game.",
+        "25...Nxd1 at ply 50 is not the historical ending.",
+        "F03 prohibits an unsupported assertion that 24...Ra4 was uniquely best."
+      ],
+      "verification": {
+        "declared_level": "UNVERIFIED",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "Directly supplied case declarations and pilot restrictions, not original-source authentication.",
+        "limitations": [
+          "No contemporary historical document or original score was supplied.",
+          "No independent legal, historical, or rights review was performed in this task."
+        ]
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "ASSET-SUPPLIED-POSITION-DATA",
+      "medium": "DATA",
+      "description": "The six FEN position declarations and associated move metadata supplied as literal text in the v0.1 case; no rendered board, image, audio, or video asset is supplied.",
+      "provenance": {
+        "status": "DECLARED_UNVERIFIED",
+        "origin_description": "Literal case JSON pasted by the user in CHESS-CODEX-03 and preserved as reference declarations in CHESS-CODEX-04.",
+        "source_identity": "SOURCE-SUPPLIED-V01-CASE",
+        "creator": null,
+        "rights_holder": null,
+        "evidence_refs": [
+          "EVID-LEDGER-R2",
+          "EVID-R2-RESULTS"
+        ]
+      },
+      "license": {
+        "basis": "UNKNOWN",
+        "identifier_or_terms": null,
+        "evidence_refs": [],
+        "attribution": null,
+        "restrictions": []
+      },
+      "uses": [
+        {
+          "medium": "Documentary JSON data",
+          "platform": "Platform not selected",
+          "purpose": "Isolated Chess Stories documentary contract review",
+          "territory": null,
+          "validity_description": null,
+          "clearance_status": "PENDING",
+          "clearance_evidence_refs": []
+        }
+      ]
+    }
+  ]
+});
+
 /** Exact EP01-only documentary assertions, not independently authenticated evidence. */
 const PINNED_CASE_CLAIMS=Object.freeze([
   {
@@ -897,6 +1123,18 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     fault("OVERLAY_RELEASE_STATE_CHANGED","overlay.release");
   if(!sameDeclaredJson(overlayV01.mandatory_story_truth,PINNED_STORY_TRUTH))
     fault("OVERLAY_STORY_TRUTH_CHANGED","overlay.mandatory_story_truth");
+  // Source-only integrity for identity, branch ownership, witness descriptions
+  // and declared asset rights. Referential validity alone does not pin their meaning.
+  if(caseV02.title!==PINNED_EP01_SOURCE_RECORDS.title)
+    fault("EP01_CASE_TITLE_CHANGED","case.title");
+  if(!sameDeclaredJson(caseV02.players,PINNED_EP01_SOURCE_RECORDS.players))
+    fault("EP01_PLAYER_IDENTITY_CHANGED","case.players");
+  if(!sameDeclaredJson(caseV02.branches,PINNED_EP01_SOURCE_RECORDS.branches))
+    fault("EP01_BRANCH_DECLARATIONS_CHANGED","case.branches");
+  if(!sameDeclaredJson(caseV02.evidence,PINNED_EP01_SOURCE_RECORDS.evidence))
+    fault("EP01_EVIDENCE_DECLARATIONS_CHANGED","case.evidence");
+  if(!sameDeclaredJson(caseV02.assets,PINNED_EP01_SOURCE_RECORDS.assets))
+    fault("EP01_ASSET_RIGHTS_DECLARATIONS_CHANGED","case.assets");
   // Prevent the documentary router from accepting an altered assertion body,
   // F03 policy, historical terminal candidate or editorial-vs-historical end.
   // This does NOT replace independent claim admissibility or original sources.
