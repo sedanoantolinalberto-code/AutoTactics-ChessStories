@@ -182,9 +182,18 @@ export function validateSemanticCase(document) {
     for (let i=0;i<source.length;i++) ref(source[i], map, path+"["+i+"]");
   }
   const sourceIDs = new Set();
+  const sourceIdentities = new Map();
   for (const e of evidence.values()) {
     if (!obj(e.source) || !idOK(e.source.source_id)) fail("SOURCE_ID_INVALID", "evidence."+e.id);
-    else sourceIDs.add(e.source.source_id);
+    else {
+      sourceIDs.add(e.source.source_id);
+      const stableIdentity = ["title","source_class","creator","publication_date","origin_description"]
+        .map(key => [key,e.source[key]]);
+      const prior = sourceIdentities.get(e.source.source_id);
+      if (prior && JSON.stringify(prior) !== JSON.stringify(stableIdentity))
+        fail("SOURCE_ID_CONFLICT", "evidence."+e.id+".source.source_id");
+      else sourceIdentities.set(e.source.source_id, stableIdentity);
+    }
     if (!obj(e.verification)) fail("EVIDENCE_VERIFICATION_MISSING", "evidence."+e.id);
     else {
       refs(e.verification.verification_record_refs, evidence, "evidence."+e.id+".verification_record_refs");
@@ -204,6 +213,40 @@ export function validateSemanticCase(document) {
         fail("UNSUPPORTED_BYTE_MATCH_PROMOTION", "evidence."+e.id);
       if (arr(e.declared_hash.check_evidence_refs).includes(e.id))
         fail("HASH_SELF_QUALIFICATION", "evidence."+e.id);
+    }
+  }
+  // Verification evidence must be acyclic, not merely different from itself.
+  // Cycles of two or more evidence IDs are no substitute for independent review.
+  const supportEdges = new Map();
+  for (const e of evidence.values()) {
+    const edgeIDs = [
+      ...arr(e.verification?.verification_record_refs),
+      ...arr(e.declared_hash?.check_evidence_refs)
+    ].filter(id => idOK(id) && evidence.has(id));
+    supportEdges.set(e.id, edgeIDs);
+  }
+  const visitColor = new Map();
+  for (const sourceId of evidence.keys()) {
+    if (visitColor.get(sourceId) === 2) continue;
+    const stack = [{ id:sourceId, cursor:0 }];
+    visitColor.set(sourceId,1);
+    while (stack.length) {
+      const current = stack[stack.length-1];
+      const neighbors = supportEdges.get(current.id) || [];
+      if (current.cursor >= neighbors.length) {
+        visitColor.set(current.id,2);
+        stack.pop();
+        continue;
+      }
+      const nextId = neighbors[current.cursor++];
+      if (visitColor.get(nextId) === 1) {
+        fail("EVIDENCE_CIRCULAR_VERIFICATION", "evidence."+current.id);
+        continue;
+      }
+      if (visitColor.get(nextId) !== 2) {
+        visitColor.set(nextId,1);
+        stack.push({id:nextId,cursor:0});
+      }
     }
   }
   if (obj(document.players)) {
