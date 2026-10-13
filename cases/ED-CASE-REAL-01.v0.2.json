@@ -1,0 +1,922 @@
+{
+  "schema_version": "chess-stories-semantic-case/0.2",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "DOCUMENTARY_CANDIDATE_NOT_APPROVED",
+  "title": "Chess Stories: Donald Byrne vs Bobby Fischer, New York, 1956",
+  "players": {
+    "white": {
+      "id": "PLAYER-DONALD-BYRNE",
+      "display_name": "Donald Byrne",
+      "evidence_refs": [
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ]
+    },
+    "black": {
+      "id": "PLAYER-BOBBY-FISCHER",
+      "display_name": "Bobby Fischer",
+      "evidence_refs": [
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ]
+    }
+  },
+  "branches": [
+    {
+      "id": "MAIN",
+      "factuality": "REAL",
+      "anchor_state_id": "V-P1",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ]
+    },
+    {
+      "id": "ALT_QD8",
+      "factuality": "HYPOTHETICAL",
+      "parent_branch_id": "MAIN",
+      "shared_anchor_state_id": "V-P1",
+      "return_anchor_state_id": "V-P1",
+      "source_divergence_ply": 33,
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ]
+    }
+  ],
+  "states": [
+    {
+      "id": "V-P1",
+      "ply": 33,
+      "fen": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "visibility": "VISUAL",
+      "san_label": "17.Kf1",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": []
+    },
+    {
+      "id": "V-EV1",
+      "ply": 34,
+      "fen": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "visibility": "VISUAL",
+      "san_label": "17...Be6",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ]
+    },
+    {
+      "id": "V-REAL",
+      "ply": 35,
+      "fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "visibility": "VISUAL",
+      "san_label": "18.Bxb6",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES",
+        "CLAIM-EDITORIAL-ELLIPSIS"
+      ]
+    },
+    {
+      "id": "V-HYP",
+      "ply": 34,
+      "fen": "r2qr1k1/pp3pbp/2p3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "factuality": "HYPOTHETICAL",
+      "branch_id": "ALT_QD8",
+      "visibility": "VISUAL",
+      "san_label": "17...Qd8",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "claim_refs": [
+        "CLAIM-HYPOTHETICAL-QD8"
+      ]
+    },
+    {
+      "id": "V-PRE-EV2",
+      "ply": 49,
+      "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "visibility": "TECHNICAL_ONLY",
+      "san_label": "25.Qxb6",
+      "evidence_refs": [
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-EDITORIAL-ELLIPSIS"
+      ]
+    },
+    {
+      "id": "V-EV2",
+      "ply": 50,
+      "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "visibility": "VISUAL",
+      "san_label": "25...Nxd1",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES",
+        "CLAIM-CONTINUATION",
+        "CLAIM-EDITORIAL-END"
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "T01",
+      "kind": "SET_POSITION",
+      "from_branch_id": null,
+      "to_branch_id": "MAIN",
+      "from_state": null,
+      "to_state": "V-P1",
+      "disclosure": "PARTIDA REAL",
+      "evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "claim_refs": [],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      }
+    },
+    {
+      "id": "T02",
+      "kind": "REAL_MOVE",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-P1",
+      "to_state": "V-EV1",
+      "disclosure": "PARTIDA REAL",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "move": {
+        "san": "Be6",
+        "from": "g4",
+        "to": "e6",
+        "moving_piece": "B",
+        "moving_color": "black",
+        "special_move": "NONE"
+      }
+    },
+    {
+      "id": "T03",
+      "kind": "REAL_MOVE",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-EV1",
+      "to_state": "V-REAL",
+      "disclosure": "PARTIDA REAL",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "move": {
+        "san": "Bxb6",
+        "from": "c5",
+        "to": "b6",
+        "moving_piece": "B",
+        "moving_color": "white",
+        "special_move": "NONE",
+        "capture": {
+          "captured_piece": "Q",
+          "captured_color": "black",
+          "capture_square": "b6"
+        }
+      }
+    },
+    {
+      "id": "T04",
+      "kind": "REWIND",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-REAL",
+      "to_state": "V-P1",
+      "disclosure": "REBOBINADO A 17.Kf1",
+      "evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "claim_refs": [],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      }
+    },
+    {
+      "id": "T05",
+      "kind": "ENTER_HYPOTHETICAL",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "ALT_QD8",
+      "from_state": "V-P1",
+      "to_state": "V-P1",
+      "disclosure": "ALTERNATIVA NO JUGADA",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "claim_refs": [
+        "CLAIM-HYPOTHETICAL-QD8"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "shared_anchor_state_id": "V-P1",
+      "return_anchor_state_id": "V-P1"
+    },
+    {
+      "id": "T06",
+      "kind": "HYPOTHETICAL_MOVE",
+      "from_branch_id": "ALT_QD8",
+      "to_branch_id": "ALT_QD8",
+      "from_state": "V-P1",
+      "to_state": "V-HYP",
+      "disclosure": "VARIANTE HIPOTÉTICA — NO JUGADA",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "claim_refs": [
+        "CLAIM-HYPOTHETICAL-QD8"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "move": {
+        "san": "Qd8",
+        "from": "b6",
+        "to": "d8",
+        "moving_piece": "Q",
+        "moving_color": "black",
+        "special_move": "NONE"
+      }
+    },
+    {
+      "id": "T07",
+      "kind": "RETURN_TO_REAL",
+      "from_branch_id": "ALT_QD8",
+      "to_branch_id": "MAIN",
+      "from_state": "V-HYP",
+      "to_state": "V-P1",
+      "disclosure": "VOLVEMOS A LA PARTIDA REAL: 17.Kf1",
+      "evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "claim_refs": [],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "return_anchor_state_id": "V-P1"
+    },
+    {
+      "id": "T08",
+      "kind": "REAL_MOVE",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-P1",
+      "to_state": "V-EV1",
+      "disclosure": "PARTIDA REAL",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "move": {
+        "san": "Be6",
+        "from": "g4",
+        "to": "e6",
+        "moving_piece": "B",
+        "moving_color": "black",
+        "special_move": "NONE"
+      }
+    },
+    {
+      "id": "T09",
+      "kind": "REAL_MOVE",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-EV1",
+      "to_state": "V-REAL",
+      "disclosure": "PARTIDA REAL",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "move": {
+        "san": "Bxb6",
+        "from": "c5",
+        "to": "b6",
+        "moving_piece": "B",
+        "moving_color": "white",
+        "special_move": "NONE",
+        "capture": {
+          "captured_piece": "Q",
+          "captured_color": "black",
+          "capture_square": "b6"
+        }
+      }
+    },
+    {
+      "id": "T10",
+      "kind": "ELLIPSIS",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-REAL",
+      "to_state": "V-PRE-EV2",
+      "disclosure": "SALTO TEMPORAL: SE OMITEN JUGADAS DE LA PARTIDA REAL",
+      "evidence_refs": [
+        "EVID-R2-RESULTS",
+        "EVID-LEDGER-R2"
+      ],
+      "claim_refs": [
+        "CLAIM-EDITORIAL-ELLIPSIS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "omitted_plies": {
+        "first": 36,
+        "last": 49,
+        "semantics": "INCLUSIVE_MOVES_NOT_SHOWN"
+      }
+    },
+    {
+      "id": "T11",
+      "kind": "REAL_MOVE",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-PRE-EV2",
+      "to_state": "V-EV2",
+      "disclosure": "PARTIDA REAL — LA PARTIDA CONTINÚA",
+      "evidence_refs": [
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-REAL-MOVES",
+        "CLAIM-CONTINUATION"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      },
+      "move": {
+        "san": "Nxd1",
+        "from": "c3",
+        "to": "d1",
+        "moving_piece": "N",
+        "moving_color": "black",
+        "special_move": "NONE",
+        "capture": {
+          "captured_piece": "R",
+          "captured_color": "white",
+          "capture_square": "d1"
+        }
+      }
+    },
+    {
+      "id": "T12",
+      "kind": "SEQUENCE_END",
+      "from_branch_id": "MAIN",
+      "to_branch_id": "MAIN",
+      "from_state": "V-EV2",
+      "to_state": "V-EV2",
+      "disclosure": "CIERRE EDITORIAL: NO ES EL FINAL DE LA PARTIDA",
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "claim_refs": [
+        "CLAIM-CONTINUATION",
+        "CLAIM-EDITORIAL-END"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing": {
+        "status": "TIMING_UNSPECIFIED"
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "id": "EVID-LEDGER-R2",
+      "source": {
+        "source_id": "SOURCE-SUPPLIED-V01-CASE",
+        "title": "User-supplied immutable v0.1 case JSON carrying EVID-LEDGER-R2 references",
+        "source_class": "USER_SUPPLIED_DECLARATION",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "Literal source case JSON pasted in CHESS-CODEX-03. This entry preserves the supplied evidence identifier and identifies the available declaration; the underlying R2 ledger document was not supplied or inspected."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-03 / Source case JSON (immutable candidate data) / states, timeline, and case_end"
+      },
+      "declared_hash": null,
+      "supported_assertions": [
+        "The supplied case declares six named positions and their exact FEN strings, branch ownership, factuality, ply numbers, and SAN labels.",
+        "The supplied case declares events T01 through T12, including rewind, hypothetical entry, explicit return to the real anchor, and editorial closure.",
+        "V-HYP declares 17...Qd8 as hypothetical; it is not declared to be a historically played move.",
+        "T10 declares an inclusive omitted range of plies 36 through 49, and case_end declares that the sequence ending at ply 50 is not the historical game ending."
+      ],
+      "verification": {
+        "declared_level": "SECONDARY_CANDIDATE",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "Available evidence is the user-pasted candidate declaration. The preserved ledger reference is not an independently inspected original ledger or historical score.",
+        "limitations": [
+          "The underlying EVID-LEDGER-R2 document is unavailable in this task.",
+          "No independent legal replay or original 1956 source authentication was performed.",
+          "The hypothetical FEN is preserved as supplied, not independently established through legal replay."
+        ]
+      }
+    },
+    {
+      "id": "EVID-R2-RESULTS",
+      "source": {
+        "source_id": "SOURCE-R2-RESULTS",
+        "title": "User-supplied technical R2 checkpoint excerpts",
+        "source_class": "TECHNICAL_REPLAY",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "Technical R2 checkpoint excerpts pasted in CHESS-CODEX-03, together with the replay-results hash declaration in the supplied v0.1 case. The full replay-results artifact was not supplied or inspected."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-03 / Technical R2 checkpoint excerpts (limited secondary candidate evidence) / plies 33, 34, 35, 49, 50, 51, and 82"
+      },
+      "declared_hash": {
+        "algorithm": "SHA-256",
+        "digest": "bea694cdfda7f8a8467430d71f993ad1b121fcf29b507daf74deca6e112b31b8",
+        "object_identity": "R2 replay-results artifact referenced by source.replay_results_sha256 in the supplied v0.1 case",
+        "byte_scope": "Declared digest of the referenced replay-results artifact. Original bytes and serialization are unavailable; this digest is not asserted to identify the pasted excerpts or this v0.2 fixture.",
+        "check_status": "DECLARED_NOT_CHECKED",
+        "check_evidence_refs": []
+      },
+      "supported_assertions": [
+        "The supplied excerpts give exact real-line checkpoints at plies 33, 34, 35, 49, and 50.",
+        "The supplied excerpts identify 17...Be6 at ply 34, 18.Bxb6 at ply 35, and 25...Nxd1 at ply 50.",
+        "The supplied excerpts declare continuation at ply 51 with 26.h3 and a candidate ending at ply 82 with 41...Rc2#."
+      ],
+      "verification": {
+        "declared_level": "SAME_LIBRARY_REPRODUCIBILITY_REPORTED",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "The supplied context reports an R2 legal-replay candidate with 82/82 plies and same-library reproducibility using chess.js@1.4.0. This task only preserves the supplied excerpts and report.",
+        "limitations": [
+          "No replay or test was executed in this task.",
+          "The full replay-results artifact and its bytes were not inspected.",
+          "The reported reproducibility is not independent chess-rule validation.",
+          "No original contemporary historical source was authenticated."
+        ]
+      }
+    },
+    {
+      "id": "EVID-R2-PGN-DECLARATION",
+      "source": {
+        "source_id": "SOURCE-R2-PGN",
+        "title": "R2 secondary handoff PGN declaration",
+        "source_class": "PGN",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "The PGN is referenced in the user-supplied CHESS-CODEX-03 source metadata and technical excerpts. Its complete text and bytes were not provided for this task."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-03 / Source case JSON / source; Technical R2 checkpoint excerpts / candidate PGN ending and source PGN SHA256"
+      },
+      "declared_hash": {
+        "algorithm": "SHA-256",
+        "digest": "42f2d04cc2bcd20386f40ca1c97770b2d54e8b1ad5547b5b0cb9f4756a8dc2c8",
+        "object_identity": "R2 secondary handoff PGN referenced by source.pgn_sha256",
+        "byte_scope": "Declared digest of the referenced source PGN bytes. Original bytes, encoding, and line endings are unavailable; this is not a hash of this fixture.",
+        "check_status": "DECLARED_NOT_CHECKED",
+        "check_evidence_refs": []
+      },
+      "supported_assertions": [
+        "The supplied context identifies the source as a secondary handoff PGN.",
+        "The supplied context declares that the candidate PGN contains 82 plies and ends with 41...Rc2#.",
+        "The supplied context expressly does not authenticate the original 1956 score."
+      ],
+      "verification": {
+        "declared_level": "SECONDARY_CANDIDATE",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "Source identity, declared digest, length, and ending are preserved from the supplied context, without accessing the PGN.",
+        "limitations": [
+          "The PGN text and bytes are unavailable in this task.",
+          "No byte identity check or independent historical authentication was performed.",
+          "No explicit PGN result tag was supplied; the historical ending result remains UNKNOWN in this fixture."
+        ]
+      }
+    },
+    {
+      "id": "EVID-SUPPLIED-CASE-CONTEXT",
+      "source": {
+        "source_id": "SOURCE-SUPPLIED-CASE-CONTEXT",
+        "title": "User-supplied Chess Stories case identity and pilot constraints",
+        "source_class": "USER_SUPPLIED_DECLARATION",
+        "creator": null,
+        "publication_date": null,
+        "origin_description": "Case identity, player colors, historical-versus-hypothetical classification, and frozen restrictions supplied directly in this conversation."
+      },
+      "locator": {
+        "kind": "SUPPLIED_TEXT_SECTION",
+        "value": "CHESS-CODEX-01 / Existing Chess Stories context; CHESS-CODEX-03 / Frozen restrictions; CHESS-CODEX-05B / Preserve original pilot facts"
+      },
+      "declared_hash": null,
+      "supported_assertions": [
+        "The pilot identifies ED-CASE-REAL-01 as Donald Byrne playing white against Bobby Fischer playing black in New York in 1956.",
+        "17...Qd8 is an explicitly hypothetical alternative and was not played in the historical game.",
+        "25...Nxd1 at ply 50 is not the historical ending.",
+        "F03 prohibits an unsupported assertion that 24...Ra4 was uniquely best."
+      ],
+      "verification": {
+        "declared_level": "UNVERIFIED",
+        "original_historical_authentication": "NOT_VERIFIED",
+        "verification_record_refs": [],
+        "scope": "Directly supplied case declarations and pilot restrictions, not original-source authentication.",
+        "limitations": [
+          "No contemporary historical document or original score was supplied.",
+          "No independent legal, historical, or rights review was performed in this task."
+        ]
+      }
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLAIM-CASE-IDENTITY",
+      "category": "HISTORY_FACT",
+      "text": "The supplied pilot context identifies ED-CASE-REAL-01 as Donald Byrne, white, versus Bobby Fischer, black, in New York in 1956. Original historical authentication remains unverified.",
+      "subject": "ED-CASE-REAL-01",
+      "predicate": "SUPPLIED_CASE_IDENTITY",
+      "scope": {
+        "state_refs": [],
+        "event_refs": [],
+        "branch_refs": [
+          "MAIN"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    },
+    {
+      "id": "CLAIM-REAL-MOVES",
+      "category": "HISTORY_FACT",
+      "text": "The supplied secondary candidate identifies 17...Be6 at ply 34, 18.Bxb6 at ply 35, and 25...Nxd1 at ply 50 as played moves on the real line. This declaration is not original 1956 source authentication.",
+      "subject": "MAIN",
+      "predicate": "SOURCE_DECLARED_PLAYED_MOVES",
+      "scope": {
+        "state_refs": [
+          "V-EV1",
+          "V-REAL",
+          "V-EV2"
+        ],
+        "event_refs": [
+          "T02",
+          "T03",
+          "T08",
+          "T09",
+          "T11"
+        ],
+        "branch_refs": [
+          "MAIN"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    },
+    {
+      "id": "CLAIM-HYPOTHETICAL-QD8",
+      "category": "HYPOTHETICAL",
+      "text": "17...Qd8 is the supplied alternative on ALT_QD8 and was not historically played. Its supplied position and move declaration do not establish independently verified chess legality.",
+      "subject": "17...Qd8",
+      "predicate": "HYPOTHETICAL_NOT_PLAYED",
+      "scope": {
+        "state_refs": [
+          "V-P1",
+          "V-HYP"
+        ],
+        "event_refs": [
+          "T05",
+          "T06"
+        ],
+        "branch_refs": [
+          "ALT_QD8"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    },
+    {
+      "id": "CLAIM-CONTINUATION",
+      "category": "HISTORY_FACT",
+      "text": "The supplied R2 excerpt declares 26.h3 at ply 51 after 25...Nxd1 at ply 50. Accordingly, ply 50 is not the ending of the supplied candidate game.",
+      "subject": "25...Nxd1",
+      "predicate": "SOURCE_DECLARED_GAME_CONTINUES",
+      "scope": {
+        "state_refs": [
+          "V-EV2"
+        ],
+        "event_refs": [
+          "T11",
+          "T12"
+        ],
+        "branch_refs": [
+          "MAIN"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-R2-RESULTS"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    },
+    {
+      "id": "CLAIM-SOURCE-ENDING",
+      "category": "HISTORY_FACT",
+      "text": "The supplied secondary PGN declaration places its terminal move at ply 82, 41...Rc2#. The original historical score and the full PGN have not been authenticated in this task.",
+      "subject": "SOURCE-R2-PGN",
+      "predicate": "SOURCE_DECLARED_TERMINAL_PLY",
+      "scope": {
+        "state_refs": [],
+        "event_refs": [],
+        "branch_refs": [
+          "MAIN"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-R2-PGN-DECLARATION",
+        "EVID-R2-RESULTS"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    },
+    {
+      "id": "CLAIM-EDITORIAL-ELLIPSIS",
+      "category": "INTERPRETATION",
+      "text": "The supplied editorial sequence omits moves at plies 36 through 49 inclusive. V-PRE-EV2 is the technical-only destination position after ply 49; those omitted moves are not presented as shown events.",
+      "subject": "T10",
+      "predicate": "EDITORIAL_OMISSION_INCLUSIVE",
+      "scope": {
+        "state_refs": [
+          "V-REAL",
+          "V-PRE-EV2"
+        ],
+        "event_refs": [
+          "T10"
+        ],
+        "branch_refs": [
+          "MAIN"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    },
+    {
+      "id": "CLAIM-EDITORIAL-END",
+      "category": "INTERPRETATION",
+      "text": "T12 closes the editorial sequence at V-EV2 after ply 50. This editorial closure does not represent the historical game ending.",
+      "subject": "T12",
+      "predicate": "EDITORIAL_CLOSURE_ONLY",
+      "scope": {
+        "state_refs": [
+          "V-EV2"
+        ],
+        "event_refs": [
+          "T12"
+        ],
+        "branch_refs": [
+          "MAIN"
+        ]
+      },
+      "evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "admissibility_status": "PENDING_REVIEW",
+      "admissibility_review_refs": []
+    }
+  ],
+  "claim_admissibility": {
+    "mapping_id": "CHESS-STORIES-ADMISSIBILITY-0.2-DRAFT",
+    "review_status": "PENDING_INDEPENDENT_REVIEW",
+    "independent_review_evidence_refs": [],
+    "rules": [
+      {
+        "category": "HISTORY_FACT",
+        "requirement": "Require evidence competent for the exact historical assertion and its scope. Secondary declarations must remain identified as secondary; legal replay, a matching hash declaration, or an engine recommendation does not authenticate original historical play.",
+        "review_evidence_refs": []
+      },
+      {
+        "category": "CHESS_LEGALITY",
+        "requirement": "Require separately qualified legal-replay evidence for the exact before-position, move, and after-position. FEN occupancy consistency, structural validation, and same-library reproducibility alone do not establish independent legal verification.",
+        "review_evidence_refs": []
+      },
+      {
+        "category": "ENGINE_ANALYSIS",
+        "requirement": "Require identified engine, configuration, position, analysis scope, and competent review. Engine output is not historical evidence and does not by itself prove uniqueness, player intentions, or forced outcomes. F03 applies without category exemption.",
+        "review_evidence_refs": []
+      },
+      {
+        "category": "INTERPRETATION",
+        "requirement": "Require explicit interpretive or editorial framing and support for underlying factual premises. This category must not conceal historical assertions, unsupported uniqueness, inferred player intentions, or unverified forced outcomes.",
+        "review_evidence_refs": []
+      },
+      {
+        "category": "HYPOTHETICAL",
+        "requirement": "Require explicit non-played classification and a matching hypothetical branch. Any legality, uniqueness, intention, or forced-outcome assertion needs its own competent evidence and review; the hypothetical label grants no exemption.",
+        "review_evidence_refs": []
+      }
+    ],
+    "f03": {
+      "rule_id": "F03",
+      "protected_case_id": "ED-CASE-REAL-01",
+      "protected_move": "24...Ra4",
+      "rule": "NO_UNIQUE_BEST_CLAIM_WITHOUT_COMPETENT_PROOF_AND_INDEPENDENT_REVIEW",
+      "category_exemption_allowed": false
+    }
+  },
+  "assets": [
+    {
+      "id": "ASSET-SUPPLIED-POSITION-DATA",
+      "medium": "DATA",
+      "description": "The six FEN position declarations and associated move metadata supplied as literal text in the v0.1 case; no rendered board, image, audio, or video asset is supplied.",
+      "provenance": {
+        "status": "DECLARED_UNVERIFIED",
+        "origin_description": "Literal case JSON pasted by the user in CHESS-CODEX-03 and preserved as reference declarations in CHESS-CODEX-04.",
+        "source_identity": "SOURCE-SUPPLIED-V01-CASE",
+        "creator": null,
+        "rights_holder": null,
+        "evidence_refs": [
+          "EVID-LEDGER-R2",
+          "EVID-R2-RESULTS"
+        ]
+      },
+      "license": {
+        "basis": "UNKNOWN",
+        "identifier_or_terms": null,
+        "evidence_refs": [],
+        "attribution": null,
+        "restrictions": []
+      },
+      "uses": [
+        {
+          "medium": "Documentary JSON data",
+          "platform": "Platform not selected",
+          "purpose": "Isolated Chess Stories documentary contract review",
+          "territory": null,
+          "validity_description": null,
+          "clearance_status": "PENDING",
+          "clearance_evidence_refs": []
+        }
+      ]
+    }
+  ],
+  "sequence_end": {
+    "event_id": "T12",
+    "state_id": "V-EV2",
+    "closure": "EDITORIAL_ONLY",
+    "historical_relation": "GAME_CONTINUES",
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ]
+  },
+  "historical_game_end": {
+    "status": "SOURCE_DECLARED",
+    "source_id": "SOURCE-R2-PGN",
+    "final_ply": 82,
+    "final_san": "Rc2#",
+    "result": "UNKNOWN",
+    "termination_description": "The supplied secondary candidate declares its ending as 41...Rc2# at ply 82. No explicit PGN result tag or authenticated original score was supplied.",
+    "original_historical_authentication": "NOT_VERIFIED",
+    "evidence_refs": [
+      "EVID-R2-PGN-DECLARATION",
+      "EVID-R2-RESULTS"
+    ]
+  },
+  "frozen_gates": {
+    "IVV-01": "PASS LIMITED",
+    "IVV-02": "PASS LIMITED",
+    "IVV-03": "PENDING",
+    "IVV-04": "PASS LIMITED",
+    "IVV-05": "PENDING",
+    "IVV-06": "PENDING",
+    "IVV-07": "PASS LIMITED",
+    "IVV-08": "PASS LIMITED",
+    "IVV-09": "PENDING",
+    "IVV-10": "PENDING",
+    "IVV-11": "PASS LIMITED",
+    "IVV-12": "PENDING",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "ED-CASE-REAL-01": "NOT APPROVED",
+    "CASE_APPROVAL": "NOT APPROVED",
+    "MOTION_GATE_2": "NOT PASSED",
+    "GATE_3": "NOT RUN",
+    "SI-G0": "NOT RUN",
+    "E5B4D": "NO-GO under failure model M",
+    "FOOTBALL_P1": "NO-GO",
+    "PERMISSION_TO_PUBLISH": false
+  },
+  "execution_policy": {
+    "policy": "STRICT_POLICY_B",
+    "failure_model": "M",
+    "execution_authorized": false,
+    "runner_qualification": "NOT_ESTABLISHED",
+    "termination_requirement": "ALL_RELEVANT_PROCESSES_TERMINATED_AND_TERMINATION_CONFIRMED_BEFORE_DEADLINE",
+    "termination_deadline_seconds_exclusive": 120,
+    "stdout_lifetime_emitted_accepted_limit_bytes": 1048576,
+    "stderr_lifetime_emitted_accepted_limit_bytes": 1048576,
+    "stream_limits_independent": true,
+    "schema_validation_establishes_compliance": false
+  }
+}

@@ -1,0 +1,1798 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:chess-stories:schema:semantic-case:0.2",
+  "title": "Chess Stories documentary semantic case v0.2",
+  "description": "A reusable structural contract for documentary candidates. Validation does not establish chess legality, historical authentication, rights clearance, gate approval, or executor safety.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "case_id",
+    "status",
+    "title",
+    "players",
+    "branches",
+    "states",
+    "timeline",
+    "evidence",
+    "claims",
+    "claim_admissibility",
+    "assets",
+    "sequence_end",
+    "historical_game_end",
+    "frozen_gates",
+    "execution_policy"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "chess-stories-semantic-case/0.2"
+    },
+    "case_id": {
+      "$ref": "#/$defs/id"
+    },
+    "status": {
+      "const": "DOCUMENTARY_CANDIDATE_NOT_APPROVED"
+    },
+    "title": {
+      "$ref": "#/$defs/shortText"
+    },
+    "players": {
+      "$ref": "#/$defs/players"
+    },
+    "branches": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "items": {
+        "$ref": "#/$defs/branch"
+      }
+    },
+    "states": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 256,
+      "items": {
+        "$ref": "#/$defs/state"
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 1024,
+      "items": {
+        "$ref": "#/$defs/event"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "maxItems": 256,
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "maxItems": 256,
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "claim_admissibility": {
+      "$ref": "#/$defs/claimAdmissibility"
+    },
+    "assets": {
+      "type": "array",
+      "maxItems": 256,
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    },
+    "sequence_end": {
+      "$ref": "#/$defs/sequenceEnd"
+    },
+    "historical_game_end": {
+      "$ref": "#/$defs/historicalGameEnd"
+    },
+    "frozen_gates": {
+      "$ref": "#/$defs/frozenGates"
+    },
+    "execution_policy": {
+      "$ref": "#/$defs/executionPolicy"
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]*$"
+    },
+    "shortText": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 512
+    },
+    "longText": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 16384
+    },
+    "nullableShortText": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/shortText"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "safeNonnegativeInteger": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991
+    },
+    "positivePly": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9007199254740991
+    },
+    "references": {
+      "type": "array",
+      "maxItems": 256,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/id"
+      }
+    },
+    "nonemptyReferences": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 256,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "#/$defs/id"
+      }
+    },
+    "square": {
+      "type": "string",
+      "pattern": "^[a-h][1-8]$"
+    },
+    "piece": {
+      "type": "string",
+      "enum": [
+        "K",
+        "Q",
+        "R",
+        "B",
+        "N",
+        "P"
+      ]
+    },
+    "color": {
+      "type": "string",
+      "enum": [
+        "white",
+        "black"
+      ]
+    },
+    "san": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 32,
+      "description": "Declared SAN. General SAN correctness requires semantic validation."
+    },
+    "fen": {
+      "type": "string",
+      "minLength": 15,
+      "maxLength": 128,
+      "pattern": "^(?:[prnbqkPRNBQK1-8]{1,8}/){7}[prnbqkPRNBQK1-8]{1,8} [wb] (?:-|KQ?k?q?|Qk?q?|kq?|q) (?:-|[a-h][36]) (?:0|[1-9][0-9]{0,15}) [1-9][0-9]{0,15}$",
+      "description": "Six-field FEN lexical envelope only. Expanded rank widths, counters, piece counts, reachability, and legal position semantics require a semantic validator."
+    },
+    "player": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "display_name",
+        "evidence_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "display_name": {
+          "$ref": "#/$defs/shortText"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      }
+    },
+    "players": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "white",
+        "black"
+      ],
+      "properties": {
+        "white": {
+          "$ref": "#/$defs/player"
+        },
+        "black": {
+          "$ref": "#/$defs/player"
+        }
+      }
+    },
+    "branch": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/realBranch"
+        },
+        {
+          "$ref": "#/$defs/hypotheticalBranch"
+        }
+      ]
+    },
+    "realBranch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "factuality",
+        "anchor_state_id",
+        "evidence_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "factuality": {
+          "const": "REAL"
+        },
+        "anchor_state_id": {
+          "$ref": "#/$defs/id"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      }
+    },
+    "hypotheticalBranch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "factuality",
+        "parent_branch_id",
+        "shared_anchor_state_id",
+        "return_anchor_state_id",
+        "source_divergence_ply",
+        "evidence_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "factuality": {
+          "const": "HYPOTHETICAL"
+        },
+        "parent_branch_id": {
+          "$ref": "#/$defs/id"
+        },
+        "shared_anchor_state_id": {
+          "$ref": "#/$defs/id"
+        },
+        "return_anchor_state_id": {
+          "$ref": "#/$defs/id"
+        },
+        "source_divergence_ply": {
+          "$ref": "#/$defs/safeNonnegativeInteger"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      }
+    },
+    "state": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "ply",
+        "fen",
+        "factuality",
+        "branch_id",
+        "visibility",
+        "san_label",
+        "evidence_refs",
+        "claim_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "ply": {
+          "$ref": "#/$defs/safeNonnegativeInteger",
+          "description": "Position after this many plies on the declared branch. Hypothetical ply numbering does not imply historical play."
+        },
+        "fen": {
+          "$ref": "#/$defs/fen"
+        },
+        "factuality": {
+          "enum": [
+            "REAL",
+            "HYPOTHETICAL"
+          ]
+        },
+        "branch_id": {
+          "$ref": "#/$defs/id",
+          "description": "Position ownership, distinct from an event's active branch context."
+        },
+        "visibility": {
+          "enum": [
+            "VISUAL",
+            "TECHNICAL_ONLY"
+          ]
+        },
+        "san_label": {
+          "oneOf": [
+            {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 64
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "claim_refs": {
+          "$ref": "#/$defs/references"
+        }
+      }
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "captured_piece",
+        "captured_color",
+        "capture_square"
+      ],
+      "properties": {
+        "captured_piece": {
+          "enum": [
+            "Q",
+            "R",
+            "B",
+            "N",
+            "P"
+          ]
+        },
+        "captured_color": {
+          "$ref": "#/$defs/color"
+        },
+        "capture_square": {
+          "$ref": "#/$defs/square"
+        }
+      }
+    },
+    "move": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "san",
+        "from",
+        "to",
+        "moving_piece",
+        "moving_color",
+        "special_move"
+      ],
+      "properties": {
+        "san": {
+          "$ref": "#/$defs/san"
+        },
+        "from": {
+          "$ref": "#/$defs/square"
+        },
+        "to": {
+          "$ref": "#/$defs/square"
+        },
+        "moving_piece": {
+          "$ref": "#/$defs/piece"
+        },
+        "moving_color": {
+          "$ref": "#/$defs/color"
+        },
+        "capture": {
+          "$ref": "#/$defs/capture"
+        },
+        "special_move": {
+          "enum": [
+            "NONE",
+            "CASTLING_KINGSIDE",
+            "CASTLING_QUEENSIDE",
+            "EN_PASSANT",
+            "PROMOTION"
+          ]
+        },
+        "promotion_piece": {
+          "enum": [
+            "Q",
+            "R",
+            "B",
+            "N"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "special_move": {
+                "const": "PROMOTION"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "promotion_piece"
+            ],
+            "properties": {
+              "moving_piece": {
+                "const": "P"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "promotion_piece": false
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "special_move": {
+                "const": "EN_PASSANT"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "capture"
+            ],
+            "properties": {
+              "moving_piece": {
+                "const": "P"
+              },
+              "capture": {
+                "properties": {
+                  "captured_piece": {
+                    "const": "P"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "special_move": {
+                "enum": [
+                  "CASTLING_KINGSIDE",
+                  "CASTLING_QUEENSIDE"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "moving_piece": {
+                "const": "K"
+              },
+              "capture": false
+            }
+          }
+        }
+      ]
+    },
+    "timing": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "const": "TIMING_UNSPECIFIED"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "start_ms",
+            "duration_ms",
+            "measurement_evidence_refs"
+          ],
+          "properties": {
+            "status": {
+              "const": "TIMING_MEASURED"
+            },
+            "start_ms": {
+              "$ref": "#/$defs/safeNonnegativeInteger"
+            },
+            "duration_ms": {
+              "$ref": "#/$defs/safeNonnegativeInteger"
+            },
+            "measurement_evidence_refs": {
+              "$ref": "#/$defs/nonemptyReferences"
+            }
+          }
+        }
+      ],
+      "description": "Omitted event timing means TIMING_UNSPECIFIED. No default numbers are inserted. Measured status is a declaration requiring evidence review."
+    },
+    "omittedPlies": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "first",
+        "last",
+        "semantics"
+      ],
+      "properties": {
+        "first": {
+          "$ref": "#/$defs/positivePly"
+        },
+        "last": {
+          "$ref": "#/$defs/positivePly"
+        },
+        "semantics": {
+          "const": "INCLUSIVE_MOVES_NOT_SHOWN"
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "kind",
+        "from_branch_id",
+        "to_branch_id",
+        "from_state",
+        "to_state",
+        "disclosure",
+        "evidence_refs",
+        "claim_refs",
+        "asset_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "SET_POSITION",
+            "REAL_MOVE",
+            "REWIND",
+            "ENTER_HYPOTHETICAL",
+            "HYPOTHETICAL_MOVE",
+            "RETURN_TO_REAL",
+            "ELLIPSIS",
+            "SEQUENCE_END"
+          ]
+        },
+        "from_branch_id": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "to_branch_id": {
+          "$ref": "#/$defs/id"
+        },
+        "from_state": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/id"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "to_state": {
+          "$ref": "#/$defs/id"
+        },
+        "disclosure": {
+          "$ref": "#/$defs/longText"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "claim_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "asset_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "timing": {
+          "$ref": "#/$defs/timing"
+        },
+        "move": {
+          "$ref": "#/$defs/move"
+        },
+        "shared_anchor_state_id": {
+          "$ref": "#/$defs/id"
+        },
+        "return_anchor_state_id": {
+          "$ref": "#/$defs/id"
+        },
+        "omitted_plies": {
+          "$ref": "#/$defs/omittedPlies"
+        }
+      },
+      "oneOf": [
+        {
+          "properties": {
+            "kind": {
+              "const": "SET_POSITION"
+            },
+            "from_branch_id": {
+              "type": "null"
+            },
+            "from_state": {
+              "type": "null"
+            },
+            "move": false,
+            "shared_anchor_state_id": false,
+            "return_anchor_state_id": false,
+            "omitted_plies": false
+          }
+        },
+        {
+          "required": [
+            "move"
+          ],
+          "properties": {
+            "kind": {
+              "const": "REAL_MOVE"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "shared_anchor_state_id": false,
+            "return_anchor_state_id": false,
+            "omitted_plies": false
+          }
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "REWIND"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "move": false,
+            "shared_anchor_state_id": false,
+            "return_anchor_state_id": false,
+            "omitted_plies": false
+          }
+        },
+        {
+          "required": [
+            "shared_anchor_state_id",
+            "return_anchor_state_id"
+          ],
+          "properties": {
+            "kind": {
+              "const": "ENTER_HYPOTHETICAL"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "move": false,
+            "omitted_plies": false
+          }
+        },
+        {
+          "required": [
+            "move"
+          ],
+          "properties": {
+            "kind": {
+              "const": "HYPOTHETICAL_MOVE"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "shared_anchor_state_id": false,
+            "return_anchor_state_id": false,
+            "omitted_plies": false
+          }
+        },
+        {
+          "required": [
+            "return_anchor_state_id"
+          ],
+          "properties": {
+            "kind": {
+              "const": "RETURN_TO_REAL"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "move": false,
+            "shared_anchor_state_id": false,
+            "omitted_plies": false
+          }
+        },
+        {
+          "required": [
+            "omitted_plies"
+          ],
+          "properties": {
+            "kind": {
+              "const": "ELLIPSIS"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "move": false,
+            "shared_anchor_state_id": false,
+            "return_anchor_state_id": false
+          }
+        },
+        {
+          "properties": {
+            "kind": {
+              "const": "SEQUENCE_END"
+            },
+            "from_branch_id": {
+              "$ref": "#/$defs/id"
+            },
+            "from_state": {
+              "$ref": "#/$defs/id"
+            },
+            "move": false,
+            "shared_anchor_state_id": false,
+            "return_anchor_state_id": false,
+            "omitted_plies": false
+          }
+        }
+      ],
+      "description": "Type-specific payloads are structural. Branch ownership, active-context transitions, event order, anchor equality, and state continuity require semantic validation."
+    },
+    "sourceIdentity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_id",
+        "title",
+        "source_class",
+        "creator",
+        "publication_date",
+        "origin_description"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/id"
+        },
+        "title": {
+          "$ref": "#/$defs/shortText"
+        },
+        "source_class": {
+          "enum": [
+            "PRIMARY_SOURCE_CLAIMED",
+            "SECONDARY_DOCUMENT",
+            "PGN",
+            "TECHNICAL_REPLAY",
+            "ENGINE_OUTPUT",
+            "RIGHTS_RECORD",
+            "MEASUREMENT_RECORD",
+            "USER_SUPPLIED_DECLARATION",
+            "OTHER"
+          ]
+        },
+        "creator": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "publication_date": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "origin_description": {
+          "$ref": "#/$defs/longText"
+        }
+      }
+    },
+    "locator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "value"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "CHECKPOINT_PLY",
+            "PGN_PLY",
+            "DOCUMENT_SECTION",
+            "PAGE",
+            "RECORD_ID",
+            "MEDIA_TIMESTAMP",
+            "URI_FRAGMENT",
+            "SUPPLIED_TEXT_SECTION",
+            "OTHER"
+          ]
+        },
+        "value": {
+          "$ref": "#/$defs/shortText"
+        },
+        "ply": {
+          "$ref": "#/$defs/safeNonnegativeInteger"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "CHECKPOINT_PLY",
+                  "PGN_PLY"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "ply"
+            ]
+          },
+          "else": {
+            "properties": {
+              "ply": false
+            }
+          }
+        }
+      ]
+    },
+    "declaredHash": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "algorithm",
+        "digest",
+        "object_identity",
+        "byte_scope",
+        "check_status",
+        "check_evidence_refs"
+      ],
+      "properties": {
+        "algorithm": {
+          "const": "SHA-256"
+        },
+        "digest": {
+          "type": "string",
+          "pattern": "^[a-fA-F0-9]{64}$"
+        },
+        "object_identity": {
+          "$ref": "#/$defs/shortText"
+        },
+        "byte_scope": {
+          "$ref": "#/$defs/longText"
+        },
+        "check_status": {
+          "enum": [
+            "DECLARED_NOT_CHECKED",
+            "BYTE_MATCH_REPORTED"
+          ]
+        },
+        "check_evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "check_status": {
+                "const": "BYTE_MATCH_REPORTED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "check_evidence_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ],
+      "description": "A digest declaration or reported byte match does not authenticate a source, its authorship, or historical assertions."
+    },
+    "evidenceVerification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "declared_level",
+        "original_historical_authentication",
+        "verification_record_refs",
+        "scope",
+        "limitations"
+      ],
+      "properties": {
+        "declared_level": {
+          "enum": [
+            "UNVERIFIED",
+            "SECONDARY_CANDIDATE",
+            "SAME_LIBRARY_REPRODUCIBILITY_REPORTED",
+            "INDEPENDENT_TECHNICAL_REVIEW_REPORTED",
+            "QUALIFIED_ORACLE_REVIEW_REPORTED"
+          ]
+        },
+        "original_historical_authentication": {
+          "enum": [
+            "NOT_VERIFIED",
+            "REVIEW_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"
+          ]
+        },
+        "verification_record_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "scope": {
+          "$ref": "#/$defs/longText"
+        },
+        "limitations": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 32,
+          "items": {
+            "$ref": "#/$defs/longText"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "anyOf": [
+              {
+                "properties": {
+                  "declared_level": {
+                    "enum": [
+                      "INDEPENDENT_TECHNICAL_REVIEW_REPORTED",
+                      "QUALIFIED_ORACLE_REVIEW_REPORTED"
+                    ]
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "original_historical_authentication": {
+                    "const": "REVIEW_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"
+                  }
+                }
+              }
+            ]
+          },
+          "then": {
+            "properties": {
+              "verification_record_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source",
+        "locator",
+        "declared_hash",
+        "supported_assertions",
+        "verification"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "source": {
+          "$ref": "#/$defs/sourceIdentity"
+        },
+        "locator": {
+          "$ref": "#/$defs/locator"
+        },
+        "declared_hash": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/declaredHash"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "supported_assertions": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 32,
+          "items": {
+            "$ref": "#/$defs/longText"
+          }
+        },
+        "verification": {
+          "$ref": "#/$defs/evidenceVerification"
+        }
+      }
+    },
+    "claimCategory": {
+      "enum": [
+        "HISTORY_FACT",
+        "CHESS_LEGALITY",
+        "ENGINE_ANALYSIS",
+        "INTERPRETATION",
+        "HYPOTHETICAL"
+      ]
+    },
+    "claimScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "state_refs",
+        "event_refs",
+        "branch_refs"
+      ],
+      "properties": {
+        "state_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "event_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "branch_refs": {
+          "$ref": "#/$defs/references"
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "text",
+        "subject",
+        "predicate",
+        "scope",
+        "evidence_refs",
+        "admissibility_status",
+        "admissibility_review_refs"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "category": {
+          "$ref": "#/$defs/claimCategory"
+        },
+        "text": {
+          "$ref": "#/$defs/longText"
+        },
+        "subject": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "predicate": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "scope": {
+          "$ref": "#/$defs/claimScope"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "admissibility_status": {
+          "enum": [
+            "PENDING_REVIEW",
+            "UNSUPPORTED",
+            "REJECTED",
+            "ADMISSIBILITY_REVIEW_REPORTED"
+          ]
+        },
+        "admissibility_review_refs": {
+          "$ref": "#/$defs/references"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "admissibility_status": {
+                "const": "ADMISSIBILITY_REVIEW_REPORTED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              },
+              "admissibility_review_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ],
+      "description": "Categories and reported reviews do not establish truth or admissibility. Content-sensitive review remains required across every category."
+    },
+    "admissibilityRule": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "category",
+        "requirement",
+        "review_evidence_refs"
+      ],
+      "properties": {
+        "category": {
+          "$ref": "#/$defs/claimCategory"
+        },
+        "requirement": {
+          "$ref": "#/$defs/longText"
+        },
+        "review_evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      }
+    },
+    "claimAdmissibility": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mapping_id",
+        "review_status",
+        "independent_review_evidence_refs",
+        "rules",
+        "f03"
+      ],
+      "properties": {
+        "mapping_id": {
+          "$ref": "#/$defs/id"
+        },
+        "review_status": {
+          "enum": [
+            "PENDING_INDEPENDENT_REVIEW",
+            "INDEPENDENT_REVIEW_REPORTED"
+          ]
+        },
+        "independent_review_evidence_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "rules": {
+          "type": "array",
+          "minItems": 5,
+          "maxItems": 5,
+          "items": {
+            "$ref": "#/$defs/admissibilityRule"
+          },
+          "allOf": [
+            {
+              "contains": {
+                "properties": {
+                  "category": {
+                    "const": "HISTORY_FACT"
+                  }
+                }
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "category": {
+                    "const": "CHESS_LEGALITY"
+                  }
+                }
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "category": {
+                    "const": "ENGINE_ANALYSIS"
+                  }
+                }
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "category": {
+                    "const": "INTERPRETATION"
+                  }
+                }
+              },
+              "minContains": 1,
+              "maxContains": 1
+            },
+            {
+              "contains": {
+                "properties": {
+                  "category": {
+                    "const": "HYPOTHETICAL"
+                  }
+                }
+              },
+              "minContains": 1,
+              "maxContains": 1
+            }
+          ]
+        },
+        "f03": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "rule_id",
+            "protected_case_id",
+            "protected_move",
+            "rule",
+            "category_exemption_allowed"
+          ],
+          "properties": {
+            "rule_id": {
+              "const": "F03"
+            },
+            "protected_case_id": {
+              "const": "ED-CASE-REAL-01"
+            },
+            "protected_move": {
+              "const": "24...Ra4"
+            },
+            "rule": {
+              "const": "NO_UNIQUE_BEST_CLAIM_WITHOUT_COMPETENT_PROOF_AND_INDEPENDENT_REVIEW"
+            },
+            "category_exemption_allowed": {
+              "const": false
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "review_status": {
+                "const": "INDEPENDENT_REVIEW_REPORTED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "independent_review_evidence_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "assetProvenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "origin_description",
+        "source_identity",
+        "creator",
+        "rights_holder",
+        "evidence_refs"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "UNKNOWN",
+            "DECLARED_UNVERIFIED",
+            "REVIEW_REPORTED"
+          ]
+        },
+        "origin_description": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "source_identity": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "creator": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "rights_holder": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "REVIEW_REPORTED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "licenseDeclaration": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "basis",
+        "identifier_or_terms",
+        "evidence_refs",
+        "attribution",
+        "restrictions"
+      ],
+      "properties": {
+        "basis": {
+          "enum": [
+            "UNKNOWN",
+            "LICENSE_DECLARED",
+            "PERMISSION_DECLARED",
+            "OWNERSHIP_DECLARED",
+            "PUBLIC_DOMAIN_CLAIMED"
+          ]
+        },
+        "identifier_or_terms": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        },
+        "attribution": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "restrictions": {
+          "type": "array",
+          "maxItems": 32,
+          "items": {
+            "$ref": "#/$defs/longText"
+          }
+        }
+      }
+    },
+    "assetUse": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "medium",
+        "platform",
+        "purpose",
+        "territory",
+        "validity_description",
+        "clearance_status",
+        "clearance_evidence_refs"
+      ],
+      "properties": {
+        "medium": {
+          "$ref": "#/$defs/shortText"
+        },
+        "platform": {
+          "$ref": "#/$defs/shortText"
+        },
+        "purpose": {
+          "$ref": "#/$defs/shortText"
+        },
+        "territory": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "validity_description": {
+          "$ref": "#/$defs/nullableShortText"
+        },
+        "clearance_status": {
+          "enum": [
+            "UNKNOWN",
+            "PENDING",
+            "BLOCKED",
+            "CLEARANCE_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"
+          ]
+        },
+        "clearance_evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "clearance_status": {
+                "const": "CLEARANCE_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "clearance_evidence_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "medium",
+        "description",
+        "provenance",
+        "license",
+        "uses"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "medium": {
+          "enum": [
+            "IMAGE",
+            "VIDEO",
+            "AUDIO",
+            "TEXT",
+            "FONT",
+            "DATA",
+            "GRAPHIC",
+            "OTHER"
+          ]
+        },
+        "description": {
+          "$ref": "#/$defs/shortText"
+        },
+        "provenance": {
+          "$ref": "#/$defs/assetProvenance"
+        },
+        "license": {
+          "$ref": "#/$defs/licenseDeclaration"
+        },
+        "uses": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 32,
+          "items": {
+            "$ref": "#/$defs/assetUse"
+          }
+        }
+      }
+    },
+    "sequenceEnd": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "state_id",
+        "closure",
+        "historical_relation",
+        "evidence_refs"
+      ],
+      "properties": {
+        "event_id": {
+          "$ref": "#/$defs/id"
+        },
+        "state_id": {
+          "$ref": "#/$defs/id"
+        },
+        "closure": {
+          "const": "EDITORIAL_ONLY"
+        },
+        "historical_relation": {
+          "enum": [
+            "UNKNOWN",
+            "GAME_CONTINUES",
+            "COINCIDES_WITH_SOURCE_DECLARED_END"
+          ]
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/references"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "historical_relation": {
+                "enum": [
+                  "GAME_CONTINUES",
+                  "COINCIDES_WITH_SOURCE_DECLARED_END"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "evidence_refs": {
+                "$ref": "#/$defs/nonemptyReferences"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "historicalGameEnd": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "evidence_refs"
+          ],
+          "properties": {
+            "status": {
+              "const": "UNKNOWN"
+            },
+            "evidence_refs": {
+              "$ref": "#/$defs/references"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source_id",
+            "final_ply",
+            "final_san",
+            "result",
+            "termination_description",
+            "original_historical_authentication",
+            "evidence_refs"
+          ],
+          "properties": {
+            "status": {
+              "const": "SOURCE_DECLARED"
+            },
+            "source_id": {
+              "$ref": "#/$defs/id"
+            },
+            "final_ply": {
+              "$ref": "#/$defs/safeNonnegativeInteger"
+            },
+            "final_san": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/san"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "result": {
+              "enum": [
+                "1-0",
+                "0-1",
+                "1/2-1/2",
+                "UNKNOWN"
+              ]
+            },
+            "termination_description": {
+              "$ref": "#/$defs/nullableShortText"
+            },
+            "original_historical_authentication": {
+              "enum": [
+                "NOT_VERIFIED",
+                "REVIEW_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"
+              ]
+            },
+            "evidence_refs": {
+              "$ref": "#/$defs/nonemptyReferences"
+            }
+          }
+        }
+      ],
+      "description": "A source-attributed ending declaration, separate from editorial closure. This structure does not authenticate the ending."
+    },
+    "frozenGates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "IVV-01",
+        "IVV-02",
+        "IVV-03",
+        "IVV-04",
+        "IVV-05",
+        "IVV-06",
+        "IVV-07",
+        "IVV-08",
+        "IVV-09",
+        "IVV-10",
+        "IVV-11",
+        "IVV-12",
+        "R6",
+        "IVV_GLOBAL",
+        "ED-CASE-REAL-01",
+        "CASE_APPROVAL",
+        "MOTION_GATE_2",
+        "GATE_3",
+        "SI-G0",
+        "E5B4D",
+        "FOOTBALL_P1",
+        "PERMISSION_TO_PUBLISH"
+      ],
+      "properties": {
+        "IVV-01": {
+          "const": "PASS LIMITED"
+        },
+        "IVV-02": {
+          "const": "PASS LIMITED"
+        },
+        "IVV-03": {
+          "const": "PENDING"
+        },
+        "IVV-04": {
+          "const": "PASS LIMITED"
+        },
+        "IVV-05": {
+          "const": "PENDING"
+        },
+        "IVV-06": {
+          "const": "PENDING"
+        },
+        "IVV-07": {
+          "const": "PASS LIMITED"
+        },
+        "IVV-08": {
+          "const": "PASS LIMITED"
+        },
+        "IVV-09": {
+          "const": "PENDING"
+        },
+        "IVV-10": {
+          "const": "PENDING"
+        },
+        "IVV-11": {
+          "const": "PASS LIMITED"
+        },
+        "IVV-12": {
+          "const": "PENDING"
+        },
+        "R6": {
+          "const": "PENDING"
+        },
+        "IVV_GLOBAL": {
+          "const": "NOT APPROVED"
+        },
+        "ED-CASE-REAL-01": {
+          "const": "NOT APPROVED"
+        },
+        "CASE_APPROVAL": {
+          "const": "NOT APPROVED"
+        },
+        "MOTION_GATE_2": {
+          "const": "NOT PASSED"
+        },
+        "GATE_3": {
+          "const": "NOT RUN"
+        },
+        "SI-G0": {
+          "const": "NOT RUN"
+        },
+        "E5B4D": {
+          "const": "NO-GO under failure model M"
+        },
+        "FOOTBALL_P1": {
+          "const": "NO-GO"
+        },
+        "PERMISSION_TO_PUBLISH": {
+          "const": false
+        }
+      },
+      "description": "Preserved declarations, not results established by schema validation. The named ED-CASE-REAL-01 gate does not restrict the top-level case_id."
+    },
+    "executionPolicy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "policy",
+        "failure_model",
+        "execution_authorized",
+        "runner_qualification",
+        "termination_requirement",
+        "termination_deadline_seconds_exclusive",
+        "stdout_lifetime_emitted_accepted_limit_bytes",
+        "stderr_lifetime_emitted_accepted_limit_bytes",
+        "stream_limits_independent",
+        "schema_validation_establishes_compliance"
+      ],
+      "properties": {
+        "policy": {
+          "const": "STRICT_POLICY_B"
+        },
+        "failure_model": {
+          "const": "M"
+        },
+        "execution_authorized": {
+          "const": false
+        },
+        "runner_qualification": {
+          "const": "NOT_ESTABLISHED"
+        },
+        "termination_requirement": {
+          "const": "ALL_RELEVANT_PROCESSES_TERMINATED_AND_TERMINATION_CONFIRMED_BEFORE_DEADLINE"
+        },
+        "termination_deadline_seconds_exclusive": {
+          "const": 120
+        },
+        "stdout_lifetime_emitted_accepted_limit_bytes": {
+          "const": 1048576
+        },
+        "stderr_lifetime_emitted_accepted_limit_bytes": {
+          "const": 1048576
+        },
+        "stream_limits_independent": {
+          "const": true
+        },
+        "schema_validation_establishes_compliance": {
+          "const": false
+        }
+      }
+    }
+  }
+}
