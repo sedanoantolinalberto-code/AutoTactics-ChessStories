@@ -96,3 +96,8 @@ The original v0.2 case file still only contains the endpoint FENs for T10; the n
 As no qualified legal engine has replayed the exact sequence and the contemporaneous 1956 Chess Review page scan has not been newly transcribed and authenticated in this task, the T10 oracle status remains **NOT_RUN / INCONCLUSIVE** and release status remains BLOCKED. This source discovery is useful input to future independent replay and full original-witness reconciliation, not permission to animate a purported single move between two FEN endpoints.
 
 No original magazine image or copyrighted historical annotation prose has been reuploaded into GitHub.
+
+
+## Static reviewer note — document key ordering
+
+The EP01 source snapshot compares \`move\` and \`omitted_plies\` by a bounded, order-insensitive structural JSON equality procedure. Reordering properties in a JSON object must not, by itself, constitute a different chess move; changing a SAN, capture victim, ply range, state ID or branch ID must still be rejected. The proposed comparator has **not been executed or proved on arbitrary hostile input** and assumes the qualified upstream ordinary-JSON preflight; its resource guard is documentary defense-in-depth only.
