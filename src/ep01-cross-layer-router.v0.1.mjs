@@ -290,6 +290,240 @@ const PINNED_EVENT_ANCHORS = Object.freeze({
 });
 const ANCHOR_FIELDS = Object.freeze(["shared_anchor_state_id","return_anchor_state_id"]);
 
+/** Exact EP01-only documentary assertions, not independently authenticated evidence. */
+const PINNED_CASE_CLAIMS=Object.freeze([
+  {
+    "id": "CLAIM-CASE-IDENTITY",
+    "category": "HISTORY_FACT",
+    "text": "The supplied pilot context identifies ED-CASE-REAL-01 as Donald Byrne, white, versus Bobby Fischer, black, in New York in 1956. Original historical authentication remains unverified.",
+    "subject": "ED-CASE-REAL-01",
+    "predicate": "SUPPLIED_CASE_IDENTITY",
+    "scope": {
+      "state_refs": [],
+      "event_refs": [],
+      "branch_refs": [
+        "MAIN"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-SUPPLIED-CASE-CONTEXT"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  },
+  {
+    "id": "CLAIM-REAL-MOVES",
+    "category": "HISTORY_FACT",
+    "text": "The supplied secondary candidate identifies 17...Be6 at ply 34, 18.Bxb6 at ply 35, and 25...Nxd1 at ply 50 as played moves on the real line. This declaration is not original 1956 source authentication.",
+    "subject": "MAIN",
+    "predicate": "SOURCE_DECLARED_PLAYED_MOVES",
+    "scope": {
+      "state_refs": [
+        "V-EV1",
+        "V-REAL",
+        "V-EV2"
+      ],
+      "event_refs": [
+        "T02",
+        "T03",
+        "T08",
+        "T09",
+        "T11"
+      ],
+      "branch_refs": [
+        "MAIN"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  },
+  {
+    "id": "CLAIM-HYPOTHETICAL-QD8",
+    "category": "HYPOTHETICAL",
+    "text": "17...Qd8 is the supplied alternative on ALT_QD8 and was not historically played. Its supplied position and move declaration do not establish independently verified chess legality.",
+    "subject": "17...Qd8",
+    "predicate": "HYPOTHETICAL_NOT_PLAYED",
+    "scope": {
+      "state_refs": [
+        "V-P1",
+        "V-HYP"
+      ],
+      "event_refs": [
+        "T05",
+        "T06"
+      ],
+      "branch_refs": [
+        "ALT_QD8"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-SUPPLIED-CASE-CONTEXT"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  },
+  {
+    "id": "CLAIM-CONTINUATION",
+    "category": "HISTORY_FACT",
+    "text": "The supplied R2 excerpt declares 26.h3 at ply 51 after 25...Nxd1 at ply 50. Accordingly, ply 50 is not the ending of the supplied candidate game.",
+    "subject": "25...Nxd1",
+    "predicate": "SOURCE_DECLARED_GAME_CONTINUES",
+    "scope": {
+      "state_refs": [
+        "V-EV2"
+      ],
+      "event_refs": [
+        "T11",
+        "T12"
+      ],
+      "branch_refs": [
+        "MAIN"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-R2-RESULTS"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  },
+  {
+    "id": "CLAIM-SOURCE-ENDING",
+    "category": "HISTORY_FACT",
+    "text": "The supplied secondary PGN declaration places its terminal move at ply 82, 41...Rc2#. The original historical score and the full PGN have not been authenticated in this task.",
+    "subject": "SOURCE-R2-PGN",
+    "predicate": "SOURCE_DECLARED_TERMINAL_PLY",
+    "scope": {
+      "state_refs": [],
+      "event_refs": [],
+      "branch_refs": [
+        "MAIN"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-R2-PGN-DECLARATION",
+      "EVID-R2-RESULTS"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  },
+  {
+    "id": "CLAIM-EDITORIAL-ELLIPSIS",
+    "category": "INTERPRETATION",
+    "text": "The supplied editorial sequence omits moves at plies 36 through 49 inclusive. V-PRE-EV2 is the technical-only destination position after ply 49; those omitted moves are not presented as shown events.",
+    "subject": "T10",
+    "predicate": "EDITORIAL_OMISSION_INCLUSIVE",
+    "scope": {
+      "state_refs": [
+        "V-REAL",
+        "V-PRE-EV2"
+      ],
+      "event_refs": [
+        "T10"
+      ],
+      "branch_refs": [
+        "MAIN"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  },
+  {
+    "id": "CLAIM-EDITORIAL-END",
+    "category": "INTERPRETATION",
+    "text": "T12 closes the editorial sequence at V-EV2 after ply 50. This editorial closure does not represent the historical game ending.",
+    "subject": "T12",
+    "predicate": "EDITORIAL_CLOSURE_ONLY",
+    "scope": {
+      "state_refs": [
+        "V-EV2"
+      ],
+      "event_refs": [
+        "T12"
+      ],
+      "branch_refs": [
+        "MAIN"
+      ]
+    },
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "admissibility_status": "PENDING_REVIEW",
+    "admissibility_review_refs": []
+  }
+]);
+const PINNED_CASE_ADMISSIBILITY=Object.freeze({
+  "mapping_id": "CHESS-STORIES-ADMISSIBILITY-0.2-DRAFT",
+  "review_status": "PENDING_INDEPENDENT_REVIEW",
+  "independent_review_evidence_refs": [],
+  "rules": [
+    {
+      "category": "HISTORY_FACT",
+      "requirement": "Require evidence competent for the exact historical assertion and its scope. Secondary declarations must remain identified as secondary; legal replay, a matching hash declaration, or an engine recommendation does not authenticate original historical play.",
+      "review_evidence_refs": []
+    },
+    {
+      "category": "CHESS_LEGALITY",
+      "requirement": "Require separately qualified legal-replay evidence for the exact before-position, move, and after-position. FEN occupancy consistency, structural validation, and same-library reproducibility alone do not establish independent legal verification.",
+      "review_evidence_refs": []
+    },
+    {
+      "category": "ENGINE_ANALYSIS",
+      "requirement": "Require identified engine, configuration, position, analysis scope, and competent review. Engine output is not historical evidence and does not by itself prove uniqueness, player intentions, or forced outcomes. F03 applies without category exemption.",
+      "review_evidence_refs": []
+    },
+    {
+      "category": "INTERPRETATION",
+      "requirement": "Require explicit interpretive or editorial framing and support for underlying factual premises. This category must not conceal historical assertions, unsupported uniqueness, inferred player intentions, or unverified forced outcomes.",
+      "review_evidence_refs": []
+    },
+    {
+      "category": "HYPOTHETICAL",
+      "requirement": "Require explicit non-played classification and a matching hypothetical branch. Any legality, uniqueness, intention, or forced-outcome assertion needs its own competent evidence and review; the hypothetical label grants no exemption.",
+      "review_evidence_refs": []
+    }
+  ],
+  "f03": {
+    "rule_id": "F03",
+    "protected_case_id": "ED-CASE-REAL-01",
+    "protected_move": "24...Ra4",
+    "rule": "NO_UNIQUE_BEST_CLAIM_WITHOUT_COMPETENT_PROOF_AND_INDEPENDENT_REVIEW",
+    "category_exemption_allowed": false
+  }
+});
+const PINNED_HISTORICAL_END=Object.freeze({
+  "status": "SOURCE_DECLARED",
+  "source_id": "SOURCE-R2-PGN",
+  "final_ply": 82,
+  "final_san": "Rc2#",
+  "result": "UNKNOWN",
+  "termination_description": "The supplied secondary candidate declares its ending as 41...Rc2# at ply 82. No explicit PGN result tag or authenticated original score was supplied.",
+  "original_historical_authentication": "NOT_VERIFIED",
+  "evidence_refs": [
+    "EVID-R2-PGN-DECLARATION",
+    "EVID-R2-RESULTS"
+  ]
+});
+const PINNED_SEQUENCE_END=Object.freeze({
+  "event_id": "T12",
+  "state_id": "V-EV2",
+  "closure": "EDITORIAL_ONLY",
+  "historical_relation": "GAME_CONTINUES",
+  "evidence_refs": [
+    "EVID-LEDGER-R2",
+    "EVID-R2-RESULTS"
+  ]
+});
+
 const PINNED_EVENT_PROVENANCE = Object.freeze({
   "disclosure": [
     "PARTIDA REAL",
@@ -663,6 +897,17 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     fault("OVERLAY_RELEASE_STATE_CHANGED","overlay.release");
   if(!sameDeclaredJson(overlayV01.mandatory_story_truth,PINNED_STORY_TRUTH))
     fault("OVERLAY_STORY_TRUTH_CHANGED","overlay.mandatory_story_truth");
+  // Prevent the documentary router from accepting an altered assertion body,
+  // F03 policy, historical terminal candidate or editorial-vs-historical end.
+  // This does NOT replace independent claim admissibility or original sources.
+  if(!sameDeclaredJson(caseV02.claims,PINNED_CASE_CLAIMS))
+    fault("EP01_CASE_CLAIMS_CHANGED","case.claims");
+  if(!sameDeclaredJson(caseV02.claim_admissibility,PINNED_CASE_ADMISSIBILITY))
+    fault("EP01_F03_ADMISSIBILITY_CHANGED","case.claim_admissibility");
+  if(!sameDeclaredJson(caseV02.historical_game_end,PINNED_HISTORICAL_END))
+    fault("EP01_HISTORICAL_END_CHANGED","case.historical_game_end");
+  if(!sameDeclaredJson(caseV02.sequence_end,PINNED_SEQUENCE_END))
+    fault("EP01_EDITORIAL_END_DECLARATION_CHANGED","case.sequence_end");
   if(caseV02.status!=="DOCUMENTARY_CANDIDATE_NOT_APPROVED")
     fault("CASE_STATUS_UNAUTHORIZED","case.status");
   for(const [k,v] of Object.entries(FROZEN)) {
