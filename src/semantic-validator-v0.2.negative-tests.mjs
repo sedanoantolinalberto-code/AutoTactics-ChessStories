@@ -146,6 +146,25 @@ export const NEGATIVE_MUTATIONS = [
   { name: "Historical verification self-promoted without record",
     code: "UNSUPPORTED_VERIFICATION_PROMOTION",
     mutate: v => { evidence(v,"EVID-LEDGER-R2").verification.original_historical_authentication="REVIEW_REPORTED_NOT_ESTABLISHED_BY_SCHEMA"; } },
+  { name: "Unqualified historical technical verification has no evidence records",
+    code: "UNSUPPORTED_VERIFICATION_PROMOTION",
+    mutate: v => { evidence(v,"EVID-R2-RESULTS").verification.declared_level="QUALIFIED_ORACLE_REVIEW_REPORTED"; } },
+  { name: "Evidence must not independently qualify itself",
+    code: "EVIDENCE_SELF_QUALIFICATION",
+    mutate: v => { evidence(v,"EVID-LEDGER-R2").verification.verification_record_refs=["EVID-LEDGER-R2"]; } },
+  { name: "Hash verification must not refer to its own evidence as an independent check",
+    code: "HASH_SELF_QUALIFICATION",
+    mutate: v => { evidence(v,"EVID-R2-PGN-DECLARATION").declared_hash.check_evidence_refs=["EVID-R2-PGN-DECLARATION"]; } },
+  { name: "Asset provenance review cannot self-promote without evidence",
+    code: "ASSET_PROVENANCE_SELF_PROMOTION",
+    mutate: v => {
+      const a=asset(v,"ASSET-SUPPLIED-POSITION-DATA");
+      a.provenance.status="REVIEW_REPORTED";
+      a.provenance.evidence_refs=[];
+    } },
+  { name: "F03 uniqueness assertion in displayed event disclosure is rejected",
+    code: "F03_UNSUPPORTED_UNIQUENESS",
+    mutate: v => { event(v,"T11").disclosure="24...Ra4 was uniquely best."; } },
   { name: "Unqualified special chess move must not silently pass",
     code: "SPECIAL_MOVE_NOT_QUALIFIED",
     mutate: v => { event(v,"T02").move.special_move="CASTLING_KINGSIDE"; } },
