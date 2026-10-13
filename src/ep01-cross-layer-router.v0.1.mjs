@@ -24,12 +24,93 @@ const KIND = Object.freeze({
   SEQUENCE_END:"EDITORIAL_CLOSURE_NOT_GAME_TERMINATION"
 });
 const FROZEN = Object.freeze({
-  R6:"PENDING",
-  IVV_GLOBAL:"NOT APPROVED",
-  "ED-CASE-REAL-01":"NOT APPROVED",
-  E5B4D:"NO-GO under failure model M",
-  PERMISSION_TO_PUBLISH:false
+  "IVV-01": "PASS LIMITED",
+  "IVV-02": "PASS LIMITED",
+  "IVV-03": "PENDING",
+  "IVV-04": "PASS LIMITED",
+  "IVV-05": "PENDING",
+  "IVV-06": "PENDING",
+  "IVV-07": "PASS LIMITED",
+  "IVV-08": "PASS LIMITED",
+  "IVV-09": "PENDING",
+  "IVV-10": "PENDING",
+  "IVV-11": "PASS LIMITED",
+  "IVV-12": "PENDING",
+  "R6": "PENDING",
+  "IVV_GLOBAL": "NOT APPROVED",
+  "ED-CASE-REAL-01": "NOT APPROVED",
+  "CASE_APPROVAL": "NOT APPROVED",
+  "MOTION_GATE_2": "NOT PASSED",
+  "GATE_3": "NOT RUN",
+  "SI-G0": "NOT RUN",
+  "E5B4D": "NO-GO under failure model M",
+  "FOOTBALL_P1": "NO-GO",
+  "PERMISSION_TO_PUBLISH": false
 });
+const EXEC_POLICY = Object.freeze({
+  "policy": "STRICT_POLICY_B",
+  "failure_model": "M",
+  "execution_authorized": false,
+  "runner_qualification": "NOT_ESTABLISHED",
+  "termination_requirement": "ALL_RELEVANT_PROCESSES_TERMINATED_AND_TERMINATION_CONFIRMED_BEFORE_DEADLINE",
+  "termination_deadline_seconds_exclusive": 120,
+  "stdout_lifetime_emitted_accepted_limit_bytes": 1048576,
+  "stderr_lifetime_emitted_accepted_limit_bytes": 1048576,
+  "stream_limits_independent": true,
+  "schema_validation_establishes_compliance": false
+});
+const PINNED_STATE_DECLARATIONS = Object.freeze({
+  "V-P1": {
+    "branch_id": "MAIN",
+    "factuality": "REAL",
+    "ply": 33,
+    "fen": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17"
+  },
+  "V-EV1": {
+    "branch_id": "MAIN",
+    "factuality": "REAL",
+    "ply": 34,
+    "fen": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18"
+  },
+  "V-REAL": {
+    "branch_id": "MAIN",
+    "factuality": "REAL",
+    "ply": 35,
+    "fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18"
+  },
+  "V-HYP": {
+    "branch_id": "ALT_QD8",
+    "factuality": "HYPOTHETICAL",
+    "ply": 34,
+    "fen": "r2qr1k1/pp3pbp/2p3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R w - - 4 18"
+  },
+  "V-PRE-EV2": {
+    "branch_id": "MAIN",
+    "factuality": "REAL",
+    "ply": 49,
+    "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25"
+  },
+  "V-EV2": {
+    "branch_id": "MAIN",
+    "factuality": "REAL",
+    "ply": 50,
+    "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26"
+  }
+});
+const PINNED_EVENT_KINDS = Object.freeze([
+  "SET_POSITION",
+  "REAL_MOVE",
+  "REAL_MOVE",
+  "REWIND",
+  "ENTER_HYPOTHETICAL",
+  "HYPOTHETICAL_MOVE",
+  "RETURN_TO_REAL",
+  "REAL_MOVE",
+  "REAL_MOVE",
+  "ELLIPSIS",
+  "REAL_MOVE",
+  "SEQUENCE_END"
+]);
 const isRecord = x => x!==null && typeof x==="object" && !Array.isArray(x);
 const plainText = x => typeof x==="string" && x.length>0 && x.length<=4096;
 const own = (o,k) => Object.prototype.hasOwnProperty.call(o,k);
@@ -77,17 +158,10 @@ export function proposeEp01Routing(caseV02, overlayV01) {
       fault("FROZEN_GATE_MISMATCH","frozen_gates."+k);
   }
   const exec=caseV02.execution_policy;
-  if(!isRecord(exec) ||
-     exec.execution_authorized!==false ||
-     exec.policy!=="STRICT_POLICY_B" ||
-     exec.failure_model!=="M" ||
-     exec.runner_qualification!=="NOT_ESTABLISHED" ||
-     exec.termination_deadline_seconds_exclusive!==120 ||
-     exec.stdout_lifetime_emitted_accepted_limit_bytes!==1048576 ||
-     exec.stderr_lifetime_emitted_accepted_limit_bytes!==1048576 ||
-     exec.stream_limits_independent!==true ||
-     exec.schema_validation_establishes_compliance!==false)
-    fault("POLICY_B_UNCHANGED_REQUIRED","case.execution_policy");
+  for(const [k,v] of Object.entries(EXEC_POLICY)) {
+    if(!isRecord(exec)||exec[k]!==v)
+      fault("POLICY_B_UNCHANGED_REQUIRED","case.execution_policy."+k);
+  }
   if(!Array.isArray(caseV02.timeline)||!Array.isArray(overlayV01.overlays)||
     caseV02.timeline.length!==12||overlayV01.overlays.length!==12) {
     fault("EP01_TWELVE_EVENTS_REQUIRED","timeline");
@@ -105,6 +179,12 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     states.set(s.id,s);
   }
   if(states.size!==6) fault("EP01_SIX_STATES_REQUIRED","states");
+  for(const [id,pinned] of Object.entries(PINNED_STATE_DECLARATIONS)){
+    const actual=states.get(id);
+    if(!actual || Object.entries(pinned).some(([key,val])=>actual[key]!==val))
+      fault("EP01_PINNED_STATE_CHANGED","states."+id);
+  }
+
   const routes=[];
   for(let i=0;i<12;i++) {
     const event=caseV02.timeline[i],ov=overlayV01.overlays[i];
@@ -114,6 +194,8 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     const id=EVENT_IDS[i], p="event."+id;
     if(event.id!==id||ov.id!==id||ov.event_kind!==event.kind)
       fault("EVENT_ORDER_KIND_MISMATCH",p);
+    if(event.kind!==PINNED_EVENT_KINDS[i])
+      fault("EP01_EVENT_FACTUALITY_CHANGED",p);
     if(!own(KIND,event.kind)) {
       fault("UNKNOWN_EVENT_KIND",p);continue;
     }
