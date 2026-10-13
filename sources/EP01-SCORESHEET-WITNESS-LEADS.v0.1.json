@@ -46,7 +46,9 @@
     "result_implication": "Both reported terminal conventions are compatible with a Black win, but they are not the same historical termination record.",
     "current_ep01_secondary_result": "0-1",
     "current_ep01_secondary_final_san": "Rc2#",
-    "primary_historical_terminal_authentication": "NOT_VERIFIED"
+    "primary_historical_terminal_authentication": "NOT_VERIFIED",
+    "additional_contemporary_support": "Chess Life 20 Dec 1956 Fischer/Collins annotated publication records 41...R-B7 mate in official PDF text extraction.",
+    "resolution_status": "UNRESOLVED_PENDING_DIRECT_OR_BLIND_PRIMARY_WITNESS_ADJUDICATION"
   },
   "rights_boundary": {
     "release_use_of_scoresheet_images": "EXCLUDED_BY_DEFAULT_UNDER_PR7_CLEAN_ROOM_BASELINE",
@@ -83,5 +85,17 @@
     "BYRNE_RESIGNATION_PRIMARY_VERIFIED",
     "R6_CLEARED",
     "PERMISSION_TO_PUBLISH"
+  ],
+  "contemporaneous_periodical_terminal_witnesses": [
+    {
+      "id": "CHESS-LIFE-1956-12-20-FISCHER-NOTES",
+      "source": "Chess Life, 20 Dec 1956, printed p.6 / PDF index 5",
+      "notes_credit": "Robert J. Fischer; publication states notes written in collaboration with editor John W. Collins",
+      "observed_terminal_record_from_official_pdf_text": "41.K-B1 R-B7 mate",
+      "normalized_candidate": "41...Rc2#",
+      "visual_transcription": "NOT_PERFORMED_SCREENSHOT_TIMEOUT",
+      "evidentiary_class": "CONTEMPORARY_PLAYER_ATTRIBUTED_EDITED_PERIODICAL_WITNESS",
+      "relationship_to_scoresheet_divergence": "SUPPORTS_MATE_PUBLICATION_TRADITION_BUT_DOES_NOT_RESOLVE_REPORTED_BYRNE_ORIGINAL_RESIGNATION_RECORD"
+    }
   ]
 }
