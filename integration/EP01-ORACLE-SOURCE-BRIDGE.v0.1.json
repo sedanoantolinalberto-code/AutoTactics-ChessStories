@@ -16,10 +16,11 @@
     {
       "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
       "branch": "chess-stories/secondary-pgn-result-reconciliation",
-      "observed_git_blob_sha": "926eae9e8b58d75fbc5f96d5133901f71d8a509b",
+      "observed_git_blob_sha": "c90c42d27279ca0f1809098d0c49774149061cda",
       "role": "FULL_GAME_SECONDARY_CROSSWALK_82_PLIES",
       "source_level": "MODERN_SCHOLARLY_SECONDARY_TRANSCRIPTION",
-      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
+      "observation_refresh_note": "2026-10-14 metadata-only witness updates changed the Git blob; plies 36-49 were statically re-compared and remained 14/14 exact on ply/move_number/side/san."
     },
     {
       "path": "contracts/CHESS-LEGALITY-ORACLE-INTERFACE-v0.1.draft.json",
@@ -212,7 +213,9 @@
         "legal_replay": "NOT_RUN",
         "primary_1956_crosscheck": "PENDING"
       }
-    ]
+    ],
+    "last_static_refresh": "2026-10-14",
+    "refresh_reason": "PR3 witness/provenance metadata changed; SAN crosswalk rechecked without project runtime."
   },
   "future_oracle_request": {
     "request_profile": "GAP_REPLAY",
