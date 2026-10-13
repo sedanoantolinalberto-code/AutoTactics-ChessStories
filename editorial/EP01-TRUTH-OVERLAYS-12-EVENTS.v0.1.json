@@ -30,7 +30,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 2,
@@ -55,7 +57,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 3,
@@ -80,7 +84,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 4,
@@ -103,7 +109,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 5,
@@ -128,7 +136,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NEVER_DURING_HYPOTHETICAL_FRAMES",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 6,
@@ -153,7 +163,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NEVER_DURING_HYPOTHETICAL_FRAMES",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 7,
@@ -176,7 +188,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "ONLY_AFTER_EXACT_V-P1_REAL_BOARD_AND_MAIN_CONTEXT_RESTORED",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 8,
@@ -201,7 +215,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 9,
@@ -226,7 +242,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 10,
@@ -255,7 +273,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 11,
@@ -281,7 +301,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     },
     {
       "index": 12,
@@ -307,7 +329,9 @@
       "voice_start_ms": null,
       "voice_end_ms": null,
       "visual_comprehension_test": "NOT_RUN",
-      "historical_authentication": "NOT_VERIFIED"
+      "historical_authentication": "NOT_VERIFIED",
+      "hypothetical_warning_release_rule": "NOT_APPLICABLE",
+      "audio_independent_factuality_label": true
     }
   ],
   "mandatory_story_truth": {
