@@ -21,6 +21,13 @@
       "branch": "chess-stories/legality-oracle-interface-rfc-v0.1",
       "observed_git_blob_sha": "579a415655a8b2d3d0deec2ee327951bfdf08710",
       "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
+    },
+    {
+      "path": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
+      "branch": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "observed_git_blob_sha": "06746705894dcd797c13d4775b4367848da61023",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
+      "source_level": "MODERN_SECONDARY_CANDIDATE_NOT_PRIMARY_AUTHENTICATED"
     }
   ],
   "source_case_signature": {
@@ -252,10 +259,12 @@
         "EVID-R2-RESULTS",
         "EVID-LEDGER-R2"
       ],
-      "continuous_intermediate_source_plie_refs": null,
+      "continuous_intermediate_source_plie_refs": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
       "measured_render_frames": null,
       "measured_audio_alignment": null,
-      "publishable": false
+      "publishable": false,
+      "attested_source_level": "SECONDARY_SCORES_AGREE_NO_INDEPENDENT_1956_WITNESS",
+      "qualifying_oracle_replay": "NOT_RUN"
     },
     {
       "event_id": "T11",
@@ -367,7 +376,7 @@
   ],
   "important_exceptions": {
     "T07": "Return must restore exact V-P1 MAIN context before warning is released; never route as legal move",
-    "T10": "Omitted plies 36..49 inclusive (14). Only endpoints present in v0.2; full gap replay MUST remain INCONCLUSIVE without complete attested moves",
+    "T10": "Omitted real plies 36..49 inclusive (14). The v0.2 case has only endpoint states; a separate modern-secondary SAN candidate was added under sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json. No original 1956 authentication or qualified legal replay exists; still INCONCLUSIVE.",
     "T12": "Editorial sequence end at ply50; terminal PGN candidate at ply82, no checkmate claim at T12",
     "T06": "17...Qd8 is UNPLAYED; independently establishing legality would not make this historically REAL",
     "duplicated_moves": "T08 duplicates T02 and T09 duplicates T03 for narrative replay. Rules-evidence reuse needs exact source FEN+SAN+rules version+trusted original result IDs, not just matching text."
@@ -399,5 +408,6 @@
   },
   "all_gates_satisfied": false,
   "executable": false,
-  "source_qa_run": false
+  "source_qa_run": false,
+  "cross_layer_data_maturity": "MODERN_SECONDARY_GAP_CANDIDATE_SOURCE_DISCOVERED; NO QUALIFIED REPLAY; NO HISTORICAL_PROMOTION"
 }
