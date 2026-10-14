@@ -78,3 +78,17 @@ For the six EP01 candidate positions, `design/EP01-FEN-PIECE-PLACEMENTS.v0.1.jso
 The documentary expansion yields source-declared 25/25/24/25/20/19 pieces respectively across V-P1/V-EV1/V-REAL/V-HYP/V-PRE-EV2/V-EV2, with six event move origin/target/capture **text-field** correspondences T02/T03/T06/T08/T09/T11. This agreement is **not an independent chess-rules check** and does not validate the historical source or FEN legality: all values were derived from the same PR #1 fixture. The test-like field comparisons were conducted during document authoring using connected GitHub text, **not** by running AutoTactics project code, chess libraries or tests.
 
 The visual interface must bind board squares and branch truth *separately*. A matching 8×8 position does not reveal whether a clip is within the unplayed ALT_QD8 branch. The ellipsis destination V-PRE-EV2 may be used as a clearly disclosed landing state before 25...Nxd1 but cannot be shown as the result of a fictitious direct legal move from V-REAL. Commercial provenance and accessibility remain pending.
+
+
+## 2026-10-14 — Noto Sans licensing evidence and asset-bound gap
+
+Research-only source cross-check of the **official Noto project**:
+- Official typography use FAQ: https://github.com/notofonts/noto-docs/blob/main/docs/website/use.md — describes Noto fonts under the **SIL Open Font License** and states commercial print/digital use is allowed, subject to license conditions; fonts must not be sold as standalone font software.
+- License text: https://github.com/notofonts/noto-fonts/blob/main/LICENSE — SIL OFL **v1.1** terms distinguish using fonts to produce a document or video from redistributing actual font software, and place conditions on bundling, notices, modifications and reserved names.
+- The old `notofonts/noto-fonts` general monorepo is **archived/migrated**, not an assurance that any unpinned `main` checkout reflects the current build. The Noto project provides newer family-specific repositories; a **specific file and release** must be selected later, not guessed from a family name.
+
+**Decision recorded:** `Noto Sans` remains the **preferred font candidate**, not a selected release artifact. No `.ttf`/`.otf` font binary, executable tool, stylesheet, external SVG or license bundle was added here. Do not claim a font family URL establishes rights to an unidentified local binary.
+
+**Future asset-bound font record, all unset today:** exact family/subfamily (including variable-vs-static and weight), filename, upstream immutable release/commit, downloadable upstream artifact location, complete downloaded byte hash SHA-256 measured by a qualified mechanism, license text/copyright holders/reserved names and whether the font software is embedded/distributed or only rasterized into final media, plus a separate review of the implemented text UI across devices. Only a competent independent rights review may close the R6 font component; this memo cannot close R6 for other assets.
+
+No commercial-rights `PASS` is claimed, and no output/caption font preview has been rendered or device-tested. **R6 PENDING**, E5B4D NO-GO under M, Policy B unchanged, IVV_GLOBAL and CASE_APPROVAL NOT APPROVED, publish false.
