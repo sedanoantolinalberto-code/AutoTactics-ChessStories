@@ -1,0 +1,1155 @@
+{
+  "artifact_version": "chess-stories-ep01-fen-square-inventory/0.1-DRAFT",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "DECLARED_FEN_TEXT_DERIVATION_NO_RENDER_NO_CHESS_RULES_VERIFICATION",
+  "inputs": [
+    {
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "branch": "chess-stories/semantic-contract-v0.2",
+      "observed_git_blob_sha": "3514f19ac355763a5b4c61d5c573df090b0eccc1",
+      "identity_kind": "GIT_BLOB_NOT_CERTIFIED_SHA256"
+    }
+  ],
+  "visual_geometry_binding": {
+    "path": "design/EP01-CLEANROOM-VECTOR-GEOMETRY.v0.1.json",
+    "branch": "chess-stories/r6-asset-rights-inventory-v0.1",
+    "role": "PROPOSED_SIX_PIECE_PRIMITIVES_UNRENDERED",
+    "license_review": "PENDING",
+    "renderer": "NOT_RUN"
+  },
+  "orientation": "WHITE_AT_BOTTOM_FILES_A_TO_H_LEFT_TO_RIGHT_RANKS_8_TO_1_TOP_TO_BOTTOM",
+  "rules": "Only digit expansion and uppercase/lowercase occupancy mapping of each given FEN. No move generation, attack detection, king safety, SAN verification, historical authentication or evaluation.",
+  "states": [
+    {
+      "state_id": "V-P1",
+      "declared_ply": 33,
+      "declared_fen": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "to_move_field": "b",
+      "castling_field": "-",
+      "en_passant_field": "-",
+      "halfmove_field": "3",
+      "fullmove_field": "17",
+      "piece_count": 25,
+      "pieces": [
+        {
+          "square": "a8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "e8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g8",
+          "piece": "K",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "a7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g7",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "h7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b6",
+          "piece": "Q",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "c5",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "c4",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "d4",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g4",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "a3",
+          "piece": "Q",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c3",
+          "piece": "N",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "f3",
+          "piece": "N",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "a2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "h2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "d1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "f1",
+          "piece": "K",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "h1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        }
+      ],
+      "position_rules_qualified": false,
+      "historical_record_authenticated": false
+    },
+    {
+      "state_id": "V-EV1",
+      "declared_ply": 34,
+      "declared_fen": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "to_move_field": "w",
+      "castling_field": "-",
+      "en_passant_field": "-",
+      "halfmove_field": "4",
+      "fullmove_field": "18",
+      "piece_count": 25,
+      "pieces": [
+        {
+          "square": "a8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "e8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g8",
+          "piece": "K",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "a7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g7",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "h7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b6",
+          "piece": "Q",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "e6",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "g6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "c5",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "c4",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "d4",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "a3",
+          "piece": "Q",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c3",
+          "piece": "N",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "f3",
+          "piece": "N",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "a2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "h2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "d1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "f1",
+          "piece": "K",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "h1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        }
+      ],
+      "position_rules_qualified": false,
+      "historical_record_authenticated": false
+    },
+    {
+      "state_id": "V-REAL",
+      "declared_ply": 35,
+      "declared_fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "to_move_field": "b",
+      "castling_field": "-",
+      "en_passant_field": "-",
+      "halfmove_field": "0",
+      "fullmove_field": "18",
+      "piece_count": 24,
+      "pieces": [
+        {
+          "square": "a8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "e8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g8",
+          "piece": "K",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "a7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g7",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "h7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b6",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "c6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "e6",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "g6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "c4",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "d4",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "a3",
+          "piece": "Q",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c3",
+          "piece": "N",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "f3",
+          "piece": "N",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "a2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "h2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "d1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "f1",
+          "piece": "K",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "h1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        }
+      ],
+      "position_rules_qualified": false,
+      "historical_record_authenticated": false
+    },
+    {
+      "state_id": "V-HYP",
+      "declared_ply": 34,
+      "declared_fen": "r2qr1k1/pp3pbp/2p3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "factuality": "HYPOTHETICAL",
+      "branch_id": "ALT_QD8",
+      "to_move_field": "w",
+      "castling_field": "-",
+      "en_passant_field": "-",
+      "halfmove_field": "4",
+      "fullmove_field": "18",
+      "piece_count": 25,
+      "pieces": [
+        {
+          "square": "a8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "d8",
+          "piece": "Q",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "e8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g8",
+          "piece": "K",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "a7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g7",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "h7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "c6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "c5",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "c4",
+          "piece": "B",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "d4",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g4",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "a3",
+          "piece": "Q",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c3",
+          "piece": "N",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "f3",
+          "piece": "N",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "a2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "h2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "d1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "f1",
+          "piece": "K",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "h1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        }
+      ],
+      "position_rules_qualified": false,
+      "historical_record_authenticated": false
+    },
+    {
+      "state_id": "V-PRE-EV2",
+      "declared_ply": 49,
+      "declared_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "to_move_field": "b",
+      "castling_field": "-",
+      "en_passant_field": "-",
+      "halfmove_field": "0",
+      "fullmove_field": "25",
+      "piece_count": 20,
+      "pieces": [
+        {
+          "square": "e8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g8",
+          "piece": "K",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "b7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g7",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "h7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b6",
+          "piece": "Q",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "a4",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "c4",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "c3",
+          "piece": "N",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "f3",
+          "piece": "N",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "a2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "h2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "d1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g1",
+          "piece": "K",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "h1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        }
+      ],
+      "position_rules_qualified": false,
+      "historical_record_authenticated": false
+    },
+    {
+      "state_id": "V-EV2",
+      "declared_ply": 50,
+      "declared_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26",
+      "factuality": "REAL",
+      "branch_id": "MAIN",
+      "to_move_field": "w",
+      "castling_field": "-",
+      "en_passant_field": "-",
+      "halfmove_field": "0",
+      "fullmove_field": "26",
+      "piece_count": 19,
+      "pieces": [
+        {
+          "square": "e8",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "g8",
+          "piece": "K",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "b7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g7",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "h7",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "b6",
+          "piece": "Q",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+        },
+        {
+          "square": "c6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g6",
+          "piece": "P",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "a4",
+          "piece": "R",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        },
+        {
+          "square": "c4",
+          "piece": "B",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+        },
+        {
+          "square": "f3",
+          "piece": "N",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "a2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "f2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "g2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "h2",
+          "piece": "P",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_P"
+        },
+        {
+          "square": "d1",
+          "piece": "N",
+          "color": "black",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+        },
+        {
+          "square": "g1",
+          "piece": "K",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_K"
+        },
+        {
+          "square": "h1",
+          "piece": "R",
+          "color": "white",
+          "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+        }
+      ],
+      "position_rules_qualified": false,
+      "historical_record_authenticated": false
+    }
+  ],
+  "declared_move_occupancy_review_candidates": [
+    {
+      "event_id": "T02",
+      "kind": "REAL_MOVE",
+      "declared_san": "Be6",
+      "from_state": "V-P1",
+      "to_state": "V-EV1",
+      "mover_square_before": "g4",
+      "to_square_after": "e6",
+      "mover_declared_piece": "B",
+      "mover_declared_color": "black",
+      "source_occupant": {
+        "square": "g4",
+        "piece": "B",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "destination_occupant_after": {
+        "square": "e6",
+        "piece": "B",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "capture_declared": null,
+      "destination_occupant_before": null,
+      "static_field_consistency_only": "NOT_A_RULES_ORACLE"
+    },
+    {
+      "event_id": "T03",
+      "kind": "REAL_MOVE",
+      "declared_san": "Bxb6",
+      "from_state": "V-EV1",
+      "to_state": "V-REAL",
+      "mover_square_before": "c5",
+      "to_square_after": "b6",
+      "mover_declared_piece": "B",
+      "mover_declared_color": "white",
+      "source_occupant": {
+        "square": "c5",
+        "piece": "B",
+        "color": "white",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "destination_occupant_after": {
+        "square": "b6",
+        "piece": "B",
+        "color": "white",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "capture_declared": {
+        "captured_piece": "Q",
+        "captured_color": "black",
+        "capture_square": "b6"
+      },
+      "destination_occupant_before": {
+        "square": "b6",
+        "piece": "Q",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+      },
+      "static_field_consistency_only": "NOT_A_RULES_ORACLE"
+    },
+    {
+      "event_id": "T06",
+      "kind": "HYPOTHETICAL_MOVE",
+      "declared_san": "Qd8",
+      "from_state": "V-P1",
+      "to_state": "V-HYP",
+      "mover_square_before": "b6",
+      "to_square_after": "d8",
+      "mover_declared_piece": "Q",
+      "mover_declared_color": "black",
+      "source_occupant": {
+        "square": "b6",
+        "piece": "Q",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+      },
+      "destination_occupant_after": {
+        "square": "d8",
+        "piece": "Q",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+      },
+      "capture_declared": null,
+      "destination_occupant_before": null,
+      "static_field_consistency_only": "NOT_A_RULES_ORACLE"
+    },
+    {
+      "event_id": "T08",
+      "kind": "REAL_MOVE",
+      "declared_san": "Be6",
+      "from_state": "V-P1",
+      "to_state": "V-EV1",
+      "mover_square_before": "g4",
+      "to_square_after": "e6",
+      "mover_declared_piece": "B",
+      "mover_declared_color": "black",
+      "source_occupant": {
+        "square": "g4",
+        "piece": "B",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "destination_occupant_after": {
+        "square": "e6",
+        "piece": "B",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "capture_declared": null,
+      "destination_occupant_before": null,
+      "static_field_consistency_only": "NOT_A_RULES_ORACLE"
+    },
+    {
+      "event_id": "T09",
+      "kind": "REAL_MOVE",
+      "declared_san": "Bxb6",
+      "from_state": "V-EV1",
+      "to_state": "V-REAL",
+      "mover_square_before": "c5",
+      "to_square_after": "b6",
+      "mover_declared_piece": "B",
+      "mover_declared_color": "white",
+      "source_occupant": {
+        "square": "c5",
+        "piece": "B",
+        "color": "white",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "destination_occupant_after": {
+        "square": "b6",
+        "piece": "B",
+        "color": "white",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_B"
+      },
+      "capture_declared": {
+        "captured_piece": "Q",
+        "captured_color": "black",
+        "capture_square": "b6"
+      },
+      "destination_occupant_before": {
+        "square": "b6",
+        "piece": "Q",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_Q"
+      },
+      "static_field_consistency_only": "NOT_A_RULES_ORACLE"
+    },
+    {
+      "event_id": "T11",
+      "kind": "REAL_MOVE",
+      "declared_san": "Nxd1",
+      "from_state": "V-PRE-EV2",
+      "to_state": "V-EV2",
+      "mover_square_before": "c3",
+      "to_square_after": "d1",
+      "mover_declared_piece": "N",
+      "mover_declared_color": "black",
+      "source_occupant": {
+        "square": "c3",
+        "piece": "N",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+      },
+      "destination_occupant_after": {
+        "square": "d1",
+        "piece": "N",
+        "color": "black",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_N"
+      },
+      "capture_declared": {
+        "captured_piece": "R",
+        "captured_color": "white",
+        "capture_square": "d1"
+      },
+      "destination_occupant_before": {
+        "square": "d1",
+        "piece": "R",
+        "color": "white",
+        "glyph_ref": "PR7_CLEANROOM_GEOMETRY_R"
+      },
+      "static_field_consistency_only": "NOT_A_RULES_ORACLE"
+    }
+  ],
+  "presentation_warnings": {
+    "T06": "ALT_QD8 hypothetical only",
+    "T07": "Restore exactly V-P1 and MAIN without half-move or piece interpolation",
+    "T10": "No single chess move may be synthesized from V-REAL to V-PRE-EV2; visibly disclose 14 omitted real plies",
+    "T12": "Hold V-EV2; not original game end"
+  },
+  "frozen": {
+    "E5B4D": "NO-GO under failure model M",
+    "strict_policy_b": "UNALTERED",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "case_approval": "NOT APPROVED",
+    "rendered": false,
+    "execution_authorized": false,
+    "permission_to_publish": false
+  }
+}

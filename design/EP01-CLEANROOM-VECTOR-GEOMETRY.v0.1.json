@@ -1,0 +1,290 @@
+{
+  "artifact_version": "chess-stories-ep01-cleanroom-declarative-visuals/0.1-DRAFT",
+  "status": "SOURCE_DESIGN_NOT_RENDERED_NOT_EXECUTED_NOT_RIGHTS_CLEARED",
+  "scope": "EP01_CHESS_STORIES_ONLY",
+  "geometry_origin": "Newly drafted normalized primitive descriptions; no imported chess font, photo, third-party vector, historical scan, image or external file.",
+  "purpose": "Provisional original-geometry candidate that a future rights-qualified and Policy-B-qualified rendering system could implement after independent design and provenance review.",
+  "unit_grid": {
+    "width": 100,
+    "height": 100,
+    "base_y": 89
+  },
+  "profiles": {
+    "VERTICAL_9_16": {
+      "canvas_px": [
+        1080,
+        1920
+      ],
+      "board_px": {
+        "left": 40,
+        "top": 435,
+        "size": 1000
+      },
+      "top_caption_zone_px": {
+        "left": 56,
+        "top": 160,
+        "width": 968
+      },
+      "truth_label_zone_px": {
+        "left": 56,
+        "top": 340,
+        "width": 968
+      },
+      "post_board_text_zone_px": {
+        "left": 56,
+        "top": 1475,
+        "width": 968
+      },
+      "platform_safe_area_status": "TO_BE_MEASURED_PER_PLATFORM_AND_DEVICE"
+    },
+    "HORIZONTAL_16_9": {
+      "canvas_px": [
+        1920,
+        1080
+      ],
+      "board_px": {
+        "left": 85,
+        "top": 70,
+        "size": 940
+      },
+      "right_text_zone_px": {
+        "left": 1095,
+        "top": 80,
+        "width": 740
+      },
+      "platform_safe_area_status": "TO_BE_MEASURED"
+    }
+  },
+  "board": {
+    "file_order": "a_to_h_left_to_right",
+    "rank_order": "8_to_1_top_to_bottom",
+    "square_source": "SIX_FIELD_FEN_DECLARATIONS_UNVERIFIED_LEGALITY",
+    "board_size": 8,
+    "alternate_orientation": "NOT_IMPLEMENTED",
+    "color_palette_candidate": {
+      "light_square": "#E6DDCE",
+      "dark_square": "#426577",
+      "white_piece_fill": "#FAF8F2",
+      "white_piece_outline": "#1A2935",
+      "black_piece_fill": "#162535",
+      "black_piece_outline": "#F7F1E8",
+      "real_accent": "#19B7C2",
+      "hypothetical_accent": "#AD73D1",
+      "capture_accent": "#F1B84C",
+      "neutral_text": "#F9F8F3",
+      "background": "#111C2B"
+    },
+    "color_caution": "Color alone can never indicate REAL, HYPOTHETICAL, RETURN, ELLIPSIS or EDITORIAL END."
+  },
+  "pieces": {
+    "piece_ids": {
+      "P": "pawn",
+      "N": "knight",
+      "B": "bishop",
+      "R": "rook",
+      "Q": "queen",
+      "K": "king"
+    },
+    "source_style": "Minimal original geometric primitives with differentiated silhouettes; not derived from a third-party chess glyph set.",
+    "outline_candidate_stroke_width_units": 3,
+    "normalized_primitives": {
+      "P": [
+        {
+          "type": "circle",
+          "cx": 50,
+          "cy": 28,
+          "r": 13
+        },
+        {
+          "type": "path",
+          "d": "M42 42 L58 42 L65 75 L35 75 Z"
+        },
+        {
+          "type": "rect",
+          "x": 27,
+          "y": 78,
+          "width": 46,
+          "height": 10,
+          "rx": 3
+        }
+      ],
+      "R": [
+        {
+          "type": "rect",
+          "x": 25,
+          "y": 18,
+          "width": 12,
+          "height": 18
+        },
+        {
+          "type": "rect",
+          "x": 44,
+          "y": 18,
+          "width": 12,
+          "height": 18
+        },
+        {
+          "type": "rect",
+          "x": 63,
+          "y": 18,
+          "width": 12,
+          "height": 18
+        },
+        {
+          "type": "path",
+          "d": "M28 34 L72 34 L66 76 L34 76 Z"
+        },
+        {
+          "type": "rect",
+          "x": 25,
+          "y": 78,
+          "width": 50,
+          "height": 10,
+          "rx": 2
+        }
+      ],
+      "N": [
+        {
+          "type": "path",
+          "d": "M29 77 L29 54 Q24 44 35 34 L33 20 L45 23 L56 32 L66 45 L62 55 L53 52 L48 46 L43 54 L62 77 Z"
+        },
+        {
+          "type": "circle",
+          "cx": 46,
+          "cy": 33,
+          "r": 3,
+          "semantic_role": "eye_inset"
+        },
+        {
+          "type": "rect",
+          "x": 25,
+          "y": 79,
+          "width": 50,
+          "height": 9,
+          "rx": 2
+        }
+      ],
+      "B": [
+        {
+          "type": "path",
+          "d": "M50 13 C65 27 69 39 65 51 C61 62 55 68 50 72 C45 68 39 62 35 51 C31 39 35 27 50 13 Z"
+        },
+        {
+          "type": "path",
+          "d": "M39 57 L61 31",
+          "semantic_role": "mitre_slit_negative_stroke"
+        },
+        {
+          "type": "rect",
+          "x": 27,
+          "y": 79,
+          "width": 46,
+          "height": 9,
+          "rx": 2
+        }
+      ],
+      "Q": [
+        {
+          "type": "path",
+          "d": "M22 33 L32 48 L43 24 L50 44 L57 24 L68 48 L78 33 L70 74 L30 74 Z"
+        },
+        {
+          "type": "circle",
+          "cx": 22,
+          "cy": 30,
+          "r": 4
+        },
+        {
+          "type": "circle",
+          "cx": 43,
+          "cy": 22,
+          "r": 4
+        },
+        {
+          "type": "circle",
+          "cx": 57,
+          "cy": 22,
+          "r": 4
+        },
+        {
+          "type": "circle",
+          "cx": 78,
+          "cy": 30,
+          "r": 4
+        },
+        {
+          "type": "rect",
+          "x": 25,
+          "y": 79,
+          "width": 50,
+          "height": 9,
+          "rx": 2
+        }
+      ],
+      "K": [
+        {
+          "type": "rect",
+          "x": 46,
+          "y": 10,
+          "width": 8,
+          "height": 29,
+          "rx": 2
+        },
+        {
+          "type": "rect",
+          "x": 37,
+          "y": 19,
+          "width": 26,
+          "height": 8,
+          "rx": 2
+        },
+        {
+          "type": "path",
+          "d": "M31 41 Q50 32 69 41 L64 76 L36 76 Z"
+        },
+        {
+          "type": "rect",
+          "x": 26,
+          "y": 79,
+          "width": 48,
+          "height": 9,
+          "rx": 2
+        }
+      ]
+    },
+    "knight_eye_rule": "Eye inset must remain legible on both dark and light variants.",
+    "bishop_slit_rule": "Slit is negative or contrast stroke and not a third-party icon."
+  },
+  "semantic_truth": {
+    "canonical_source": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json on draft PR #11",
+    "labels_rule": "Always resolve exact canonical event label at display time. Do not construct from palette or infer from FEN.",
+    "hypothetical_rule": "T05/T06 exact label HIPOTÉTICA · NO JUGADA persistently visible, including muted view and crops.",
+    "return_rule": "T07 keeps warning through board/context restoration to V-P1/MAIN; reveal REGRESO A LA PARTIDA REAL only after completed restore.",
+    "ellipsis_rule": "T10 explicit 36–49 real omitted plies and 14 half-move count; never draw a fabricated interpolation as played move.",
+    "end_rule": "T12 is editorial closure, not historical checkmate; no false terminal-board illustration.",
+    "mobile_accessibility": "Actual legibility, contrast, collision, text size and platform UI occlusion NOT TESTED."
+  },
+  "forbidden": {
+    "archival_facsimiles": true,
+    "legacy_v4_png_or_silhouettes": true,
+    "external_font_binaries": true,
+    "external_piece_svg_sets": true,
+    "players_photos": true,
+    "third_party_audio": true,
+    "implicit_historical_or_legality_approval": true
+  },
+  "deferred": {
+    "selected_font_binary": null,
+    "font_license_and_sha256": null,
+    "vector_raster_asset_bytes": null,
+    "independent_originality_review": null,
+    "visual_comprehension_stimulus": null,
+    "derived_frame_assets": [],
+    "style_human_approval": "NOT_RECORDED",
+    "rights_status": "R6_PENDING",
+    "E5B4D": "NO-GO under failure model M",
+    "execution_authorized": false,
+    "publish_authorized": false
+  },
+  "restriction": "No draw/render/test/build/import/engine/Actions invocation is authorized by this JSON. It only declares candidate geometry and dimensions."
+}
