@@ -31,7 +31,7 @@
       "event_id": "T01",
       "state_id": "V-P1",
       "settled_display_label": "PARTIDA REAL",
-      "narration_es": "La dama de Fischer estaba atacada. Y decidió no retirarla.",
+      "narration_es": "La dama de Fischer estaba atacada. Y no la retiró.",
       "caption_es": "1956 · ¿Salvarías la dama?",
       "event_behavior": "EVENT_ONCE",
       "legal_chess_replay": "NOT_RUN",
@@ -249,5 +249,6 @@
   },
   "open_qa": [
     "VIS-TECH-01: T10 source state V-PRE-EV2 is TECHNICAL_ONLY, yet T11 single-move animation needs a source board. No render may automatically expose this state until the semantic owner approves an explicit intermediate-source staging convention. Existing 60-second timing remains unmeasured and possibly infeasible."
-  ]
+  ],
+  "editorial_language_note": "The hook describes the source-declared visible move outcome, not Fischer's subjective intention. Historical provenance remains documentary/source-candidate only; original scoresheet unverified."
 }
