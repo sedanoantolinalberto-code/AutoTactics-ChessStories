@@ -82,7 +82,7 @@
 
 **Criterio de refutación futuro:** Contar tokens visuales y distinguir impresión de juego efectivamente registrado.
 
-**Prioridad:** P0. **Fuentes:** CL5;PGN;CASE. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CL5;PGN;CASE. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ## FT — Correcciones editoriales de la misma publicación
 
@@ -164,7 +164,7 @@
 
 **Criterio de refutación futuro:** No reproducir página completa en producto comercial sin verificar R6.
 
-**Prioridad:** P0. **Fuentes:** CL20;CL5;WINTER. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CL20;CL5;WINTER. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ## Referencias
 
