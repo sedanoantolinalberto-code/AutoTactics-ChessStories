@@ -29,3 +29,14 @@ No change was made to PR #1's case schema/state, the original 45s plan, PR #11's
 ## Frozen gates
 
 E5B4D NO-GO under model M. Strict Policy B remains unchanged: **all relevant processes terminated and termination confirmed before 120s**, independent stdout and stderr lifetime bounds of **1,048,576 bytes both emitted and accepted** each. R6 PENDING, IVV_GLOBAL/CASE_APPROVAL NOT APPROVED, all render/execution/publication flags false, no main merge. Neither documentary agreement nor the existence of this RFC is a technical PASS.
+
+## 2026-10-14 — ALT-A: no source-board staging, static post-position cut
+
+The Chess Stories authoring policy has a **source-only proposed mitigation** that does not require displaying `V-PRE-EV2` at all:
+
+1. During T10/S08-C, retain the last visible real board `V-REAL` and a conspicuous **SE OMITEN JUGADAS REALES / 14 medias jugadas / 36–49** message. The semantic clock may advance internally to `V-PRE-EV2`, but that state is `TECHNICAL_ONLY` and no public pixels or played-move animation are implied.
+2. During T11/S08-D, use a **hard editorial cut to `V-EV2`**, which the canonical case explicitly classifies as `VISUAL`. Display the exact **PARTIDA REAL** truth label and **25...Nxd1 · captura de torre blanca** with a static highlight on d1 and optional explicit **DESPUÉS DE 14 MEDIAS JUGADAS OMITIDAS** secondary caption. **No c3→d1 piece tween** is attempted from the technical source.
+3. Maintain the underlying event T11's declared source `V-PRE-EV2` for eventual *qualified* chess-oracle review. Showing a source-declared `V-EV2` still is not proof that 25...Nxd1 is chess-legal or original-history authenticated.
+4. Before the cut can become an actual stimulus, rights R6, independently approved media assets, semantic/story truth frame inspection, qualified legal replay, human comprehension and strict Policy B/M execution qualification must all be satisfied. No automatic gate change is authorized.
+
+**Disposition:** VIS-TECH-01 technical-only **source exposure conflict has a specific documentary mitigation ALT-A**, replacing the earlier presumption that T11 needs an audience-visible technical source board. This does **not** equal verified production feasibility or IVV PASS. The item remains **OPEN FOR QUALIFIED IMPLEMENTATION AND REVIEW**, not awaiting a new arbitrary user preference. Actual video and permissions remain NO-GO.
