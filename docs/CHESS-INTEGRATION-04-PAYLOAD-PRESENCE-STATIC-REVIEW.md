@@ -87,3 +87,24 @@ Five **proposed NOT RUN** negatives added: IR-70 altered title, IR-71 swapped wh
 The `sameDeclaredJson` source comparator has a bound of 1024 visited item pairs. An authoring-time inspection of the original fixture's four pinned sections counted **11 / 18 / 119 / 29 nested JSON values** respectively (players / branches / evidence / assets), safely below that bound **as source structure**, not as observed runtime behavior. This does not make the comparator a raw-byte validator, tamper-resistant hash verifier or universally safe JSON parser.
 
 Frozen E5B4D **NO-GO under failure model M**; strict Policy B and independent lifetime emitted-and-accepted stdout/stderr limits unchanged. No project code/tests/engine/Actions/render ran; R6 PENDING; IVV_GLOBAL / case NOT APPROVED; publishing false; `main` not merged.
+
+
+## CHESS-INTEGRATION-08 — Preserve state visibility, labels and per-state evidence (2026-10-14, SOURCE ONLY)
+
+**Newly identified static interface gap:** the EP01 router originally pinned each of its six states' IDs, FEN, branch, factuality and ply, but did not independently pin the source `visibility` field (`VISUAL` vs `TECHNICAL_ONLY`), `san_label`, `evidence_refs`, or `claim_refs`. An otherwise structurally valid change to the V-PRE-EV2 visibility flag could describe that technical T10 landing as an ordinary visible state while retaining the unchanged FEN, ply 49 and T10 ellipsis event. The router's partial state equality would not flag that **source-field difference**. This is a static control-coverage finding, not an observed runtime or video failure; actual source validator behavior has not been executed or qualified.
+
+**Patch:** the router now pins full EP01 state objects against the PR #1 fixture in addition to its existing important per-state FEN/branch/ply checks. This preserves:
+- `V-PRE-EV2.visibility = TECHNICAL_ONLY` as a **default source declaration**. Its technical role does not permit rendering a fictitious single legal move from V-REAL. An eventual explicitly labelled omission-transition visual still needs lawful approval and frame testing.
+- All six state SAN labels without asserting independent legal replay.
+- Per-state historical candidate evidence/claim references, without falsely authenticating the underlying original sources.
+- The original EP01 source ordering as a case-pinned documentary input (a hypothetical generic schema's array ordering invariance is out of scope).
+
+**Negative proposals:** IR-75 technical landing misclassified `VISUAL`; IR-76 a real state misleadingly relabelled; IR-77 hypothetical supporting evidence dropped. All three are **source-only mutation definitions**, not executed. Router catalogue now **77 proposed distinct negative specifications, ZERO executed**.
+
+### Integrity assurance boundary after CHESS-INTEGRATION-08
+
+At the *case-specific source declaration level*, the router checks the EP01 fixture's case/version/status/title, canonical players, branches, six complete states, twelve event transition/move/gap/anchor/provenance declarations, four evidence records, seven claim records and F03 policy, declared documentary asset, historical and editorial end records, all protected gate literals and the strict execution policy. It also pins truth overlay declarations and observed Git IDs.
+
+This is substantially more complete **source consistency**, **NOT** a certified raw-byte parser/digest, structural JSON-schema validator, FEN legality proof, original historical authentication, commercial rights grant, visual-frame inspection, Policy B/M executor qualification, or approval to render/publish. The **underlying 1956 source-witness discrepancy** is unchanged; no test harness was run. Mutable branch names and observed Git blob IDs do not establish independently qualified content trust.
+
+E5B4D `NO-GO` under M; strict Policy B unchanged (all relevant processes terminated and termination confirmed **before** 120 s; independent stdout and stderr lifetime **emitted/accepted** bounds of 1,048,576 bytes each); R6 PENDING; IVV_GLOBAL and CASE_APPROVAL NOT APPROVED; publication false, no merge to main.
