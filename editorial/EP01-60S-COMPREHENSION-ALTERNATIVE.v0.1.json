@@ -200,8 +200,11 @@
       "state_id_semantics": "INTERNAL_EVENT_AFTER_STATE",
       "internal_before_state_id": "V-PRE-EV2",
       "internal_before_visibility": "TECHNICAL_ONLY",
-      "source_board_visualization_status": "BLOCKED_PENDING_TECHNICAL_ONLY_DISPLAY_INTERPRETATION_AND_QUALIFIED_LEGAL_REPLAY",
-      "caption_policy": "Do not silently expose V-PRE-EV2 as VISUAL. Stage/transition for the 25...Nxd1 capture only after technical-only display contract is independently resolved."
+      "source_board_visualization_status": "NOT_REQUIRED_BY_PROPOSED_STATIC_POST_POSITION_PRESENTATION",
+      "caption_policy": "After separately visible T10 omission, cut directly to declared VISUAL V-EV2 and hold a static marker on d1 alongside 25...Nxd1 / white-rook-capture caption. Do not render TECHNICAL_ONLY V-PRE-EV2 or animate c3→d1 from a hidden source position. This is a draft illustration, not proven legal/historically authenticated.",
+      "visual_presentation_strategy": "HARD_CUT_TO_V_EV2_POST_MOVE_STILL_WITH_STATIC_D1_CAPTURE_CALLOUT_NO_MOVE_TWEEN",
+      "audience_visible_board_state_id": "V-EV2",
+      "audience_context_caption_es": "DESPUÉS DE 14 MEDIAS JUGADAS OMITIDAS"
     },
     {
       "phase_id": "S09",
@@ -248,7 +251,17 @@
     "execution_authorized": false
   },
   "open_qa": [
-    "VIS-TECH-01: T10 source state V-PRE-EV2 is TECHNICAL_ONLY, yet T11 single-move animation needs a source board. No render may automatically expose this state until the semantic owner approves an explicit intermediate-source staging convention. Existing 60-second timing remains unmeasured and possibly infeasible."
+    "VIS-TECH-01: Draft mitigation ALT-A avoids rendering TECHNICAL_ONLY V-PRE-EV2 by cutting from a labelled 14-ply omission (visible V-REAL hold) to a STATIC after-position V-EV2 with a d1 capture callout. Requires independent history/oracle/R6/IVV and frame-level proof before actual release; alternative is NOT APPROVED."
   ],
-  "editorial_language_note": "The hook describes the source-declared visible move outcome, not Fischer's subjective intention. Historical provenance remains documentary/source-candidate only; original scoresheet unverified."
+  "editorial_language_note": "The hook describes the source-declared visible move outcome, not Fischer's subjective intention. Historical provenance remains documentary/source-candidate only; original scoresheet unverified.",
+  "visual_mitigation": {
+    "id": "VIS-TECH-01-ALT-A",
+    "proposal": "NO_TECHNICAL_SOURCE_FRAME_STATIC_DECLARED_AFTER_POSITION",
+    "design_status": "SOURCE_ONLY_CANDIDATE_NOT_RENDERED_NOT_IVV_APPROVED",
+    "technical_source_visibility": "NEVER_EXPOSE_V_PRE_EV2",
+    "visible_t10_board": "V-REAL",
+    "visible_t11_board": "V-EV2",
+    "t11_motion_prohibited": "NO_DIRECT_CHESS_MOVE_TWEEN_UNTIL_QUALIFIED_ORACLE_AND_VISUAL_REVIEW",
+    "gate_state": "POLICY_B_M_E5B4D_NO_GO_AND_R6_IVV_PENDING"
+  }
 }
