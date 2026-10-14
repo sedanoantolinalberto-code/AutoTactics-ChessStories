@@ -42,7 +42,7 @@
 
 **Evidencia futura o rechazo:** Fijar región y orden manual por encabezado, no OCR de flujo general.
 
-**Prioridad:** P0. **Fuentes:** CL5;CL20;PGN;WINTER. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CL5;CL20;PGN;WINTER. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ### B1556 — Las discrepancias se adjudican sin alterar los originales
 
@@ -148,7 +148,7 @@
 
 **Evidencia futura o rechazo:** Revisión editorial distingue observación fuente de imaginación escénica.
 
-**Prioridad:** P0. **Fuentes:** CASE;POLICY;ARCH;CL5;CL20. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CASE;POLICY;ARCH;CL5;CL20. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ### B1569 — El lanzamiento depende de una conjunción de evidencias
 
