@@ -1,0 +1,1822 @@
+{
+  "artifact_version": "chess-stories-research-B271-B370/1.0-DOCUMENTARY",
+  "as_of": "2026-10-14",
+  "continuity": "AFTER_B171_B270_WITHOUT_RESET",
+  "scope": "CHESS_STORIES_ONLY",
+  "entry_count": 100,
+  "research_status": "RESEARCHED_DOCUMENTARY_ONLY",
+  "status_distinctions": {
+    "researched": "Documentary observation or source-grounded design inference with a future falsifier",
+    "implemented": "New draft files only; no executable implementation",
+    "executed": "NO",
+    "verified": "Only source text and register structural integrity, no historical/legal/oracle/IVV verification",
+    "approved": "NO",
+    "published": "NO"
+  },
+  "source_blobs": [
+    {
+      "path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "observed_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "observed_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    }
+  ],
+  "summary": {
+    "P0": 75,
+    "P1": 25,
+    "by_area_code": {
+      "U": 10,
+      "V": 10,
+      "W": 10,
+      "X": 10,
+      "Y": 10,
+      "Z": 10,
+      "AA": 10,
+      "AB": 10,
+      "AC": 10,
+      "AD": 10
+    }
+  },
+  "frozen": {
+    "E5B4D": "NO-GO under failure model M",
+    "strict_policy_b": "All relevant processes must have terminated AND be confirmed terminated STRICTLY before 120s; stdout and stderr each independent 1048576-byte lifetime emitted/accepted caps",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "CASE_APPROVAL": "NOT APPROVED",
+    "oracle": "NOT RUN",
+    "execution_authorized": false,
+    "render_authorized": false,
+    "publishing_authorized": false,
+    "main_merge_authorized": false
+  },
+  "entries": [
+    {
+      "number": 271,
+      "id": "B271",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Manifest de ejemplares sin suponer IIIF",
+      "research_statement": "IIIF Presentation 3 modela Manifest→Canvas→Annotation Page y podría individualizar hojas 374/375; no se ha localizado un manifest IIIF real para este ejemplar.",
+      "next_falsification": "Consultar catálogo oficial; registrar URI solo si existe. Un nombre de revista o PDF genérico no vale como identificador Canvas.",
+      "priority": "P0",
+      "source_keys": [
+        "IIIF",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 272,
+      "id": "B272",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Paginación física frente a orden digital",
+      "research_statement": "Un Canvas puede representar la cara o página y diferir del índice de archivo PDF; el impreso 374 no equivale a PDF page 374.",
+      "next_falsification": "Ficha de doble localizador: número impreso, posición digital, identificador institucional y zona de texto.",
+      "priority": "P0",
+      "source_keys": [
+        "IIIF",
+        "E"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 273,
+      "id": "B273",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Anotaciones externas sin reescribir facsímil",
+      "research_statement": "IIIF permite asociar transcripciones mediante anotaciones suplementarias, preservando la distinción imagen fuente/lectura humana.",
+      "next_falsification": "Diseñar annotation de zona con valor vacío hasta lectura A/B; rechazar sustituir el objeto primario por texto OCR.",
+      "priority": "P1",
+      "source_keys": [
+        "IIIF",
+        "ANNOT",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 274,
+      "id": "B274",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Zonas de lectura sin copiar revista comercial",
+      "research_statement": "Web Annotation admite selectores espaciales y posicionales; una referencia a región es distinta de publicar la imagen protegida.",
+      "next_falsification": "Registrar coordenadas de página autorizadas y enlace institucional; no subir recortes ni texto íntegro no licenciado.",
+      "priority": "P0",
+      "source_keys": [
+        "ANNOT",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 275,
+      "id": "B275",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Ficha PREMIS de evento de observación",
+      "research_statement": "PREMIS separa Objects, Events, Rights y Agents; una inspección no debe confundirse con el objeto examinado.",
+      "next_falsification": "Registrar evento «localización», actor, fecha, objeto y resultado, sin convertirlo en autenticación del original.",
+      "priority": "P1",
+      "source_keys": [
+        "PREMIS",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 276,
+      "id": "B276",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Captura de incertidumbre paleográfica",
+      "research_statement": "Una letra difusa puede producir dos lecturas igualmente plausibles; guardar solo SAN normalizado suprime incertidumbre.",
+      "next_falsification": "Campo de variantes observadas, región, probabilidad cualitativa y adjudicación posterior; no autocompletar con Winter.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "E",
+        "ANNOT"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 277,
+      "id": "B277",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Control de migraciones en testigos digitales",
+      "research_statement": "Cambios de formato TIFF/PDF/OCR pueden preservar contenido visual pero alterar bitstream; PREMIS facilita eventos de migración distintos.",
+      "next_falsification": "Separar hash por objeto antes/después y registrar herramienta de migración solo cuando se realice legalmente.",
+      "priority": "P1",
+      "source_keys": [
+        "PREMIS",
+        "BAG"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 278,
+      "id": "B278",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Paquete conservable de hojas A/B",
+      "research_statement": "BagIt define manifests de checksums y validación de cargas; puede modelar un paquete privado de hojas transcritas y metadatos, no su veracidad.",
+      "next_falsification": "Proponer contenido mínimo sin datos personales innecesarios; no denominar «bag válido» hasta verificar realmente checksums.",
+      "priority": "P1",
+      "source_keys": [
+        "BAG",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 279,
+      "id": "B279",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Preservar auditoría de ejemplar sin desvelar respuestas",
+      "research_statement": "Archivo bruto y anotación de investigador no ciego no deben entrar en carpeta de lector independiente.",
+      "next_falsification": "Diseñar árbol de acceso separado para lector A/B, curador y adjudicador, con lista negativa de archivos contaminantes.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "PREMIS"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 280,
+      "id": "B280",
+      "area_code": "U",
+      "area": "Localización y preservación granular de testigos 1956",
+      "title": "Distinción ejemplar 1956 y reproducción moderna",
+      "research_statement": "Museo cataloga revista diciembre 1956; la ficha no prueba que exhibición contenga todas sus páginas ni que digitalización actual sea íntegra.",
+      "next_falsification": "Solicitar futura metadata de número, encuadernación, huecos, anverso/reverso y procedencia; no asignar 82 lecturas hoy.",
+      "priority": "P0",
+      "source_keys": [
+        "WCH",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 281,
+      "id": "B281",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Entidad afirmación frente a entidad fuente",
+      "research_statement": "En PROV-O una Entity derivada de otra puede conservar enlace wasDerivedFrom sin afirmar identidad ni veracidad; conviene separar texto claim, escaneo y lectura.",
+      "next_falsification": "Para cada claim histórico exigir fuente física, acceso concreto y transformación, o mantener `SOURCE_DECLARED`.",
+      "priority": "P0",
+      "source_keys": [
+        "PROV",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 282,
+      "id": "B282",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Actividades de lectura múltiples no son corroboración independiente",
+      "research_statement": "PROV modela agentes y actividades; dos lecturas de la misma tabla son independientes como lectores, no necesariamente como tradición editorial.",
+      "next_falsification": "Contar independencia intra-ejemplar y transmisión interpublicaciones en columnas distintas.",
+      "priority": "P0",
+      "source_keys": [
+        "PROV",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 283,
+      "id": "B283",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Gráfico de procedencia ante versión contradictoria",
+      "research_statement": "Russell relata una divergencia mate/resignación; una estructura PROV puede conservar ambas atribuciones sin forzar una sola conclusión.",
+      "next_falsification": "Dos nodos de aserción con modalidad distinta + estado UNRESOLVED; prohibir consolidar en un booleano terminal.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "PROV"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 284,
+      "id": "B284",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Hecho editorial y hecho sobre el tablero",
+      "research_statement": "La expresión «Game of the Century» es una caracterización editorial, no dato de jugada; Winter documenta quién lo difundió.",
+      "next_falsification": "Clasificar título valorativo como ATTRIBUTED_LABEL y no como hecho del evento sujeto a FEN.",
+      "priority": "P1",
+      "source_keys": [
+        "E",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 285,
+      "id": "B285",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "«Fischer renunció a salvar su dama» es intencionalidad",
+      "research_statement": "La variación del guion de PR #4 hacia «no la retiró» reduce inferencia psicológica sin cambiar el resultado visual declarado.",
+      "next_falsification": "Detectar en guiones verbos pensó, sabía, deseaba, planeó; exigir testimonio atribuido antes de publicar.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 286,
+      "id": "B286",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Estado de una renuncia no reproducida",
+      "research_statement": "Un testimonio sobre lo que anotó Byrne no prueba instantáneamente el instante formal en que se detuvo el reloj del torneo.",
+      "next_falsification": "Disociar scoresheet_mark, result_marker y actual_termination_event; todos pueden estar UNKNOWN.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 287,
+      "id": "B287",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Origen de la interpretación estratégica",
+      "research_statement": "Un comentarista posterior puede encontrar secuencia brillante con evaluación moderna; no convertirla en palabras o intenciones de Fischer.",
+      "next_falsification": "Cada línea analítica cita autor/fecha y distingue AUTO_ENGINE, HISTORICAL_ANNOTATION, EDITORIAL_INFERENCE.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "E"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 288,
+      "id": "B288",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Degradación controlada de afirmaciones ante nueva evidencia",
+      "research_statement": "Si una foto autorizada futura contradice el testigo impreso, la historia debería degradar certeza sin borrar versiones anteriores.",
+      "next_falsification": "Plan de event-sourced revision: claim anterior conserva vigencia temporal y nuevo estado requiere autor de decisión.",
+      "priority": "P0",
+      "source_keys": [
+        "PROV",
+        "PREMIS",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 289,
+      "id": "B289",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "No evidencia no significa desmentido",
+      "research_statement": "No acceso a diciembre 1956 significa NOT_INSPECTED; no significa que Chess Review difiera del SAN secundario.",
+      "next_falsification": "Establecer vocabulario observability: NOT_SEEN, SEEN_AMBIGUOUS, SEEN_LEGIBLE, READER_CONFIRMED, EXTERNAL_AUTHENTICATED.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 290,
+      "id": "B290",
+      "area_code": "V",
+      "area": "Conflictos historiográficos y trazabilidad de inferencias",
+      "title": "Revisor A/B y curador no ciego incompatibles",
+      "research_statement": "El asistente ya vio 82 SAN y no puede firmar testimonio independiente por cambiar la herramienta o el navegador.",
+      "next_falsification": "En eventual contratación de lector registrar declaración de exposición previa; la ausencia de acceso se verifica antes de asignar.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "PROV"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 291,
+      "id": "B291",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "FIDE 2023 no autentica arbitraje de 1956",
+      "research_statement": "Las Leyes FIDE de 2023 definen legalidad moderna; aplicar retroactivamente una disposición de torneo específica a 1956 puede ser erróneo.",
+      "next_falsification": "Mantener ORACLE_RULESET_2023 para reconstrucción moderna y RULES_1956_HISTORICAL_STATUS_UNKNOWN separados.",
+      "priority": "P0",
+      "source_keys": [
+        "FIDE",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 292,
+      "id": "B292",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Jaque y ataque no equivalen a jugada disponible",
+      "research_statement": "FIDE 3.9 distingue ataque al rey y restricción de exponer rey propio; diferencia FEN puede sugerir movimiento aunque fuera ilegal.",
+      "next_falsification": "Dictamen de oráculo incluye estado de jaque previo/posterior, no solo origen/destino.",
+      "priority": "P0",
+      "source_keys": [
+        "FIDE",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 293,
+      "id": "B293",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Misma posición para repetición no es mismo dibujo",
+      "research_statement": "El artículo FIDE 9.2.3 diferencia posibles movimientos (en passant y enroque) aunque las piezas ocupen mismas casillas.",
+      "next_falsification": "Un futuro fingerprint de estado legal debe llevar derechos y legal-EP; no comparar exclusivamente tablero renderizado.",
+      "priority": "P0",
+      "source_keys": [
+        "FIDE",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 294,
+      "id": "B294",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Metadatos de juego PGN no provienen de imagen",
+      "research_statement": "PGN Seven Tag Roster Event/Site/Date/Round/White/Black/Result no se infiere de un tablero ni de un mate representado.",
+      "next_falsification": "Marcar procedencia por cada tag y exigir fuente independiente para «Round» si no aparece en expediente.",
+      "priority": "P0",
+      "source_keys": [
+        "PGN",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 295,
+      "id": "B295",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Variación editorial PGN no añade evento MAIN",
+      "research_statement": "PGN puede contener variaciones entre paréntesis; una línea `17...Qd8` analítica no vuelve histórica la jugada.",
+      "next_falsification": "El compilador futuro crea branch HYPOTHETICAL aun si la variación procede de otro PGN secundario.",
+      "priority": "P0",
+      "source_keys": [
+        "PGN",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 296,
+      "id": "B296",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "SAN con número no resuelve legalidad",
+      "research_statement": "Etiqueta `25...Nxd1` incluye turno y destino; de acuerdo con FIDE la legalidad exige reglas completas, incluida protección del rey.",
+      "next_falsification": "No adjudicar legalidad por regex de SAN ni comparación de etiqueta, conservar `ORACLE_NOT_RUN`.",
+      "priority": "P0",
+      "source_keys": [
+        "FIDE",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 297,
+      "id": "B297",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Turno e implicación de ply 49",
+      "research_statement": "FEN `b ... 25` en V-PRE-EV2 implica que juegan negras en media jugada 50, pero no demuestra que el salto precedente sea auténtico.",
+      "next_falsification": "Separar cronología sintáctica de confirmación de los 14 medios movimientos omitidos.",
+      "priority": "P0",
+      "source_keys": [
+        "FIDE",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 298,
+      "id": "B298",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Movimientos compuestos no representables por diferencia de dos casillas",
+      "research_statement": "Enroque y en passant alteran piezas de maneras no capturadas por un transform simple origen→destino; promoción requiere elección.",
+      "next_falsification": "El oráculo futuro trata tipos especiales, no extrapola regla de seis movimientos EP01 al motor de ajedrez general.",
+      "priority": "P0",
+      "source_keys": [
+        "FIDE",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 299,
+      "id": "B299",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Marcador de resultado 0-1 no implica mate",
+      "research_statement": "PGN distingue tag Result y token de terminación; la coincidencia `0-1` no certifica el último SAN `Rc2#`.",
+      "next_falsification": "Compare resultado y anotación final por separado en testigos A/B y secundario.",
+      "priority": "P0",
+      "source_keys": [
+        "PGN",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 300,
+      "id": "B300",
+      "area_code": "W",
+      "area": "Alcance exacto de las reglas de ajedrez y del score",
+      "title": "Desfase entre nivel pedagógico y exhaustividad legal",
+      "research_statement": "Explicar todos los recursos tácticos en 60s puede requerir estado legal no validado y más tiempo; no cubrir vacíos con espectacularidad visual.",
+      "next_falsification": "Un claim estratégico profundo se difiere a newsletter/largo salvo fuente e IVV demostrables.",
+      "priority": "P1",
+      "source_keys": [
+        "G",
+        "FIDE"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 301,
+      "id": "B301",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Corte al después sin fotografiar fuente técnica",
+      "research_statement": "ALT-A evita mostrar V-PRE-EV2, pero el salto V-REAL→V-EV2 puede confundirse con un único movimiento si no se señaliza.",
+      "next_falsification": "Storyboard de frontera: tarjeta 14 plies omitidos, transición dura, etiqueta «después» y captura en d1.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 302,
+      "id": "B302",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Borrar flechas heredadas antes del corte T11",
+      "research_statement": "Una flecha Be6 o Bxb6 sobreviviente al salto puede superponerse a tablero de otra posición, sugiriendo causa falsa.",
+      "next_falsification": "Lista de capas debe reiniciarse en hard-cut a V-EV2; sin animación de piezas retroactiva.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 303,
+      "id": "B303",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "V-EV2 como still auténtico solo del fixture",
+      "research_statement": "La declaración `VISUAL` permite planificar escena, no equivale a fotografía de 1956 ni a partida legal certificada.",
+      "next_falsification": "Rotular fuentes modernas «reconstrucción declarada» en expediente, no añadir certificación de archivo a pantalla.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 304,
+      "id": "B304",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Rótulo de captura diferido respecto al jump",
+      "research_statement": "Si se lee «25...Nxd1» antes de entender el salto, se interpretará que salta de posición anterior inmediata.",
+      "next_falsification": "Diseñar jerarquía: tiempo omitido primero, luego número de jugada/captura.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 305,
+      "id": "B305",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "T10 sin tween de piezas también puede ocultar movimientos",
+      "research_statement": "Mantener la imagen V-REAL durante 4 s omite posiciones 36–49 legítimamente, pero puede parecer congelación no intencionada.",
+      "next_falsification": "Un aviso independiente «SE OMITEN 14 MEDIAS JUGADAS» visible y contrastado debe distinguir hold narrativo de error de reproducción.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 306,
+      "id": "B306",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "El d1 destacado no representa la torre",
+      "research_statement": "Tras 25...Nxd1 la torre capturada ya no está: añadir icono de torre sobre d1 podría volverla a dibujar.",
+      "next_falsification": "Llamada de texto fuera de casilla + halo del caballo negro, no sprite fantasma de torre sobre la posición final.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 307,
+      "id": "B307",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Persistencia de glifo de captura en frame final",
+      "research_statement": "Un halo persistente durante T12 puede sugerir que la partida acaba por capturar torre en d1, contradiciendo cierre editorial.",
+      "next_falsification": "Eliminación programada de callout antes de «LA PARTIDA CONTINÚA» y revisión de frames.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 308,
+      "id": "B308",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Punto de referencia espacial en tablero vertical",
+      "research_statement": "La zona d1 cambia de proximidad a borde inferior según orientación; perfil propone blancas abajo, no se ha probado recorte móvil.",
+      "next_falsification": "Criterio de coordenadas d1 completamente visible en cada crop 9:16 y en interfaz ampliada.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 309,
+      "id": "B309",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Prueba perceptiva del corte estático con información completa",
+      "research_statement": "ALT-A deja de animar una jugada, por lo que un espectador puede recordar la captura como resultado sin conocer su recorrido.",
+      "next_falsification": "Instrumento diferencia «qué sucedió» de «cómo se desplazó», sin culpar al participante por información no mostrada.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 310,
+      "id": "B310",
+      "area_code": "X",
+      "area": "ALT-A, continuidad perceptiva y contradicciones visuales",
+      "title": "Intervención de alta prioridad sin cambio al contrato base",
+      "research_statement": "Evitar exposición de TECHNICAL_ONLY debe ocurrir en presentación, no cambiando PR #1 V-PRE-EV2 a VISUAL.",
+      "next_falsification": "Auditoría future diff: prohibir modificar visibility canónica solo para facilitar diseño.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 311,
+      "id": "B311",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Timebase racional versus milisegundos de diseño",
+      "research_statement": "Una duración prevista de 4000ms no determina número entero de fotogramas a 23.976/25/30fps.",
+      "next_falsification": "Especificar timebase, PTS/DTS y rounding por fase del MP4 real solo tras autorización.",
+      "priority": "P1",
+      "source_keys": [
+        "G",
+        "WEBVTT"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 312,
+      "id": "B312",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "PTS discontinuos tras cortes y transcodificación",
+      "research_statement": "Una duración de container correcta puede coexistir con huecos o repetición de cuadros, afectando orden de T07.",
+      "next_falsification": "QC por timestamps de cuadros y rótulos en archivo real, no inferir de duración total.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 313,
+      "id": "B313",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Subtítulos como pista y rótulos quemados",
+      "research_statement": "La caption opcional sirve a accesibilidad; el aviso hipotético en el relato debe seguir visible aunque la plataforma desactive subtítulos.",
+      "next_falsification": "Futura export prueba con pistas ocultas y audio silenciado sin perder estado REAL/HYPOTHETICAL.",
+      "priority": "P0",
+      "source_keys": [
+        "CAP",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 314,
+      "id": "B314",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Texto alternativo sincronizado del corte T10/T11",
+      "research_statement": "W3C admite alternativa textual temporal o audiodescripción para transmitir contenido visual no audible; el guion fuente no basta si no refleja el montaje final.",
+      "next_falsification": "Describir el corte y omisión en una transcripción final actualizada a los frames reales.",
+      "priority": "P1",
+      "source_keys": [
+        "WAI",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 315,
+      "id": "B315",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "C2PA como evidencia de transformaciones, no de hecho histórico",
+      "research_statement": "C2PA firma manifiestos y puede vincular ingredientes; verifica procedencia declarada, no que Fischer hiciera determinada jugada.",
+      "next_falsification": "Futuro manifest identifica generador y assets sin marcar `historical_authenticated` por la firma.",
+      "priority": "P1",
+      "source_keys": [
+        "C2PA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 316,
+      "id": "B316",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Reexportación rompe identidad de media",
+      "research_statement": "Un archivo retranscodificado puede tener hash distinto y perder manifest C2PA; eso no significa necesariamente cambio de semántica.",
+      "next_falsification": "Registrar output digest nuevo y verificaciones de verdad por plataforma, no reciclar el hash maestro.",
+      "priority": "P1",
+      "source_keys": [
+        "C2PA",
+        "BAG",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 317,
+      "id": "B317",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Audio silencioso declarado frente a pista de silencio codificada",
+      "research_statement": "Un candidato sin música puede tener pista de audio silenciosa; manifest debe distinguir NO_AUDIO_TRACK y SILENT_AUDIO_TRACK.",
+      "next_falsification": "Para el estudio privado, registrar stream presence y derechos, no asumir que silencio auditivo implica ausencia de assets.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 318,
+      "id": "B318",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Checksum de paquete no verifica orden de eventos",
+      "research_statement": "BagIt valida presencia/integridad de bytes, no que T07 muestre MAIN antes de retirar aviso.",
+      "next_falsification": "Combinar en el futuro fixity de media con inspección independiente frame a frame y truth ledger.",
+      "priority": "P0",
+      "source_keys": [
+        "BAG",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 319,
+      "id": "B319",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Frame de portada no autorizado fuera del timeline",
+      "research_statement": "Una portada automática extraída de T06 puede mostrar Qd8 sin aviso si el crop elimina etiqueta.",
+      "next_falsification": "Revisar still de portada por separado; la historia temporal veraz no valida recortes de thumbnail.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 320,
+      "id": "B320",
+      "area_code": "Y",
+      "area": "Tiempos reales, pistas, integridad audiovisual",
+      "title": "Cierre visible de 60s y loop automático",
+      "research_statement": "En bucle el último «partida continúa» puede empalmar con inicio «dama atacada» y parecer causalmente seguido.",
+      "next_falsification": "Evaluar transición de loop en reproducción repetida, sin añadir un mate o último movimiento inventado.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B271-B320-100-BLOCKS-PART1-2026-10-14.md",
+      "source_git_blob_sha": "bb014800f9cd107bc81eea7147b2e7366db952c0"
+    },
+    {
+      "number": 321,
+      "id": "B321",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Anclar cierre editorial como valor y no solo como texto",
+      "research_statement": "Un `sequence_end` presente con frase correcta no es suficiente si renderer decide tratar ply 50 como mate; contrato debe tipar editorial end y exigir cierre gráfico coherente.",
+      "next_falsification": "Modelo de estado del renderer con `END_EDITORIAL` que prohíba jaque mate terminal salvo histórico autenticado.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "SCHEMA"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 322,
+      "id": "B322",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Control de estado faltante al traducir proyecto",
+      "research_statement": "Una serialización ES/EN puede omitir el `factuality`; un sistema permisivo podría usar REAL por defecto y mentir sobre T06.",
+      "next_falsification": "Especificación de rechazo de campos ausentes por idioma sin fallback a MAIN.",
+      "priority": "P0",
+      "source_keys": [
+        "SCHEMA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 323,
+      "id": "B323",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Inmutabilidad de semántica frente a adaptación editorial",
+      "research_statement": "Recortar segundos puede ser revisión editorial compatible; alterar `T06` a REAL cambia verdad y exige nueva autorización de caso.",
+      "next_falsification": "Contrato diff clasifica cambios COSMETIC, PRESENTATION, SEMANTIC y GATE; negar promoción automática.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 324,
+      "id": "B324",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Nombres iguales con variantes Unicode",
+      "research_statement": "ID de escena con guiones visualmente similares podría crear dobles anclas; las etiquetas humanas no son identificadores seguros.",
+      "next_falsification": "IDs ASCII tipados y canonicalización explícita solo donde no altere literal de testigo.",
+      "priority": "P1",
+      "source_keys": [
+        "JCS",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 325,
+      "id": "B325",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Parser de untrusted JSON con recursos acotados",
+      "research_statement": "Un objeto fuente válido según sintaxis aún puede contener tamaños extremos o arrays anidados; límites están en validadores propuestos pero no probados.",
+      "next_falsification": "Revisión de política de nodos/profundidad y comportamiento fail-closed sin ejecutar bajo el NO-GO.",
+      "priority": "P0",
+      "source_keys": [
+        "SCHEMA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 326,
+      "id": "B326",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "No aceptar un PASS importado de otra rama",
+      "research_statement": "Un snapshot de PR #12 puede reflejar PR #1 antiguo y parecer válido si se modifica fixture después.",
+      "next_falsification": "Matriz base/head de cada manifest de evidencia; invalidación automática futura ante mismatch de revisiones.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "SLSA"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 327,
+      "id": "B327",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Compromiso de fuente de build sin autoridad de publicación",
+      "research_statement": "SLSA distingue sujeto build y materiales; aunque en futuro exista provenance atestada, la autorización de publicación sigue otro gate.",
+      "next_falsification": "Checklist `source_integrity` y `publish_authorized` separados y obligatorios.",
+      "priority": "P0",
+      "source_keys": [
+        "SLSA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 328,
+      "id": "B328",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Proveniencia dependiente de agentes reales",
+      "research_statement": "PROV distingue Agent de Activity; la firma de un robot no representa una aprobación humana delegada no producida.",
+      "next_falsification": "No insertar nombres de revisores/sello de aceptación en objetos cuando faltan sus actas.",
+      "priority": "P0",
+      "source_keys": [
+        "PROV",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 329,
+      "id": "B329",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Ejecutable de QA contaminado por su propia fuente",
+      "research_statement": "Un validador y su baseline derivados del mismo archivo pueden compartir defecto sistemático; coincidencia documental 18 grupos es limitada.",
+      "next_falsification": "Plan de oracle externo con inputs obtenidos independientemente, no copia circular del fixture.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 330,
+      "id": "B330",
+      "area_code": "Z",
+      "area": "Contratos, amenazas de datos y trazabilidad de cambios",
+      "title": "Revisión de seguridad de etiquetas de evidencia",
+      "research_statement": "Una fuente que incluye texto no confiable (artículo/comentario externo) no debe modificar políticas o instrucciones de ejecución por aparecer en una descripción.",
+      "next_falsification": "Diseñar separación de contenido citado vs instrucciones del controlador y rechazo de cambios de gates inducidos por texto externo.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 331,
+      "id": "B331",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Límite de tiempo condicionado a terminación real",
+      "research_statement": "Un watchdog no cumple E5B4D si retorna antes de 120 s y quedan descendientes relevantes vivos o sin confirmación.",
+      "next_falsification": "Criterio formal: terminar y confirmar cada proceso relevante estrictamente antes del deadline; bajo M sigue NO-GO.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 332,
+      "id": "B332",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "No confundir stdout capturado con bytes emitidos",
+      "research_statement": "El truncado posterior conserva sólo bytes aceptados por collector; puede ocultar emisión superior al límite.",
+      "next_falsification": "Especificar dos métricas emitido/aceptado por stdout y stderr, sin declarar observado.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 333,
+      "id": "B333",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Tratamiento de arranque de subprocesos colaterales",
+      "research_statement": "Un renderer futuro puede lanzar codecs y herramientas externas; cuentan como procesos relevantes bajo Política B salvo justificación formal.",
+      "next_falsification": "Inventario a priori de árbol de procesos y obligaciones de terminación, sin arrancarlos ahora.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 334,
+      "id": "B334",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Pérdida de observabilidad no es terminación confirmada",
+      "research_statement": "Si un agente se desconecta del árbol de procesos no puede declarar que todos terminaron.",
+      "next_falsification": "Estado UNKNOWN/NO-GO; prohibir convertir desaparición de señal en CONFIRMED.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 335,
+      "id": "B335",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Reportes reintentados no suman evidencia independiente",
+      "research_statement": "Repetir un job con mismo entorno puede reproducir un defecto, y contar intentos no equivale a replicación por mecanismo distinto.",
+      "next_falsification": "Registrar intento, entorno y causa; no generar porcentajes de PASS con specs no ejecutadas.",
+      "priority": "P1",
+      "source_keys": [
+        "G",
+        "SLSA"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 336,
+      "id": "B336",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Fuentes y herramientas congeladas antes del build",
+      "research_statement": "SLSA materials y builder identity sirven de base a un futuro artefacto, pero la propuesta actual solo aporta commits fuente.",
+      "next_falsification": "Futuro manifest identifica digest de toolchain, asset y entrada; no declarar SLSA nivel logrado.",
+      "priority": "P0",
+      "source_keys": [
+        "SLSA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 337,
+      "id": "B337",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Integridad de outputs secundarios",
+      "research_statement": "Un futuro MP4 y sus captions pueden desalinearse si se entrega solo el vídeo o se edita subtítulo después.",
+      "next_falsification": "Cada export versiona y conserva pares de archivo, idiomas y evento, con checksums independientes.",
+      "priority": "P0",
+      "source_keys": [
+        "SLSA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 338,
+      "id": "B338",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Revisión de rollback editorial sin aprobar viejo artefacto",
+      "research_statement": "Volver al plan 45s sin ALT-A puede reintroducir T11 desde un estado técnico no visible y problemas del corte anterior.",
+      "next_falsification": "Ante rollback, recalcular lista de blockers; baseline anterior no hereda aprobación retroactiva.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 339,
+      "id": "B339",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Prueba de propiedades no autoriza ejecución prohibida",
+      "research_statement": "Especificar metamorphic checks o amenazas en texto no implica permiso de running, aunque sean simples o aisladas.",
+      "next_falsification": "Toda tarea que requiera ejecutar código se marca EXTERNAL_GATE_REQUIRED y no se hace en esta fase.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 340,
+      "id": "B340",
+      "area_code": "AA",
+      "area": "Ejecución cualificada, fallos y cadena de custodia",
+      "title": "Cadena de custodia a través de plataformas",
+      "research_statement": "Incluso si un MP4 se firma con C2PA, la plataforma puede transformarlo; la procedencia downstream necesita observación.",
+      "next_falsification": "No atribuir firma del original al upload transcodificado sin inspeccionar su manifest final.",
+      "priority": "P1",
+      "source_keys": [
+        "C2PA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 341,
+      "id": "B341",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "La muestra de novatos requiere definición operativa",
+      "research_statement": "Un panel «principiante» sin criterio previo puede incluir ajedrecistas con exposición al episodio, sesgando reconocimiento de hechos.",
+      "next_falsification": "Elegibilidad preinscrita por experiencia, exposición previa y capacidad de leer coordenadas, sin reclutar hoy.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 342,
+      "id": "B342",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Familiaridad con la partida como covariable",
+      "research_statement": "Alguien que conoce Byrne–Fischer puede acertar T06/T11 pese a vídeo confuso, mezclando memoria y comprensión.",
+      "next_falsification": "Registrar familiaridad antes de mostrar estímulo y predefinir análisis separado; datos minimizados.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 343,
+      "id": "B343",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Confusión T07 en visualización muda",
+      "research_statement": "La etiqueta REGRESO A LA PARTIDA REAL puede aparecer aunque el espectador no note que tablero restauró V-P1.",
+      "next_falsification": "Pregunta obliga a identificar momento del retorno y jugada real posterior, no solo leer rótulo.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 344,
+      "id": "B344",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Intervalos de confianza frente a promedios engañosos",
+      "research_statement": "Dos grupos pequeños 45/60 pueden diferir aleatoriamente; una diferencia porcentual sin precisión no acredita ventaja.",
+      "next_falsification": "Preinscribir medida, unidad, tamaño de muestra y regla de inconclusión antes de observar resultados.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 345,
+      "id": "B345",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Consentimiento inequívoco y separado",
+      "research_statement": "La AEPD excluye casillas preseleccionadas e inacción y exige consentimiento informado, revocable y acreditable cuando sea base jurídica.",
+      "next_falsification": "Plantilla de consentimiento para visionado y tratamiento de respuesta separados de alta comercial newsletter.",
+      "priority": "P0",
+      "source_keys": [
+        "AEPD",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 346,
+      "id": "B346",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Menores en una comunidad sobre ajedrez",
+      "research_statement": "La AEPD identifica régimen específico para menores de 14 años si el tratamiento se basa en consentimiento; estudio adulto evita esa complejidad inicial.",
+      "next_falsification": "Futuro reclutamiento IVV 18+, verificación proporcional y sin almacenamiento innecesario de documentos de identidad.",
+      "priority": "P0",
+      "source_keys": [
+        "AEPDM",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 347,
+      "id": "B347",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Captura de pantalla del dispositivo del participante",
+      "research_statement": "Un vídeo del móvil puede recoger identificadores, notificaciones o imagen personal ajena al test de ajedrez.",
+      "next_falsification": "Diseñar ruta de observación minimalista sin grabación de pantalla por defecto; consentimiento separado si fuese esencial.",
+      "priority": "P0",
+      "source_keys": [
+        "AEPD",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 348,
+      "id": "B348",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Dato de comprensión frente a evaluación de inteligencia",
+      "research_statement": "Fallar SAN/visualización significa dificultad de contenido para la audiencia, no menor capacidad intelectual del participante.",
+      "next_falsification": "Informe prohíbe etiquetas individuales peyorativas y publica únicamente resultados agregados necesarios.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 349,
+      "id": "B349",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Accesibilidad de encuesta de siete preguntas",
+      "research_statement": "IVV puede tener cuestionario que requiere lectura compleja o interacción difícil, creando errores ajenos al vídeo.",
+      "next_falsification": "Comprobar estructura accesible, orden de teclado y lenguaje de preguntas; no simular participantes.",
+      "priority": "P1",
+      "source_keys": [
+        "WAI",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 350,
+      "id": "B350",
+      "area_code": "AB",
+      "area": "Estudio IVV, comprensión y garantías de privacidad",
+      "title": "Condición de parada por contenido engañoso",
+      "research_statement": "Si un evaluador cree reiteradamente que 17...Qd8 se jugó, el protocolo debe permitir detener exposición y rectificar sin ajustar umbral tras datos.",
+      "next_falsification": "Regla de safety stop preinscrita; clasificar defecto factual aparte de estética.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 351,
+      "id": "B351",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Reproducción de facsímil frente a citar bibliografía",
+      "research_statement": "Un enlace a la revista y número de página no autoriza embebido del escaneo; los derechos del impreso y escaneo pueden requerir evaluación independiente.",
+      "next_falsification": "Archivo release no incluye recortes ni miniaturas de archivo hasta R6 autorizado por activo.",
+      "priority": "P0",
+      "source_keys": [
+        "COPY",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 352,
+      "id": "B352",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Cuadro de renovación copyright 1956 por edición",
+      "research_statement": "La circular 15A distingue publicaciones 1950–1963 y efectos de la renovación; no determina por sí misma si este volumen fue renovado.",
+      "next_falsification": "Buscar expediente concreto de revista y componentes bajo titularidad separada antes de determinar dominio público.",
+      "priority": "P0",
+      "source_keys": [
+        "COPY",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 353,
+      "id": "B353",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Crédito histórico no sustituye licencia de uso",
+      "research_statement": "Atribuir al autor del artículo no concede derechos de reproducción comercial de la imagen o texto extenso.",
+      "next_falsification": "Ficha exige base autorizante y alcance de usos, no solo un nombre en descripción.",
+      "priority": "P0",
+      "source_keys": [
+        "COPY",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 354,
+      "id": "B354",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Riesgos de derivar piezas desde glyphs conocidos",
+      "research_statement": "La geometría declarada «original» puede inadvertidamente asemejarse a set de piezas protegido; afirmarlo original sin análisis externo sería prematuro.",
+      "next_falsification": "Comparación de procedencia, autoría y fuentes de inspiración por diseño final y revisores.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 355,
+      "id": "B355",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Incorporación de OFL de Noto Sans",
+      "research_statement": "Que una familia use SIL OFL no identifica pesos, binarios ni avisos de licencia del archivo final.",
+      "next_falsification": "Seleccionar archivo/version/hash y términos antes de salida, sin redistribuir fuente por accidente.",
+      "priority": "P0",
+      "source_keys": [
+        "N",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 356,
+      "id": "B356",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Licencias separadas por formato eBook",
+      "research_statement": "Un gráfico permitido para vídeo no necesariamente puede distribuirse en libro descargable; la protección de assets es por soporte.",
+      "next_falsification": "Matriz de rights_scope: MP4, PNG, EPUB, PDF, newsletters, thumbnails y territorios.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "EPUB"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 357,
+      "id": "B357",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Metadatos de accesibilidad veraces en EPUB",
+      "research_statement": "EPUB Accessibility 1.1 exige metadatos de accesibilidad; declararlos sin alternativas reales sería una afirmación falsa.",
+      "next_falsification": "No escribir accessModeSufficient textual si diagramas complejos carecen de descripción útil verificada.",
+      "priority": "P1",
+      "source_keys": [
+        "EPUB",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 358,
+      "id": "B358",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Retirada de un asset ante revocación de derechos",
+      "research_statement": "La pérdida de licencia de una foto usada en múltiples outputs requiere mapa de dependencias y proceso de corrección.",
+      "next_falsification": "Ledger asset→export con capacidad de localizar cada publicación afectada; todavía sin publicación.",
+      "priority": "P1",
+      "source_keys": [
+        "G",
+        "PREMIS"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 359,
+      "id": "B359",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "Privacidad de manuscritos inéditos",
+      "research_statement": "Acceso de investigador a colección no implica derecho de publicación de documentos privados/autoría ajena.",
+      "next_falsification": "Registrar condiciones de sala/copia/publicación del repositorio custodio antes de solicitar escaneos.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 360,
+      "id": "B360",
+      "area_code": "AC",
+      "area": "Derechos, atribución y reutilización de originales",
+      "title": "C2PA no es contrato de licencia",
+      "research_statement": "Una fotografía con credenciales de origen firmadas puede seguir sujeta a copyright; confianza técnica y permiso jurídico son ejes distintos.",
+      "next_falsification": "Manifest R6 valida licencia y autorización aunque archivo tenga C2PA válido.",
+      "priority": "P0",
+      "source_keys": [
+        "C2PA",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 361,
+      "id": "B361",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Conjunto de episodios distinto de plantilla repetida",
+      "research_statement": "YouTube aclaró en julio de 2025 su regla de contenido inauténtico producido en masa, aplicable con independencia de IA.",
+      "next_falsification": "Antes de monetizar, revisar que cada historia añade análisis editorial original documentado y no solo cambia nombres/FEN.",
+      "priority": "P0",
+      "source_keys": [
+        "YT",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 362,
+      "id": "B362",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Sello de autenticación que no prometa verdad total",
+      "research_statement": "Un sello «verificado» sin ámbito induce a creer que la reconstrucción, derechos y fecha están certificados a la vez.",
+      "next_falsification": "Por soporte usar categorías explícitas: fuentes cotejadas, legalidad cualificada, IVV aprobada, no etiqueta global.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "PROV"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 363,
+      "id": "B363",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "A/B de miniaturas sin falsificar la hipótesis",
+      "research_statement": "Titular «Fischer perdió su dama» puede ser atractivo pero oculta el contexto; A/B debe estar dentro de claims admisibles.",
+      "next_falsification": "Solo comparar portadas auditadas, todas con misma verdad histórica y clasificación de variaciones.",
+      "priority": "P1",
+      "source_keys": [
+        "YT",
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 364,
+      "id": "B364",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Estrategia de correcciones públicas verificables",
+      "research_statement": "Si publicación futura contiene error de SAN, corregir en newsletter y redes con log visible genera confianza sin ocultar versión previa.",
+      "next_falsification": "Plan de aviso, alcance y reemplazo, pero no crear historial falso de errores publicados.",
+      "priority": "P1",
+      "source_keys": [
+        "G",
+        "PREMIS"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 365,
+      "id": "B365",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Contenido gratuito autosuficiente",
+      "research_statement": "Un Short que diga «la dama fue capturada» debe permitir entender qué pasó; premium añade análisis, no corrige afirmación omitida deliberadamente.",
+      "next_falsification": "Evaluación de comprensión sobre pieza gratuita antes de vender explicación premium.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 366,
+      "id": "B366",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Comparación del episodio piloto con segundo caso",
+      "research_statement": "EP02 Opera Game documentado como fuente candidata puede revelar hardcode EP01, pero no está listo para replicación audiovisual.",
+      "next_falsification": "Diseñar abstracción común sin ejecutar EP02 ni extrapolar potencial comercial de un caso.",
+      "priority": "P1",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 367,
+      "id": "B367",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Crisis por fuente histórica contradicha",
+      "research_statement": "Si el testimonio original diverge, una página de evidencias por episodio puede explicar qué se sabe y qué se suspendió.",
+      "next_falsification": "Redactar esquema de errata/revisión (sin publicar) ligado a historia, no borrar silenciosamente evidencia antigua.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "PROV"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 368,
+      "id": "B368",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Diferenciar originalidad de derechos",
+      "research_statement": "Guion propio no garantiza que música, piezas o fotografías queden autorizadas; identidad creativa y derechos son gates distintos.",
+      "next_falsification": "Antes de release exigir QA editorial original + manifest R6 completo, no elegir uno como sustituto del otro.",
+      "priority": "P0",
+      "source_keys": [
+        "G",
+        "YT"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 369,
+      "id": "B369",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "No monetizar un render sin examen perceptivo",
+      "research_statement": "Un MP4 bien codificado puede comunicar falsamente Qd8 como real; retención y CTR no invalidan una falsedad.",
+      "next_falsification": "Gate de publicación obliga a IVV independiente y exactitud por evento antes de métricas de negocio.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    },
+    {
+      "number": 370,
+      "id": "B370",
+      "area_code": "AD",
+      "area": "Diferenciación del canal y criterio de salida comercial",
+      "title": "Decisión marginal tras B370",
+      "research_statement": "Otro bloque genérico sin nueva fuente/acción falsable puede elevar deuda de coordinación más que conocimiento.",
+      "next_falsification": "Tras esta tanda elegir máximo diez verificaciones de capacidad de desbloqueo real; evitar nuevos registros infinitos por inercia.",
+      "priority": "P0",
+      "source_keys": [
+        "G"
+      ],
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "gate_effect": "NONE",
+      "source_path": "research/CHESS-STORIES-B321-B370-100-BLOCKS-PART2-2026-10-14.md",
+      "source_git_blob_sha": "ba563eb36b73caec61f0a824c743e41251eec087"
+    }
+  ]
+}
