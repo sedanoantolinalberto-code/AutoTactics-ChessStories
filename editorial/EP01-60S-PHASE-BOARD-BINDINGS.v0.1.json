@@ -340,14 +340,17 @@
       "branch_to": "MAIN",
       "from_state_id": "V-REAL",
       "to_state_id": "V-PRE-EV2",
-      "display_board_at_settled_end": "V-PRE-EV2",
+      "display_board_at_settled_end": "V-REAL",
       "display_label_at_settled_end": "SE OMITEN JUGADAS REALES",
       "transition_mode": "EDITORIAL_ELLIPSIS_NOT_CHESS_MOVE",
       "frame_truth_rule": "PERSISTENT_OMISSION_DISCLOSURE_WHILE_JUMPING_14_PLIES",
-      "board_transition_rule": "FROM_V_REAL_TO_TECHNICAL_V_PRE_EV2_WITH_OMISSION_LABEL_NO_SINGLE_MOVE_TWEEN_NO_INVENTED_PLY",
+      "board_transition_rule": "T10_ADVANCES_INTERNAL_CONTEXT_TO_V_PRE_EV2_WITHOUT_CLAIMING_DISPLAY_OR_SINGLE_ANIMATED_CHESS_MOVE",
       "legal_replay_status": "NOT_RUN",
       "actual_frames": null,
-      "visual_stimulus_id": null
+      "visual_stimulus_id": null,
+      "internal_after_state_id": "V-PRE-EV2",
+      "internal_after_state_visibility": "TECHNICAL_ONLY",
+      "display_board_truth_state_policy": "KEEP_PREVIOUS_VISIBLE_REAL_BOARD_UNDER_OMISSION_LABEL_UNTIL_SEPARATE_AUTHORIZED_STAGING_RESOLUTION"
     },
     {
       "phase_id": "S08-D",
@@ -365,10 +368,13 @@
       "display_label_at_settled_end": "PARTIDA REAL",
       "transition_mode": "DECLARED_REAL_SINGLE_MOVE",
       "frame_truth_rule": "ONLY_AFTER_OMISSION_COMPLETE_SWITCH_TO_REAL",
-      "board_transition_rule": "ESTABLISH_V_PRE_EV2_AS_SOURCE_THEN_NXD1_TO_V_EV2_CAPTURE_WHITE_ROOK",
+      "board_transition_rule": "T11_REQUIRES_AUTHORIZED_SOURCE_STAGING_AND_LEGALITY_ORACLE_BEFORE_ANY_NXD1_MOVE_ANIMATION",
       "legal_replay_status": "NOT_RUN",
       "actual_frames": null,
-      "visual_stimulus_id": null
+      "visual_stimulus_id": null,
+      "internal_before_state_id": "V-PRE-EV2",
+      "internal_before_state_visibility": "TECHNICAL_ONLY",
+      "visual_source_staging_policy": "UNRESOLVED_REQUIRES_CASE_VISIBILITY_AND_PER_EVENT_DISPLAY_APPROVAL_BEFORE_RENDER"
     },
     {
       "phase_id": "S09",
@@ -397,8 +403,8 @@
     "T05": "Hypothetical flag is set before T06 board change; its entry is a context transition, not a chess move.",
     "T06": "Qd8 is unplayed; do not hide the warning in transition frames.",
     "T07": "Retain unplayed warning until exact MAIN V-P1 is restored; the settled return label is not permission for premature banner removal.",
-    "T10": "14 real half moves 36..49 were omitted; V-PRE-EV2 is a technical endpoint, not a fictitious direct legal move. An explicit cut may land on that position under a visible omission warning, but not as a move animation.",
-    "T11": "After explicit omission complete, show position V-PRE-EV2 as source and only then the T11 real move; no false implied continuity.",
+    "T10": "T10 skips 14 actual plies. Keep last visible real board V-REAL during omission card; internal landing V-PRE-EV2 is TECHNICAL_ONLY and MUST NOT be auto-displayed as standalone scene or a single animated move.",
+    "T11": "T11 begins from internal TECHNICAL_ONLY V-PRE-EV2; no source-board visual promotion, jump cut or Nxd1 animation until a separately reviewed display/staging convention and qualified legal replay resolve the ambiguity.",
     "T12": "No historical checkmate or end-game board can be inferred from editorial closure at ply 50."
   },
   "frozen": {
@@ -414,5 +420,10 @@
     "permit_run": false,
     "permit_render": false,
     "permit_publish": false
+  },
+  "known_design_blockers": {
+    "VIS-TECH-01": "T11 requires a source position V-PRE-EV2 with TECHNICAL_ONLY visibility. A move animation cannot be authorized by this plan until semantic owner determines permitted staging/visual appearance and the independent legal oracle qualifies the exact move.",
+    "VIS-TECH-02": "T10's internal state after a 14-ply jump must not be confused with an audience-visible board or a fabricated one-ply transition.",
+    "status": "OPEN_SOURCE_CONTRACT_AMBIGUITY_NOT_PASSED"
   }
 }
