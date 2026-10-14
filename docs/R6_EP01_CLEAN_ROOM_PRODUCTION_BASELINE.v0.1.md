@@ -92,3 +92,7 @@ Research-only source cross-check of the **official Noto project**:
 **Future asset-bound font record, all unset today:** exact family/subfamily (including variable-vs-static and weight), filename, upstream immutable release/commit, downloadable upstream artifact location, complete downloaded byte hash SHA-256 measured by a qualified mechanism, license text/copyright holders/reserved names and whether the font software is embedded/distributed or only rasterized into final media, plus a separate review of the implemented text UI across devices. Only a competent independent rights review may close the R6 font component; this memo cannot close R6 for other assets.
 
 No commercial-rights `PASS` is claimed, and no output/caption font preview has been rendered or device-tested. **R6 PENDING**, E5B4D NO-GO under M, Policy B unchanged, IVV_GLOBAL and CASE_APPROVAL NOT APPROVED, publish false.
+
+## 2026-10-14 — VIS-TECH-01 technical state cannot silently become production graphic
+
+The FEN inventory includes `V-PRE-EV2` for **data representation only**, because the semantic case explicitly marks it `TECHNICAL_ONLY`. It must not be counted as a sixth audience-visible board/still. PR #4's visual phase-binding source now separates T10's internal endpoint from its screen board and marks T11 staging as unresolved. No rights, originality, device or semantic renderer review authorizes making that technical state public; VIS-TECH-01 remains an active production blocker in issue #8. R6 PENDING.
