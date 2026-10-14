@@ -97,6 +97,106 @@ const PINNED_STATE_DECLARATIONS = Object.freeze({
     "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26"
   }
 });
+/** Exact EP01 state record fields, including hidden/technical visual disposition. */
+const PINNED_EP01_FULL_STATE_RECORDS=Object.freeze([
+  {
+    "id": "V-P1",
+    "ply": 33,
+    "fen": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17",
+    "factuality": "REAL",
+    "branch_id": "MAIN",
+    "visibility": "VISUAL",
+    "san_label": "17.Kf1",
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "claim_refs": []
+  },
+  {
+    "id": "V-EV1",
+    "ply": 34,
+    "fen": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+    "factuality": "REAL",
+    "branch_id": "MAIN",
+    "visibility": "VISUAL",
+    "san_label": "17...Be6",
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "claim_refs": [
+      "CLAIM-REAL-MOVES"
+    ]
+  },
+  {
+    "id": "V-REAL",
+    "ply": 35,
+    "fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18",
+    "factuality": "REAL",
+    "branch_id": "MAIN",
+    "visibility": "VISUAL",
+    "san_label": "18.Bxb6",
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "claim_refs": [
+      "CLAIM-REAL-MOVES",
+      "CLAIM-EDITORIAL-ELLIPSIS"
+    ]
+  },
+  {
+    "id": "V-HYP",
+    "ply": 34,
+    "fen": "r2qr1k1/pp3pbp/2p3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+    "factuality": "HYPOTHETICAL",
+    "branch_id": "ALT_QD8",
+    "visibility": "VISUAL",
+    "san_label": "17...Qd8",
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-SUPPLIED-CASE-CONTEXT"
+    ],
+    "claim_refs": [
+      "CLAIM-HYPOTHETICAL-QD8"
+    ]
+  },
+  {
+    "id": "V-PRE-EV2",
+    "ply": 49,
+    "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25",
+    "factuality": "REAL",
+    "branch_id": "MAIN",
+    "visibility": "TECHNICAL_ONLY",
+    "san_label": "25.Qxb6",
+    "evidence_refs": [
+      "EVID-R2-RESULTS"
+    ],
+    "claim_refs": [
+      "CLAIM-EDITORIAL-ELLIPSIS"
+    ]
+  },
+  {
+    "id": "V-EV2",
+    "ply": 50,
+    "fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26",
+    "factuality": "REAL",
+    "branch_id": "MAIN",
+    "visibility": "VISUAL",
+    "san_label": "25...Nxd1",
+    "evidence_refs": [
+      "EVID-LEDGER-R2",
+      "EVID-R2-RESULTS"
+    ],
+    "claim_refs": [
+      "CLAIM-REAL-MOVES",
+      "CLAIM-CONTINUATION",
+      "CLAIM-EDITORIAL-END"
+    ]
+  }
+]);
+
 const PINNED_EVENT_KINDS = Object.freeze([
   "SET_POSITION",
   "REAL_MOVE",
@@ -1174,6 +1274,11 @@ export function proposeEp01Routing(caseV02, overlayV01) {
     states.set(s.id,s);
   }
   if(states.size!==6) fault("EP01_SIX_STATES_REQUIRED","states");
+  // Exact EP01 source-state metadata includes visibility (V-PRE-EV2 is
+  // TECHNICAL_ONLY), notation label, evidence and claim references.
+  // FEN equality on its own cannot prove truthful media representation.
+  if(!sameDeclaredJson(caseV02.states,PINNED_EP01_FULL_STATE_RECORDS))
+    fault("EP01_STATE_METADATA_CHANGED","case.states");
   for(const [id,pinned] of Object.entries(PINNED_STATE_DECLARATIONS)){
     const actual=states.get(id);
     if(!actual || Object.entries(pinned).some(([key,val])=>actual[key]!==val))
