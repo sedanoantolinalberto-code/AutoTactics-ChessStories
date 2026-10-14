@@ -42,7 +42,7 @@
 
 **Falsificador / próxima evidencia:** No sumar su efecto al PGN original al reproducirlo.
 
-**Prioridad:** P0. **Fuentes:** CASE;PHASE;CL5;CL20. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CASE;PHASE;CL5;CL20. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ### B1536 — T05/T06 Qd8 siguen fuera del registro principal
 
@@ -156,7 +156,7 @@
 
 **Falsificador / próxima evidencia:** Cada recurso nuevo tiene gate R6 propio, no hereda del vídeo corto.
 
-**Prioridad:** P0. **Fuentes:** ARCH;CL5;CL20;CR;BRADY. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** ARCH;CL5;CL20;CR;BRADY. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ### B1550 — La biblioteca oficial puede dar permiso por contacto formal
 
