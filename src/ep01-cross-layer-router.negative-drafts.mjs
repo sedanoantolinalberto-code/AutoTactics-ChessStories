@@ -156,6 +156,12 @@ export const ROUTING_NEGATIVE_CASES=[
    mutate:(c,o)=>{c.evidence.find(x=>x.id==="EVID-R2-RESULTS").source.title="Independent original 1956 scoresheet certification";}},
   {id:"IR-74",description:"Existing asset use repurposed to imply platform-wide commercial publishing while asset ID stays stable",expected:"EP01_ASSET_RIGHTS_DECLARATIONS_CHANGED",
    mutate:(c,o)=>{c.assets.find(x=>x.id==="ASSET-SUPPLIED-POSITION-DATA").uses[0].purpose="Commercial release on all platforms";}},
+  {id:"IR-75",description:"T10 technical-only destination silently becomes visual while FEN and ply stay pinned",expected:"EP01_STATE_METADATA_CHANGED",
+   mutate:(c,o)=>{c.states.find(s=>s.id==="V-PRE-EV2").visibility="VISUAL";}},
+  {id:"IR-76",description:"Real 18.Bxb6 state SAN label reworded without changing the declared move",expected:"EP01_STATE_METADATA_CHANGED",
+   mutate:(c,o)=>{c.states.find(s=>s.id==="V-REAL").san_label="25...Nxd1";}},
+  {id:"IR-77",description:"Hypothetical V-HYP supporting evidence removed while branch ownership is unchanged",expected:"EP01_STATE_METADATA_CHANGED",
+   mutate:(c,o)=>{c.states.find(s=>s.id==="V-HYP").evidence_refs=[];}},
   {id:"IR-26",description:"Overlay profile references a different case",expected:"OVERLAY_VERSION_OR_CASE",
    mutate:(c,o)=>{o.case_id="ED-CASE-REAL-02";}}
 ];
