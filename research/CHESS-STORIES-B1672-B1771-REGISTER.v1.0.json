@@ -1,0 +1,918 @@
+{
+  "schema": "ChessStoriesDocumentaryRegisterV1",
+  "date": "2026-10-15",
+  "range": "B1672-B1771",
+  "count": 100,
+  "preceding_completed": "B1671",
+  "source_note": "Entries are documentary checks, not 100 independently authenticated source observations.",
+  "primary_score_authenticated": false,
+  "blind_readers": false,
+  "official_1956_dec_chess_review_full_inspection": false,
+  "r2_hashes": "DECLARED_NOT_CHECKED",
+  "e5b4d": "NO-GO under M",
+  "r6": "PENDING",
+  "ivv_global": "NOT APPROVED",
+  "case_approval": "NOT APPROVED",
+  "items": [
+    {
+      "id": "B1672",
+      "number": 1672,
+      "title": "Registrar nombre H.R. Russner",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1673",
+      "number": 1673,
+      "title": "Registrar nombre Carl Walcker",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1674",
+      "number": 1674,
+      "title": "Identificar fecha 28 junio 1942",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1675",
+      "number": 1675,
+      "title": "Localizar Goniec Krakowski 22 noviembre 1942",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1676",
+      "number": 1676,
+      "title": "Separar fecha de publicación polaca",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1677",
+      "number": 1677,
+      "title": "Registrar versión Alekhine de nombres",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1678",
+      "number": 1678,
+      "title": "Comparar posición en que se ignora dama",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1679",
+      "number": 1679,
+      "title": "Identificar secuencia 15...Be6 de 1942",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1680",
+      "number": 1680,
+      "title": "Evitar afirmar plagio de combinación",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1681",
+      "number": 1681,
+      "title": "Separar originalidad narrativa de unicidad táctica",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1682",
+      "number": 1682,
+      "title": "Verificar escaneo Goniec Krakowski",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1683",
+      "number": 1683,
+      "title": "Comprobar variante de nombres en portada",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1684",
+      "number": 1684,
+      "title": "Cotejar match Varsovia–Cracovia",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1685",
+      "number": 1685,
+      "title": "Obtener página 3 completa de 1942",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1686",
+      "number": 1686,
+      "title": "Separar jugada ...Be6 de continuación",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1687",
+      "number": 1687,
+      "title": "Fijar Alekhine 1947 página 278",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1688",
+      "number": 1688,
+      "title": "Fijar 107 Great Chess Battles pp174–175",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1689",
+      "number": 1689,
+      "title": "Registrar Kings Commoners and Knaves p202",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1690",
+      "number": 1690,
+      "title": "Distinguir variantes de anotación",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1691",
+      "number": 1691,
+      "title": "No correr motor para comparar variantes",
+      "document_path": "research/CHESS-STORIES-B1672-B1691-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "609cfbecd8ec0faef0128ecc85324e52d35d3ddb",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1692",
+      "number": 1692,
+      "title": "Lima News 12 febrero 1957 p11: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1693",
+      "number": 1693,
+      "title": "Hammond Times 24 febrero 1957: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1694",
+      "number": 1694,
+      "title": "Crédito del escaneo Lawrence Totaro: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1695",
+      "number": 1695,
+      "title": "Pie fotográfico del recorte original: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1696",
+      "number": 1696,
+      "title": "Fecha de toma versus fecha de edición: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1697",
+      "number": 1697,
+      "title": "Identificación visual de Fischer: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1698",
+      "number": 1698,
+      "title": "Afirmación del instante previo al sacrificio: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1699",
+      "number": 1699,
+      "title": "Dependencia entre dos publicaciones: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1700",
+      "number": 1700,
+      "title": "Titularidad de negativo fotográfico: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1701",
+      "number": 1701,
+      "title": "Licencia para publicar fotografía: evidencia discriminante KC",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1702",
+      "number": 1702,
+      "title": "Original de árbitro Kmoch: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1703",
+      "number": 1703,
+      "title": "Carbón supuestamente retenido por Fischer: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1704",
+      "number": 1704,
+      "title": "Anotación de resultado rojo 0-1: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1705",
+      "number": 1705,
+      "title": "Transferencia a Lawson: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1706",
+      "number": 1706,
+      "title": "Precio o método alegado de adquisición: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1707",
+      "number": 1707,
+      "title": "Cadena de coleccionistas posteriores: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1708",
+      "number": 1708,
+      "title": "Imágenes completas de anverso y reverso: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1709",
+      "number": 1709,
+      "title": "Autenticidad paleográfica: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1710",
+      "number": 1710,
+      "title": "Última jugada física sobre tablero: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1711",
+      "number": 1711,
+      "title": "Diferencia entre resultado y final SAN: evidencia discriminante KD",
+      "document_path": "research/CHESS-STORIES-B1692-B1711-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "ab0479177bb5a2b0e827a55eb32cce46d6e2bc2e",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1712",
+      "number": 1712,
+      "title": "Ronda séptima US Chess 2020: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1713",
+      "number": 1713,
+      "title": "Ronda octava Spence vía Winter: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1714",
+      "number": 1714,
+      "title": "Fecha 17 octubre 1956: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1715",
+      "number": 1715,
+      "title": "Fechas del evento 7–24 octubre: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1716",
+      "number": 1716,
+      "title": "Dos versiones de planilla citadas: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1717",
+      "number": 1717,
+      "title": "Declaración memorística octubre-noviembre: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1718",
+      "number": 1718,
+      "title": "Día de partida y día de publicación: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1719",
+      "number": 1719,
+      "title": "Clasificación general Rosenwald: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1720",
+      "number": 1720,
+      "title": "Premio de brilliancy especial: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1721",
+      "number": 1721,
+      "title": "Cronometría narrativa de Kmoch: evidencia discriminante KE",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1722",
+      "number": 1722,
+      "title": "Portada Chess Review p370 errónea: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1723",
+      "number": 1723,
+      "title": "Contenido real página 370 Smyslov–Pachman: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1724",
+      "number": 1724,
+      "title": "Comienzo real Byrne–Fischer p374: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1725",
+      "number": 1725,
+      "title": "Continuación en p375: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1726",
+      "number": 1726,
+      "title": "Cita de prodigios de Kmoch: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1727",
+      "number": 1727,
+      "title": "Purdy junio 1957 p139: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1728",
+      "number": 1728,
+      "title": "Purdy octubre-noviembre 1957: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1729",
+      "number": 1729,
+      "title": "Reimpresión Kmoch septiembre 1958: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1730",
+      "number": 1730,
+      "title": "Objeción Crowl noviembre 1958: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1731",
+      "number": 1731,
+      "title": "Réplica marzo 1959: evidencia discriminante KF",
+      "document_path": "research/CHESS-STORIES-B1712-B1731-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "a4022c81826d44f8d3128c40336ce954f51dbaaa",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1732",
+      "number": 1732,
+      "title": "17...Be6 como ataque y no captura: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1733",
+      "number": 1733,
+      "title": "18.Bxb6 captura dama sin mate: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1734",
+      "number": 1734,
+      "title": "T04 rebobinado editorial: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1735",
+      "number": 1735,
+      "title": "17...Qd8 alternativa no jugada: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1736",
+      "number": 1736,
+      "title": "T07 restauración MAIN íntegra: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1737",
+      "number": 1737,
+      "title": "T08 repetición de 17...Be6: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1738",
+      "number": 1738,
+      "title": "T09 repetición de 18.Bxb6: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1739",
+      "number": 1739,
+      "title": "T10 omisión plies36–49: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1740",
+      "number": 1740,
+      "title": "V-PRE-EV2 técnico invisible: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1741",
+      "number": 1741,
+      "title": "T12 cierre editorial en ply50: evidencia discriminante KG",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1742",
+      "number": 1742,
+      "title": "Inspección PDF diciembre 1956 limitada por tamaño: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1743",
+      "number": 1743,
+      "title": "B1571 fragmento p374 distinto de folio íntegro: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1744",
+      "number": 1744,
+      "title": "82 plies de Chess Life no transcritos a ciegas: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1745",
+      "number": 1745,
+      "title": "Lectores humanos A/B independientes ausentes: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1746",
+      "number": 1746,
+      "title": "R2 PGN byte original ausente: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1747",
+      "number": 1747,
+      "title": "Replay results R2 byte original ausente: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1748",
+      "number": 1748,
+      "title": "Cotejo descriptivo anterior a SAN: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1749",
+      "number": 1749,
+      "title": "Capa OCR distinta de letra impresa: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1750",
+      "number": 1750,
+      "title": "Negativo documental no es inexistencia material: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1751",
+      "number": 1751,
+      "title": "Versiones secundarias pueden depender de ancestro común: evidencia discriminante KH",
+      "document_path": "research/CHESS-STORIES-B1732-B1751-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "c329bd1bd785c3e138d3067a3cb0ad9a34ebc1c7",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1752",
+      "number": 1752,
+      "title": "PDF Chess Review 1956: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1753",
+      "number": 1753,
+      "title": "Portada de revista diciembre 1956: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1754",
+      "number": 1754,
+      "title": "Página de prensa noviembre 1956: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1755",
+      "number": 1755,
+      "title": "Extracto reproducido por Winter: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1756",
+      "number": 1756,
+      "title": "Fotografía en Lima News: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1757",
+      "number": 1757,
+      "title": "Fotografía Hammond Times: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1758",
+      "number": 1758,
+      "title": "Planilla física y foto digital: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1759",
+      "number": 1759,
+      "title": "Tipografía seleccionada y licencia exacta: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1760",
+      "number": 1760,
+      "title": "Piezas tablero y geometría clean-room: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1761",
+      "number": 1761,
+      "title": "Audio voz música y efectos: evidencia discriminante KI",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1762",
+      "number": 1762,
+      "title": "E5B4D NO-GO modelo M: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1763",
+      "number": 1763,
+      "title": "Todos los procesos terminados antes 120s: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1764",
+      "number": 1764,
+      "title": "Confirmación estrictamente antes 120s: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1765",
+      "number": 1765,
+      "title": "stdout ≤1048576 bytes vida completa: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1766",
+      "number": 1766,
+      "title": "stderr ≤1048576 bytes vida completa: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1767",
+      "number": 1767,
+      "title": "66 negativos semánticos NOT_RUN: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1768",
+      "number": 1768,
+      "title": "77 negativos router NOT_RUN: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1769",
+      "number": 1769,
+      "title": "Oráculo legal NOT_RUN: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1770",
+      "number": 1770,
+      "title": "R6 PENDING: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    },
+    {
+      "id": "B1771",
+      "number": 1771,
+      "title": "IVV_GLOBAL y CASE_APPROVAL NOT APPROVED: evidencia discriminante KJ",
+      "document_path": "research/CHESS-STORIES-B1752-B1771-HISTORICAL-EVIDENCE-2026-10-15.md",
+      "document_git_blob_sha": "dc8d8777a21a93ae11b2d8575a5ec346fd1a0ea5",
+      "status": "RESEARCHED_DOCUMENTARY_ONLY",
+      "tests_executed": false
+    }
+  ]
+}
