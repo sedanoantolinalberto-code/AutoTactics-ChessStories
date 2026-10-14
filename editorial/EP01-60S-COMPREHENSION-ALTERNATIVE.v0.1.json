@@ -178,7 +178,12 @@
       "caption_es": "14 medias jugadas omitidas · plies 36–49",
       "event_behavior": "EVENT_ONCE",
       "legal_chess_replay": "NOT_RUN",
-      "rendered": "NOT_RENDERED"
+      "rendered": "NOT_RENDERED",
+      "state_id_semantics": "INTERNAL_EVENT_AFTER_STATE_NOT_VISIBLE_SHOT_BOARD",
+      "audience_visible_board_state_id": "V-REAL",
+      "internal_after_state_id": "V-PRE-EV2",
+      "internal_after_visibility": "TECHNICAL_ONLY",
+      "caption_policy": "Show omitted real plies 36–49 over last visible real board; do not present technical landing as a played move or automatically as a new storyboard frame."
     },
     {
       "phase_id": "S08-D",
@@ -191,7 +196,12 @@
       "caption_es": "25...Nxd1 · captura torre blanca",
       "event_behavior": "EVENT_ONCE",
       "legal_chess_replay": "NOT_RUN",
-      "rendered": "NOT_RENDERED"
+      "rendered": "NOT_RENDERED",
+      "state_id_semantics": "INTERNAL_EVENT_AFTER_STATE",
+      "internal_before_state_id": "V-PRE-EV2",
+      "internal_before_visibility": "TECHNICAL_ONLY",
+      "source_board_visualization_status": "BLOCKED_PENDING_TECHNICAL_ONLY_DISPLAY_INTERPRETATION_AND_QUALIFIED_LEGAL_REPLAY",
+      "caption_policy": "Do not silently expose V-PRE-EV2 as VISUAL. Stage/transition for the 25...Nxd1 capture only after technical-only display contract is independently resolved."
     },
     {
       "phase_id": "S09",
@@ -236,5 +246,8 @@
     "ED_CASE_REAL_01": "NOT APPROVED",
     "publication_permission": false,
     "execution_authorized": false
-  }
+  },
+  "open_qa": [
+    "VIS-TECH-01: T10 source state V-PRE-EV2 is TECHNICAL_ONLY, yet T11 single-move animation needs a source board. No render may automatically expose this state until the semantic owner approves an explicit intermediate-source staging convention. Existing 60-second timing remains unmeasured and possibly infeasible."
+  ]
 }
