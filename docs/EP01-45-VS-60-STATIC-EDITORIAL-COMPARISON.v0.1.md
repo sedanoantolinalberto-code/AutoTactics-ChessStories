@@ -38,3 +38,9 @@ All observations were made by inspecting repository text, **not by running any p
 ## Frozen controls
 
 *Chess Stories EP01* remains a documentary candidate. The 1956 original score is not authenticated end-to-end, the 14-ply modern-secondary crosswalk does not establish legal chess replay, and `17...Qd8` must not become a real move. F03 prohibits unsupported claims that `24...Ra4` was uniquely best/forced. No chess engine, project code, tests, render, GitHub Actions or other processes were invoked by this source review. E5B4D **NO-GO under failure model M**, strict Policy B unchanged (ALL relevant processes terminated and confirmed strictly before 120 s; stdout and stderr independent 1,048,576-byte emitted/accepted lifetime ceilings). R6 PENDING, IVV_GLOBAL/CASE_APPROVAL NOT APPROVED, publication false; no main merge.
+
+## 2026-10-14 — VIS-TECH-01 discovered during cross-branch source audit
+
+The initial 60s phase-binding document conflated **T10 internal destination** `V-PRE-EV2` with an **audience-visible board** at the end of S08-C. The canonical case marks that state `TECHNICAL_ONLY`. This is an actual cross-layer source specification conflict, not an observed render defect.
+
+Updated draft 60s plan retains T10's internal destination at `V-PRE-EV2`, while proposing that the last publicly visible board during S08-C remain `V-REAL` under `SE OMITEN JUGADAS REALES`. T11 source staging is explicitly **BLOCKED** pending a versioned semantic/presentation decision on technical-only state display, independently qualified legal replay, and real stimulus evidence. **The 60-second design should not be treated as production-ready or a usable/approved IVV stimulus** until VIS-TECH-01 is closed with authority and evidence. See `docs/EP01-VIS-TECH-01-SOURCE-VISIBILITY-RECONCILIATION.v0.1.md`.
