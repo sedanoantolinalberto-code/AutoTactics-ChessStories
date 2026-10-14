@@ -49,3 +49,7 @@ The square inventory points to six **candidate procedural** piece primitives in 
 ## 2026-10-14 — VIS-TECH-01 correction: do not equate source occupancy with public display
 
 **Cross-PR fact:** `V-PRE-EV2.visibility=TECHNICAL_ONLY` in case v0.2. Its inclusion in this **source-side** piece-occupancy registry does **not** authorize showing the state to viewers; the earlier phrase *“If V-PRE-EV2 is shown”* describes an unapproved potential display and must not be read as a staging waiver. PR #4 now treats the T10 audience-visible board as V-REAL, and blocks the T11 source board staging pending an independently reviewed display convention. The source's six-state occupancy records do not become six approved scenes/stills. VIS-TECH-01 OPEN; all R6/IVV and Policy B gates remain unchanged.
+
+## 2026-10-14 — ALT-A does not use the technical source as a public scene
+
+After the VIS-TECH-01 finding, PR #4 specifies a new **source-only option**: no viewer-facing V-PRE-EV2 asset and no animated 25...Nxd1 source→destination tween. The editor would cut, after mandatory 14-real-ply omission disclosure over visible V-REAL, to the declared `V-EV2` after-position and identify the captured rook on d1 with a static callout. This reduces one VIS-TECH-01 design dependency, but cannot be certified until source history, chess oracle, rights, rendering and mobile human comprehension are independently resolved. No still was produced by this change.
