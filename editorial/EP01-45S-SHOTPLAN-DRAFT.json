@@ -42,7 +42,7 @@
         "T01"
       ],
       "purpose": "Hook: the black queen is attacked",
-      "narration_es": "La dama de Fischer estaba atacada. Y decidió no retirarla.",
+      "narration_es": "La dama de Fischer estaba atacada. Y no la retiró.",
       "caption_es": "1956 · ¿Salvarías la dama?",
       "visual": "Full 9:16 board position V-P1, c5 bishop to b6 queen emphasis; no portrait.",
       "risk": "Caption must not imply sacrifice was forced."
@@ -238,5 +238,6 @@
     "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
     "status": "CROSS_BRANCH_SOURCE_REFERENCE_NOT_MERGED",
     "rule": "Every event must display the exact event-level truth label; a multi-event shot may change labels in ordered phases and must not flatten them into one shot-wide label."
-  }
+  },
+  "editorial_language_note": "The hook describes the source-declared visible move outcome, not Fischer's subjective intention. Historical provenance remains documentary/source-candidate only; original scoresheet unverified."
 }
