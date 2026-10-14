@@ -15,7 +15,7 @@
       "role": "60S_SHOTPLAN",
       "path": "editorial/EP01-60S-COMPREHENSION-ALTERNATIVE.v0.1.json",
       "branch": "chess-stories/ep01-editorial-blueprint-v0.1",
-      "observed_git_blob_sha": "ea8544dfbdcb0741b8d5f07ba92ebaab9fd76fd2",
+      "observed_git_blob_sha": "3f8f3c35a802167b5c22fad6e45b899e283b507b",
       "raw_byte_digest_qualified": false
     },
     {
@@ -368,13 +368,18 @@
       "display_label_at_settled_end": "PARTIDA REAL",
       "transition_mode": "DECLARED_REAL_SINGLE_MOVE",
       "frame_truth_rule": "ONLY_AFTER_OMISSION_COMPLETE_SWITCH_TO_REAL",
-      "board_transition_rule": "T11_REQUIRES_AUTHORIZED_SOURCE_STAGING_AND_LEGALITY_ORACLE_BEFORE_ANY_NXD1_MOVE_ANIMATION",
+      "board_transition_rule": "AFTER_T10_EXPLICIT_14_PLY_OMISSION_CUT_TO_VISUAL_V_EV2_POST_MOVE_STATIC_FRAME_WITH_D1_CAPTURE_CALLOUT_NO_NXD1_PIECE_TWEEN",
       "legal_replay_status": "NOT_RUN",
       "actual_frames": null,
       "visual_stimulus_id": null,
       "internal_before_state_id": "V-PRE-EV2",
       "internal_before_state_visibility": "TECHNICAL_ONLY",
-      "visual_source_staging_policy": "UNRESOLVED_REQUIRES_CASE_VISIBILITY_AND_PER_EVENT_DISPLAY_APPROVAL_BEFORE_RENDER"
+      "visual_source_staging_policy": "NO_TECHNICAL_ONLY_BOARD_STAGING_FOR_STATIC_AFTER_POSITION_CUT",
+      "audience_visible_board_strategy": "STATIC_DECLARED_AFTER_POSITION_V_EV2",
+      "audience_visible_board_state_id": "V-EV2",
+      "context_caption_es": "DESPUÉS DE 14 MEDIAS JUGADAS OMITIDAS",
+      "visual_chess_movement": "NONE_IN_THIS_CANDIDATE",
+      "source_state_is_not_rendered": true
     },
     {
       "phase_id": "S09",
@@ -404,7 +409,7 @@
     "T06": "Qd8 is unplayed; do not hide the warning in transition frames.",
     "T07": "Retain unplayed warning until exact MAIN V-P1 is restored; the settled return label is not permission for premature banner removal.",
     "T10": "T10 skips 14 actual plies. Keep last visible real board V-REAL during omission card; internal landing V-PRE-EV2 is TECHNICAL_ONLY and MUST NOT be auto-displayed as standalone scene or a single animated move.",
-    "T11": "T11 begins from internal TECHNICAL_ONLY V-PRE-EV2; no source-board visual promotion, jump cut or Nxd1 animation until a separately reviewed display/staging convention and qualified legal replay resolve the ambiguity.",
+    "T11": "ALT-A conservative source-only candidate: after T10 visibly announces the 14 omitted real plies while holding V-REAL, cut directly to source-declared VISUAL V-EV2 and static d1 capture callout (25...Nxd1). Do NOT stage TECHNICAL_ONLY V-PRE-EV2, animate an unverified c3→d1 tween, or claim an actual legal replay.",
     "T12": "No historical checkmate or end-game board can be inferred from editorial closure at ply 50."
   },
   "frozen": {
@@ -422,9 +427,9 @@
     "permit_publish": false
   },
   "known_design_blockers": {
-    "VIS-TECH-01": "T11 requires a source position V-PRE-EV2 with TECHNICAL_ONLY visibility. A move animation cannot be authorized by this plan until semantic owner determines permitted staging/visual appearance and the independent legal oracle qualifies the exact move.",
+    "VIS-TECH-01": "A source-only mitigation now avoids displaying TECHNICAL_ONLY V-PRE-EV2: static post-move V-EV2 cut. NOT independently reviewed/rendered; legality, history, truth-label frame timing, R6/IVV and Policy B still block execution and release.",
     "VIS-TECH-02": "T10's internal state after a 14-ply jump must not be confused with an audience-visible board or a fabricated one-ply transition.",
-    "status": "OPEN_SOURCE_CONTRACT_AMBIGUITY_NOT_PASSED"
+    "status": "ALT_A_SOURCE_MITIGATION_SPECIFIED_NOT_QUALIFIED_NOT_RENDERED"
   },
   "provenance_note": "Observed Git identities are an authoring-time source readback, not a qualified content-integrity mechanism. Later legitimate edits require rereview/re-pinning.",
   "cross_version_narration_alignment": {
@@ -433,5 +438,17 @@
     "v60_git_blob_sha": "ea8544dfbdcb0741b8d5f07ba92ebaab9fd76fd2",
     "measurement": "NOT_AUDIO_MEASURED",
     "source_only": true
+  },
+  "visual_design_candidate": {
+    "id": "VIS-TECH-01-ALT-A",
+    "source_only": true,
+    "technical_visible_frames_authorized": 0,
+    "technical_source_state_id": "V-PRE-EV2",
+    "visible_before_ellipsis": "V-REAL",
+    "visible_after_ellipsis_and_T11": "V-EV2",
+    "requires_qualified_oracle": true,
+    "requires_R6": true,
+    "requires_IVV": true,
+    "allow_renderer_now": false
   }
 }
