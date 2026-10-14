@@ -58,7 +58,7 @@
 
 **Verificación futura:** Anotar que la disputa afecta comentario técnico de Kmoch, sin asumir error confirmado en las jugadas.
 
-**Prioridad:** P0. **Referencias:** WINTER;CL5;CR. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Referencias:** WINTER;CL5;CR. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ### B1518 — Una réplica titulada Kmoch Was Right apareció en 1959
 
@@ -82,7 +82,7 @@
 
 **Verificación futura:** Separar decisión visible Be6 de motivaciones internas atribuidas sin testimonio directo.
 
-**Prioridad:** P0. **Referencias:** WINTER;CL5;CR. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Referencias:** WINTER;CL5;CR. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ## FV — Cronología de Fischer: autoría, edad, ronda y relatos
 
