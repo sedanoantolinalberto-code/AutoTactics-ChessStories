@@ -96,3 +96,7 @@ No commercial-rights `PASS` is claimed, and no output/caption font preview has b
 ## 2026-10-14 — VIS-TECH-01 technical state cannot silently become production graphic
 
 The FEN inventory includes `V-PRE-EV2` for **data representation only**, because the semantic case explicitly marks it `TECHNICAL_ONLY`. It must not be counted as a sixth audience-visible board/still. PR #4's visual phase-binding source now separates T10's internal endpoint from its screen board and marks T11 staging as unresolved. No rights, originality, device or semantic renderer review authorizes making that technical state public; VIS-TECH-01 remains an active production blocker in issue #8. R6 PENDING.
+
+## 2026-10-14 — VIS-TECH-01 ALT-A candidate reduces technical source exposure
+
+PR #4 now proposes **ALT-A**, a static **after-position-only** cut for T11: T10 retains visible V-REAL with the fourteen-plies-omitted overlay, then T11 displays **VISUAL V-EV2** with a static capture/d1 callout and never draws TECHNICAL_ONLY V-PRE-EV2. Therefore an additional audience-visible bitmap/still for V-PRE-EV2 is **not required by this candidate**, and the six-entry FEN occupancy registry remains purely technical source data. The previous T11 staging blocker has a design alternative, **not a rendered/commercially cleared resolution**. R6, human IVV, qualified rules replay and strict Policy B remain unfulfilled.
