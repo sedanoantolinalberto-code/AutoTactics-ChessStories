@@ -141,3 +141,14 @@ This is stronger than the earlier “table located/legible” note because the t
 Together with the 20 Dec 1956 Fischer/Collins annotated publication, there are now two contemporaneous *Chess Life* publications that record the mate ending. This establishes a strong **contemporaneous published-mate tradition**, not direct agreement between both players' original tournament scoresheets. Hanon Russell's later report that Byrne's original recorded resignation one move earlier remains an unresolved object-level discrepancy.
 
 See `sources/EP01-1956-NOV05-CHESS-LIFE-SCORE-WITNESS.v0.1.json`.
+
+
+## 2026-10-14 — external December 1956 access lead: museum-held issue, cover misprint
+
+A fresh source search identified an **institutionally catalogued physical periodical exemplar** of *Chess Review*, volume 24 no. 12, December 1956: the World Chess Hall of Fame's published exhibition object-label packet (PDF, page index 1) explicitly lists this issue as a collection holding, gift of John Donaldson. Source: https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf . This is an **institutional catalog/holding observation**, not direct inspection of Byrne–Fischer pp. 374–375 or permission to obtain/reproduce its images. There has been **no contact with the institution**.
+
+Edward Winter's historical research at https://www.chesshistory.com/winter/extra/byrnefischer.html reproduces a **cropped contemporary excerpt of printed p.374** and records that the full Kmoch Byrne–Fischer article appears on **printed pp.374–375**. Winter also identifies a **cover locator misprint**: the cover points readers to p.370, which instead discusses **Smyslov–Pachman**. Consequently, a blind-reading assignment must use the confirmed **374–375** printed page range, not the erroneous cover locator. The reproduced cropped excerpt and Winter's modern SAN list **must not** be handed to blinded readers or treated as a full periodical transcription.
+
+Machine-readable catalog lead (status ACCESS_LEADS_ONLY): `sources/EP01-1956-CHESS-REVIEW-ACCESS-LEADS.v0.1.json`. The official US Chess archive remains the original periodical-access lead, while the museum collection adds a potential **different physical exemplar** for future controlled source access. Neither source establishes the original player scoresheet's terminal record, chess legality, commercial reproduction rights, or any IVV gate.
+
+**Not upgraded:** no 82/82 first-hand *Chess Review* reading, no reader A/B, no terminal witness adjudication, no R6 clearance, no E5B4D permission, no case or publication approval. The connected research agent remains SAN-exposed and cannot act as a blind primary reader.
