@@ -34,7 +34,7 @@
 
 **Refutación o siguiente evidencia:** Al redactar, conservar denominación tal como aparece y no inventar patrocinador o cuantía monetaria.
 
-**Prioridad:** P0. **Fuentes:** CL20;CL5. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CL20;CL5. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ### B1475 — El segundo premio pertenece a Herbert Seidman
 
@@ -82,7 +82,7 @@
 
 **Refutación o siguiente evidencia:** Preservar límites de evidencia visual sin global PASS.
 
-**Prioridad:** P0. **Fuentes:** CL20;CL5. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
+**Prioridad:** P1. **Fuentes:** CL20;CL5. **Estado:** RESEARCHED_DOCUMENTARY_ONLY.
 
 ## FR — Torneo Rosenwald: reporte contemporáneo, resultados y contexto
 
