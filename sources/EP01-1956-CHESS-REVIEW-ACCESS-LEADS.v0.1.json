@@ -1,0 +1,65 @@
+{
+  "artifact_version": "chess-stories-ep01-1956-chess-review-access-leads/0.1-draft",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "SOURCE_ACCESS_LEADS_NOT_82_PLY_PRIMARY_TRANSCRIPTION",
+  "study_scope": "Independent historical access research; do not hand to blind readers as an answer key",
+  "periodical": {
+    "title": "Chess Review",
+    "volume": 24,
+    "issue": 12,
+    "month": "December",
+    "year": 1956,
+    "article_printed_pages": [
+      374,
+      375
+    ],
+    "editorial_author": "Hans Kmoch",
+    "source_class": "CONTEMPORANEOUS_PERIODICAL"
+  },
+  "new_access_leads": [
+    {
+      "id": "WORLD-CHESS-HALL-OF-FAME-PHYSICAL-COPY",
+      "institution": "World Chess Hall of Fame",
+      "source": "Exhibition artifact-label PDF; visually inspected PDF page index 1",
+      "url": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "catalog_text": "Chess Review Vol. 24, No. 12; December 1956; Periodical; Collection of the World Chess Hall of Fame, gift of John Donaldson.",
+      "meaning": "Independent institutional holding/catalog lead; separate original issue exemplar might be accessible for source inspection if institution permits.",
+      "not_evidence_of": "Direct inspection of pp. 374-375, online copy of full issue, right to reproduce page art, original tournament scoresheet authenticity",
+      "rights_status": "NOT_CLEARED",
+      "collection_access_status": "CONTACT_NOT_INITIATED"
+    },
+    {
+      "id": "EDWARD-WINTER-PAGE-374-EXCERPT",
+      "source": "Edward Winter, The Byrne v Fischer 'Game of the Century'",
+      "url": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "role": "Historian reproduces a fragment of page 374 and reports full article spread 374-375",
+      "image_excerpt": "IMAGE_CROPPED_PAGE_374_ONLY",
+      "pdf_original_full_spread": "NOT_INSPECTED",
+      "historian_secondary_SAN": "ANSWER_KEY_CONTAMINATING_FOR_BLIND_READERS",
+      "rights_status": "RESEARCH_REFERENCE_ONLY_NOT_FOR_RELEASE"
+    }
+  ],
+  "known_locator_pitfall": {
+    "reported_cover_text": "Game of the Century (See page 370)",
+    "correction": "Page 370 of Dec 1956 Chess Review features Smyslov–Pachman; Byrne–Fischer article is printed pp. 374–375.",
+    "meaning": "Following front-cover page number verbatim risks transcribing or crediting a DIFFERENT game as Byrne–Fischer.",
+    "source": "Edward Winter historical article",
+    "status": "SECONDARY_HISTORICAL_LOCATOR_CLAIM_NOT_NEW_FIRSTHAND_INSPECTION"
+  },
+  "limitations": [
+    "The World Chess Hall of Fame label PDF catalogs an issue, not the printed article pages.",
+    "The cropped Winter page-374 scan does not show the full score and does not qualify a complete 82-ply transcription.",
+    "Connected research agent has seen the modern 82-ply SAN score and is ineligible as blinded Reader A or Reader B.",
+    "No independent readers, primary row observations or terminal record adjudication added.",
+    "No copyrighted archive page/image is committed or authorized for commercial media."
+  ],
+  "next_external_dependency": "An authorized, source-independent access path to the complete December 1956 issue and two uncontaminated readers per witness; rights review separate.",
+  "frozen": {
+    "history": "NOT_AUTHENTICATED",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "E5B4D": "NO-GO under failure model M",
+    "publication_permission": false,
+    "execution_authorized": false
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "artifact_version": "chess-stories-ep01-1956-nov05-chess-life-score-witness/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "CONTEMPORARY_PERIODICAL_VISUAL_WITNESS_NOT_BLIND_TRANSCRIPTION",
+  "source": {
+    "publication": "Chess Life",
+    "issue_date": "1956-11-05",
+    "volume_issue": "Vol. XI, No. 5",
+    "printed_page": 2,
+    "pdf_page_index": 1,
+    "official_pdf_url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_1.pdf",
+    "section": "GRUENFELD DEFENSE",
+    "players_printed": "D. BYRNE — R. FISCHER",
+    "event_printed": "Rosenwald Trophy Tournament, New York, 1956"
+  },
+  "visual_observation": {
+    "page_render_observed": true,
+    "full_41_move_table_visible": true,
+    "terminal_row_observed": {
+      "move_number": 41,
+      "white_descriptive": "K-B1",
+      "black_descriptive": "R-B7 mate",
+      "normalized_modern_candidate": "41...Rc2#",
+      "normalization_status": "DOCUMENTARY_MAPPING_CANDIDATE_NOT_RULES_REPLAY"
+    },
+    "blind_reader_eligible": false,
+    "reason_not_blind": "The connected research agent had already seen the modern SAN answer key before this visual inspection."
+  },
+  "evidentiary_class": "CONTEMPORARY_PUBLISHED_SCORE_TABLE",
+  "relationship_to_other_witnesses": {
+    "dec20_fischer_collins_publication": "AGREES_ON_41...R-B7_MATE",
+    "modern_winter_secondary": "AGREES_ON_41...Rc2#_NORMALIZATION",
+    "russell_reported_fischer_original": "AGREES_ON_MATE_CLASS",
+    "russell_reported_byrne_original": "CONFLICTS_ON_TERMINAL_RECORD_RESIGNATION_ONE_MOVE_EARLIER"
+  },
+  "conclusion_boundary": {
+    "contemporary_published_mate_support": "STRONG",
+    "original_scoresheet_terminal_record_resolved": false,
+    "full_primary_82_ply_blind_comparison_completed": false,
+    "chess_legality_verified": false,
+    "publication_rights_cleared": false
+  }
+}

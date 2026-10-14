@@ -1,0 +1,117 @@
+{
+  "artifact_version": "chess-stories-ep01-scoresheet-witness-leads/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "PROVENANCE_LEADS_NOT_PRIMARY_AUTHENTICATION",
+  "purpose": "Record distinct scoresheet witnesses and a reported terminal-record discrepancy without promoting any public reproduction to an authenticated original.",
+  "witnesses": [
+    {
+      "id": "SCORE-FISCHER-ORIGINAL-LEAD",
+      "description": "Tournament top/original scoresheet in Fischer's handwriting; modern provenance account places it in David DeLucia's collection.",
+      "current_access": "NO_FIRST_HAND_INSPECTION_IN_THIS_REVIEW",
+      "provenance_basis": [
+        "John Donaldson, Inside the Mind of Bobby Fischer (2025 publisher preview), pp. 6-8 of chapter excerpt / PDF pp. 23-25",
+        "Frank Brady provenance account as summarized by Donaldson"
+      ],
+      "terminal_record": "REPORTED_AS_MATE_BY_HANON_RUSSELL_1992",
+      "authentication_status": "NOT_INDEPENDENTLY_AUTHENTICATED_HERE"
+    },
+    {
+      "id": "SCORE-FISCHER-RECONSTRUCTION-LILLY",
+      "description": "Reconstruction written by Fischer shortly after the game, held in the John W. Collins manuscripts at Lilly Library; Donaldson explicitly distinguishes it from both original and carbon.",
+      "repository": "Lilly Library, Indiana University — Collins mss., LMC 2411",
+      "online_object_status": "COLLECTION_CATALOG_ONLINE_OBJECT_ITSELF_NOT_ONLINE",
+      "terminal_record": "VISIBLE_RECONSTRUCTION_SHOWS_41_K-B1_R-B2_AND_MATE_MARKING",
+      "authentication_status": "REPOSITORY_COLLECTION_CONFIRMED_RECONSTRUCTION_CLASSIFICATION_FROM_MODERN_RESEARCH"
+    },
+    {
+      "id": "SCORE-BYRNE-ORIGINAL-LEAD",
+      "description": "Donald Byrne scoresheet reported by Hanon W. Russell as personally examined while in the Russell Collection.",
+      "current_access": "NO_FIRST_HAND_INSPECTION_IN_THIS_REVIEW",
+      "terminal_record": "RUSSELL_1992_REPORTS_RESIGNATION_ONE_MOVE_BEFORE_FISCHER_MATE_ENTRY",
+      "authentication_status": "FIRST_PERSON_PUBLIC_PROVENANCE_CLAIM_NOT_INDEPENDENTLY_REINSPECTED"
+    },
+    {
+      "id": "SCORE-FISCHER-CARBON-LEAD",
+      "description": "Player carbon reportedly retained by Fischer after the game; later disposition remains unclear in the sources reviewed.",
+      "current_access": "UNKNOWN",
+      "terminal_record": "UNKNOWN",
+      "authentication_status": "UNLOCATED"
+    }
+  ],
+  "discrepancy": {
+    "topic": "TERMINAL_RECORD",
+    "reported_fischer_original": "MATE",
+    "reported_byrne_original": "RESIGNATION_ONE_MOVE_BEFORE_MATE",
+    "consequence": "Do not promote 41...Rc2# from modern-secondary terminal line to an authenticated primary historical ending until original witness inspection/adjudication resolves the record.",
+    "result_implication": "Both reported terminal conventions are compatible with a Black win, but they are not the same historical termination record.",
+    "current_ep01_secondary_result": "0-1",
+    "current_ep01_secondary_final_san": "Rc2#",
+    "primary_historical_terminal_authentication": "NOT_VERIFIED",
+    "additional_contemporary_support": "Chess Life 20 Dec 1956 Fischer/Collins annotated publication records 41...R-B7 mate in official PDF text extraction.",
+    "resolution_status": "UNRESOLVED_PENDING_DIRECT_OR_BLIND_PRIMARY_WITNESS_ADJUDICATION",
+    "contemporary_publication_summary": {
+      "chess_life_1956_11_05": "41.K-B1 R-B7 mate — visually confirmed",
+      "chess_life_1956_12_20": "41.K-B1 R-B7 mate — official PDF structured text extraction, Fischer notes with editor",
+      "consensus_class": "TWO_CONTEMPORARY_PUBLICATIONS_RECORD_MATE",
+      "independence_status": "TEXTUAL_LINEAGE_NOT_PROVEN_INDEPENDENT",
+      "conflict_remaining": "Russell 1992 reports Byrne original scoresheet recorded resignation one move before mate"
+    }
+  },
+  "rights_boundary": {
+    "release_use_of_scoresheet_images": "EXCLUDED_BY_DEFAULT_UNDER_PR7_CLEAN_ROOM_BASELINE",
+    "research_access_does_not_imply_reproduction_permission": true
+  },
+  "sources": [
+    {
+      "type": "MODERN_RESEARCH_BOOK_PREVIEW",
+      "title": "Inside the Mind of Bobby Fischer",
+      "author": "John Donaldson",
+      "year": 2025,
+      "url": "https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf",
+      "role": "PROVENANCE_AND_RECONSTRUCTION_CLASSIFICATION"
+    },
+    {
+      "type": "INSTITUTIONAL_COLLECTION_CATALOG",
+      "title": "Collins mss., 1926-2001",
+      "institution": "Lilly Library, Indiana University",
+      "url": "https://archives.iu.edu/catalog/InU-Li-VAD1035",
+      "role": "COLLECTION_EXISTENCE_ACCESS_AND_ONLINE_STATUS"
+    },
+    {
+      "type": "FIRST_PERSON_PUBLIC_STATEMENT",
+      "speaker": "Hanon W. Russell",
+      "date": "1992-04-20",
+      "venue": "rec.games.chess / Google Groups archive",
+      "url": "https://groups.google.com/g/rec.games.chess/c/DL0Gd9W_9PY",
+      "role": "REPORTED_COMPARISON_OF_FISCHER_AND_BYRNE_ORIGINAL_SCORESHEETS"
+    }
+  ],
+  "forbidden_promotions": [
+    "PRIMARY_SCORE_AUTHENTICATED",
+    "41...Rc2#_PRIMARY_VERIFIED",
+    "BYRNE_RESIGNATION_PRIMARY_VERIFIED",
+    "R6_CLEARED",
+    "PERMISSION_TO_PUBLISH"
+  ],
+  "contemporaneous_periodical_terminal_witnesses": [
+    {
+      "id": "CHESS-LIFE-1956-12-20-FISCHER-NOTES",
+      "source": "Chess Life, 20 Dec 1956, printed p.6 / PDF index 5",
+      "notes_credit": "Robert J. Fischer; publication states notes written in collaboration with editor John W. Collins",
+      "observed_terminal_record_from_official_pdf_text": "41.K-B1 R-B7 mate",
+      "normalized_candidate": "41...Rc2#",
+      "visual_transcription": "NOT_PERFORMED_SCREENSHOT_TIMEOUT",
+      "evidentiary_class": "CONTEMPORARY_PLAYER_ATTRIBUTED_EDITED_PERIODICAL_WITNESS",
+      "relationship_to_scoresheet_divergence": "SUPPORTS_MATE_PUBLICATION_TRADITION_BUT_DOES_NOT_RESOLVE_REPORTED_BYRNE_ORIGINAL_RESIGNATION_RECORD"
+    },
+    {
+      "id": "CHESS-LIFE-1956-11-05-SCORE-TABLE",
+      "source": "Chess Life, 5 Nov 1956, printed p.2 / PDF index 1",
+      "observation": "VISUAL_PAGE_RENDER_INSPECTED",
+      "observed_terminal_record": "41.K-B1 R-B7 mate",
+      "normalized_candidate": "41...Rc2#",
+      "evidentiary_class": "CONTEMPORARY_PUBLISHED_SCORE_TABLE",
+      "relationship_to_scoresheet_divergence": "SUPPORTS_MATE_PUBLICATION_TRADITION_BUT_DOES_NOT_RESOLVE_REPORTED_BYRNE_ORIGINAL_RESIGNATION_RECORD"
+    }
+  ]
+}
