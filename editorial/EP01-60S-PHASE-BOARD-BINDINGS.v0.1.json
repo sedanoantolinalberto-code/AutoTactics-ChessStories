@@ -15,7 +15,7 @@
       "role": "60S_SHOTPLAN",
       "path": "editorial/EP01-60S-COMPREHENSION-ALTERNATIVE.v0.1.json",
       "branch": "chess-stories/ep01-editorial-blueprint-v0.1",
-      "observed_git_blob_sha": "cd011d640a8e0acbba54e59cd6a16c729a6c3097",
+      "observed_git_blob_sha": "23ff0a7df2ca7dc292211756ef935bac75ffe03a",
       "raw_byte_digest_qualified": false
     },
     {
@@ -425,5 +425,6 @@
     "VIS-TECH-01": "T11 requires a source position V-PRE-EV2 with TECHNICAL_ONLY visibility. A move animation cannot be authorized by this plan until semantic owner determines permitted staging/visual appearance and the independent legal oracle qualifies the exact move.",
     "VIS-TECH-02": "T10's internal state after a 14-ply jump must not be confused with an audience-visible board or a fabricated one-ply transition.",
     "status": "OPEN_SOURCE_CONTRACT_AMBIGUITY_NOT_PASSED"
-  }
+  },
+  "provenance_note": "Observed Git identities are an authoring-time source readback, not a qualified content-integrity mechanism. Later legitimate edits require rereview/re-pinning."
 }
