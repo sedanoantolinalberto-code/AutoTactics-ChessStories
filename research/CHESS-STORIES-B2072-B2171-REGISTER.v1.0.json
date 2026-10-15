@@ -1,0 +1,820 @@
+{
+  "schema": "chess-stories-documentary-register-v1",
+  "date": "2026-10-15",
+  "first": "B2072",
+  "last": "B2171",
+  "count": 100,
+  "scope": "Chess Stories exclusively",
+  "priority_count": {
+    "P0": 90,
+    "P1": 10
+  },
+  "source_quality": "Bibliographic retrieval plus secondary reports, not 100 independent primary observations",
+  "new_evidence": "Kórnik Library PAN Goniec Krakowski catalog shelfmark Cz 4490, 1942 holdings; separately discoverable November 29 issue 280; required 22 November p3 NOT VISUALLY INSPECTED",
+  "e5b4d": "NO-GO under M",
+  "r6": "PENDING",
+  "ivv_global": "NOT APPROVED",
+  "case_approval": "NOT APPROVED",
+  "entries": [
+    {
+      "id": "B2072",
+      "number": 2072,
+      "title": "Catalog title exact Goniec Krakowski",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2073",
+      "number": 2073,
+      "title": "Shelfmark Cz 4490",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2074",
+      "number": 2074,
+      "title": "Institution PAN Kórnik Library",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2075",
+      "number": 2075,
+      "title": "Publisher as cataloged",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2076",
+      "number": 2076,
+      "title": "Place Kraków",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2077",
+      "number": 2077,
+      "title": "Daily publication frequency",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2078",
+      "number": 2078,
+      "title": "Catalog record creation scope",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2079",
+      "number": 2079,
+      "title": "MARC21 export available",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2080",
+      "number": 2080,
+      "title": "RIS/BibTeX export available",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2081",
+      "number": 2081,
+      "title": "Do not treat catalog as folio scan",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2082",
+      "number": 2082,
+      "title": "R.4 1942 n29 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2083",
+      "number": 2083,
+      "title": "R.4 1942 n33 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2084",
+      "number": 2084,
+      "title": "R.4 1942 n57 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2085",
+      "number": 2085,
+      "title": "R.4 1942 n97 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2086",
+      "number": 2086,
+      "title": "R.4 1942 n125 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2087",
+      "number": 2087,
+      "title": "R.4 1942 n137 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2088",
+      "number": 2088,
+      "title": "R.4 1942 n144 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2089",
+      "number": 2089,
+      "title": "R.4 1942 n169 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2090",
+      "number": 2090,
+      "title": "R.4 1942 n179 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2091",
+      "number": 2091,
+      "title": "R.4 1942 n204 listed",
+      "path": "research/CHESS-STORIES-B2072-B2091-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "adb51e4855a1d6eb148746ee197ff3378562ab34",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2092",
+      "number": 2092,
+      "title": "R.4 1942 n230 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2093",
+      "number": 2093,
+      "title": "R.4 1942 n234 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2094",
+      "number": 2094,
+      "title": "R.4 1942 n252 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2095",
+      "number": 2095,
+      "title": "R.4 1942 n263-266 grouped",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2096",
+      "number": 2096,
+      "title": "R.4 1942 n284 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2097",
+      "number": 2097,
+      "title": "R.4 1942 n288 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2098",
+      "number": 2098,
+      "title": "R.4 1942 n297 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2099",
+      "number": 2099,
+      "title": "R.4 1942 n300-301 grouped",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2100",
+      "number": 2100,
+      "title": "R.4 1942 n304 listed",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2101",
+      "number": 2101,
+      "title": "Exact 22-Nov issue unconfirmed in this listing",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2102",
+      "number": 2102,
+      "title": "Nov29 1942 identified as issue 280",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2103",
+      "number": 2103,
+      "title": "Nov29 PDF hosting at Jagiellonian digital service",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2104",
+      "number": 2104,
+      "title": "Chess corner appears Nov29 in search index",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2105",
+      "number": 2105,
+      "title": "No evidence Nov22 scanned from Nov29 file",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2106",
+      "number": 2106,
+      "title": "Identify stable series item instead of guessing URL",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2107",
+      "number": 2107,
+      "title": "Search calendar-specific issue metadata",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2108",
+      "number": 2108,
+      "title": "Avoid infer sequence by simple subtraction",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2109",
+      "number": 2109,
+      "title": "Image reproduction may have separate rights",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2110",
+      "number": 2110,
+      "title": "Distinguish topical column from Russner game",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2111",
+      "number": 2111,
+      "title": "Treat nearby issue as search lead only",
+      "path": "research/CHESS-STORIES-B2092-B2111-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "39123c38c9f6d88299529abf57a7bfb30447e565",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2112",
+      "number": 2112,
+      "title": "Winter reports Konaszczuk source encounter",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2113",
+      "number": 2113,
+      "title": "Claim 22 November 1942 p3",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2114",
+      "number": 2114,
+      "title": "Game dated 28 June 1942",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2115",
+      "number": 2115,
+      "title": "Match Warsaw versus Cracow reported",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2116",
+      "number": 2116,
+      "title": "H.W. Russner initials reported",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2117",
+      "number": 2117,
+      "title": "K. Walcker initials reported",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2118",
+      "number": 2118,
+      "title": "Previous Rüssher spelling corrected",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2119",
+      "number": 2119,
+      "title": "Previous Walcicer spelling corrected",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2120",
+      "number": 2120,
+      "title": "Original p3 has not been checked here",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2121",
+      "number": 2121,
+      "title": "Collector's source testimony not raw image",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2122",
+      "number": 2122,
+      "title": "Catalogue describes occupation-era propaganda newspaper",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2123",
+      "number": 2123,
+      "title": "German administrative control context",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2124",
+      "number": 2124,
+      "title": "Political credibility separate from literal moves",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2125",
+      "number": 2125,
+      "title": "Chess report may need independent match record",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2126",
+      "number": 2126,
+      "title": "Absence in partial holdings not evidence of absence",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2127",
+      "number": 2127,
+      "title": "Avoid legitimizing propaganda source",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2128",
+      "number": 2128,
+      "title": "Describe scan neutrally as historical artifact",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2129",
+      "number": 2129,
+      "title": "Identify Polish descriptive notation conventions",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2130",
+      "number": 2130,
+      "title": "Respect potentially traumatic contextual material",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2131",
+      "number": 2131,
+      "title": "Preserve institutional provenance",
+      "path": "research/CHESS-STORIES-B2112-B2131-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "2c14aa8e045735b05da879cc61794c0d9ee8529b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2132",
+      "number": 2132,
+      "title": "Verify archival collection vs library catalogue",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2133",
+      "number": 2133,
+      "title": "Search issue and date in Jagiellonian metadata",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2134",
+      "number": 2134,
+      "title": "Search PAN item records by year",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2135",
+      "number": 2135,
+      "title": "Use date query not guessed sequential issue",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2136",
+      "number": 2136,
+      "title": "Obtain legal page-specific scan request",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2137",
+      "number": 2137,
+      "title": "Request p3 only to minimize rights exposure",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2138",
+      "number": 2138,
+      "title": "Record scan dpi and edition identification",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2139",
+      "number": 2139,
+      "title": "Capture source operator and timestamp",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2140",
+      "number": 2140,
+      "title": "Store bibliographic pointers not copyrighted facsimiles",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2141",
+      "number": 2141,
+      "title": "Distinguish catalogue matches from access granted",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2142",
+      "number": 2142,
+      "title": "Link 1942 claim to F03 non-uniqueness warning",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2143",
+      "number": 2143,
+      "title": "Do not alter T02 move mechanics",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2144",
+      "number": 2144,
+      "title": "Do not alter T03 capture truth",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2145",
+      "number": 2145,
+      "title": "Do not add extra historical ply from 1942",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2146",
+      "number": 2146,
+      "title": "Keep alternative Qd8 unplayed",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2147",
+      "number": 2147,
+      "title": "Keep T07 atomic return",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2148",
+      "number": 2148,
+      "title": "Preserve T10 14 omitted plies",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2149",
+      "number": 2149,
+      "title": "Keep V-PRE-EV2 invisible",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2150",
+      "number": 2150,
+      "title": "Keep T12 editorial terminal",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2151",
+      "number": 2151,
+      "title": "No change to qualified oracle state",
+      "path": "research/CHESS-STORIES-B2132-B2151-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "17c8f882ed3e5aa68cab7a46d93ca5bde6137032",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2152",
+      "number": 2152,
+      "title": "Catalog description not rights license",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2153",
+      "number": 2153,
+      "title": "Holding is not scan accessibility",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2154",
+      "number": 2154,
+      "title": "Scan accessibility not commercial rights",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2155",
+      "number": 2155,
+      "title": "Photo of folio may be protected",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2156",
+      "number": 2156,
+      "title": "Two archival transcriptions might share upstream",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2157",
+      "number": 2157,
+      "title": "Public domain determination jurisdiction-specific",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2158",
+      "number": 2158,
+      "title": "Current rights BOM remains unsigned",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2159",
+      "number": 2159,
+      "title": "No release until R6 review",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2160",
+      "number": 2160,
+      "title": "Do not copy occupational-era press whole pages",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2161",
+      "number": 2161,
+      "title": "Archival claims do not satisfy model M",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2162",
+      "number": 2162,
+      "title": "Prioritize exact date November 22 search",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2163",
+      "number": 2163,
+      "title": "Second priority issue number identification",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2164",
+      "number": 2164,
+      "title": "Third priority original folio image",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2165",
+      "number": 2165,
+      "title": "Fourth independent match witness",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2166",
+      "number": 2166,
+      "title": "Fifth independent handwriting authentication",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2167",
+      "number": 2167,
+      "title": "E5B4D NO-GO unchanged",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2168",
+      "number": 2168,
+      "title": "Policy B before 120s and separate byte caps",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2169",
+      "number": 2169,
+      "title": "R6 PENDING",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2170",
+      "number": 2170,
+      "title": "IVV_GLOBAL and CASE_APPROVAL NOT APPROVED",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2171",
+      "number": 2171,
+      "title": "No engines tests Actions renders or main merge",
+      "path": "research/CHESS-STORIES-B2152-B2171-ARCHIVE-TRACE-2026-10-15.md",
+      "blob_sha": "e9c35a2756c1846b2acacd7186506c6b2f0f0fb8",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    }
+  ]
+}
