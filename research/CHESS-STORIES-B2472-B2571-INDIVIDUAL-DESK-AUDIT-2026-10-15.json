@@ -1,0 +1,1007 @@
+{
+  "range": "B2472-B2571",
+  "count": 100,
+  "audit": "INDIVIDUAL_DOCUMENTARY_DESK_REVIEW_NOT_TESTS",
+  "individual_verdicts": [
+    {
+      "id": "B2472",
+      "target": "original de árbitro",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2473",
+      "target": "original de árbitro",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2474",
+      "target": "original de árbitro",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2475",
+      "target": "original de árbitro",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2476",
+      "target": "original de árbitro",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2477",
+      "target": "copia carbón jugador",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2478",
+      "target": "copia carbón jugador",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2479",
+      "target": "copia carbón jugador",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2480",
+      "target": "copia carbón jugador",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2481",
+      "target": "copia carbón jugador",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2482",
+      "target": "marca 0-1 roja",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2483",
+      "target": "marca 0-1 roja",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2484",
+      "target": "marca 0-1 roja",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2485",
+      "target": "marca 0-1 roja",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2486",
+      "target": "marca 0-1 roja",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2487",
+      "target": "firma atribuida",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2488",
+      "target": "firma atribuida",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2489",
+      "target": "firma atribuida",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2490",
+      "target": "firma atribuida",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2491",
+      "target": "firma atribuida",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2492",
+      "target": "transmisión Kmoch–Lawson",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2493",
+      "target": "transmisión Kmoch–Lawson",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2494",
+      "target": "transmisión Kmoch–Lawson",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2495",
+      "target": "transmisión Kmoch–Lawson",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2496",
+      "target": "transmisión Kmoch–Lawson",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2497",
+      "target": "cadena coleccionistas",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2498",
+      "target": "cadena coleccionistas",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2499",
+      "target": "cadena coleccionistas",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2500",
+      "target": "cadena coleccionistas",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2501",
+      "target": "cadena coleccionistas",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2502",
+      "target": "fotografía anverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2503",
+      "target": "fotografía anverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2504",
+      "target": "fotografía anverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2505",
+      "target": "fotografía anverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2506",
+      "target": "fotografía anverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2507",
+      "target": "fotografía reverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2508",
+      "target": "fotografía reverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2509",
+      "target": "fotografía reverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2510",
+      "target": "fotografía reverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2511",
+      "target": "fotografía reverso",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2512",
+      "target": "movimiento terminal",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2513",
+      "target": "movimiento terminal",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2514",
+      "target": "movimiento terminal",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2515",
+      "target": "movimiento terminal",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2516",
+      "target": "movimiento terminal",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2517",
+      "target": "peritaje papel tinta",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Identificación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2518",
+      "target": "peritaje papel tinta",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Fuente primaria",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2519",
+      "target": "peritaje papel tinta",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Conflicto",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2520",
+      "target": "peritaje papel tinta",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Falsación",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2521",
+      "target": "peritaje papel tinta",
+      "theme": "Scoresheet Fischer",
+      "dimension": "Derechos",
+      "verdict": "UNAUTHENTICATED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://en.chessbase.com/post/brady-bobby-fischer-s-game-of-the-century/395",
+      "executed": false
+    },
+    {
+      "id": "B2522",
+      "target": "ronda séptima",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2523",
+      "target": "ronda séptima",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2524",
+      "target": "ronda séptima",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2525",
+      "target": "ronda séptima",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2526",
+      "target": "ronda séptima",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2527",
+      "target": "ronda octava",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2528",
+      "target": "ronda octava",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2529",
+      "target": "ronda octava",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2530",
+      "target": "ronda octava",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2531",
+      "target": "ronda octava",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "SOURCE_CONFLICT",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2532",
+      "target": "fecha 17-X-1956",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2533",
+      "target": "fecha 17-X-1956",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2534",
+      "target": "fecha 17-X-1956",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2535",
+      "target": "fecha 17-X-1956",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2536",
+      "target": "fecha 17-X-1956",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2537",
+      "target": "periodo 7–24-X",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2538",
+      "target": "periodo 7–24-X",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2539",
+      "target": "periodo 7–24-X",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2540",
+      "target": "periodo 7–24-X",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2541",
+      "target": "periodo 7–24-X",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2542",
+      "target": "calendario Rosenwald",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2543",
+      "target": "calendario Rosenwald",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2544",
+      "target": "calendario Rosenwald",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2545",
+      "target": "calendario Rosenwald",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2546",
+      "target": "calendario Rosenwald",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2547",
+      "target": "acta de emparejamientos",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2548",
+      "target": "acta de emparejamientos",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2549",
+      "target": "acta de emparejamientos",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2550",
+      "target": "acta de emparejamientos",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2551",
+      "target": "acta de emparejamientos",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2552",
+      "target": "relato Fischer de meses",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2553",
+      "target": "relato Fischer de meses",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2554",
+      "target": "relato Fischer de meses",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2555",
+      "target": "relato Fischer de meses",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2556",
+      "target": "relato Fischer de meses",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2557",
+      "target": "dato Spence 1958",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2558",
+      "target": "dato Spence 1958",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2559",
+      "target": "dato Spence 1958",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2560",
+      "target": "dato Spence 1958",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2561",
+      "target": "dato Spence 1958",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2562",
+      "target": "dos planillas citadas",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2563",
+      "target": "dos planillas citadas",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2564",
+      "target": "dos planillas citadas",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2565",
+      "target": "dos planillas citadas",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2566",
+      "target": "dos planillas citadas",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2567",
+      "target": "ROUND_CONFLICTED",
+      "theme": "Fecha y ronda",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2568",
+      "target": "ROUND_CONFLICTED",
+      "theme": "Fecha y ronda",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2569",
+      "target": "ROUND_CONFLICTED",
+      "theme": "Fecha y ronda",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2570",
+      "target": "ROUND_CONFLICTED",
+      "theme": "Fecha y ronda",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    },
+    {
+      "id": "B2571",
+      "target": "ROUND_CONFLICTED",
+      "theme": "Fecha y ronda",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://new.uschess.org/news/throwback-thursday-game-century-goes-viral-november-1956",
+      "executed": false
+    }
+  ]
+}

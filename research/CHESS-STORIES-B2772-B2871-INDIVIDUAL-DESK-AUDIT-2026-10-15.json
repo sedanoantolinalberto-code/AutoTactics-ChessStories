@@ -1,0 +1,1007 @@
+{
+  "range": "B2772-B2871",
+  "count": 100,
+  "audit": "INDIVIDUAL_DOCUMENTARY_DESK_REVIEW_NOT_TESTS",
+  "individual_verdicts": [
+    {
+      "id": "B2772",
+      "target": "PGN original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2773",
+      "target": "PGN original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2774",
+      "target": "PGN original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2775",
+      "target": "PGN original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2776",
+      "target": "PGN original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2777",
+      "target": "PGN declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2778",
+      "target": "PGN declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2779",
+      "target": "PGN declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2780",
+      "target": "PGN declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2781",
+      "target": "PGN declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2782",
+      "target": "replay-results original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2783",
+      "target": "replay-results original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2784",
+      "target": "replay-results original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2785",
+      "target": "replay-results original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2786",
+      "target": "replay-results original bytes",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2787",
+      "target": "replay-results declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2788",
+      "target": "replay-results declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2789",
+      "target": "replay-results declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2790",
+      "target": "replay-results declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2791",
+      "target": "replay-results declared SHA256",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2792",
+      "target": "82 plies candidato",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2793",
+      "target": "82 plies candidato",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2794",
+      "target": "82 plies candidato",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2795",
+      "target": "82 plies candidato",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2796",
+      "target": "82 plies candidato",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2797",
+      "target": "fuente Winter",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2798",
+      "target": "fuente Winter",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2799",
+      "target": "fuente Winter",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2800",
+      "target": "fuente Winter",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2801",
+      "target": "fuente Winter",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2802",
+      "target": "14 plies T10",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2803",
+      "target": "14 plies T10",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2804",
+      "target": "14 plies T10",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2805",
+      "target": "14 plies T10",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2806",
+      "target": "14 plies T10",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2807",
+      "target": "result UNKNOWN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2808",
+      "target": "result UNKNOWN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2809",
+      "target": "result UNKNOWN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2810",
+      "target": "result UNKNOWN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2811",
+      "target": "result UNKNOWN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2812",
+      "target": "cotejo independiente",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2813",
+      "target": "cotejo independiente",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2814",
+      "target": "cotejo independiente",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2815",
+      "target": "cotejo independiente",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2816",
+      "target": "cotejo independiente",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2817",
+      "target": "normalización SAN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Identificación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2818",
+      "target": "normalización SAN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Fuente primaria",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2819",
+      "target": "normalización SAN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Conflicto",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2820",
+      "target": "normalización SAN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Falsación",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2821",
+      "target": "normalización SAN",
+      "theme": "Trazabilidad R2",
+      "dimension": "Derechos",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/3",
+      "executed": false
+    },
+    {
+      "id": "B2822",
+      "target": "protocolo humano",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2823",
+      "target": "protocolo humano",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2824",
+      "target": "protocolo humano",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2825",
+      "target": "protocolo humano",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2826",
+      "target": "protocolo humano",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2827",
+      "target": "consentimiento",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2828",
+      "target": "consentimiento",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2829",
+      "target": "consentimiento",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2830",
+      "target": "consentimiento",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2831",
+      "target": "consentimiento",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2832",
+      "target": "evaluadores independientes",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2833",
+      "target": "evaluadores independientes",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2834",
+      "target": "evaluadores independientes",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2835",
+      "target": "evaluadores independientes",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2836",
+      "target": "evaluadores independientes",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2837",
+      "target": "estímulo lícito",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2838",
+      "target": "estímulo lícito",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2839",
+      "target": "estímulo lícito",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2840",
+      "target": "estímulo lícito",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2841",
+      "target": "estímulo lícito",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2842",
+      "target": "lectura móvil",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2843",
+      "target": "lectura móvil",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2844",
+      "target": "lectura móvil",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2845",
+      "target": "lectura móvil",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2846",
+      "target": "lectura móvil",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2847",
+      "target": "modo silencio",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2848",
+      "target": "modo silencio",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2849",
+      "target": "modo silencio",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2850",
+      "target": "modo silencio",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2851",
+      "target": "modo silencio",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2852",
+      "target": "superposición de hipótesis",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2853",
+      "target": "superposición de hipótesis",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2854",
+      "target": "superposición de hipótesis",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2855",
+      "target": "superposición de hipótesis",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2856",
+      "target": "superposición de hipótesis",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2857",
+      "target": "advertencia de elipsis",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2858",
+      "target": "advertencia de elipsis",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2859",
+      "target": "advertencia de elipsis",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2860",
+      "target": "advertencia de elipsis",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2861",
+      "target": "advertencia de elipsis",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2862",
+      "target": "duración real",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2863",
+      "target": "duración real",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2864",
+      "target": "duración real",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2865",
+      "target": "duración real",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2866",
+      "target": "duración real",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2867",
+      "target": "aprobación global",
+      "theme": "IVV y presentación",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2868",
+      "target": "aprobación global",
+      "theme": "IVV y presentación",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2869",
+      "target": "aprobación global",
+      "theme": "IVV y presentación",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2870",
+      "target": "aprobación global",
+      "theme": "IVV y presentación",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    },
+    {
+      "id": "B2871",
+      "target": "aprobación global",
+      "theme": "IVV y presentación",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/6",
+      "executed": false
+    }
+  ]
+}

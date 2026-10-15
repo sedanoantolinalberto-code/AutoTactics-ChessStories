@@ -1,0 +1,1007 @@
+{
+  "range": "B2972-B3071",
+  "count": 100,
+  "audit": "INDIVIDUAL_DOCUMENTARY_DESK_REVIEW_NOT_TESTS",
+  "individual_verdicts": [
+    {
+      "id": "B2972",
+      "target": "proceso raíz",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2973",
+      "target": "proceso raíz",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2974",
+      "target": "proceso raíz",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2975",
+      "target": "proceso raíz",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2976",
+      "target": "proceso raíz",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2977",
+      "target": "procesos hijos",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2978",
+      "target": "procesos hijos",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2979",
+      "target": "procesos hijos",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2980",
+      "target": "procesos hijos",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2981",
+      "target": "procesos hijos",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2982",
+      "target": "confirmación terminación",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2983",
+      "target": "confirmación terminación",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2984",
+      "target": "confirmación terminación",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2985",
+      "target": "confirmación terminación",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2986",
+      "target": "confirmación terminación",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2987",
+      "target": "t menor que 120",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2988",
+      "target": "t menor que 120",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2989",
+      "target": "t menor que 120",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2990",
+      "target": "t menor que 120",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2991",
+      "target": "t menor que 120",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2992",
+      "target": "stdout emitido",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2993",
+      "target": "stdout emitido",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2994",
+      "target": "stdout emitido",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2995",
+      "target": "stdout emitido",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2996",
+      "target": "stdout emitido",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2997",
+      "target": "stdout aceptado",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2998",
+      "target": "stdout aceptado",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B2999",
+      "target": "stdout aceptado",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3000",
+      "target": "stdout aceptado",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3001",
+      "target": "stdout aceptado",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3002",
+      "target": "stderr emitido",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3003",
+      "target": "stderr emitido",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3004",
+      "target": "stderr emitido",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3005",
+      "target": "stderr emitido",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3006",
+      "target": "stderr emitido",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3007",
+      "target": "stderr aceptado",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3008",
+      "target": "stderr aceptado",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3009",
+      "target": "stderr aceptado",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3010",
+      "target": "stderr aceptado",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3011",
+      "target": "stderr aceptado",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3012",
+      "target": "fallo modelo M",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3013",
+      "target": "fallo modelo M",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3014",
+      "target": "fallo modelo M",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3015",
+      "target": "fallo modelo M",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3016",
+      "target": "fallo modelo M",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3017",
+      "target": "E5B4D NO-GO",
+      "theme": "Política B y M",
+      "dimension": "Identificación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3018",
+      "target": "E5B4D NO-GO",
+      "theme": "Política B y M",
+      "dimension": "Fuente primaria",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3019",
+      "target": "E5B4D NO-GO",
+      "theme": "Política B y M",
+      "dimension": "Conflicto",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3020",
+      "target": "E5B4D NO-GO",
+      "theme": "Política B y M",
+      "dimension": "Falsación",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3021",
+      "target": "E5B4D NO-GO",
+      "theme": "Política B y M",
+      "dimension": "Derechos",
+      "verdict": "BLOCKED_NOT_EXECUTED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "executed": false
+    },
+    {
+      "id": "B3022",
+      "target": "objeto físico",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3023",
+      "target": "objeto físico",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3024",
+      "target": "objeto físico",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3025",
+      "target": "objeto físico",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3026",
+      "target": "objeto físico",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3027",
+      "target": "copia digital",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3028",
+      "target": "copia digital",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3029",
+      "target": "copia digital",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3030",
+      "target": "copia digital",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3031",
+      "target": "copia digital",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3032",
+      "target": "metadatos institucionales",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3033",
+      "target": "metadatos institucionales",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3034",
+      "target": "metadatos institucionales",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3035",
+      "target": "metadatos institucionales",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3036",
+      "target": "metadatos institucionales",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3037",
+      "target": "fecha de impresión",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3038",
+      "target": "fecha de impresión",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3039",
+      "target": "fecha de impresión",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3040",
+      "target": "fecha de impresión",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3041",
+      "target": "fecha de impresión",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3042",
+      "target": "fecha de juego",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3043",
+      "target": "fecha de juego",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3044",
+      "target": "fecha de juego",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3045",
+      "target": "fecha de juego",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3046",
+      "target": "fecha de juego",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3047",
+      "target": "digitalización",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3048",
+      "target": "digitalización",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3049",
+      "target": "digitalización",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3050",
+      "target": "digitalización",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3051",
+      "target": "digitalización",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3052",
+      "target": "testigo textual",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3053",
+      "target": "testigo textual",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3054",
+      "target": "testigo textual",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3055",
+      "target": "testigo textual",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3056",
+      "target": "testigo textual",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3057",
+      "target": "referencia cruzada",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3058",
+      "target": "referencia cruzada",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3059",
+      "target": "referencia cruzada",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3060",
+      "target": "referencia cruzada",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3061",
+      "target": "referencia cruzada",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3062",
+      "target": "permiso lectura",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3063",
+      "target": "permiso lectura",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3064",
+      "target": "permiso lectura",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3065",
+      "target": "permiso lectura",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3066",
+      "target": "permiso lectura",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3067",
+      "target": "licencia comercial",
+      "theme": "Archivo y provenance",
+      "dimension": "Identificación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3068",
+      "target": "licencia comercial",
+      "theme": "Archivo y provenance",
+      "dimension": "Fuente primaria",
+      "verdict": "PRIMARY_NOT_INSPECTED_OR_INCOMPLETE",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3069",
+      "target": "licencia comercial",
+      "theme": "Archivo y provenance",
+      "dimension": "Conflicto",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3070",
+      "target": "licencia comercial",
+      "theme": "Archivo y provenance",
+      "dimension": "Falsación",
+      "verdict": "UNVERIFIED",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    },
+    {
+      "id": "B3071",
+      "target": "licencia comercial",
+      "theme": "Archivo y provenance",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "Revisión del control contra su referencia disponible. No existe prueba externa individual suficiente para certificar el requisito; el resultado permanece acotado.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "executed": false
+    }
+  ]
+}

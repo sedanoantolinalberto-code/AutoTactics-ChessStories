@@ -1,0 +1,294 @@
+{
+  "artifact_version": "chess-stories-ep01-oracle-source-bridge/0.1-draft",
+  "case_id": "ED-CASE-REAL-01",
+  "event_id": "T10",
+  "status": "STATIC_DOCUMENTARY_BRIDGE_NOT_EXECUTED",
+  "purpose": "Connect the existing T10 editorial ellipsis to a future GAP_REPLAY request without promoting secondary text agreement to chess legality or original-history authentication.",
+  "source_bindings": [
+    {
+      "path": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
+      "branch": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "observed_git_blob_sha": "06746705894dcd797c13d4775b4367848da61023",
+      "role": "GAP_REPLAY_SAN_CANDIDATE_14_PLIES",
+      "source_level": "MODERN_SECONDARY_CANDIDATE",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
+    },
+    {
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "branch": "chess-stories/secondary-pgn-result-reconciliation",
+      "observed_git_blob_sha": "c90c42d27279ca0f1809098d0c49774149061cda",
+      "role": "FULL_GAME_SECONDARY_CROSSWALK_82_PLIES",
+      "source_level": "MODERN_SCHOLARLY_SECONDARY_TRANSCRIPTION",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
+      "observation_refresh_note": "2026-10-14 metadata-only witness updates changed the Git blob; plies 36-49 were statically re-compared and remained 14/14 exact on ply/move_number/side/san."
+    },
+    {
+      "path": "contracts/CHESS-LEGALITY-ORACLE-INTERFACE-v0.1.draft.json",
+      "branch": "chess-stories/legality-oracle-interface-rfc-v0.1",
+      "observed_git_blob_sha": "4f3133b21411cf2370ffe0959c8a82c2dc8230ce",
+      "role": "FUTURE_ORACLE_INTERFACE_ONLY"
+    },
+    {
+      "path": "contracts/CHESS-LEGALITY-ORACLE-REVIEW-VECTORS-v0.1.json",
+      "branch": "chess-stories/legality-oracle-interface-rfc-v0.1",
+      "observed_git_blob_sha": "579a415655a8b2d3d0deec2ee327951bfdf08710",
+      "role": "L06_REVIEW_VECTOR_REFERENCE_ONLY"
+    }
+  ],
+  "range_contract": {
+    "source_state": {
+      "state_id": "V-REAL",
+      "ply": 35,
+      "san": "18.Bxb6",
+      "fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18"
+    },
+    "omitted_real_plies": {
+      "first": 36,
+      "last": 49,
+      "count": 14,
+      "semantics": "INCLUSIVE_MOVES_NOT_SHOWN"
+    },
+    "destination_state": {
+      "state_id": "V-PRE-EV2",
+      "ply": 49,
+      "san": "25.Qxb6",
+      "declared_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25"
+    },
+    "following_real_event": {
+      "event_id": "T11",
+      "ply": 50,
+      "san": "25...Nxd1",
+      "state_id": "V-EV2"
+    }
+  },
+  "documentary_crosswalk": {
+    "method": "CONNECTED_GITHUB_STATIC_FIELD_COMPARISON_NOT_PROJECT_RUNTIME",
+    "fields_compared": [
+      "ply",
+      "move_number",
+      "side",
+      "san"
+    ],
+    "rows_observed": 14,
+    "rows_matching": 14,
+    "discrepancies": [],
+    "rows": [
+      {
+        "ply": 36,
+        "move_number": 18,
+        "side": "black",
+        "san": "Bxc4+",
+        "full82_san": "Bxc4+",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 37,
+        "move_number": 19,
+        "side": "white",
+        "san": "Kg1",
+        "full82_san": "Kg1",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 38,
+        "move_number": 19,
+        "side": "black",
+        "san": "Ne2+",
+        "full82_san": "Ne2+",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 39,
+        "move_number": 20,
+        "side": "white",
+        "san": "Kf1",
+        "full82_san": "Kf1",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 40,
+        "move_number": 20,
+        "side": "black",
+        "san": "Nxd4+",
+        "full82_san": "Nxd4+",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 41,
+        "move_number": 21,
+        "side": "white",
+        "san": "Kg1",
+        "full82_san": "Kg1",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 42,
+        "move_number": 21,
+        "side": "black",
+        "san": "Ne2+",
+        "full82_san": "Ne2+",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 43,
+        "move_number": 22,
+        "side": "white",
+        "san": "Kf1",
+        "full82_san": "Kf1",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 44,
+        "move_number": 22,
+        "side": "black",
+        "san": "Nc3+",
+        "full82_san": "Nc3+",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 45,
+        "move_number": 23,
+        "side": "white",
+        "san": "Kg1",
+        "full82_san": "Kg1",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 46,
+        "move_number": 23,
+        "side": "black",
+        "san": "axb6",
+        "full82_san": "axb6",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 47,
+        "move_number": 24,
+        "side": "white",
+        "san": "Qb4",
+        "full82_san": "Qb4",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 48,
+        "move_number": 24,
+        "side": "black",
+        "san": "Ra4",
+        "full82_san": "Ra4",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      },
+      {
+        "ply": 49,
+        "move_number": 25,
+        "side": "white",
+        "san": "Qxb6",
+        "full82_san": "Qxb6",
+        "documentary_fields_match": true,
+        "legal_replay": "NOT_RUN",
+        "primary_1956_crosscheck": "PENDING"
+      }
+    ],
+    "last_static_refresh": "2026-10-14",
+    "refresh_reason": "PR3 witness/provenance metadata changed; SAN crosswalk rechecked without project runtime."
+  },
+  "future_oracle_request": {
+    "request_profile": "GAP_REPLAY",
+    "review_vector_id": "L06",
+    "narrative_branch_id": "MAIN",
+    "historical_provenance_status": "MODERN_SECONDARY_CANDIDATE_PRIMARY_NOT_AUTHENTICATED",
+    "source_state_id": "V-REAL",
+    "destination_state_id": "V-PRE-EV2",
+    "source_fen": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18",
+    "target_fen": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25",
+    "expected_source_ply": 35,
+    "expected_destination_ply": 49,
+    "gap_replay_san_source": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
+    "gap_replay_san": [
+      "Bxc4+",
+      "Kg1",
+      "Ne2+",
+      "Kf1",
+      "Nxd4+",
+      "Kg1",
+      "Ne2+",
+      "Kf1",
+      "Nc3+",
+      "Kg1",
+      "axb6",
+      "Qb4",
+      "Ra4",
+      "Qxb6"
+    ],
+    "outcome": "NOT_RUN",
+    "legality_status": "UNKNOWN",
+    "canonical_san": null,
+    "derived_target_fen": null,
+    "target_matches_declaration": null,
+    "check_status": "UNKNOWN",
+    "mate_status": "UNKNOWN",
+    "qualified_execution_mechanism_established": false
+  },
+  "discrepancy_model": {
+    "row_identity": "global ply",
+    "compared_fields": [
+      "move_number",
+      "side",
+      "san"
+    ],
+    "discrepancy_status_values": [
+      "MATCH",
+      "MISMATCH",
+      "MISSING_IN_T10",
+      "MISSING_IN_FULL82",
+      "UNASSESSED"
+    ],
+    "current_scope": "DOCUMENTARY_FIELD_EQUALITY_ONLY",
+    "primary_witness_comparison": "PENDING_TWO_READER_82_ROW_TEMPLATE"
+  },
+  "forbidden_promotions": [
+    "LEGALITY_CONFIRMED",
+    "HISTORY_AUTHENTICATED",
+    "PRIMARY_1956_MATCH",
+    "IVV_GLOBAL_PASS",
+    "R6_CLEARED",
+    "POLICY_B_QUALIFIED",
+    "E5B4D_GO",
+    "RENDER_APPROVED",
+    "PUBLISH_APPROVED"
+  ],
+  "frozen": {
+    "E5B4D": "NO-GO under failure model M",
+    "policy_b": "STRICT_UNCHANGED",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "ED_CASE_REAL_01": "NOT APPROVED",
+    "execution_authorized": false,
+    "publishable": false
+  }
+}

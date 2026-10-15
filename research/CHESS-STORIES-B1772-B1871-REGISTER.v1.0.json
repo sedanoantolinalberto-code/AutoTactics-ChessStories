@@ -1,0 +1,829 @@
+{
+  "date": "2026-10-15",
+  "scope": "Chess Stories ONLY",
+  "range": "B1772-B1871",
+  "count": 100,
+  "distinct_primary_confirmations": 0,
+  "source_level": "Documentary source reviews and bounded research checks; no new qualified execution or authentication",
+  "topic_groups": [
+    "LA",
+    "LB",
+    "LC",
+    "LD",
+    "LE",
+    "LF",
+    "LG",
+    "LH",
+    "LI",
+    "LJ"
+  ],
+  "status": "RESEARCHED_DOCUMENTARY_ONLY",
+  "original_chess_review_pp374_375": "NOT_VISUALLY_INSPECTED",
+  "r2_sha256": "DECLARED_NOT_CHECKED",
+  "e5b4d": "NO-GO UNDER M",
+  "r6": "PENDING",
+  "ivv_global": "NOT APPROVED",
+  "case_approval": "NOT APPROVED",
+  "entries": [
+    {
+      "id": "B1772",
+      "number": 1772,
+      "title": "Identificación E. Polyak",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1773",
+      "number": 1773,
+      "title": "Identificación D. Bronstein",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1774",
+      "number": 1774,
+      "title": "Localización Kiev 1938",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1775",
+      "number": 1775,
+      "title": "Movimiento 18...Be6",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1776",
+      "number": 1776,
+      "title": "Posición antes de ...Be6",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1777",
+      "number": 1777,
+      "title": "Ataque a dama",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1778",
+      "number": 1778,
+      "title": "The Sorcerer's Apprentice pp71–73",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1779",
+      "number": 1779,
+      "title": "Anotación de Fürstenberg",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1780",
+      "number": 1780,
+      "title": "Cadena Winter–libro–partida",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1781",
+      "number": 1781,
+      "title": "No promocionar novedad estratégica",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1782",
+      "number": 1782,
+      "title": "H.R. frente H.W. Russner",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1783",
+      "number": 1783,
+      "title": "Carl frente K. Walcker",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1784",
+      "number": 1784,
+      "title": "Match Cracovia–Varsovia",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1785",
+      "number": 1785,
+      "title": "Fecha 28 junio 1942",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1786",
+      "number": 1786,
+      "title": "Periódico Goniec Krakowski",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1787",
+      "number": 1787,
+      "title": "Página 3 del periódico",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1788",
+      "number": 1788,
+      "title": "15...Be6",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1789",
+      "number": 1789,
+      "title": "Reina atacada",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1790",
+      "number": 1790,
+      "title": "Análisis Alekhine 1947",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1791",
+      "number": 1791,
+      "title": "No deducir copia Fischer",
+      "document_path": "research/CHESS-STORIES-B1772-B1791-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "61cdf9faefd0532c0ce7961fcc65710fcc4b22ff",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1792",
+      "number": 1792,
+      "title": "Mismo rótulo Grünfeld",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1793",
+      "number": 1793,
+      "title": "Distinta numeración ply",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1794",
+      "number": 1794,
+      "title": "Rey blanco expuesto",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1795",
+      "number": 1795,
+      "title": "Dama negra amenazada",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1796",
+      "number": 1796,
+      "title": "Alfil negro ofrece contrajuego",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1797",
+      "number": 1797,
+      "title": "Captura posterior de dama",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1798",
+      "number": 1798,
+      "title": "Sacrificio aparente y compensación",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1799",
+      "number": 1799,
+      "title": "Evolución de torres y caballos",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1800",
+      "number": 1800,
+      "title": "Rótulo de patrón recurrente",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1801",
+      "number": 1801,
+      "title": "Límite de evaluación sin oracle",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1802",
+      "number": 1802,
+      "title": "Séptima ronda US Chess 2020",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1803",
+      "number": 1803,
+      "title": "Octava ronda Spence 1958",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1804",
+      "number": 1804,
+      "title": "17 octubre en dos planillas citadas",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1805",
+      "number": 1805,
+      "title": "7–24 octubre según Spence",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1806",
+      "number": 1806,
+      "title": "Octubre y noviembre según Fischer 1959",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1807",
+      "number": 1807,
+      "title": "Fecha del score de Chess Life 5-XI",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1808",
+      "number": 1808,
+      "title": "Rondas ante rival Reshevsky",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1809",
+      "number": 1809,
+      "title": "Tabla de apareamientos",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1810",
+      "number": 1810,
+      "title": "Ronda administrativa vs jornada",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1811",
+      "number": 1811,
+      "title": "ROUND_CONFLICTED permanece",
+      "document_path": "research/CHESS-STORIES-B1792-B1811-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "08a092d88ca92c6360b2514de13ab5d0c2f5d153",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1812",
+      "number": 1812,
+      "title": "Chess Review dic 1956 pp374–375",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1813",
+      "number": 1813,
+      "title": "Portada errónea p370",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1814",
+      "number": 1814,
+      "title": "Folio p374 fragmento B1571",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1815",
+      "number": 1815,
+      "title": "Kmoch y apelativo Game of Century",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1816",
+      "number": 1816,
+      "title": "Chess World septiembre 1958",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1817",
+      "number": 1817,
+      "title": "Objeción Crowl 1958",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1818",
+      "number": 1818,
+      "title": "Réplica 1959",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1819",
+      "number": 1819,
+      "title": "Purdy y Smyslov–Pachman",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1820",
+      "number": 1820,
+      "title": "Revisión Cozens BCM 1969",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1821",
+      "number": 1821,
+      "title": "Ediciones notación descriptiva y SAN",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1822",
+      "number": 1822,
+      "title": "Original atribuido a Kmoch",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1823",
+      "number": 1823,
+      "title": "Copia carbón atribuida a Fischer",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1824",
+      "number": 1824,
+      "title": "Lawson como custodio posterior",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1825",
+      "number": 1825,
+      "title": "Inscripción tinta roja 0-1",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1826",
+      "number": 1826,
+      "title": "Dos caras de cada hoja",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1827",
+      "number": 1827,
+      "title": "Score Chess Life noviembre 1956",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1828",
+      "number": 1828,
+      "title": "Score Kmoch diciembre 1956",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1829",
+      "number": 1829,
+      "title": "Tag histórico fixture UNKNOWN",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1830",
+      "number": 1830,
+      "title": "82 plies secundarios",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1831",
+      "number": 1831,
+      "title": "Hipótesis de abandono anticipado",
+      "document_path": "research/CHESS-STORIES-B1812-B1831-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "af12239bdbc9c0583b24b54f0366351cbd444749",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1832",
+      "number": 1832,
+      "title": "Asignación de lector A",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1833",
+      "number": 1833,
+      "title": "Asignación de lector B",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1834",
+      "number": 1834,
+      "title": "Registro previo de conflicto de interés",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1835",
+      "number": 1835,
+      "title": "Identificador de facsímil inmutable",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1836",
+      "number": 1836,
+      "title": "Captura de notación descriptiva",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1837",
+      "number": 1837,
+      "title": "Codificación de dudas",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1838",
+      "number": 1838,
+      "title": "Congelación temporal de originales",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1839",
+      "number": 1839,
+      "title": "Adjudicación de divergencias",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1840",
+      "number": 1840,
+      "title": "Transformación posterior a SAN",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1841",
+      "number": 1841,
+      "title": "No simular lector humano ciego",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1842",
+      "number": 1842,
+      "title": "PGN digest declarado",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1843",
+      "number": 1843,
+      "title": "Replay-results digest declarado",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1844",
+      "number": 1844,
+      "title": "T01 ply33",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1845",
+      "number": 1845,
+      "title": "T02 alfil g4 a e6",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1846",
+      "number": 1846,
+      "title": "T03 alfil c5 a b6",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1847",
+      "number": 1847,
+      "title": "T04 rewind",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1848",
+      "number": 1848,
+      "title": "T06 Qd8 hipotética",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1849",
+      "number": 1849,
+      "title": "T07 retorno atómico",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1850",
+      "number": 1850,
+      "title": "T10 14 plies omitidos",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1851",
+      "number": 1851,
+      "title": "T12 cierre editorial",
+      "document_path": "research/CHESS-STORIES-B1832-B1851-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "a124a8750e1956b97947509d7800b8295288ccf6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1852",
+      "number": 1852,
+      "title": "Facsímil Chess Life 1956",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1853",
+      "number": 1853,
+      "title": "Facsímil Chess Review 1956",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1854",
+      "number": 1854,
+      "title": "Goniec Krakowski 1942",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1855",
+      "number": 1855,
+      "title": "La fotografía 1957 en prensa",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1856",
+      "number": 1856,
+      "title": "Planilla manuscrita",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1857",
+      "number": 1857,
+      "title": "Tablero clean-room",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1858",
+      "number": 1858,
+      "title": "Tipografía seleccionada",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1859",
+      "number": 1859,
+      "title": "Narración humana o TTS",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1860",
+      "number": 1860,
+      "title": "Audio SFX y música",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1861",
+      "number": 1861,
+      "title": "Newsletter/EPUB/Shorts",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1862",
+      "number": 1862,
+      "title": "E5B4D fracaso bajo M",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1863",
+      "number": 1863,
+      "title": "Proceso finalizado antes 120 segundos",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1864",
+      "number": 1864,
+      "title": "stdout 1.048.576 bytes vida",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1865",
+      "number": 1865,
+      "title": "stderr 1.048.576 bytes vida",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1866",
+      "number": 1866,
+      "title": "66 negativos semánticos",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1867",
+      "number": 1867,
+      "title": "77 negativos router",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1868",
+      "number": 1868,
+      "title": "Oráculo independiente",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1869",
+      "number": 1869,
+      "title": "R6",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1870",
+      "number": 1870,
+      "title": "IVV_GLOBAL y CASE_APPROVAL",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1871",
+      "number": 1871,
+      "title": "Publicación y main",
+      "document_path": "research/CHESS-STORIES-B1852-B1871-PRIMARY-EVIDENCE-AGENDA-2026-10-15.md",
+      "blob_sha": "1a424546d49b7bc1daa505e6b987465402f868e2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    }
+  ]
+}

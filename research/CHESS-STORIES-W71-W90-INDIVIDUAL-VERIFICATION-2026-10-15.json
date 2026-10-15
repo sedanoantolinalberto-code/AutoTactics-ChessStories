@@ -1,0 +1,207 @@
+{
+  "range": "W71–W90",
+  "kind": "SOURCE-BOUNDED DOCUMENTARY CHECKS, NOT 20 INDEPENDENT PRIMARY INSPECTIONS",
+  "count": 20,
+  "jobs": [
+    {
+      "job": "W71",
+      "area": "2020s official archive and museum",
+      "check": "Museum lists issue December 1956",
+      "verdict": "SUPPORTED_INSTITUTIONAL",
+      "evidence": "Catalogue identifies the issue.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W72",
+      "area": "2020s official archive and museum",
+      "check": "Volume 24 number 12",
+      "verdict": "SUPPORTED_INSTITUTIONAL",
+      "evidence": "Museum reference metadata.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W73",
+      "area": "2020s official archive and museum",
+      "check": "John Donaldson donor",
+      "verdict": "SUPPORTED_INSTITUTIONAL",
+      "evidence": "Gift attribution.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W74",
+      "area": "2020s official archive and museum",
+      "check": "Fischer age 13 in catalogue",
+      "verdict": "SUPPORTED_INSTITUTIONAL",
+      "evidence": "Catalogue retrospective note.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W75",
+      "area": "2020s official archive and museum",
+      "check": "Kmoch attribution",
+      "verdict": "SUPPORTED_INSTITUTIONAL",
+      "evidence": "Museum identifies annotator.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W76",
+      "area": "2020s official archive and museum",
+      "check": "Queen sacrifice narrative",
+      "verdict": "SUPPORTED_INSTITUTIONAL",
+      "evidence": "Catalogue summarizes 17...Be6.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W77",
+      "area": "2020s official archive and museum",
+      "check": "Possession of scoresheet",
+      "verdict": "NOT_SUPPORTED",
+      "evidence": "Museum lists magazine, not original scoresheet.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W78",
+      "area": "2020s official archive and museum",
+      "check": "Full p374 scan",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "Catalogue not substitute.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W79",
+      "area": "2020s official archive and museum",
+      "check": "Full p375 scan",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "Catalogue not substitute.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W80",
+      "area": "2020s official archive and museum",
+      "check": "Commercial facsimile license",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "Institutional catalogue is not grant of reuse.",
+      "source": "https://worldchesshof.org/wp-content/uploads/2025/02/amlvitrine-packetsfinal3.pdf",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W81",
+      "area": "1942 analogies",
+      "check": "Russner Walcker game named",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Winter presents a game under variant names.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W82",
+      "area": "1942 analogies",
+      "check": "15...Be6 reported",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Modern score includes the move.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W83",
+      "area": "1942 analogies",
+      "check": "1942 queen at a3 before",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Printed move sequence states Qa3.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W84",
+      "area": "1942 analogies",
+      "check": "1942 continuation Qxa2",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Transcription after Be6.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W85",
+      "area": "1942 analogies",
+      "check": "Polyak Bronstein 1938 cited",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Winter raises earlier parallel.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W86",
+      "area": "1942 analogies",
+      "check": "18...Be6 attributed to 1938",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Secondary move citation.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W87",
+      "area": "1942 analogies",
+      "check": "Same FEN as Fischer",
+      "verdict": "NOT_DEMONSTRATED",
+      "evidence": "No original certified position comparison.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W88",
+      "area": "1942 analogies",
+      "check": "Fischer copied predecessors",
+      "verdict": "NOT_DEMONSTRATED",
+      "evidence": "No influence evidence.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W89",
+      "area": "1942 analogies",
+      "check": "Original Goniec score inspected",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "No full scanned page.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W90",
+      "area": "1942 analogies",
+      "check": "Independent legality proof",
+      "verdict": "NOT_RUN",
+      "evidence": "Project oracle restricted.",
+      "source": "https://chesshistory.com/winter/extra/duplication.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    }
+  ]
+}

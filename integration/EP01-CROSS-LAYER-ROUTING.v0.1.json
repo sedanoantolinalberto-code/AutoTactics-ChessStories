@@ -1,0 +1,421 @@
+{
+  "manifest_version": "chess-stories-cross-layer-integration/0.1-draft",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "DESIGN_MANIFEST_ONLY_NO_IMPLEMENTED_INTEGRATOR",
+  "authority": "NONE_NO_RELEASE_OR_RUN_APPROVAL",
+  "source_references": [
+    {
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "branch": "chess-stories/semantic-contract-v0.2",
+      "observed_git_blob_sha": "3514f19ac355763a5b4c61d5c573df090b0eccc1",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
+    },
+    {
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "observed_git_blob_sha": "57df8acf69cdd8516c5587100bc71c533b8ecf7a",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
+    },
+    {
+      "path": "contracts/CHESS-LEGALITY-ORACLE-REVIEW-VECTORS-v0.1.json",
+      "branch": "chess-stories/legality-oracle-interface-rfc-v0.1",
+      "observed_git_blob_sha": "579a415655a8b2d3d0deec2ee327951bfdf08710",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
+    },
+    {
+      "path": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
+      "branch": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "observed_git_blob_sha": "06746705894dcd797c13d4775b4367848da61023",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
+      "source_level": "MODERN_SECONDARY_CANDIDATE_NOT_PRIMARY_AUTHENTICATED"
+    },
+    {
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "branch": "chess-stories/secondary-pgn-result-reconciliation",
+      "observed_git_blob_sha": "926eae9e8b58d75fbc5f96d5133901f71d8a509b",
+      "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
+      "source_level": "MODERN_SCHOLARLY_SECONDARY_82_PLY_CANDIDATE_NOT_ORIGINAL_PERIODICAL",
+      "connection": "Cross-branch documentary dependency. Data not copied or merged into integration branch."
+    }
+  ],
+  "source_case_signature": {
+    "timeline_count": 12,
+    "state_count": 6,
+    "sequence_end_state": "V-EV2"
+  },
+  "cross_layer_event_map": [
+    {
+      "event_id": "T01",
+      "kind": "SET_POSITION",
+      "from_branch": null,
+      "to_branch": "MAIN",
+      "from_state": null,
+      "to_state": "V-P1",
+      "chess_oracle_route": "INITIALIZE_FROM_DECLARED_STATE_WITHOUT_RULES_ORACLE",
+      "example_oracle_vector_id": null,
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "PARTIDA REAL",
+      "visual_truth_policy": "Set declared real board and real context before any move.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T02",
+      "kind": "REAL_MOVE",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-P1",
+      "to_state": "V-EV1",
+      "chess_oracle_route": "REQUIRES_QUALIFIED_SINGLE_MOVE_REPLAY",
+      "example_oracle_vector_id": "L01",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "PARTIDA REAL",
+      "visual_truth_policy": "Display real 17...Be6, do not infer optimality or intentions.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T03",
+      "kind": "REAL_MOVE",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-EV1",
+      "to_state": "V-REAL",
+      "chess_oracle_route": "REQUIRES_QUALIFIED_SINGLE_MOVE_REPLAY",
+      "example_oracle_vector_id": "L02",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "PARTIDA REAL",
+      "visual_truth_policy": "Display real 18.Bxb6 queen capture; real game continues.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T04",
+      "kind": "REWIND",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-REAL",
+      "to_state": "V-P1",
+      "chess_oracle_route": "EDITORIAL_REPOSITION_NO_CHESS_MOVE",
+      "example_oracle_vector_id": null,
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "REBOBINADO · PARTIDA REAL",
+      "visual_truth_policy": "Explicit rewind animation; no inverse chess move asserted.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T05",
+      "kind": "ENTER_HYPOTHETICAL",
+      "from_branch": "MAIN",
+      "to_branch": "ALT_QD8",
+      "from_state": "V-P1",
+      "to_state": "V-P1",
+      "chess_oracle_route": "EDITORIAL_CONTEXT_SWITCH_NO_CHESS_MOVE",
+      "example_oracle_vector_id": null,
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "HIPOTÉTICA · NO JUGADA",
+      "visual_truth_policy": "Raise hypothetical label before any unplayed move animation begins.",
+      "hypothetical_warning_required": true,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T06",
+      "kind": "HYPOTHETICAL_MOVE",
+      "from_branch": "ALT_QD8",
+      "to_branch": "ALT_QD8",
+      "from_state": "V-P1",
+      "to_state": "V-HYP",
+      "chess_oracle_route": "REQUIRES_QUALIFIED_SINGLE_MOVE_REPLAY_WITH_NO_HISTORICAL_PROMOTION",
+      "example_oracle_vector_id": "L03",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "HIPOTÉTICA · NO JUGADA",
+      "visual_truth_policy": "Maintain persistent hypothetical label for all frames of 17...Qd8.",
+      "hypothetical_warning_required": true,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T07",
+      "kind": "RETURN_TO_REAL",
+      "from_branch": "ALT_QD8",
+      "to_branch": "MAIN",
+      "from_state": "V-HYP",
+      "to_state": "V-P1",
+      "chess_oracle_route": "EDITORIAL_RESTORE_EXACT_REAL_ANCHOR_NO_CHESS_MOVE",
+      "example_oracle_vector_id": "L05",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "REGRESO A LA PARTIDA REAL",
+      "visual_truth_policy": "Replace exact real board V-P1 before releasing hypothetical warning; show return banner.",
+      "hypothetical_warning_required": true,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T08",
+      "kind": "REAL_MOVE",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-P1",
+      "to_state": "V-EV1",
+      "chess_oracle_route": "REQUIRES_QUALIFIED_SINGLE_MOVE_REPLAY",
+      "example_oracle_vector_id": "L01",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "PARTIDA REAL",
+      "visual_truth_policy": "Resume the 17...Be6 real event without silent variant leak.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T09",
+      "kind": "REAL_MOVE",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-EV1",
+      "to_state": "V-REAL",
+      "chess_oracle_route": "REQUIRES_QUALIFIED_SINGLE_MOVE_REPLAY",
+      "example_oracle_vector_id": "L02",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "PARTIDA REAL",
+      "visual_truth_policy": "Resume 18.Bxb6 real event on MAIN before timeline jump.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T10",
+      "kind": "ELLIPSIS",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-REAL",
+      "to_state": "V-PRE-EV2",
+      "chess_oracle_route": "REQUIRES_SOURCE_CONTINUITY_AND_QUALIFIED_MULTI_PLY_GAP_REPLAY",
+      "example_oracle_vector_id": "L06",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "SE OMITEN JUGADAS REALES",
+      "visual_truth_policy": "Declare fourteen omitted real plies, 36 through 49 inclusive; never interpolate an invented game sequence.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-R2-RESULTS",
+        "EVID-LEDGER-R2"
+      ],
+      "continuous_intermediate_source_plie_refs": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false,
+      "attested_source_level": "SECONDARY_SCORES_AGREE_NO_INDEPENDENT_1956_WITNESS",
+      "qualifying_oracle_replay": "NOT_RUN"
+    },
+    {
+      "event_id": "T11",
+      "kind": "REAL_MOVE",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-PRE-EV2",
+      "to_state": "V-EV2",
+      "chess_oracle_route": "REQUIRES_QUALIFIED_SINGLE_MOVE_REPLAY",
+      "example_oracle_vector_id": "L04",
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "PARTIDA REAL",
+      "visual_truth_policy": "Show real 25...Nxd1 and correctly identify the white rook capture.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-R2-RESULTS"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    },
+    {
+      "event_id": "T12",
+      "kind": "SEQUENCE_END",
+      "from_branch": "MAIN",
+      "to_branch": "MAIN",
+      "from_state": "V-EV2",
+      "to_state": "V-EV2",
+      "chess_oracle_route": "EDITORIAL_CLOSURE_NOT_HISTORICAL_END",
+      "example_oracle_vector_id": null,
+      "rules_result": "NOT_RUN",
+      "history_result": "PRIMARY_NOT_VERIFIED",
+      "rights_result": "PENDING",
+      "display_overlay": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+      "visual_truth_policy": "Show editorial closure, NOT a historical end or checkmate.",
+      "hypothetical_warning_required": false,
+      "original_semantic_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "measured_render_frames": null,
+      "measured_audio_alignment": null,
+      "publishable": false
+    }
+  ],
+  "prerequisite_stages": [
+    {
+      "id": "S01_INPUT_BYTES",
+      "prerequisite": "Trusted raw bytes, validated duplicate-key handling and qualified Draft 2020-12 schema",
+      "required_for_publication": true,
+      "status": "NOT_QUALIFIED"
+    },
+    {
+      "id": "S02_CASE_POLICY_LOCK",
+      "prerequisite": "Exact EP01 frozen status guard and independent raw source/policy binding",
+      "required_for_publication": true,
+      "status": "FROZEN_DECLARED_NOT_INDEPENDENTLY_BOUND"
+    },
+    {
+      "id": "S03_SEMANTIC_CONSISTENCY",
+      "prerequisite": "Independent v0.2 semantic checker evaluation and audited diagnostics",
+      "required_for_publication": true,
+      "status": "SOURCE_ONLY_NOT_EXECUTED"
+    },
+    {
+      "id": "S04_CHESS_LEGALITY",
+      "prerequisite": "Qualified independent chess rules oracle including castling, en passant, mate and complete source-anchored gap",
+      "required_for_publication": true,
+      "status": "NO_ORACLE_QUALIFIED"
+    },
+    {
+      "id": "S05_HISTORICAL_WITNESS",
+      "prerequisite": "Original-period full score or competent alternative historic evidence independently reconciled",
+      "required_for_publication": true,
+      "status": "PRIMARY_SCORE_NOT_AUTHENTICATED"
+    },
+    {
+      "id": "S06_RIGHTS_R6",
+      "prerequisite": "Per-asset source bytes, identity, license scope and independent permission/rights decision",
+      "required_for_publication": true,
+      "status": "R6_PENDING"
+    },
+    {
+      "id": "S07_PRESENTATION",
+      "prerequisite": "Truth overlays, visual continuity, measured audio, readable captions, actual rendered mobile artifacts",
+      "required_for_publication": true,
+      "status": "NOT_RENDERED"
+    },
+    {
+      "id": "S08_IVV_HUMAN_REVIEW",
+      "prerequisite": "Human panel, device evidence and independently assessed outstanding IVV controls",
+      "required_for_publication": true,
+      "status": "IVV_GLOBAL_NOT_APPROVED"
+    },
+    {
+      "id": "S09_POLICY_B_EXECUTOR",
+      "prerequisite": "Independent strict Policy B executor guarantee under M with all-process confirmed completion <120 s and separate stream limits",
+      "required_for_publication": true,
+      "status": "E5B4D_NO_GO_UNDER_M"
+    },
+    {
+      "id": "S10_RELEASE_SIGNOFF",
+      "prerequisite": "Signed explicit human decision after all preceding stages; no auto-promotion from earlier PASS LIMITED",
+      "required_for_publication": true,
+      "status": "NOT_APPROVED"
+    }
+  ],
+  "important_exceptions": {
+    "T07": "Return must restore exact V-P1 MAIN context before warning is released; never route as legal move",
+    "T10": "Omitted real plies 36..49 inclusive (14). The v0.2 case has only endpoint states; a separate modern-secondary SAN candidate was added under sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json. No original 1956 authentication or qualified legal replay exists; still INCONCLUSIVE. Full separate modern-secondary 82-ply mainline is available in the historical witness branch; T10 may still not be treated as a single chess move and must not promote original authentication.",
+    "T12": "Editorial sequence end at ply50; terminal PGN candidate at ply82, no checkmate claim at T12",
+    "T06": "17...Qd8 is UNPLAYED; independently establishing legality would not make this historically REAL",
+    "duplicated_moves": "T08 duplicates T02 and T09 duplicates T03 for narrative replay. Rules-evidence reuse needs exact source FEN+SAN+rules version+trusted original result IDs, not just matching text."
+  },
+  "decision_policy": {
+    "fail_closed_on_unknown": true,
+    "accept_unverified_as_pass": false,
+    "allow_partial_IVV_to_global_aggregation": false,
+    "allow_legal_replay_to_historical_witness_promotion": false,
+    "allow_historical_witness_to_rights_promotion": false,
+    "allow_design_timecodes_to_measured_timings": false,
+    "allow_narrator_audio_as_only_truth_disclosure": false,
+    "allow_automatic_release": false
+  },
+  "frozen": {
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "E5B4D": "NO-GO under failure model M",
+    "ED_CASE_REAL_01": "NOT APPROVED",
+    "permitted_to_publish": false,
+    "execution_authorized": false,
+    "strict_policy_b": {
+      "termination_deadline_seconds_exclusive": 120,
+      "stdout_lifetime_emitted_accepted_limit_bytes": 1048576,
+      "stderr_lifetime_emitted_accepted_limit_bytes": 1048576,
+      "independent_streams": true,
+      "confirmed_all_relevant_processes_termination_required": true
+    }
+  },
+  "all_gates_satisfied": false,
+  "executable": false,
+  "source_qa_run": false,
+  "cross_layer_data_maturity": "82-PLY-MODERN-SECONDARY-CANDIDATE_LINKED; PRIMARY_1956_VISUAL_TRANSCRIPTION_PENDING; NO_QUALIFIED_LEGAL_REPLAY"
+}

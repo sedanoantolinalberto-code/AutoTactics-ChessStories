@@ -1,0 +1,818 @@
+{
+  "range": "B1872-B1971",
+  "count": 100,
+  "date": "2026-10-15",
+  "scope": "Chess Stories ONLY",
+  "status": "RESEARCHED_DOCUMENTARY_ONLY",
+  "finding": "Historical 1942 player initials discrepancy across prior descriptions; source page identifies H.W. Russner / K. Walcker; primary manuscript/newspaper not newly inspected",
+  "additional_finding": "1938 Polyak–Bronstein described as Slav Defence D10 in online book reproduction, while Byrne–Fischer is Grünfeld; not positional identity",
+  "executed": 0,
+  "gates": {
+    "E5B4D": "NO-GO under M",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "CASE_APPROVAL": "NOT APPROVED"
+  },
+  "items": [
+    {
+      "id": "B1872",
+      "number": 1872,
+      "title": "Fuente Winter consigna H.W. Russner",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1873",
+      "number": 1873,
+      "title": "Fuente Winter consigna K. Walcker",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1874",
+      "number": 1874,
+      "title": "La variante H.R. requiere rectificación documentada",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1875",
+      "number": 1875,
+      "title": "La expansión Carl requiere prueba archivística",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1876",
+      "number": 1876,
+      "title": "Walcker campeón de Cracovia 1940 según Winter",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1877",
+      "number": 1877,
+      "title": "Walcker subcampeón 1941 según Winter",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1878",
+      "number": 1878,
+      "title": "La prensa Goniec fecha 22-XI-1942",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1879",
+      "number": 1879,
+      "title": "El encuentro se sitúa en Varsovia 28-VI-1942",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1880",
+      "number": 1880,
+      "title": "La noticia ocupa página 3 según Konaszczuk",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1881",
+      "number": 1881,
+      "title": "No resolver identidades hasta ver facsímil",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1882",
+      "number": 1882,
+      "title": "Libro atribuye Polyak–Bronstein Kiev 1938",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1883",
+      "number": 1883,
+      "title": "Clasificación D10 Defensa Eslava",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1884",
+      "number": 1884,
+      "title": "Evento Adults & Juniors Tournament",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1885",
+      "number": 1885,
+      "title": "Bronstein describe torneo exhibición juvenil",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1886",
+      "number": 1886,
+      "title": "Bronstein afirma 14 años por entonces",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1887",
+      "number": 1887,
+      "title": "La anotación presenta a Polyak como maestro del club",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1888",
+      "number": 1888,
+      "title": "El libro señala 4.Qc2 como idea previa de Polyak",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1889",
+      "number": 1889,
+      "title": "La obra contiene comentario autobiográfico posterior",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1890",
+      "number": 1890,
+      "title": "La lectura web no autentica edición ni páginas",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1891",
+      "number": 1891,
+      "title": "No atribuir identidad de estructura con Grünfeld",
+      "path": "research/CHESS-STORIES-B1872-B1891-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "649cb9f783c31c3189fe36cfb97f82632213fc33",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1892",
+      "number": 1892,
+      "title": "Numeración 18...Be6 1938",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1893",
+      "number": 1893,
+      "title": "Numeración 15...Be6 1942",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1894",
+      "number": 1894,
+      "title": "Numeración 17...Be6 1956",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1895",
+      "number": 1895,
+      "title": "La misma SAN no determina misma posición",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1896",
+      "number": 1896,
+      "title": "Clave completa requiere FEN auténticos",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1897",
+      "number": 1897,
+      "title": "No inferir identidad del rey expuesto",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1898",
+      "number": 1898,
+      "title": "No inferir identidad del atacante de dama",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1899",
+      "number": 1899,
+      "title": "No inferir secuencia terminal compartida",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1900",
+      "number": 1900,
+      "title": "Motivo narrativo no demuestra transmisión histórica",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1901",
+      "number": 1901,
+      "title": "Sin oráculo no certificar legalidad de líneas",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1902",
+      "number": 1902,
+      "title": "Portada anuncia Game of Century",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1903",
+      "number": 1903,
+      "title": "Portada remite por error a página 370",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1904",
+      "number": 1904,
+      "title": "Página 370 trata Smyslov–Pachman",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1905",
+      "number": 1905,
+      "title": "Byrne–Fischer ocupa pp374–375",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1906",
+      "number": 1906,
+      "title": "Kmoch anota ambos juegos",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1907",
+      "number": 1907,
+      "title": "Purdy atribuyó inicialmente texto equivocado",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1908",
+      "number": 1908,
+      "title": "Purdy revisó materia años después",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1909",
+      "number": 1909,
+      "title": "No fusionar artículos con igual apelativo",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1910",
+      "number": 1910,
+      "title": "Corrección editorial requiere citar folio",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1911",
+      "number": 1911,
+      "title": "Recorte B1571 no cubre página 375",
+      "path": "research/CHESS-STORIES-B1892-B1911-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "dd258622f5508f60e49621a8acfba52b89cd9c3b",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1912",
+      "number": 1912,
+      "title": "Winter CN10015 documenta confusión Purdy",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1913",
+      "number": 1913,
+      "title": "Chess World junio 1957 p139",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1914",
+      "number": 1914,
+      "title": "Chess World octubre 1957 p221",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1915",
+      "number": 1915,
+      "title": "Chess World noviembre 1957 pp240–241",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1916",
+      "number": 1916,
+      "title": "Purdy comenta Smyslov–Pachman",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1917",
+      "number": 1917,
+      "title": "La portada Fischer provoca falsa atribución",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1918",
+      "number": 1918,
+      "title": "Separar testimonio contemporáneo y retrospectivo",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1919",
+      "number": 1919,
+      "title": "Reimpresiones pueden ser dependientes",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1920",
+      "number": 1920,
+      "title": "No presentar dato moderno como facsímil inspeccionado",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1921",
+      "number": 1921,
+      "title": "Identificar página exacta antes de citas largas",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1922",
+      "number": 1922,
+      "title": "Chess Life 5-XI marcador publicado",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1923",
+      "number": 1923,
+      "title": "Chess Life 20-XI premio especial",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1924",
+      "number": 1924,
+      "title": "Ganador general Rosenwald Reshevsky",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1925",
+      "number": 1925,
+      "title": "La victoria de Fischer no ganó el torneo",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1926",
+      "number": 1926,
+      "title": "Score descriptivo impreso 41 filas",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1927",
+      "number": 1927,
+      "title": "Término mate impreso no prueba OTB",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1928",
+      "number": 1928,
+      "title": "Fecha partida y edición diferentes",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1929",
+      "number": 1929,
+      "title": "Round permanece en conflicto",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1930",
+      "number": 1930,
+      "title": "Original físico aún no autenticado",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1931",
+      "number": 1931,
+      "title": "Transcripción A/B sigue no hecha",
+      "path": "research/CHESS-STORIES-B1912-B1931-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "2bcb52833e4d47d7eff09b7ab32dd6d0e54d04ce",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1932",
+      "number": 1932,
+      "title": "Catálogo menciona Chess Review Vol24 No12",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1933",
+      "number": 1933,
+      "title": "Fecha catálogo para pieza diciembre 1956",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1934",
+      "number": 1934,
+      "title": "Donación acreditada a John Donaldson",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1935",
+      "number": 1935,
+      "title": "Texto describe Fischer estudiando tablero",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1936",
+      "number": 1936,
+      "title": "Texto museo destaca 17...Be6",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1937",
+      "number": 1937,
+      "title": "Cita de Kmoch como comentarista",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1938",
+      "number": 1938,
+      "title": "La ficha de museo no es planilla física",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1939",
+      "number": 1939,
+      "title": "La ficha no incluye licencia de reproducción",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1940",
+      "number": 1940,
+      "title": "Cita museística no confirma jugada final",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1941",
+      "number": 1941,
+      "title": "El catálogo es testigo institucional derivado",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1942",
+      "number": 1942,
+      "title": "T01 ply33 negro turno",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1943",
+      "number": 1943,
+      "title": "T02 Be6 sin captura",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1944",
+      "number": 1944,
+      "title": "T03 Bxb6 captura dama",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1945",
+      "number": 1945,
+      "title": "T04 rewind editorial sin nuevo ply",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1946",
+      "number": 1946,
+      "title": "T06 Qd8 no jugada",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1947",
+      "number": 1947,
+      "title": "T07 restauración exacta MAIN",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1948",
+      "number": 1948,
+      "title": "T08/T09 replays sin nuevos plies",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1949",
+      "number": 1949,
+      "title": "T10 omite 36 a 49",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1950",
+      "number": 1950,
+      "title": "T11 corte estático sin tween",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1951",
+      "number": 1951,
+      "title": "T12 cierra vídeo no partida",
+      "path": "research/CHESS-STORIES-B1932-B1951-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "d9cba02dc8ba8cafd705bdc80dd94febc0d851d5",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1952",
+      "number": 1952,
+      "title": "Permiso lectura US Chess no es licencia comercial",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1953",
+      "number": 1953,
+      "title": "Archivo 1942 necesita derechos propios",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1954",
+      "number": 1954,
+      "title": "Libro Bronstein tiene derechos de edición",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1955",
+      "number": 1955,
+      "title": "Imagen museo tiene condiciones independientes",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1956",
+      "number": 1956,
+      "title": "Fotografía periódicos 1957 no licenciada",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1957",
+      "number": 1957,
+      "title": "Tabla de jugadas y facsímil tienen distintos límites",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1958",
+      "number": 1958,
+      "title": "Piezas tablero clean-room no producidas",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1959",
+      "number": 1959,
+      "title": "Fuente Noto candidata no aprobada",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1960",
+      "number": 1960,
+      "title": "Audio/video no producido ni licenciado",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1961",
+      "number": 1961,
+      "title": "EPUB/newsletter no autorizados por investigación",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1962",
+      "number": 1962,
+      "title": "E5B4D NO-GO modelo M",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1963",
+      "number": 1963,
+      "title": "Todos procesos terminan antes 120 segundos",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1964",
+      "number": 1964,
+      "title": "Toda terminación confirmada antes 120 segundos",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1965",
+      "number": 1965,
+      "title": "stdout independiente 1048576 bytes",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1966",
+      "number": 1966,
+      "title": "stderr independiente 1048576 bytes",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1967",
+      "number": 1967,
+      "title": "66 negativos semánticos NOT_RUN",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1968",
+      "number": 1968,
+      "title": "77 negativos router NOT_RUN",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1969",
+      "number": 1969,
+      "title": "Oráculo legal NOT_RUN",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1970",
+      "number": 1970,
+      "title": "R6 PENDING y sin activos acreditados",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1971",
+      "number": 1971,
+      "title": "IVV_GLOBAL CASE_APPROVAL NOT APPROVED",
+      "path": "research/CHESS-STORIES-B1952-B1971-SOURCE-DISCREPANCIES-2026-10-15.md",
+      "blob": "73e8e783e67eb626f0dd07d5171b884aa29ad8b7",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    }
+  ]
+}
