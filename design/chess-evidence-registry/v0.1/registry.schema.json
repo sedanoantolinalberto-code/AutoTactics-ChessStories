@@ -1,0 +1,1433 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:autotactics:chess-evidence-registry:0.1:design",
+  "title": "Chess Evidence Registry v0.1 — documentary design only",
+  "description": "Unapproved, unexecuted design schema. No runtime integration, validation claim, historical authentication, rights clearance or gate authority. Cross-reference and EP01-specific invariants are specified separately.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "registry_version",
+    "status",
+    "repository",
+    "source_snapshots",
+    "games",
+    "branches",
+    "positions",
+    "moves",
+    "sources",
+    "witnesses",
+    "transcriptions",
+    "observations",
+    "claims",
+    "evidence_links",
+    "conflicts",
+    "scene_bindings",
+    "assets",
+    "rights_records",
+    "validation_records",
+    "dependencies",
+    "revisions",
+    "constraints"
+  ],
+  "properties": {
+    "registry_version": {
+      "const": "chess-evidence-registry/0.1-draft"
+    },
+    "status": {
+      "const": "DOCUMENTARY_DESIGN_NOT_APPROVED"
+    },
+    "repository": {
+      "const": "sedanoantolinalberto-code/AutoTactics-ChessStories"
+    },
+    "source_snapshots": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/snapshot"
+      }
+    },
+    "games": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/game"
+      }
+    },
+    "branches": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/branch"
+      }
+    },
+    "positions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/position"
+      }
+    },
+    "moves": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/move"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "witnesses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/witness"
+      }
+    },
+    "transcriptions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/transcription"
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/observation"
+      }
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/claim"
+      }
+    },
+    "evidence_links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/evidenceLink"
+      }
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/conflict"
+      }
+    },
+    "scene_bindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/scene"
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    },
+    "rights_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rights"
+      }
+    },
+    "validation_records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/validation"
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/dependency"
+      }
+    },
+    "revisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/revision"
+      }
+    },
+    "constraints": {
+      "$ref": "#/$defs/constraints"
+    }
+  },
+  "$defs": {
+    "origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snapshot_ref",
+        "locator"
+      ],
+      "properties": {
+        "snapshot_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "snapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "repository",
+        "branch_observed",
+        "commit",
+        "path",
+        "git_blob",
+        "identity_scope",
+        "raw_byte_authentication"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repository": {
+          "const": "sedanoantolinalberto-code/AutoTactics-ChessStories"
+        },
+        "branch_observed": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commit": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "git_blob": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{40}$"
+        },
+        "identity_scope": {
+          "const": "GIT_REPOSITORY_IDENTITY_ONLY"
+        },
+        "raw_byte_authentication": {
+          "const": "NOT_QUALIFIED"
+        }
+      }
+    },
+    "game": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "white",
+        "black",
+        "identity_status",
+        "historical_ending_status",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "white": {
+          "type": "string",
+          "minLength": 1
+        },
+        "black": {
+          "type": "string",
+          "minLength": 1
+        },
+        "identity_status": {
+          "enum": [
+            "SOURCE_DECLARED",
+            "UNASSESSED"
+          ]
+        },
+        "historical_ending_status": {
+          "enum": [
+            "UNKNOWN",
+            "UNRESOLVED"
+          ]
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "branch": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "game_ref",
+        "factuality",
+        "parent_branch_ref",
+        "shared_anchor_state_ref",
+        "return_anchor_state_ref",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "game_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "factuality": {
+          "enum": [
+            "REAL_DECLARED",
+            "HYPOTHETICAL"
+          ]
+        },
+        "parent_branch_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "shared_anchor_state_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "return_anchor_state_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "position": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "game_ref",
+        "ply",
+        "branch_ref",
+        "fen_declared",
+        "visibility",
+        "historical_authentication",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "game_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ply": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "branch_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fen_declared": {
+          "type": "string",
+          "minLength": 1
+        },
+        "visibility": {
+          "enum": [
+            "VISUAL",
+            "TECHNICAL_ONLY"
+          ]
+        },
+        "historical_authentication": {
+          "enum": [
+            "NOT_VERIFIED"
+          ]
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "capture": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "piece",
+        "color",
+        "square"
+      ],
+      "properties": {
+        "piece": {
+          "enum": [
+            "P",
+            "N",
+            "B",
+            "R",
+            "Q",
+            "K"
+          ]
+        },
+        "color": {
+          "enum": [
+            "white",
+            "black"
+          ]
+        },
+        "square": {
+          "type": "string",
+          "pattern": "^[a-h][1-8]$"
+        }
+      }
+    },
+    "move": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "game_ref",
+        "branch_ref",
+        "ply",
+        "san",
+        "from_state_ref",
+        "to_state_ref",
+        "from_square",
+        "to_square",
+        "capture",
+        "historical_status",
+        "legality_status",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "game_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "branch_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ply": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "san": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_state_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_state_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_square": {
+          "type": "string",
+          "minLength": 1
+        },
+        "to_square": {
+          "type": "string",
+          "minLength": 1
+        },
+        "capture": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/capture"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "historical_status": {
+          "enum": [
+            "SOURCE_DECLARED_PLAYED",
+            "HYPOTHETICAL_NOT_PLAYED"
+          ]
+        },
+        "legality_status": {
+          "const": "NOT_RUN"
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "title",
+        "source_class",
+        "author",
+        "publication_date",
+        "url",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_class": {
+          "enum": [
+            "PRIMARY_PERIODICAL",
+            "SECONDARY_PUBLICATION",
+            "SUPPLIED_DECLARATION"
+          ]
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "publication_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "witness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "source_ref",
+        "object_type",
+        "locator",
+        "coverage",
+        "availability",
+        "derived_from_ref",
+        "identity_status",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "object_type": {
+          "enum": [
+            "ORIGINAL_OBJECT",
+            "ARCHIVAL_SCAN",
+            "SECONDARY_REPRODUCTION",
+            "REPOSITORY_TRANSCRIPTION"
+          ]
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coverage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "availability": {
+          "enum": [
+            "LOCATED_NOT_FULLY_INSPECTED",
+            "REPORTED_PARTIAL_INSPECTION",
+            "REPOSITORY_TEXT_READ"
+          ]
+        },
+        "derived_from_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "identity_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "reading": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "locator",
+        "raw_text",
+        "normalized_text",
+        "notation",
+        "normalization_note",
+        "alternatives",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "normalized_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "notation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalization_note": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "transcription": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "witness_ref",
+        "reader",
+        "method",
+        "blind_status",
+        "raw_frozen_at",
+        "coverage",
+        "readings",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "witness_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reader": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blind_status": {
+          "enum": [
+            "NOT_ESTABLISHED",
+            "NOT_BLIND",
+            "NOT_APPLICABLE"
+          ]
+        },
+        "raw_frozen_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "coverage": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/reading"
+          }
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "subject_ref",
+        "reporting_mode",
+        "reported_date",
+        "method",
+        "scope",
+        "limitations",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reporting_mode": {
+          "enum": [
+            "CURRENT_REPOSITORY_READ",
+            "REPORTED_PRIOR_OBSERVATION"
+          ]
+        },
+        "reported_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "category",
+        "text",
+        "subject",
+        "confidence",
+        "confidence_rationale",
+        "admissibility_status",
+        "legacy_evidence_refs",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "enum": [
+            "HISTORY_FACT",
+            "HYPOTHETICAL",
+            "INTERPRETATION",
+            "SOURCE_METADATA"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "confidence": {
+          "enum": [
+            "UNASSESSED",
+            "LOW",
+            "MODERATE",
+            "HIGH"
+          ]
+        },
+        "confidence_rationale": {
+          "type": "string",
+          "minLength": 1
+        },
+        "admissibility_status": {
+          "const": "PENDING_REVIEW"
+        },
+        "legacy_evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "evidenceLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "claim_ref",
+        "observation_ref",
+        "relation",
+        "scope",
+        "independence_status",
+        "limitations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observation_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relation": {
+          "enum": [
+            "SUPPORTS",
+            "CONTRADICTS",
+            "CONTEXT_ONLY"
+          ]
+        },
+        "scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "independence_status": {
+          "enum": [
+            "NOT_ESTABLISHED",
+            "SAME_SOURCE"
+          ]
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "subject",
+        "status",
+        "alternatives",
+        "resolution_requirement",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "OPEN",
+            "REVISION_LINEAGE_IDENTIFIED_NO_CANONICAL_SELECTION"
+          ]
+        },
+        "alternatives": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "resolution_requirement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "omission": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "first",
+        "last",
+        "count",
+        "semantics"
+      ],
+      "properties": {
+        "first": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "last": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "semantics": {
+          "const": "INCLUSIVE_MOVES_NOT_SHOWN"
+        }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "game_ref",
+        "kind",
+        "from_state_ref",
+        "to_state_ref",
+        "from_branch_ref",
+        "to_branch_ref",
+        "move_ref",
+        "replay_of_event_ref",
+        "omitted_plies",
+        "return_anchor_state_ref",
+        "source_disclosure",
+        "required_display_label",
+        "warning_release_requirement",
+        "claim_refs",
+        "legacy_evidence_refs",
+        "asset_refs",
+        "timing_status",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "game_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "SET_POSITION",
+            "REAL_MOVE",
+            "REWIND",
+            "ENTER_HYPOTHETICAL",
+            "HYPOTHETICAL_MOVE",
+            "RETURN_TO_REAL",
+            "ELLIPSIS",
+            "SEQUENCE_END"
+          ]
+        },
+        "from_state_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "to_state_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "from_branch_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "to_branch_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "move_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "replay_of_event_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "omitted_plies": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/omission"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "return_anchor_state_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_disclosure": {
+          "type": "string",
+          "minLength": 1
+        },
+        "required_display_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "warning_release_requirement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "claim_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "legacy_evidence_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "asset_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "timing_status": {
+          "const": "UNMEASURED"
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "medium",
+        "description",
+        "availability",
+        "upstream_asset_refs",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "medium": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "availability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "upstream_asset_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "asset_ref",
+        "consultation_status",
+        "commercial_status",
+        "rightsholder",
+        "permission_document_refs",
+        "intended_use",
+        "platform",
+        "territory",
+        "validity",
+        "attribution",
+        "restrictions",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "asset_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "consultation_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "commercial_status": {
+          "enum": [
+            "PENDING",
+            "NOT_CLEARED",
+            "NOT_AUTHORIZED"
+          ]
+        },
+        "rightsholder": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "permission_document_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "intended_use": {
+          "type": "string",
+          "minLength": 1
+        },
+        "platform": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "territory": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "validity": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attribution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "validation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "layer",
+        "requirement",
+        "specification_count",
+        "execution_status",
+        "result",
+        "result_artifact_refs",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "layer": {
+          "enum": [
+            "SEMANTIC_NEGATIVES",
+            "ROUTER_NEGATIVES",
+            "CHESS_ORACLE",
+            "HISTORY",
+            "RIGHTS"
+          ]
+        },
+        "requirement": {
+          "type": "string",
+          "minLength": 1
+        },
+        "specification_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "execution_status": {
+          "const": "NOT_RUN"
+        },
+        "result": {
+          "type": "null"
+        },
+        "result_artifact_refs": {
+          "type": "array",
+          "maxItems": 0
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "dependency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "subject",
+        "observed_status",
+        "status_as_of",
+        "closure_evidence_required",
+        "blocked_refs",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "subject": {
+          "type": "string",
+          "minLength": 1
+        },
+        "observed_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status_as_of": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "closure_evidence_required": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "blocked_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "revision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "previous_record_ref",
+        "change",
+        "basis",
+        "origins"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "previous_record_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "change": {
+          "type": "string",
+          "minLength": 1
+        },
+        "basis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origins": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/origin"
+          }
+        }
+      }
+    },
+    "constraints": {
+      "const": {
+        "E5B4D": "STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL",
+        "failure_model": "M",
+        "R6": "PENDING",
+        "IVV_GLOBAL": "NOT APPROVED",
+        "CASE_APPROVAL": "NOT APPROVED",
+        "semantic_negative_specifications": 66,
+        "semantic_negative_execution": "NOT_RUN",
+        "router_negative_specifications": 77,
+        "router_negative_execution": "NOT_RUN",
+        "independent_chess_oracle": "NOT_RUN",
+        "execution_authorized": false,
+        "publication_authorized": false,
+        "policy_b_requirements": {
+          "require_all_relevant_processes_terminated": true,
+          "require_termination_confirmed": true,
+          "require_termination_and_confirmation_strictly_before_seconds": 120,
+          "require_independent_stream_limits": true,
+          "stdout_requirement": {
+            "maximum_bytes": 1048576,
+            "accounting_scope": "ENTIRE_PROCESS_LIFETIME",
+            "counting_requirement": "EMITTED_AND_ACCEPTED"
+          },
+          "stderr_requirement": {
+            "maximum_bytes": 1048576,
+            "accounting_scope": "ENTIRE_PROCESS_LIFETIME",
+            "counting_requirement": "EMITTED_AND_ACCEPTED"
+          },
+          "compliance_status": "NOT_ESTABLISHED"
+        }
+      }
+    }
+  }
+}

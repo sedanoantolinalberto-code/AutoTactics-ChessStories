@@ -1,0 +1,1718 @@
+{
+  "registry_version": "chess-evidence-registry/0.1-draft",
+  "status": "DOCUMENTARY_DESIGN_NOT_APPROVED",
+  "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+  "source_snapshots": [
+    {
+      "id": "CASE",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "git_blob": "3514f19ac355763a5b4c61d5c573df090b0eccc1",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "CONTRACT",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "contracts/scene-contract-v0.2.schema.json",
+      "git_blob": "7dc513bad7082e54c8ade5f0568202cd804ba3c0",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "MANIFEST",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "integration/EP01-CROSS-LAYER-ROUTING.v0.1.json",
+      "git_blob": "48b4124b0fa22c097ca33f53696974789867408f",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "BRIDGE",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "integration/EP01-ORACLE-SOURCE-BRIDGE.v0.1.json",
+      "git_blob": "c284e3ccb72f376d23d2ae86e7d6262ee313a1a2",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "T10",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "sources/EP01-T10-SECONDARY-SAN-36-49.v0.1.json",
+      "git_blob": "06746705894dcd797c13d4775b4367848da61023",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "B1571",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "research/CHESS-STORIES-B1571-CHESS-REVIEW-P374-VISUAL-EXCERPT-2026-10-15.md",
+      "git_blob": "1962921e625019f97c0d241ee4791b677c36a2f6",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "OUTREACH",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "research/CHESS-STORIES-POST-OUTREACH-EVIDENCE-STATUS-2026-10-15.md",
+      "git_blob": "50996fdb9ab095af7895a30b26bb59bf9292e4a7",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "HISTORY",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/secondary-pgn-result-reconciliation",
+      "commit": "541cfa4ae1df0ea52b36ada1f0379bc4e02c8aa9",
+      "path": "docs/HISTORICAL_WITNESSES_EP01_1956.md",
+      "git_blob": "9875132a0b681b7722f0f4e40cd85193d12a77e2",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "BLIND",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/secondary-pgn-result-reconciliation",
+      "commit": "541cfa4ae1df0ea52b36ada1f0379bc4e02c8aa9",
+      "path": "docs/EP01-PRIMARY-BLIND-TRANSCRIPTION-PROTOCOL.v0.1.md",
+      "git_blob": "df8e99a3420dd57aa7eaf4a73e7b34d84b70437f",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "RIGHTS",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/r6-asset-rights-inventory-v0.1",
+      "commit": "87cb4aac391147ed8d2b1509ddb3b23b98ca0783",
+      "path": "rights/R6-EP01-ASSET-REGISTER-DRAFT.json",
+      "git_blob": "9815bd94095f5df35d243050676b3a4b7a4e4e49",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "WIN0",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/secondary-pgn-result-reconciliation",
+      "commit": "166685bbe394251f2195fbde03ac9691c4c7ccdf",
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "git_blob": "c90c42d27279ca0f1809098d0c49774149061cda",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "WIN1",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/secondary-pgn-result-reconciliation",
+      "commit": "ee3703c71e7aeb9b5fee10f8d8eac079db17f72e",
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "git_blob": "9172831e19a98635017a298e456b4c489398a494",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "WIN2",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/secondary-pgn-result-reconciliation",
+      "commit": "a89f9c24b06f522ea60d8ee7c6229a2f0a1bf301",
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "git_blob": "926eae9e8b58d75fbc5f96d5133901f71d8a509b",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "OVER0",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "commit": "6f6a78ba84abe83f5cd1c65044947dd77a10d270",
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "git_blob": "aafc6429d716863e225361dd4962169bf12ecfae",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "OVER1",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "commit": "fa942d79a414ee3bc617b241a12f2cc58169d651",
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "git_blob": "57df8acf69cdd8516c5587100bc71c533b8ecf7a",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "OVER2",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "commit": "d0f0d57afd385c0c91c90f709b36632b338d0f12",
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "git_blob": "03a3fdcd56403866496bc788c6846c3a769747bb",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "BASELINE",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/r6-asset-rights-inventory-v0.1",
+      "commit": "87cb4aac391147ed8d2b1509ddb3b23b98ca0783",
+      "path": "docs/R6_EP01_CLEAN_ROOM_PRODUCTION_BASELINE.v0.1.md",
+      "git_blob": "84b12042e23efe812e247d0b2af5d6bd09a2016c",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "WINCURRENT",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/secondary-pgn-result-reconciliation",
+      "commit": "541cfa4ae1df0ea52b36ada1f0379bc4e02c8aa9",
+      "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "git_blob": "c90c42d27279ca0f1809098d0c49774149061cda",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "OVERCURRENT",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "commit": "8f35555d03e5052cd4fbe5bd086ae46083c47878",
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "git_blob": "aafc6429d716863e225361dd4962169bf12ecfae",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    },
+    {
+      "id": "DESKAUDIT",
+      "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+      "branch_observed": "chess-stories/integration-assurance-gates-rfc-v0.1",
+      "commit": "2dbae6f6e303785929a574aa7d3ea2bd3a4c23fd",
+      "path": "research/CHESS-STORIES-B2172-B3171-INDIVIDUAL-DESK-AUDIT-SYNTHESIS-2026-10-15.md",
+      "git_blob": "182b2950425e362028a6c0923091cad2827e3416",
+      "identity_scope": "GIT_REPOSITORY_IDENTITY_ONLY",
+      "raw_byte_authentication": "NOT_QUALIFIED"
+    }
+  ],
+  "games": [
+    {
+      "id": "ED-CASE-REAL-01",
+      "title": "Chess Stories: Donald Byrne vs Bobby Fischer, New York, 1956",
+      "white": "Donald Byrne",
+      "black": "Bobby Fischer",
+      "identity_status": "SOURCE_DECLARED",
+      "historical_ending_status": "UNRESOLVED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/players"
+        },
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/historical_game_end"
+        },
+        {
+          "snapshot_ref": "HISTORY",
+          "locator": "Scoresheet witness divergence"
+        }
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "id": "MAIN",
+      "game_ref": "ED-CASE-REAL-01",
+      "factuality": "REAL_DECLARED",
+      "parent_branch_ref": null,
+      "shared_anchor_state_ref": "V-P1",
+      "return_anchor_state_ref": "V-P1",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/branches/0"
+        }
+      ]
+    },
+    {
+      "id": "ALT_QD8",
+      "game_ref": "ED-CASE-REAL-01",
+      "factuality": "HYPOTHETICAL",
+      "parent_branch_ref": "MAIN",
+      "shared_anchor_state_ref": "V-P1",
+      "return_anchor_state_ref": "V-P1",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/branches/1"
+        }
+      ]
+    }
+  ],
+  "positions": [
+    {
+      "id": "V-P1",
+      "game_ref": "ED-CASE-REAL-01",
+      "ply": 33,
+      "branch_ref": "MAIN",
+      "fen_declared": "r3r1k1/pp3pbp/1qp3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R b - - 3 17",
+      "visibility": "VISUAL",
+      "historical_authentication": "NOT_VERIFIED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/states/0"
+        }
+      ]
+    },
+    {
+      "id": "V-EV1",
+      "game_ref": "ED-CASE-REAL-01",
+      "ply": 34,
+      "branch_ref": "MAIN",
+      "fen_declared": "r3r1k1/pp3pbp/1qp1b1p1/2B5/2BP4/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "visibility": "VISUAL",
+      "historical_authentication": "NOT_VERIFIED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/states/1"
+        }
+      ]
+    },
+    {
+      "id": "V-REAL",
+      "game_ref": "ED-CASE-REAL-01",
+      "ply": 35,
+      "branch_ref": "MAIN",
+      "fen_declared": "r3r1k1/pp3pbp/1Bp1b1p1/8/2BP4/Q1n2N2/P4PPP/3R1K1R b - - 0 18",
+      "visibility": "VISUAL",
+      "historical_authentication": "NOT_VERIFIED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/states/2"
+        }
+      ]
+    },
+    {
+      "id": "V-HYP",
+      "game_ref": "ED-CASE-REAL-01",
+      "ply": 34,
+      "branch_ref": "ALT_QD8",
+      "fen_declared": "r2qr1k1/pp3pbp/2p3p1/2B5/2BP2b1/Q1n2N2/P4PPP/3R1K1R w - - 4 18",
+      "visibility": "VISUAL",
+      "historical_authentication": "NOT_VERIFIED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/states/3"
+        }
+      ]
+    },
+    {
+      "id": "V-PRE-EV2",
+      "game_ref": "ED-CASE-REAL-01",
+      "ply": 49,
+      "branch_ref": "MAIN",
+      "fen_declared": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/2n2N2/P4PPP/3R2KR b - - 0 25",
+      "visibility": "TECHNICAL_ONLY",
+      "historical_authentication": "NOT_VERIFIED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/states/4"
+        }
+      ]
+    },
+    {
+      "id": "V-EV2",
+      "game_ref": "ED-CASE-REAL-01",
+      "ply": 50,
+      "branch_ref": "MAIN",
+      "fen_declared": "4r1k1/1p3pbp/1Qp3p1/8/r1b5/5N2/P4PPP/3n2KR w - - 0 26",
+      "visibility": "VISUAL",
+      "historical_authentication": "NOT_VERIFIED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/states/5"
+        }
+      ]
+    }
+  ],
+  "moves": [
+    {
+      "id": "MOVE-MAIN-34",
+      "game_ref": "ED-CASE-REAL-01",
+      "branch_ref": "MAIN",
+      "ply": 34,
+      "san": "Be6",
+      "from_state_ref": "V-P1",
+      "to_state_ref": "V-EV1",
+      "from_square": "g4",
+      "to_square": "e6",
+      "capture": null,
+      "historical_status": "SOURCE_DECLARED_PLAYED",
+      "legality_status": "NOT_RUN",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/1"
+        }
+      ]
+    },
+    {
+      "id": "MOVE-MAIN-35",
+      "game_ref": "ED-CASE-REAL-01",
+      "branch_ref": "MAIN",
+      "ply": 35,
+      "san": "Bxb6",
+      "from_state_ref": "V-EV1",
+      "to_state_ref": "V-REAL",
+      "from_square": "c5",
+      "to_square": "b6",
+      "capture": {
+        "piece": "Q",
+        "color": "black",
+        "square": "b6"
+      },
+      "historical_status": "SOURCE_DECLARED_PLAYED",
+      "legality_status": "NOT_RUN",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/2"
+        }
+      ]
+    },
+    {
+      "id": "MOVE-ALT-QD8-34",
+      "game_ref": "ED-CASE-REAL-01",
+      "branch_ref": "ALT_QD8",
+      "ply": 34,
+      "san": "Qd8",
+      "from_state_ref": "V-P1",
+      "to_state_ref": "V-HYP",
+      "from_square": "b6",
+      "to_square": "d8",
+      "capture": null,
+      "historical_status": "HYPOTHETICAL_NOT_PLAYED",
+      "legality_status": "NOT_RUN",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/5"
+        }
+      ]
+    },
+    {
+      "id": "MOVE-MAIN-50",
+      "game_ref": "ED-CASE-REAL-01",
+      "branch_ref": "MAIN",
+      "ply": 50,
+      "san": "Nxd1",
+      "from_state_ref": "V-PRE-EV2",
+      "to_state_ref": "V-EV2",
+      "from_square": "c3",
+      "to_square": "d1",
+      "capture": {
+        "piece": "R",
+        "color": "white",
+        "square": "d1"
+      },
+      "historical_status": "SOURCE_DECLARED_PLAYED",
+      "legality_status": "NOT_RUN",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/10"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "SOURCE-CASE",
+      "title": "Chess Stories: Donald Byrne vs Bobby Fischer, New York, 1956",
+      "source_class": "SUPPLIED_DECLARATION",
+      "author": null,
+      "publication_date": null,
+      "url": null,
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/evidence"
+        }
+      ]
+    },
+    {
+      "id": "SOURCE-WINTER",
+      "title": "The Byrne v Fischer 'Game of the Century'",
+      "source_class": "SECONDARY_PUBLICATION",
+      "author": "Edward Winter",
+      "publication_date": null,
+      "url": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "origins": [
+        {
+          "snapshot_ref": "WIN0",
+          "locator": "#/reference"
+        },
+        {
+          "snapshot_ref": "WIN2",
+          "locator": "#/reference"
+        }
+      ]
+    },
+    {
+      "id": "SOURCE-CR-1956-12",
+      "title": "Chess Review, Vol.24 No.12, December 1956",
+      "source_class": "PRIMARY_PERIODICAL",
+      "author": null,
+      "publication_date": "1956-12",
+      "url": "https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CR-ALL/CR1956/CR1956_12.pdf",
+      "origins": [
+        {
+          "snapshot_ref": "B1571",
+          "locator": "Evidence inspected"
+        },
+        {
+          "snapshot_ref": "HISTORY",
+          "locator": "Primary-periodical lead"
+        }
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "id": "WIT-WINTER-REPO",
+      "source_ref": "SOURCE-WINTER",
+      "object_type": "REPOSITORY_TRANSCRIPTION",
+      "locator": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+      "coverage": "82-ply secondary candidate; example copies only documented terminal normalization",
+      "availability": "REPOSITORY_TEXT_READ",
+      "derived_from_ref": null,
+      "identity_status": "Both WIN2 and WIN0 retained; no canonical historical witness selected",
+      "origins": [
+        {
+          "snapshot_ref": "WIN0",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "WIN2",
+          "locator": "#"
+        }
+      ]
+    },
+    {
+      "id": "WIT-CR-FULL",
+      "source_ref": "SOURCE-CR-1956-12",
+      "object_type": "ARCHIVAL_SCAN",
+      "locator": "Printed pp.374–375",
+      "coverage": "Full pages required; not obtained in this phase",
+      "availability": "LOCATED_NOT_FULLY_INSPECTED",
+      "derived_from_ref": null,
+      "identity_status": "Archive lead, no acquired bytes or measured hash",
+      "origins": [
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "External custodian dependency and decision"
+        }
+      ]
+    },
+    {
+      "id": "WIT-CR-FRAGMENT",
+      "source_ref": "SOURCE-CR-1956-12",
+      "object_type": "SECONDARY_REPRODUCTION",
+      "locator": "https://www.chesshistory.com/winter/pics/cn3880_kmoch1.jpg",
+      "coverage": "Portion of printed p.374 only",
+      "availability": "REPORTED_PARTIAL_INSPECTION",
+      "derived_from_ref": null,
+      "identity_status": "Exact reproduction chain not authenticated; not asserted to derive from WIT-CR-FULL scan",
+      "origins": [
+        {
+          "snapshot_ref": "B1571",
+          "locator": "Evidence inspected"
+        }
+      ]
+    }
+  ],
+  "transcriptions": [
+    {
+      "id": "TRANS-WINTER-END",
+      "witness_ref": "WIT-WINTER-REPO",
+      "reader": null,
+      "method": "PRESERVED_DOCUMENTED_NORMALIZATION_NOT_NEW_PRIMARY_READING",
+      "blind_status": "NOT_APPLICABLE",
+      "raw_frozen_at": null,
+      "coverage": "Terminal notation only; not a new 82-ply transcription",
+      "readings": [
+        {
+          "id": "READ-WINTER-82",
+          "locator": "source_last_move_printed",
+          "raw_text": "41...Rc2 mate",
+          "normalized_text": "41...Rc2#",
+          "notation": "Modern secondary score wording to SAN",
+          "normalization_note": "Documented normalization, not checkmate computation or proof of physically played termination",
+          "alternatives": [],
+          "origins": [
+            {
+              "snapshot_ref": "WIN0",
+              "locator": "#/source_last_move_printed"
+            },
+            {
+              "snapshot_ref": "WIN0",
+              "locator": "#/last_move_normalization"
+            }
+          ]
+        }
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "WIN0",
+          "locator": "#/last_move_normalization"
+        }
+      ]
+    }
+  ],
+  "observations": [
+    {
+      "id": "OBS-CASE",
+      "subject_ref": "SOURCE-CASE",
+      "reporting_mode": "CURRENT_REPOSITORY_READ",
+      "reported_date": "2026-10-15",
+      "method": "Connected GitHub file read",
+      "scope": "Candidate declarations, not underlying R2 artifacts",
+      "limitations": [
+        "No chess oracle",
+        "No raw R2 bytes",
+        "No historical authentication"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#"
+        }
+      ]
+    },
+    {
+      "id": "OBS-P374",
+      "subject_ref": "WIT-CR-FRAGMENT",
+      "reporting_mode": "REPORTED_PRIOR_OBSERVATION",
+      "reported_date": "2026-10-15",
+      "method": "B1571 reports visual inspection of secondary reproduction",
+      "scope": "Title, attribution and introductory framing in fragment",
+      "limitations": [
+        "Image not inspected anew in registry phase",
+        "Full pp.374–375 not inspected",
+        "No commercial permission"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "B1571",
+          "locator": "Directly supported by the visual excerpt"
+        }
+      ]
+    },
+    {
+      "id": "OBS-WINTER-REVISIONS",
+      "subject_ref": "WIT-WINTER-REPO",
+      "reporting_mode": "CURRENT_REPOSITORY_READ",
+      "reported_date": "2026-10-15",
+      "method": "GitHub immutable source reads and GitHub-provided revision diff",
+      "scope": "Revision lineage and changed witness metadata",
+      "limitations": [
+        "No validation script",
+        "No historical adjudication",
+        "No byte qualification"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "WIN2",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "WIN1",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "WIN0",
+          "locator": "#"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "CLAIM-CASE-IDENTITY",
+      "category": "HISTORY_FACT",
+      "text": "The supplied pilot context identifies ED-CASE-REAL-01 as Donald Byrne, white, versus Bobby Fischer, black, in New York in 1956. Original historical authentication remains unverified.",
+      "subject": "ED-CASE-REAL-01",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/0"
+        }
+      ]
+    },
+    {
+      "id": "CLAIM-REAL-MOVES",
+      "category": "HISTORY_FACT",
+      "text": "The supplied secondary candidate identifies 17...Be6 at ply 34, 18.Bxb6 at ply 35, and 25...Nxd1 at ply 50 as played moves on the real line. This declaration is not original 1956 source authentication.",
+      "subject": "MAIN",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/1"
+        }
+      ]
+    },
+    {
+      "id": "CLAIM-HYPOTHETICAL-QD8",
+      "category": "HYPOTHETICAL",
+      "text": "17...Qd8 is the supplied alternative on ALT_QD8 and was not historically played. Its supplied position and move declaration do not establish independently verified chess legality.",
+      "subject": "17...Qd8",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/2"
+        }
+      ]
+    },
+    {
+      "id": "CLAIM-CONTINUATION",
+      "category": "HISTORY_FACT",
+      "text": "The supplied R2 excerpt declares 26.h3 at ply 51 after 25...Nxd1 at ply 50. Accordingly, ply 50 is not the ending of the supplied candidate game.",
+      "subject": "25...Nxd1",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-R2-RESULTS"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/3"
+        }
+      ]
+    },
+    {
+      "id": "CLAIM-SOURCE-ENDING",
+      "category": "HISTORY_FACT",
+      "text": "The supplied secondary PGN declaration places its terminal move at ply 82, 41...Rc2#. The original historical score and the full PGN have not been authenticated in this task.",
+      "subject": "SOURCE-R2-PGN",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-R2-PGN-DECLARATION",
+        "EVID-R2-RESULTS"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/4"
+        }
+      ]
+    },
+    {
+      "id": "CLAIM-EDITORIAL-ELLIPSIS",
+      "category": "INTERPRETATION",
+      "text": "The supplied editorial sequence omits moves at plies 36 through 49 inclusive. V-PRE-EV2 is the technical-only destination position after ply 49; those omitted moves are not presented as shown events.",
+      "subject": "T10",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/5"
+        }
+      ]
+    },
+    {
+      "id": "CLAIM-EDITORIAL-END",
+      "category": "INTERPRETATION",
+      "text": "T12 closes the editorial sequence at V-EV2 after ply 50. This editorial closure does not represent the historical game ending.",
+      "subject": "T12",
+      "confidence": "UNASSESSED",
+      "confidence_rationale": "Preserved source declaration; confidence not inferred from repetitions, legal status or research count.",
+      "admissibility_status": "PENDING_REVIEW",
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/claims/6"
+        }
+      ]
+    }
+  ],
+  "evidence_links": [
+    {
+      "id": "LINK-CASE-1",
+      "claim_ref": "CLAIM-CASE-IDENTITY",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    },
+    {
+      "id": "LINK-CASE-2",
+      "claim_ref": "CLAIM-REAL-MOVES",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    },
+    {
+      "id": "LINK-CASE-3",
+      "claim_ref": "CLAIM-HYPOTHETICAL-QD8",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    },
+    {
+      "id": "LINK-CASE-4",
+      "claim_ref": "CLAIM-CONTINUATION",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    },
+    {
+      "id": "LINK-CASE-5",
+      "claim_ref": "CLAIM-SOURCE-ENDING",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    },
+    {
+      "id": "LINK-CASE-6",
+      "claim_ref": "CLAIM-EDITORIAL-ELLIPSIS",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    },
+    {
+      "id": "LINK-CASE-7",
+      "claim_ref": "CLAIM-EDITORIAL-END",
+      "observation_ref": "OBS-CASE",
+      "relation": "SUPPORTS",
+      "scope": "Supports that the supplied case declares this assertion; not independent proof of its historical truth.",
+      "independence_status": "SAME_SOURCE",
+      "limitations": [
+        "Underlying legacy evidence limitations remain applicable",
+        "No gate promotion"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CONFLICT-WINTER-REF",
+      "subject": "Winter reference selection",
+      "status": "REVISION_LINEAGE_IDENTIFIED_NO_CANONICAL_SELECTION",
+      "alternatives": [
+        "WIN2: older reference in MANIFEST",
+        "WIN0: newer reference in BRIDGE",
+        "WIN1: intermediate metadata revision"
+      ],
+      "resolution_requirement": "Retain all revisions; future consumer must explicitly bind intended scope and independently review reference drift.",
+      "origins": [
+        {
+          "snapshot_ref": "MANIFEST",
+          "locator": "#/source_references"
+        },
+        {
+          "snapshot_ref": "BRIDGE",
+          "locator": "#/source_bindings"
+        },
+        {
+          "snapshot_ref": "WIN2",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "WIN1",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "WIN0",
+          "locator": "#"
+        }
+      ]
+    },
+    {
+      "id": "CONFLICT-OVERLAY-REF",
+      "subject": "Overlay reference selection",
+      "status": "REVISION_LINEAGE_IDENTIFIED_NO_CANONICAL_SELECTION",
+      "alternatives": [
+        "OVER1: MANIFEST pin",
+        "OVER0: four added Git source identity fields"
+      ],
+      "resolution_requirement": "Retain both; do not rewrite MANIFEST or router; no canonical production selection in this phase.",
+      "origins": [
+        {
+          "snapshot_ref": "MANIFEST",
+          "locator": "#/source_references"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#"
+        }
+      ]
+    },
+    {
+      "id": "CONFLICT-TERMINATION",
+      "subject": "Physically played historical ending",
+      "status": "OPEN",
+      "alternatives": [
+        "Contemporaneous publications report mate",
+        "Russell account reports Byrne scoresheet resignation one move before mate"
+      ],
+      "resolution_requirement": "Qualified inspection and provenance of separately identified original scoresheets; periodical agreement alone cannot settle this.",
+      "origins": [
+        {
+          "snapshot_ref": "HISTORY",
+          "locator": "Scoresheet witness divergence"
+        },
+        {
+          "snapshot_ref": "WIN0",
+          "locator": "#/terminal_witness_divergence"
+        }
+      ]
+    },
+    {
+      "id": "CONFLICT-ROUND",
+      "subject": "Tournament round",
+      "status": "OPEN",
+      "alternatives": [
+        "Round seven account",
+        "Round eight account"
+      ],
+      "resolution_requirement": "Inspect competent original event records and attach precise variant citations; no selection in example.",
+      "origins": [
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "Gates frozen"
+        },
+        {
+          "snapshot_ref": "DESKAUDIT",
+          "locator": "Outcome counts / SOURCE_CONFLICT"
+        }
+      ]
+    }
+  ],
+  "scene_bindings": [
+    {
+      "id": "T01",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "SET_POSITION",
+      "from_state_ref": null,
+      "to_state_ref": "V-P1",
+      "from_branch_ref": null,
+      "to_branch_ref": "MAIN",
+      "move_ref": null,
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "PARTIDA REAL",
+      "required_display_label": "PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/0"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/0"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/0"
+        }
+      ]
+    },
+    {
+      "id": "T02",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "REAL_MOVE",
+      "from_state_ref": "V-P1",
+      "to_state_ref": "V-EV1",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": "MOVE-MAIN-34",
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "PARTIDA REAL",
+      "required_display_label": "PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/1"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/1"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/1"
+        }
+      ]
+    },
+    {
+      "id": "T03",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "REAL_MOVE",
+      "from_state_ref": "V-EV1",
+      "to_state_ref": "V-REAL",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": "MOVE-MAIN-35",
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "PARTIDA REAL",
+      "required_display_label": "PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/2"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/2"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/2"
+        }
+      ]
+    },
+    {
+      "id": "T04",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "REWIND",
+      "from_state_ref": "V-REAL",
+      "to_state_ref": "V-P1",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": null,
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "REBOBINADO A 17.Kf1",
+      "required_display_label": "REBOBINADO · PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/3"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/3"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/3"
+        }
+      ]
+    },
+    {
+      "id": "T05",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "ENTER_HYPOTHETICAL",
+      "from_state_ref": "V-P1",
+      "to_state_ref": "V-P1",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "ALT_QD8",
+      "move_ref": null,
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": "V-P1",
+      "source_disclosure": "ALTERNATIVA NO JUGADA",
+      "required_display_label": "HIPOTÉTICA · NO JUGADA",
+      "warning_release_requirement": "NEVER_DURING_HYPOTHETICAL_FRAMES",
+      "claim_refs": [
+        "CLAIM-HYPOTHETICAL-QD8"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/4"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/4"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/4"
+        }
+      ]
+    },
+    {
+      "id": "T06",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "HYPOTHETICAL_MOVE",
+      "from_state_ref": "V-P1",
+      "to_state_ref": "V-HYP",
+      "from_branch_ref": "ALT_QD8",
+      "to_branch_ref": "ALT_QD8",
+      "move_ref": "MOVE-ALT-QD8-34",
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "VARIANTE HIPOTÉTICA — NO JUGADA",
+      "required_display_label": "HIPOTÉTICA · NO JUGADA",
+      "warning_release_requirement": "NEVER_DURING_HYPOTHETICAL_FRAMES",
+      "claim_refs": [
+        "CLAIM-HYPOTHETICAL-QD8"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-SUPPLIED-CASE-CONTEXT"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/5"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/5"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/5"
+        }
+      ]
+    },
+    {
+      "id": "T07",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "RETURN_TO_REAL",
+      "from_state_ref": "V-HYP",
+      "to_state_ref": "V-P1",
+      "from_branch_ref": "ALT_QD8",
+      "to_branch_ref": "MAIN",
+      "move_ref": null,
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": "V-P1",
+      "source_disclosure": "VOLVEMOS A LA PARTIDA REAL: 17.Kf1",
+      "required_display_label": "REGRESO A LA PARTIDA REAL",
+      "warning_release_requirement": "ONLY_AFTER_EXACT_V-P1_REAL_BOARD_AND_MAIN_CONTEXT_RESTORED",
+      "claim_refs": [],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/6"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/6"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/6"
+        }
+      ]
+    },
+    {
+      "id": "T08",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "REAL_MOVE",
+      "from_state_ref": "V-P1",
+      "to_state_ref": "V-EV1",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": "MOVE-MAIN-34",
+      "replay_of_event_ref": "T02",
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "PARTIDA REAL",
+      "required_display_label": "PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/7"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/7"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/7"
+        }
+      ]
+    },
+    {
+      "id": "T09",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "REAL_MOVE",
+      "from_state_ref": "V-EV1",
+      "to_state_ref": "V-REAL",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": "MOVE-MAIN-35",
+      "replay_of_event_ref": "T03",
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "PARTIDA REAL",
+      "required_display_label": "PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-REAL-MOVES"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/8"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/8"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/8"
+        }
+      ]
+    },
+    {
+      "id": "T10",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "ELLIPSIS",
+      "from_state_ref": "V-REAL",
+      "to_state_ref": "V-PRE-EV2",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": null,
+      "replay_of_event_ref": null,
+      "omitted_plies": {
+        "first": 36,
+        "last": 49,
+        "semantics": "INCLUSIVE_MOVES_NOT_SHOWN",
+        "count": 14
+      },
+      "return_anchor_state_ref": null,
+      "source_disclosure": "SALTO TEMPORAL: SE OMITEN JUGADAS DE LA PARTIDA REAL",
+      "required_display_label": "SE OMITEN JUGADAS REALES",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-EDITORIAL-ELLIPSIS"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-R2-RESULTS",
+        "EVID-LEDGER-R2"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/9"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/9"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/9"
+        }
+      ]
+    },
+    {
+      "id": "T11",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "REAL_MOVE",
+      "from_state_ref": "V-PRE-EV2",
+      "to_state_ref": "V-EV2",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": "MOVE-MAIN-50",
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "PARTIDA REAL — LA PARTIDA CONTINÚA",
+      "required_display_label": "PARTIDA REAL",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-REAL-MOVES",
+        "CLAIM-CONTINUATION"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-R2-RESULTS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/10"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/10"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/10"
+        }
+      ]
+    },
+    {
+      "id": "T12",
+      "game_ref": "ED-CASE-REAL-01",
+      "kind": "SEQUENCE_END",
+      "from_state_ref": "V-EV2",
+      "to_state_ref": "V-EV2",
+      "from_branch_ref": "MAIN",
+      "to_branch_ref": "MAIN",
+      "move_ref": null,
+      "replay_of_event_ref": null,
+      "omitted_plies": null,
+      "return_anchor_state_ref": null,
+      "source_disclosure": "CIERRE EDITORIAL: NO ES EL FINAL DE LA PARTIDA",
+      "required_display_label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+      "warning_release_requirement": "NOT_APPLICABLE",
+      "claim_refs": [
+        "CLAIM-CONTINUATION",
+        "CLAIM-EDITORIAL-END"
+      ],
+      "legacy_evidence_refs": [
+        "EVID-LEDGER-R2",
+        "EVID-R2-RESULTS"
+      ],
+      "asset_refs": [
+        "ASSET-SUPPLIED-POSITION-DATA"
+      ],
+      "timing_status": "UNMEASURED",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/timeline/11"
+        },
+        {
+          "snapshot_ref": "OVER1",
+          "locator": "#/overlays/11"
+        },
+        {
+          "snapshot_ref": "OVER0",
+          "locator": "#/overlays/11"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "ASSET-SUPPLIED-POSITION-DATA",
+      "medium": "DATA",
+      "description": "The six FEN position declarations and associated move metadata supplied as literal text in the v0.1 case; no rendered board, image, audio, or video asset is supplied.",
+      "availability": "SUPPLIED_DECLARATIONS_ONLY",
+      "upstream_asset_refs": [],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/assets/0"
+        }
+      ]
+    },
+    {
+      "id": "PERIODICAL-CHESS-REVIEW-1956",
+      "medium": "IMAGE",
+      "description": "Periodical facsimile research lead; not a cleared release asset",
+      "availability": "FULL_REQUIRED_PAGES_NOT_ACQUIRED_THIS_PHASE",
+      "upstream_asset_refs": [],
+      "origins": [
+        {
+          "snapshot_ref": "RIGHTS",
+          "locator": "assets[asset_id=PERIODICAL-CHESS-REVIEW-1956]"
+        }
+      ]
+    }
+  ],
+  "rights_records": [
+    {
+      "id": "RIGHTS-DATA",
+      "asset_ref": "ASSET-SUPPLIED-POSITION-DATA",
+      "consultation_status": "Supplied documentary data available",
+      "commercial_status": "PENDING",
+      "rightsholder": null,
+      "permission_document_refs": [],
+      "intended_use": "Documentary registry example",
+      "platform": null,
+      "territory": null,
+      "validity": null,
+      "attribution": null,
+      "restrictions": [
+        "No inferred commercial clearance"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/assets/0"
+        }
+      ]
+    },
+    {
+      "id": "RIGHTS-CR",
+      "asset_ref": "PERIODICAL-CHESS-REVIEW-1956",
+      "consultation_status": "Repository reports archive personal/research access conditions; not a commercial grant",
+      "commercial_status": "NOT_AUTHORIZED",
+      "rightsholder": null,
+      "permission_document_refs": [],
+      "intended_use": "Potential future commercial audiovisual reproduction",
+      "platform": null,
+      "territory": null,
+      "validity": null,
+      "attribution": null,
+      "restrictions": [
+        "Excluded from release by default",
+        "Permission pending",
+        "No scan copied into registry"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "RIGHTS",
+          "locator": "assets[asset_id=PERIODICAL-CHESS-REVIEW-1956]"
+        },
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "External custodian dependency and decision"
+        }
+      ]
+    }
+  ],
+  "validation_records": [
+    {
+      "id": "VALIDATION-SEMANTIC",
+      "layer": "SEMANTIC_NEGATIVES",
+      "requirement": "Independent authorized evaluation of existing semantic negative specifications",
+      "specification_count": 66,
+      "execution_status": "NOT_RUN",
+      "result": null,
+      "result_artifact_refs": [],
+      "origins": [
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "Gates frozen"
+        }
+      ]
+    },
+    {
+      "id": "VALIDATION-ROUTER",
+      "layer": "ROUTER_NEGATIVES",
+      "requirement": "Independent authorized evaluation of existing router negative specifications",
+      "specification_count": 77,
+      "execution_status": "NOT_RUN",
+      "result": null,
+      "result_artifact_refs": [],
+      "origins": [
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "Gates frozen"
+        }
+      ]
+    },
+    {
+      "id": "VALIDATION-ORACLE",
+      "layer": "CHESS_ORACLE",
+      "requirement": "Qualified independent chess-rules replay; separate from historical authentication",
+      "specification_count": null,
+      "execution_status": "NOT_RUN",
+      "result": null,
+      "result_artifact_refs": [],
+      "origins": [
+        {
+          "snapshot_ref": "BRIDGE",
+          "locator": "#/future_oracle_request"
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "id": "DEP-CR",
+      "subject": "US Chess full pp.374–375 and distinct rights response",
+      "observed_status": "SENT_AWAITING_REPLY_AS_REPORTED",
+      "status_as_of": "2026-10-15",
+      "closure_evidence_required": [
+        "Actual readable pages and object identity",
+        "Separate written scope of reuse permission"
+      ],
+      "blocked_refs": [
+        "WIT-CR-FULL",
+        "RIGHTS-CR"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "External custodian dependency and decision"
+        }
+      ]
+    },
+    {
+      "id": "DEP-BLIND",
+      "subject": "Independent blind readers per periodical witness",
+      "observed_status": "NO_READER_RESULT_RECORDED",
+      "status_as_of": "2026-10-15",
+      "closure_evidence_required": [
+        "Two independent frozen raw readings per witness",
+        "Separate normalized readings and adjudication",
+        "No modern SAN answer-key exposure"
+      ],
+      "blocked_refs": [
+        "CLAIM-REAL-MOVES",
+        "CLAIM-SOURCE-ENDING"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "BLIND",
+          "locator": "Witness-by-reader independence matrix — scope clarification"
+        }
+      ]
+    },
+    {
+      "id": "DEP-R2",
+      "subject": "Underlying R2 originals",
+      "observed_status": "ORIGINAL_BYTES_UNAVAILABLE",
+      "status_as_of": "2026-10-15",
+      "closure_evidence_required": [
+        "Actual source PGN and replay-result bytes",
+        "Qualified identity review separate from Git object IDs"
+      ],
+      "blocked_refs": [
+        "OBS-CASE"
+      ],
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#/evidence"
+        }
+      ]
+    },
+    {
+      "id": "DEP-IPN",
+      "subject": "Goniec Krakowski no274 22/23 November 1942 p3; comparative antecedent, not direct EP01 witness",
+      "observed_status": "SENT_AWAITING_REPLY_AS_REPORTED",
+      "status_as_of": "2026-10-15",
+      "closure_evidence_required": [
+        "Exact issue masthead and full page 3",
+        "Separate rights scope"
+      ],
+      "blocked_refs": [],
+      "origins": [
+        {
+          "snapshot_ref": "OUTREACH",
+          "locator": "External custodian dependency and decision"
+        }
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "id": "REGISTRY-DESIGN-INITIAL",
+      "previous_record_ref": null,
+      "change": "Initial isolated documentary representation; no source edits or gate promotion",
+      "basis": "User-authorized phase 2 design materialization",
+      "origins": [
+        {
+          "snapshot_ref": "CASE",
+          "locator": "#"
+        },
+        {
+          "snapshot_ref": "MANIFEST",
+          "locator": "#"
+        }
+      ]
+    }
+  ],
+  "constraints": {
+    "E5B4D": "STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL",
+    "failure_model": "M",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT APPROVED",
+    "CASE_APPROVAL": "NOT APPROVED",
+    "semantic_negative_specifications": 66,
+    "semantic_negative_execution": "NOT_RUN",
+    "router_negative_specifications": 77,
+    "router_negative_execution": "NOT_RUN",
+    "independent_chess_oracle": "NOT_RUN",
+    "execution_authorized": false,
+    "publication_authorized": false,
+    "policy_b_requirements": {
+      "require_all_relevant_processes_terminated": true,
+      "require_termination_confirmed": true,
+      "require_termination_and_confirmation_strictly_before_seconds": 120,
+      "require_independent_stream_limits": true,
+      "stdout_requirement": {
+        "maximum_bytes": 1048576,
+        "accounting_scope": "ENTIRE_PROCESS_LIFETIME",
+        "counting_requirement": "EMITTED_AND_ACCEPTED"
+      },
+      "stderr_requirement": {
+        "maximum_bytes": 1048576,
+        "accounting_scope": "ENTIRE_PROCESS_LIFETIME",
+        "counting_requirement": "EMITTED_AND_ACCEPTED"
+      },
+      "compliance_status": "NOT_ESTABLISHED"
+    }
+  }
+}
