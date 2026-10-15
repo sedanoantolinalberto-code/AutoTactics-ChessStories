@@ -1,0 +1,1007 @@
+{
+  "range": "B2672-B2771",
+  "count": 100,
+  "audit": "INDIVIDUAL_DOCUMENTARY_DESK_REVIEW_NOT_TESTS",
+  "individual_verdicts": [
+    {
+      "id": "B2672",
+      "target": "T01 ply33",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2673",
+      "target": "T01 ply33",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2674",
+      "target": "T01 ply33",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2675",
+      "target": "T01 ply33",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2676",
+      "target": "T01 ply33",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2677",
+      "target": "T02 Be6",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2678",
+      "target": "T02 Be6",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2679",
+      "target": "T02 Be6",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2680",
+      "target": "T02 Be6",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2681",
+      "target": "T02 Be6",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2682",
+      "target": "T03 Bxb6",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2683",
+      "target": "T03 Bxb6",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2684",
+      "target": "T03 Bxb6",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2685",
+      "target": "T03 Bxb6",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2686",
+      "target": "T03 Bxb6",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2687",
+      "target": "T04 rewind",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2688",
+      "target": "T04 rewind",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2689",
+      "target": "T04 rewind",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2690",
+      "target": "T04 rewind",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2691",
+      "target": "T04 rewind",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2692",
+      "target": "T05 ALT_QD8",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2693",
+      "target": "T05 ALT_QD8",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2694",
+      "target": "T05 ALT_QD8",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2695",
+      "target": "T05 ALT_QD8",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2696",
+      "target": "T05 ALT_QD8",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2697",
+      "target": "T06 Qd8 hypothetical",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2698",
+      "target": "T06 Qd8 hypothetical",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2699",
+      "target": "T06 Qd8 hypothetical",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2700",
+      "target": "T06 Qd8 hypothetical",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2701",
+      "target": "T06 Qd8 hypothetical",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2702",
+      "target": "T07 MAIN return",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2703",
+      "target": "T07 MAIN return",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2704",
+      "target": "T07 MAIN return",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2705",
+      "target": "T07 MAIN return",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2706",
+      "target": "T07 MAIN return",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2707",
+      "target": "T08/T09 replay",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2708",
+      "target": "T08/T09 replay",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2709",
+      "target": "T08/T09 replay",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2710",
+      "target": "T08/T09 replay",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2711",
+      "target": "T08/T09 replay",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2712",
+      "target": "T10 elipsis",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2713",
+      "target": "T10 elipsis",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2714",
+      "target": "T10 elipsis",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2715",
+      "target": "T10 elipsis",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2716",
+      "target": "T10 elipsis",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2717",
+      "target": "T11/T12 cierre",
+      "theme": "Edición EP01",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2718",
+      "target": "T11/T12 cierre",
+      "theme": "Edición EP01",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2719",
+      "target": "T11/T12 cierre",
+      "theme": "Edición EP01",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2720",
+      "target": "T11/T12 cierre",
+      "theme": "Edición EP01",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2721",
+      "target": "T11/T12 cierre",
+      "theme": "Edición EP01",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "executed": false
+    },
+    {
+      "id": "B2722",
+      "target": "V-P1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2723",
+      "target": "V-P1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2724",
+      "target": "V-P1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2725",
+      "target": "V-P1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2726",
+      "target": "V-P1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2727",
+      "target": "V-REAL",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2728",
+      "target": "V-REAL",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2729",
+      "target": "V-REAL",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2730",
+      "target": "V-REAL",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2731",
+      "target": "V-REAL",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2732",
+      "target": "V-PRE-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2733",
+      "target": "V-PRE-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2734",
+      "target": "V-PRE-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2735",
+      "target": "V-PRE-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2736",
+      "target": "V-PRE-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2737",
+      "target": "V-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2738",
+      "target": "V-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2739",
+      "target": "V-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2740",
+      "target": "V-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2741",
+      "target": "V-EV2",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2742",
+      "target": "alfil blanco c5",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2743",
+      "target": "alfil blanco c5",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2744",
+      "target": "alfil blanco c5",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2745",
+      "target": "alfil blanco c5",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2746",
+      "target": "alfil blanco c5",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2747",
+      "target": "alfil blanco c4",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2748",
+      "target": "alfil blanco c4",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2749",
+      "target": "alfil blanco c4",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2750",
+      "target": "alfil blanco c4",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2751",
+      "target": "alfil blanco c4",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2752",
+      "target": "dama negra b6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2753",
+      "target": "dama negra b6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2754",
+      "target": "dama negra b6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2755",
+      "target": "dama negra b6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2756",
+      "target": "dama negra b6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2757",
+      "target": "alfil negro g4–e6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2758",
+      "target": "alfil negro g4–e6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2759",
+      "target": "alfil negro g4–e6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2760",
+      "target": "alfil negro g4–e6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2761",
+      "target": "alfil negro g4–e6",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2762",
+      "target": "caballo negro c3–d1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2763",
+      "target": "caballo negro c3–d1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2764",
+      "target": "caballo negro c3–d1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2765",
+      "target": "caballo negro c3–d1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2766",
+      "target": "caballo negro c3–d1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2767",
+      "target": "torre blanca h1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Identificación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2768",
+      "target": "torre blanca h1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Fuente primaria",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2769",
+      "target": "torre blanca h1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Conflicto",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2770",
+      "target": "torre blanca h1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Falsación",
+      "verdict": "DOCUMENTED_SOURCE_ONLY",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    },
+    {
+      "id": "B2771",
+      "target": "torre blanca h1",
+      "theme": "Posiciones y jugadas",
+      "dimension": "Derechos",
+      "verdict": "RIGHTS_PENDING",
+      "reason": "El registro enlazado acredita una pregunta documental, no el resultado de la verificación específica. Se preserva el límite de evidencia y no se promociona ningún gate.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/1",
+      "executed": false
+    }
+  ]
+}
