@@ -1,0 +1,207 @@
+{
+  "range": "W111–W130",
+  "kind": "SOURCE-BOUNDED DOCUMENTARY CHECKS, NOT 20 INDEPENDENT PRIMARY INSPECTIONS",
+  "count": 20,
+  "jobs": [
+    {
+      "job": "W111",
+      "area": "Commercial source rights",
+      "check": "US Chess pages commercial reuse",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "No signed per-asset license.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W112",
+      "area": "Commercial source rights",
+      "check": "Chess Review scans",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "Public access no authorization.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W113",
+      "area": "Commercial source rights",
+      "check": "Goniec page3 reproduction",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "Specific scan media license not approved.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W114",
+      "area": "Commercial source rights",
+      "check": "Winter clipped images",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "Third-party reproduction rights not approved.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W115",
+      "area": "Commercial source rights",
+      "check": "1957 press photograph",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "Negative holder not established.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W116",
+      "area": "Commercial source rights",
+      "check": "Physical scoresheet photo",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "Owner vs photographer rights distinct.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W117",
+      "area": "Commercial source rights",
+      "check": "Clean-room board artwork",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "No qualified finished assets.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W118",
+      "area": "Commercial source rights",
+      "check": "Piece icon set",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "No provenance manifest.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W119",
+      "area": "Commercial source rights",
+      "check": "Voice audio/music",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "No clearance.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W120",
+      "area": "Commercial source rights",
+      "check": "Newsletter ebook derivative assets",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "No automatic cross-platform transfer.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W121",
+      "area": "Gates and evidence quality",
+      "check": "E5B4D under M",
+      "verdict": "FROZEN_NO_GO",
+      "evidence": "Strict guarantees incompatible under failure model.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W122",
+      "area": "Gates and evidence quality",
+      "check": "Every process terminated before 120s",
+      "verdict": "FROZEN_UNPROVEN",
+      "evidence": "Cannot relax or infer from parent exit.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W123",
+      "area": "Gates and evidence quality",
+      "check": "Termination confirmed before 120s",
+      "verdict": "FROZEN_UNPROVEN",
+      "evidence": "Confirmation required strictly before.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W124",
+      "area": "Gates and evidence quality",
+      "check": "stdout byte cap",
+      "verdict": "FROZEN_UNPROVEN",
+      "evidence": "Lifetime emitted and accepted <=1,048,576.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W125",
+      "area": "Gates and evidence quality",
+      "check": "stderr byte cap",
+      "verdict": "FROZEN_UNPROVEN",
+      "evidence": "Independent identical lifetime cap.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W126",
+      "area": "Gates and evidence quality",
+      "check": "66 semantic negative tests",
+      "verdict": "NOT_RUN",
+      "evidence": "Specifications not executions.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W127",
+      "area": "Gates and evidence quality",
+      "check": "77 router negative tests",
+      "verdict": "NOT_RUN",
+      "evidence": "Specifications not executions.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W128",
+      "area": "Gates and evidence quality",
+      "check": "Independent legality oracle",
+      "verdict": "NOT_RUN",
+      "evidence": "Cannot assert PASS.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W129",
+      "area": "Gates and evidence quality",
+      "check": "R6 and IVV",
+      "verdict": "PENDING_NOT_APPROVED",
+      "evidence": "R6 pending; IVV_GLOBAL not approved.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W130",
+      "area": "Gates and evidence quality",
+      "check": "CASE and release",
+      "verdict": "NOT_APPROVED",
+      "evidence": "CASE_APPROVAL unapproved; no release.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/issues/8",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    }
+  ]
+}
