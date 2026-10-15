@@ -1,0 +1,835 @@
+{
+  "date": "2026-10-15",
+  "scope": "Chess Stories source-only",
+  "first_id": "B1972",
+  "last_id": "B2071",
+  "count": 100,
+  "groups": [
+    "NA",
+    "NB",
+    "NC",
+    "ND",
+    "NE",
+    "NF",
+    "NG",
+    "NH",
+    "NI",
+    "NJ"
+  ],
+  "priority_count": {
+    "P0": 90,
+    "P1": 10
+  },
+  "note": "100 research/check entries, not 100 independent primary discoveries",
+  "primary_source_original_inspections_new": 0,
+  "r2": "DECLARED_NOT_CHECKED",
+  "original_scoresheet": "NOT_AUTHENTICATED",
+  "historic_round": "CONFLICTED",
+  "policy_B": "STRICT",
+  "E5B4D": "NO-GO under M",
+  "R6": "PENDING",
+  "IVV_GLOBAL": "NOT APPROVED",
+  "CASE_APPROVAL": "NOT APPROVED",
+  "items": [
+    {
+      "id": "B1972",
+      "number": 1972,
+      "title": "Diferenciar encabezado H.R. Russner de nota H.W. Russner",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1973",
+      "number": 1973,
+      "title": "Diferenciar Carl Walcker de K. Walcker",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1974",
+      "number": 1974,
+      "title": "Registrar grafía Rüssher como variante descartada por nota",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1975",
+      "number": 1975,
+      "title": "Registrar grafía Walcicer como variante descartada por nota",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1976",
+      "number": 1976,
+      "title": "Atribuir corrección a Konaszczuk, no a inspección propia",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1977",
+      "number": 1977,
+      "title": "Preservar cita de Cracovia 1940",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1978",
+      "number": 1978,
+      "title": "Preservar cita de Cracovia 1941",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1979",
+      "number": 1979,
+      "title": "Distinguir etiqueta match Warsaw–Cracow",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1980",
+      "number": 1980,
+      "title": "Preservar indicación Warsaw 28-VI-1942",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1981",
+      "number": 1981,
+      "title": "Adjudicar identidades como variantes editoriales abiertas",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1982",
+      "number": 1982,
+      "title": "Aislar apertura 1.d4 Nf6 2.Nf3 g6",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1983",
+      "number": 1983,
+      "title": "Registrar 3.c4 Bg7 4.Nc3 d5",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1984",
+      "number": 1984,
+      "title": "Registrar 5.cxd5 Nxd5 6.e4 Nxc3",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1985",
+      "number": 1985,
+      "title": "Registrar 7.bxc3 c5 8.Bc4 O-O",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1986",
+      "number": 1986,
+      "title": "Registrar 9.h3 cxd4 10.cxd4 Nc6",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1987",
+      "number": 1987,
+      "title": "Registrar 11.Be3 Qa5+ 12.Bd2 Qa3",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1988",
+      "number": 1988,
+      "title": "Registrar 13.Rb1 Nxd4 14.Bb4 Nxf3+",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1989",
+      "number": 1989,
+      "title": "Registrar 15.Kf1 como ancla editorial",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1990",
+      "number": 1990,
+      "title": "Registrar 15...Be6 como movimiento de interés",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1991",
+      "number": 1991,
+      "title": "Registrar 16.Be2 Qxa2 como continuación",
+      "document_path": "research/CHESS-STORIES-B1972-B1991-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "68508a2c548b1714d02d076feec39d572c10b8f6",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1992",
+      "number": 1992,
+      "title": "Comparar turno 1942 tras 15.Kf1",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1993",
+      "number": 1993,
+      "title": "Comparar destino dama negra 1942 a3",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1994",
+      "number": 1994,
+      "title": "Comparar dama negra tras 16...Qxa2",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1995",
+      "number": 1995,
+      "title": "Comparar Bxb6 blanco 1956",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1996",
+      "number": 1996,
+      "title": "Comparar 1942 16.Be2",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1997",
+      "number": 1997,
+      "title": "Comparar ambas rondas históricas sin confundir años",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1998",
+      "number": 1998,
+      "title": "Separar marcador 1942 White resigns de EP01",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B1999",
+      "number": 1999,
+      "title": "Evitar transportar FEN completo entre partidas",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2000",
+      "number": 2000,
+      "title": "Separar analogía de originalidad científica",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2001",
+      "number": 2001,
+      "title": "Mantener cotejo motor sin ejecución",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2002",
+      "number": 2002,
+      "title": "Registrar 17.Bxf3 Rfd8",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2003",
+      "number": 2003,
+      "title": "Registrar 18.Qe1 Rac8",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2004",
+      "number": 2004,
+      "title": "Registrar 19.g4 b6",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2005",
+      "number": 2005,
+      "title": "Registrar 20.Bxe7 Bc3",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2006",
+      "number": 2006,
+      "title": "Registrar 21.Qc1 Rd2",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2007",
+      "number": 2007,
+      "title": "Registrar 22.Bh4 Bd4",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2008",
+      "number": 2008,
+      "title": "Registrar 23.Qe1 Rcc2",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2009",
+      "number": 2009,
+      "title": "Registrar 24.Rh2 Bc4+",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2010",
+      "number": 2010,
+      "title": "Registrar 25.Kg1 Rxf2",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2011",
+      "number": 2011,
+      "title": "Registrar 31 White resigns",
+      "document_path": "research/CHESS-STORIES-B1992-B2011-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "60a37b48c93fd1695a26c8e664e598a783e634a2",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2012",
+      "number": 2012,
+      "title": "Registrar E. Polyak como identificación incompleta",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2013",
+      "number": 2013,
+      "title": "Registrar D. Bronstein",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2014",
+      "number": 2014,
+      "title": "Registrar Kiev 1938",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2015",
+      "number": 2015,
+      "title": "Registrar 18...Be6 en cita comparativa",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2016",
+      "number": 2016,
+      "title": "Referenciar Sorcerer's Apprentice pp71–73",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2017",
+      "number": 2017,
+      "title": "No atribuir apertura D10 a Winter",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2018",
+      "number": 2018,
+      "title": "No atribuir mismo FEN a los tres casos",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2019",
+      "number": 2019,
+      "title": "Registrar ausencia de 82-ply fuente 1938 en este proyecto",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2020",
+      "number": 2020,
+      "title": "Diferenciar similitud de jugada y sacrificio exacto",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2021",
+      "number": 2021,
+      "title": "No convertir analogía en acusación de copia",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2022",
+      "number": 2022,
+      "title": "Portada Chess Review anuncia p370",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2023",
+      "number": 2023,
+      "title": "p370 es Smyslov–Pachman",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2024",
+      "number": 2024,
+      "title": "pp374–375 son Byrne–Fischer",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2025",
+      "number": 2025,
+      "title": "Kmoch describe prodigios",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2026",
+      "number": 2026,
+      "title": "Purdy artículo junio 1957",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2027",
+      "number": 2027,
+      "title": "Purdy octubre 1957",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2028",
+      "number": 2028,
+      "title": "Purdy noviembre 1957",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2029",
+      "number": 2029,
+      "title": "Kmoch reimpresión Chess World septiembre 1958",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2030",
+      "number": 2030,
+      "title": "Crowl disiente sobre comentario jugada 33",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2031",
+      "number": 2031,
+      "title": "Réplica Kmoch Was Right 1959",
+      "document_path": "research/CHESS-STORIES-B2012-B2031-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "ec38f90dce7a7aa8678d97556537c9e26f0cb8b9",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2032",
+      "number": 2032,
+      "title": "Extraer 41 filas con dos lectores externos",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2033",
+      "number": 2033,
+      "title": "Fijar versión Chess Life 5-XI",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2034",
+      "number": 2034,
+      "title": "Fijar original Chess Review dic 1956",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2035",
+      "number": 2035,
+      "title": "Registrar zonas dudosas sin completar",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2036",
+      "number": 2036,
+      "title": "Guardar captura A aislada",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2037",
+      "number": 2037,
+      "title": "Guardar captura B aislada",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2038",
+      "number": 2038,
+      "title": "Cotejar divergencias después de congelación",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2039",
+      "number": 2039,
+      "title": "Cotejar hojas de Fischer si disponibles",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2040",
+      "number": 2040,
+      "title": "Contrastar final impreso vs realizado",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2041",
+      "number": 2041,
+      "title": "Mantener ROUND_CONFLICTED",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2042",
+      "number": 2042,
+      "title": "T01 after 17.Kf1 blanco alfiles c5/c4",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2043",
+      "number": 2043,
+      "title": "T02 17...Be6 alfil g4→e6",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2044",
+      "number": 2044,
+      "title": "T03 18.Bxb6 alfil c5→b6",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2045",
+      "number": 2045,
+      "title": "T04 rewind a V-P1",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2046",
+      "number": 2046,
+      "title": "T06 Qd8 variante hipotética",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2047",
+      "number": 2047,
+      "title": "T07 exact MAIN V-P1",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2048",
+      "number": 2048,
+      "title": "T08/T09 replay editorial",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2049",
+      "number": 2049,
+      "title": "T10 omisión 36–49 inclusivos",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2050",
+      "number": 2050,
+      "title": "T11 25...Nxd1 corte ALT-A",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2051",
+      "number": 2051,
+      "title": "T12 ending ply50",
+      "document_path": "research/CHESS-STORIES-B2032-B2051-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "3f71ba10487d34065a4c72b471443f7d98770b75",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2052",
+      "number": 2052,
+      "title": "Archivo Chess Life investigación",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2053",
+      "number": 2053,
+      "title": "Archivo Chess Review investigación",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2054",
+      "number": 2054,
+      "title": "Goniec Krakowski 1942",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2055",
+      "number": 2055,
+      "title": "Sorcerer's Apprentice edición libro",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2056",
+      "number": 2056,
+      "title": "Fotografías prensa 1957",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2057",
+      "number": 2057,
+      "title": "Planillas manuscritas",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2058",
+      "number": 2058,
+      "title": "Piezas y tablero clean-room",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2059",
+      "number": 2059,
+      "title": "Tipografía y binario exactos",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2060",
+      "number": 2060,
+      "title": "Narrador voz/TTS y música",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2061",
+      "number": 2061,
+      "title": "EPUB y newsletter",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2062",
+      "number": 2062,
+      "title": "E5B4D NO-GO bajo failure model M",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2063",
+      "number": 2063,
+      "title": "Todos procesos terminados",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2064",
+      "number": 2064,
+      "title": "Confirmación estrictamente antes 120s",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2065",
+      "number": 2065,
+      "title": "stdout byte cap independiente",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2066",
+      "number": 2066,
+      "title": "stderr byte cap independiente",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2067",
+      "number": 2067,
+      "title": "66 negativos semánticos",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2068",
+      "number": 2068,
+      "title": "77 negativos router",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2069",
+      "number": 2069,
+      "title": "Oráculo independiente",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2070",
+      "number": 2070,
+      "title": "R6 PENDING",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    },
+    {
+      "id": "B2071",
+      "number": 2071,
+      "title": "IVV_GLOBAL CASE_APPROVAL NOT APPROVED",
+      "document_path": "research/CHESS-STORIES-B2052-B2071-SOURCE-CRITICISM-2026-10-15.md",
+      "blob_sha": "9cf83e302925ce225dec902ea0377d9c973e6666",
+      "state": "RESEARCHED_DOCUMENTARY_ONLY"
+    }
+  ]
+}
