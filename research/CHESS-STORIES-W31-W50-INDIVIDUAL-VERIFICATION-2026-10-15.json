@@ -1,0 +1,207 @@
+{
+  "range": "W31–W50",
+  "kind": "SOURCE-BOUNDED DOCUMENTARY CHECKS, NOT 20 INDEPENDENT PRIMARY INSPECTIONS",
+  "count": 20,
+  "jobs": [
+    {
+      "job": "W31",
+      "area": "Issue 273 identification",
+      "check": "Title Goniec Krakowski",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Publication identifies title and 1942 number 273.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W32",
+      "area": "Issue 273 identification",
+      "check": "Issue number 273",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Issue number is explicit.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W33",
+      "area": "Issue 273 identification",
+      "check": "Original source library",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Jagiellonian catalogue reports source Biblioteca Jagiellońska.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W34",
+      "area": "Issue 273 identification",
+      "check": "Issue date 22 Nov",
+      "verdict": "UNVERIFIED",
+      "evidence": "Year only in issue metadata; date not certified.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W35",
+      "area": "Issue 273 identification",
+      "check": "Masthead read",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "Viewer content not accessible as original-page visual in present session.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W36",
+      "area": "Issue 273 identification",
+      "check": "Page 3 read",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "No original page-3 scan for this issue reviewed.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W37",
+      "area": "Issue 273 identification",
+      "check": "Publication id 24390",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "URL carries publication id 24390.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W38",
+      "area": "Issue 273 identification",
+      "check": "Edition id 18937",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "URL carries edition id 18937.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W39",
+      "area": "Issue 273 identification",
+      "check": "Contains Russner game",
+      "verdict": "UNVERIFIED",
+      "evidence": "No game text from this edition visually seen.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W40",
+      "area": "Issue 273 identification",
+      "check": "Identity with Winter target issue",
+      "verdict": "UNVERIFIED",
+      "evidence": "No date and page confirmation.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/24390/edition/18937/goniec-krakowski-1942-nr-273",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W41",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Group year 1942",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Group heading explicitly 1942.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W42",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Title held",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Goniec Krakowski listed.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W43",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Shelfmark 409317 IV",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "The stated original holding identifier.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W44",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Digital id DIGCZAS001749",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Digital group id supplied.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W45",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Original location",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Biblioteka Jagiellonska listed.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W46",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Language Polish",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Language pol in group catalogue.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W47",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Group legal status public domain",
+      "verdict": "SUPPORTED_CATALOG_LIMITED",
+      "evidence": "Collection metadata marks public domain; per-media commercial clearance not done.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W48",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Archive issue navigation",
+      "verdict": "SUPPORTED_CATALOG",
+      "evidence": "Group text directs to right-panel individual items.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W49",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Exact November 22 issue found",
+      "verdict": "NOT_FOUND_IN_CHECK",
+      "evidence": "Not established from current group metadata.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W50",
+      "area": "Jagiellonian 1942 collection",
+      "check": "Original page three acquired",
+      "verdict": "NOT_ACQUIRED",
+      "evidence": "No scan recovered.",
+      "source": "https://jbc.bj.uj.edu.pl/dlibra/publication/19185/goniec-krakowski-1942",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    }
+  ]
+}
