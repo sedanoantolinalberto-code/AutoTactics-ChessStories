@@ -1,0 +1,207 @@
+{
+  "range": "W51–W70",
+  "kind": "SOURCE-BOUNDED DOCUMENTARY CHECKS, NOT 20 INDEPENDENT PRIMARY INSPECTIONS",
+  "count": 20,
+  "jobs": [
+    {
+      "job": "W51",
+      "area": "1942 score source chain",
+      "check": "Winter dates 1942 issue",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Winter attributes 22 November page 3.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W52",
+      "area": "1942 score source chain",
+      "check": "Publication page 3",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Location asserted by Winter.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W53",
+      "area": "1942 score source chain",
+      "check": "Konaszczuk named as witness",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Attributed archival identification.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W54",
+      "area": "1942 score source chain",
+      "check": "H.W. Russner form",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Reported correction; original not inspected.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W55",
+      "area": "1942 score source chain",
+      "check": "K. Walcker form",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Reported printed form; original not inspected.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W56",
+      "area": "1942 score source chain",
+      "check": "Carl Walcker form",
+      "verdict": "SOURCE_VARIANT",
+      "evidence": "Other contemporary clipping gives Carl; no one-to-one identity certified.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W57",
+      "area": "1942 score source chain",
+      "check": "Warsaw 28 June game",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Game date as secondary report.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W58",
+      "area": "1942 score source chain",
+      "check": "Match Warsaw–Cracow",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Context as reported by Winter.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W59",
+      "area": "1942 score source chain",
+      "check": "Complete original score",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "Original page 3 not obtained.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W60",
+      "area": "1942 score source chain",
+      "check": "Scoresheet authentication",
+      "verdict": "NOT_AUTHENTICATED",
+      "evidence": "Periodical source is not player scoresheet.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W61",
+      "area": "Winter 1956 bibliography",
+      "check": "Game Byrne–Fischer",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Winter identifies participants.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W62",
+      "area": "Winter 1956 bibliography",
+      "check": "Venue New York 1956",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Secondary record identifies event location/year.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W63",
+      "area": "Winter 1956 bibliography",
+      "check": "Kmoch author",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Attribution of Chess Review article.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W64",
+      "area": "Winter 1956 bibliography",
+      "check": "December 1956 edition",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Magazine date attributed.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W65",
+      "area": "Winter 1956 bibliography",
+      "check": "Chess Review p374",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Start page identified.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W66",
+      "area": "Winter 1956 bibliography",
+      "check": "Chess Review p375",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Continuation page identified.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W67",
+      "area": "Winter 1956 bibliography",
+      "check": "Cover p370 typo",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Winter identifies cover page-error.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W68",
+      "area": "Winter 1956 bibliography",
+      "check": "p370 Smyslov Pachman",
+      "verdict": "SUPPORTED_SECONDARY",
+      "evidence": "Article distinct from Byrne Fischer.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W69",
+      "area": "Winter 1956 bibliography",
+      "check": "Full printed score photographed",
+      "verdict": "NOT_INSPECTED",
+      "evidence": "Only partial image from earlier B1571.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W70",
+      "area": "Winter 1956 bibliography",
+      "check": "Original last move played",
+      "verdict": "UNRESOLVED",
+      "evidence": "Printed terminal does not certify OTB.",
+      "source": "https://www.chesshistory.com/winter/extra/byrnefischer.html",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    }
+  ]
+}
