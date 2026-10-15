@@ -1,0 +1,207 @@
+{
+  "range": "W91–W110",
+  "kind": "SOURCE-BOUNDED DOCUMENTARY CHECKS, NOT 20 INDEPENDENT PRIMARY INSPECTIONS",
+  "count": 20,
+  "jobs": [
+    {
+      "job": "W91",
+      "area": "Chess Life and historical result",
+      "check": "Archive exists",
+      "verdict": "SUPPORTED_OFFICIAL",
+      "evidence": "US Chess hosts historic magazine access.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W92",
+      "area": "Chess Life and historical result",
+      "check": "PDF research use",
+      "verdict": "SUPPORTED_OFFICIAL_LIMITED",
+      "evidence": "Archive terms distinguish personal/research use.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W93",
+      "area": "Chess Life and historical result",
+      "check": "5 November 1956 printed score",
+      "verdict": "PREVIOUSLY_OBSERVED_LIMITED",
+      "evidence": "Prior project inspection reported score, not repeated in this session.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W94",
+      "area": "Chess Life and historical result",
+      "check": "20 November prize item",
+      "verdict": "PREVIOUSLY_OBSERVED_LIMITED",
+      "evidence": "Prior project visual inspection, not new.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W95",
+      "area": "Chess Life and historical result",
+      "check": "Result as printed",
+      "verdict": "PREVIOUSLY_OBSERVED_LIMITED",
+      "evidence": "Reported black victory in periodical.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W96",
+      "area": "Chess Life and historical result",
+      "check": "Physical terminal verified",
+      "verdict": "NOT_AUTHENTICATED",
+      "evidence": "Original handwritten ending unavailable.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W97",
+      "area": "Chess Life and historical result",
+      "check": "PGN R2 bytes",
+      "verdict": "MISSING_ORIGINAL_BYTES",
+      "evidence": "No original file to compare declared checksum.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W98",
+      "area": "Chess Life and historical result",
+      "check": "Two independent blind readers",
+      "verdict": "NOT_PERFORMED",
+      "evidence": "No two unexposed human observers.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W99",
+      "area": "Chess Life and historical result",
+      "check": "7th vs 8th round",
+      "verdict": "CONFLICTED",
+      "evidence": "Secondary accounts differ.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W100",
+      "area": "Chess Life and historical result",
+      "check": "Rights all commercial formats",
+      "verdict": "RIGHTS_PENDING",
+      "evidence": "General archive access is not approval.",
+      "source": "https://new.uschess.org/chess-life-digital-archives",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W101",
+      "area": "EP01 scene truth",
+      "check": "T01 after 17.Kf1",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Storyboard definition, not measured render.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W102",
+      "area": "EP01 scene truth",
+      "check": "T02 17...Be6",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Attack not capture per specification.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W103",
+      "area": "EP01 scene truth",
+      "check": "T03 18.Bxb6",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Queen capture not game end.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W104",
+      "area": "EP01 scene truth",
+      "check": "T04 rewind",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Editorial replay no historical ply.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W105",
+      "area": "EP01 scene truth",
+      "check": "T05–T06 alternative Qd8",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Must signal hypothetical throughout.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W106",
+      "area": "EP01 scene truth",
+      "check": "T07 atomic reset MAIN",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Must restore before removing label.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W107",
+      "area": "EP01 scene truth",
+      "check": "T08–T09 replay",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "No ply duplication.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W108",
+      "area": "EP01 scene truth",
+      "check": "T10 plies36–49 hidden",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "14 plies editorial omission.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W109",
+      "area": "EP01 scene truth",
+      "check": "T11 ply50 hard cut",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Technical V-PRE-EV2 hidden.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    },
+    {
+      "job": "W110",
+      "area": "EP01 scene truth",
+      "check": "T12 continuation label",
+      "verdict": "DOCUMENTED_NOT_TESTED",
+      "evidence": "Video ending not chess game ending.",
+      "source": "https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/12",
+      "full_primary_page_inspected": false,
+      "gate_promoted": false
+    }
+  ]
+}
