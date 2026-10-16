@@ -268,3 +268,26 @@ A renewed original-PDF viewer screenshot request for zero-index **page 5** faile
 These findings reduce source-identity ambiguity; none establishes game termination physically observed, independent original-score translation, future commercial scan rights, or admissible Engine execution. The separate **M/Policy B execution conflict remains the actual production-critical blocker**. Do not produce another storyboard or duplicate an existing gate review solely because another archival issue has been located.
 
 No scripts, tests, chess engines, renderer, image generation, Actions, code merges, CASE/OVER1 edits, permission changes, human sign-off, `main` or PR#12 changes. E5B4D NO-GO under M; Policy B independent lifetime output limits and <120s confirmed termination unchanged. 66/77 negatives and chess oracle NOT_RUN; R6 PENDING, IVV_GLOBAL/CASE_APPROVAL NOT APPROVED.
+
+
+## Q. 16 October 2026 — New primary-page institutional request, and negative archive controls
+
+**New actionable evidence acquisition, not verification of the 1957 original:**
+The Russian State Public Scientific and Technical Library (ГПНТБ России) explicitly advertises an interlibrary-loan/electronic document-delivery service and publishes its general institutional address `gpntb@gpntb.ru` at:
+- https://www.gpntb.ru/uslugi.html
+- https://www.gpntb.ru/uslugi/uslpolz-158/271-chitatelyam/uslugi.html
+- https://www.gpntb.ru/vizit-v-biblioteku.html
+
+A specific bilingual Russian/English, **research-only** enquiry about `Шахматы в СССР` **1957, no.2, printed p.61**, publicly catalogued issue shelfmark `У3848/1957/2`, was **sent from the established research Gmail account to `gpntb@gpntb.ru`** on 16 Oct 2026 and **read back from SENT**, Gmail message ID `1a146376b159b6a6`. The message asks the institution to confirm actual issue/page holdings, supply a lawful remote consultation or one-page research copy if possible, explain ordering/fees, and identify the **date printed in Russian** for Byrne–Fischer. It expressly **does NOT ask for commercial reproduction or publication rights**, and includes no attachments. No institutional reply or item-level access yet verified. Sent-mail confirmation is not proof of human receipt; no new bounce was visible immediately after send.
+
+**Source problem being tested:** Douglas Griffin's English translation of Soviet Yudovich notes gives `20 October 1956`; a different historical reference identifies `17 October 1956`. Until the actual 1957 Russian p.61 is examined, attribute the former only to the **English translation index**, not as an authenticated literal of the USSR print. Even if the Russian page prints October 20, that would establish a 1957 published claim, not itself override period tournament evidence for the actual game date.
+
+**Negative digital-archive control:** The searchable `publ.lib.ru` / `vgershov.lib.ru` listing headed `Шахматы в СССР` provides images/scans for **1949, 1953–1956** and then **1959 onward** in its indexed visible list; no 1957 no.2 original was established there. Other list `Шахматный бюллетень` DOES have 1957 no.2 scans but it is an **entirely different Soviet chess periodical**. Its image must NEVER be passed off as `Шахматы в СССР` no.2/1957 p.61. Archive indexes are negative search evidence, not proof the desired file does not exist elsewhere.
+- https://publ.lib.ru/ARCHIVES/SH/%27%27Shahmaty_v_SSSR%27%27_%28jurnal%29/
+- https://publ.lib.ru/ARCHIVES/SH/%27%27Shahmatnyy_byulleten%27%27%27_%28jurnal%29/_ShB.html
+
+**US Chess original alternative check:** publisher-hosted `Chess Life` 20 Dec 1956 `1956_12_2.pdf` is still a verified **8-page searchable original PDF** with p.6 (0-index 5) article; another web screenshot attempt for that page yielded `Cache miss`, and direct authorized research-only file download failed. The **full page original has NOT been visually read**. Retain `INDEXED_TEXT_ONLY` in the source register, not `VISUALLY_INSPECTED`.
+
+**Pending distinct curator enquiries**: Lilly Library (confirmed autoack, six-week typical response window), Jagiellonian Digital Library (1942 original p.3, SENT), New In Chess (2024/3 p.82 scoresheet provenance, SENT), and new GPNTB Russia (1957 p.61, SENT). No repeat chasing before a genuine new delivery event.
+
+**Gate freeze**: E5B4D `STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL`, NO-GO under M; strict Policy B all relevant processes actually terminated and confirmed strictly before 120 seconds, independent stdout/stderr each lifetime max 1,048,576 bytes emitted AND accepted; 66 semantic and 77 router negatives, independent chess oracle NOT_RUN; R6 PENDING, IVV_GLOBAL and CASE_APPROVAL NOT APPROVED. No tests, scripts, engines, render, media or original scans committed, rights signoff, main/PR#12 merge/change.
