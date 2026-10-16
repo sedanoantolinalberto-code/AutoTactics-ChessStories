@@ -233,3 +233,38 @@ The 1959/60 annotated book therefore must **not** be counted as an independent p
 - This cross-national witness corroborates the **kind of 1956–57 published tactical story** we want, but it **does not turn EP01 into a renderable or publishable case**.
 
 E5B4D remains STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL / NO-GO under M. Strict Policy B (all processes terminated AND confirmed <120 sec; independent stdout/stderr lifetime ≤1,048,576 bytes *emitted and accepted*) unchanged. 66 semantic/77 router negatives/oracle NOT_RUN; R6 PENDING, IVV_GLOBAL and CASE_APPROVAL NOT APPROVED; no CODEX, project code, test, execution, media, merge, main or PR#12 modification.
+
+
+## P. 2026-10-16 follow-up — Russian issue institutional holding, printed score image access, and original-object inquiry
+
+### 1. Institutional bibliographic locator for *Shakhmaty v SSSR*, 1957 issue 2
+The Russian State Public Scientific Technological Library (GPNTB) publishes a chess-literature exhibition catalogue. Its catalogue identifies **`Шахматы в СССР`, 1957, № 2**, with holdings call/signature **`У3848/1957/2`**, in a separate Alekhine-related bibliography entry, showing institutional periodical issue identity:
+https://www.gpntb.ru/vystavki-v-gpntb-rossii/2017-2/113-chitatelyam/6/5226-genij-shakhmat-rossii-i-frantsii.html
+
+The catalogue does NOT cite the **p.61** Byrne–Fischer article; that page pointer remains directly attributed to Douglas Griffin's independently published annotated-game research:
+https://dgriffinchess.wordpress.com/2019/06/19/bobby-fischers-games-in-the-soviet-chess-press/
+
+Together these are **issue-level institutional holding + third-party page-level identification**, not confirmation of a scanned page or proof of the introductory `20 October 1956` date in the original Russian typography. **Do not conflate** `Шахматный бюллетень` with `Шахматы в СССР`: the former's 1957/2 PDF is a different magazine, and it cannot serve as a facsimile of Yudovich's article.
+
+The Griffin webpage embeds an image explicitly labeled `Shakhmaty v SSSR (No. 2, 1957), p. 61`, and its direct image URL points to `https://dgriffinchess.wordpress.com/wp-content/uploads/2019/06/shakhmaty-v-sssr-no.-2-1957-p.-61.png`. In this research environment the WordPress image click returned `Cache miss` and direct source retrieval was rejected; **FULL ORIGINAL PAGE NOT IMAGE INSPECTED**. Do not report a visual reading or transcribe Russian glyphs from the English translation.
+
+### 2. New In Chess scoresheet provenance inquiry sent and verified
+The official publisher issue listing `New In Chess 2024/3` (published **24 May 2024**) specifies **printed p.82**, recurring feature **`The Scoresheet`**, described simply as `Donald Byrne-Bobby Fischer, New York 1956, in Fischer's handwriting`. It does **not** identify the physical object as the original, carbon, post-game reconstruction or another copy:
+https://www.newinchess.com/new-in-chess-2024-3
+
+Magazine editor-in-chief's publisher blog officially lists `magazine@newinchess.com`:
+https://www.newinchess.com/blog/post/six-issues-in-2026
+
+On **16 Oct 2026**, a targeted research-only email was **sent and read back successfully in Gmail SENT** to `magazine@newinchess.com` asking whether p.82 depicts the authenticated original Fischer game sheet, carbon, later Collins reconstruction or another copy; it requests only provenance and collection/credit, explicitly **not** a free copy, image rights, or commercial reproduction. Gmail sent message ID `1a14625425cb709a`. **No reply, object identity, or delivery receipt yet**. No additional enquiry is due immediately.
+
+### 3. US Chess Dec 20 1956 p.6 access re-check: no false upgrade
+US Chess's public archive lists `1956_12_2.pdf` as a **4,643,988-byte** original issue, while the web text index has page 6 within its eight-page document:
+https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/
+https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_12_2.pdf
+
+A renewed original-PDF viewer screenshot request for zero-index **page 5** failed with `Cache miss`; an approved downloader also failed to obtain the bytes. This is NOT visual inspection. The indexed text clearly attributes notes to Fischer and Collins, but the exact typography of old descriptive moves remains unverified here. No further immediate query to John Hartmann was sent; his prior US Chess research-page assistance and original scoresheet reply are already recorded.
+
+### 4. Launch significance and frozen gates
+These findings reduce source-identity ambiguity; none establishes game termination physically observed, independent original-score translation, future commercial scan rights, or admissible Engine execution. The separate **M/Policy B execution conflict remains the actual production-critical blocker**. Do not produce another storyboard or duplicate an existing gate review solely because another archival issue has been located.
+
+No scripts, tests, chess engines, renderer, image generation, Actions, code merges, CASE/OVER1 edits, permission changes, human sign-off, `main` or PR#12 changes. E5B4D NO-GO under M; Policy B independent lifetime output limits and <120s confirmed termination unchanged. 66/77 negatives and chess oracle NOT_RUN; R6 PENDING, IVV_GLOBAL/CASE_APPROVAL NOT APPROVED.
