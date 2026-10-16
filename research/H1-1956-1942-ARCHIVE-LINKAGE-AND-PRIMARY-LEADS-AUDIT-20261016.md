@@ -94,3 +94,42 @@ https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf
 No copyright material, private PDF or attachment was sent. No new original physical manuscript, blind reading, approved commercial rights or on-board termination conclusion resulted from these emails.
 
 All frozen gates remain unchanged.
+
+
+## J. Lilly Library — inbound receipt now acknowledged
+After resending the enquiry to the corrected institutional address `liblilly@iu.edu`, an **automatic acknowledgement** from `LIBLILLY <liblilly@iu.edu>` arrived 2026-10-16 **16:22:14 UTC**. It expressly thanks the sender for the email, says messages are handled in received order, and states that a substantive response is **typically within six weeks**; if no reply after that interval, enquire about status. It warns that reproduction requests may be limited and some collections inaccessible; reading-room access should be arranged at least one week before a visit.
+
+This confirms **institutional inbound auto-response**, not personal curator reading, holdings verification, the existence/condition of the requested object, or permission to reproduce it. For a six-week follow-up from Oct 16, the nonbinding reference date is **27 Nov 2026**. Do not immediately send a duplicate enquiry.
+
+Official Lilly digitization restrictions: https://libraries.indiana.edu/lilly-library/digitization ; original contact library public website: https://libraries.indiana.edu/lilly-library/ask .
+
+## K. Original 1942 newspaper: direct curator query now submitted
+Technical source research (dLibra producer documentation) establishes that historic dLibra interfaces can expose:
+- `/Content/{editionId}/` (main file), and
+- `/zipContent/{editionId}/` (download a whole edition as ZIP).
+Architecture reference: https://docs.psnc.pl/spaces/DLI6EN/pages/8195190/EN%2B03.%2BThe%2BStructure%2Bof%2Bthe%2BReader%2BApplication%2Bof%2Bthe%2BdLibra%2BSystem
+
+Crucial: these are **documented general historical dLibra route patterns, not JBC-specific verified usable endpoints**. Actual open attempts for exact JBC #274/1942 object `/dlibra/publication/24391/edition/18938`, `/Content/18938/`, `/Content/18938/download` and `/zipContent/18938/` failed in the research web reader. Do not claim archive bytes or original page 3 was retrieved.
+
+JBC's official contact page https://jbc.bj.uj.edu.pl/en/dlibra/text?id=contact lists `jbc@uj.edu.pl`. A **bilingual Polish/English, research-only email** was sent and read back through Gmail on 16 October 2026, addressed to `jbc@uj.edu.pl`, specifically citing 1942 issue 274 (22/23 November), edition id **18938**, institutional shelfmark **409317 IV**, and **printed page 3** from historian Edward Winter's bibliographic pointer. It asks for a working source/viewing URL or page 3 research scan, correct citation and reuse restrictions; **no commercial image license was requested**, no protected files were attached. Gmail SENT is confirmed; no receiving-library acknowledgement or image access is yet reported.
+
+Keep this newspaper comparator completely separate from 1956 Fischer CASE and refrain from assigning a FEN or a copy/plagiarism relationship.
+
+## L. Additional modern handwritten-image locator — not proof
+*New In Chess* magazine **3/2024**, publisher's official issue contents, specifies page **82**, column **`The Scoresheet`**, topic **`Donald Byrne-Bobby Fischer, New York 1956, in Fischer's handwriting`**.
+Source: https://www.newinchess.com/new-in-chess-2024-3
+
+This is an **item/page-level modern publication lead** only. The magazine's table of contents does NOT state whether the reproduced handwritten score is **Fischer's true original**, the **post-game reconstruction** in Lilly's Collins holdings, a carbon, or another copy. In light of Donaldson's account, do not label it the original until page/object attribution is explicitly established. Reproduction rights also remain uncleared.
+
+## Updated substantive status
+| Lead | Actual strongest status | Further external dependency |
+|---|---|---|
+| Hartmann/US Chess | Direct publisher PDF provided; **Byrne scoresheet not held**, per direct reply | None to repeat at US Chess |
+| Lilly Library Collins mss. | **AUTO-ACKNOWLEDGED**, curator response pending; six-week service expectation | Actual holdings-specific reply, box/folder and copy identity |
+| JBC Goniec Krakowski 1942 no.274 p.3 | Institutionally located; direct access failed; **curator query SENT** | Original image/URL from JBC |
+| Original Byrne score sheet | 1992 Russell eyewitness inspection testimony, no current object location | Verified current custodian plus original-sheet image |
+| Fischer original vs later autograph | Donaldson documented distinction; 2024 magazine page identified | Reproduction object provenance and textual comparison |
+| 1956 over-board final move | **UNKNOWN / NOT_VERIFIED** | Original manuscripts / independent testimony; printed mate is not enough |
+| Rights, blind readings and technical gates | unchanged / pending / NOT_RUN | Separate evidence and approvals |
+
+All project gates, source restrictions, main/PR#12 and CASE/OVER1 remain frozen and unchanged.
