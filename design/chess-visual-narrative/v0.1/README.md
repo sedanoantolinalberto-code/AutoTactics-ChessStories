@@ -12,6 +12,7 @@ Documents in this directory:
 2. [Visual system and platform adaptations](visual-system-and-platforms.md): cinematic grammar, silent-first 9:16 layout, optional 16:9, future 45s/60s target variants, accessibility and licensing boundaries.
 3. [Editorial copy / silent treatment](editorial-copy-and-silent-treatment.md): candidate on-screen copy and optional voice reference, distinguished from certified voice, narration truth, measured timing or cleared media.
 4. [Human review and delivery contract](future-human-review-and-delivery.md): future review protocols, blocked dependencies and acceptance questions, all NOT_RUN.
+5. [Distribution and newsletter concepts](distribution-and-newsletter-concepts.md): truthful candidate headlines, short-form packaging and future opt-in community funnel; no media or account created.
 
 ## Immutable inputs and explicit version discrimination
 
