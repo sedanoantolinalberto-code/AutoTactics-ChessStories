@@ -133,3 +133,29 @@ This is an **item/page-level modern publication lead** only. The magazine's tabl
 | Rights, blind readings and technical gates | unchanged / pending / NOT_RUN | Separate evidence and approvals |
 
 All project gates, source restrictions, main/PR#12 and CASE/OVER1 remain frozen and unchanged.
+
+
+## M. 1947 pre-Fischer Spanish book witness for 1942 comparison
+Historian Edward Winter's *Chess Notes* C.N. 7926 reproduces/cites the **printed page 278** from `Gran Ajedrez: Mis mejores análisis` (Madrid, **1947**) under **Alexander Alekhine**'s name, edited/published by **Ricardo Aguilera**. It gives the Russner–Walcker 1942 game and its key `15...Be6` followed by `16.Be2 Qxa2`, and a score reportedly terminating with White resignation after move 31. This is a potentially high-value **pre-1956 publication witness** for the earlier motif, rather than a retroactive internet reconstruction invented after Fischer's 1956 game.
+
+Source: https://www.chesshistory.com/winter/winter102.html (C.N. 7926); expanded editorial analysis https://www.chesshistory.com/winter/extra/byrnefischer.html
+
+**Crucial posthumous provenance caution:** Alekhine died in **1946**. The **1947** `Gran Ajedrez` was assembled and issued **posthumously** by editor Ricardo Aguilera; one cannot automatically establish the handwriting, precise dating or unedited authorship of each individual annotation merely from the cover. The account of Alekhine gifting notebooks to Aguilera is discussed by Edward Winter at https://www.chesshistory.com/winter/winter06.html . Therefore mark `1947_BOOK_ATTRIBUTED_ALEKHINE_EDITED_AGUILERA`, `ANNOTATION_MANUSCRIPT_PROVENANCE_UNVERIFIED` and `1947_PRINT_PAGE_NOT_DIRECTLY_INSPECTED`.
+
+A bibliographical reproduction of **front matter only** of the 1947 Madrid edition identifies `Ricardo Aguilera, Madrid 1947`; it is not a scan of p.278 and third-party posting terms give no reuse clearance:
+https://es.scribd.com/document/136961301/Gran-Ajedrez
+Later editions exist (second 1958, third 1973, fourth 1982, fifth 1986), and **pagination/edits must never be transferred silently** from 1947 p.278 to a later printing.
+
+**Evidential distinction:** the date *1947* makes the reported publication antecedent to *Byrne–Fischer 1956* regardless of whether the 1942 *Goniec Krakowski* original can be retrieved; neither the historian's reprint nor the publication date proves **Fischer knew or copied** the earlier score, nor proves that two magazines are independently eyewitnesses to any move. 1942 game sheet, 1942 newspaper, Alekhine's notebooks, Aguilera's 1947 book and Winter's modern transcription are separate source objects whose textual dependencies are NOT yet mapped.
+
+## Controlled chronological source graph (NOT an adjudicated derivation)
+`Warsaw game (28 Jun 1942)`
+   → `Goniec Krakowski #274 p.3, 22/23 Nov 1942 [IPN catalog; original unread]`
+   →? `Alekhine notebook(s) [date/origin UNKNOWN]`
+   → `Gran Ajedrez, Aguilera ed., Madrid 1947 p.278 [historian-cited; original p unread]`
+   → `later translation 107 Great Chess Battles 1980 pp.174–175`
+   → `Edward Winter historical article [indexed modern reproduction]`
+
+`→?` and even some unmarked arrows here denote research-order/claimed transmission, **not a demonstrated copying relationship**; only event chronology and bibliographic pointers have established dates. Importantly this 1942 tree is **segregated from EP01 1956**. A similar tactical theme does NOT imply plagiarism or score identity.
+
+Frozen gates/rights remain unchanged.
