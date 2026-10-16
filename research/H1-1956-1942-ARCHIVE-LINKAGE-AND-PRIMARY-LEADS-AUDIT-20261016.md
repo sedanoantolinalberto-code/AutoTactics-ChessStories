@@ -194,3 +194,42 @@ This page's machine-indexed text can be read in its entirety by source line rang
 Current original model M permits **Windows suspension, supervisor failure/unavailability and non-cooperative producers**. Earlier E5B4D studied **PowerShell, Windows Job Objects, VMs, watchdogs and pipes** and reported `STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL`. No newly specified, independently reviewed mechanism was located to universally guarantee (i) all relevant processes terminated **and confirmed strictly before 120 seconds**, (ii) each stdout/stderr stream separately <=1,048,576 **emitted and accepted** lifetime bytes. This note does not recycle an old timeout, capture truncation, Job Object or external watchdog as a novel PASS. Under a permitted system-wide suspension or unavailable supervisor, observing no deadline confirmation is a straightforward counterexample to guarantees that must hold for **all** admitted M failures. This is **conditional impossibility under M**, not a claim that all conceivable restricted fault models are impossible.
 
 **No change** to Policy B/model M, E5B4D NO-GO, R6 PENDING, IVV_GLOBAL/CASE_APPROVAL NOT APPROVED, 66 semantic/77 router negatives NOT_RUN or independent chess oracle NOT_RUN. No project scripts, chess engine, validator, tests, Actions, executable media, review-signoff, merge, main/PR #12 update, copyright export or publication.
+
+
+## O. New 1957 Soviet cross-national chess commentary and date discrepancy (16 Oct 2026)
+
+### Soviet periodical record — identified, original page not read
+Independent researcher/translator **Douglas Griffin** identifies the periodical `Shakhmaty v SSSR` (`Шахматы в СССР`), **no. 2, 1957, original printed p. 61** as featuring the Byrne–Fischer 1956 game under an editorial piece entitled **`Uspekh yunogo shakhmatista`** (“The Success of a Young Chessplayer”), with annotations credited to **M. M. Yudovich**.
+
+- Griffin's catalog/article index, with a **small labeled picture of original p.61** (web text and image metadata observed; image bytes not inspectable in current browser): https://dgriffinchess.wordpress.com/2019/06/19/bobby-fischers-games-in-the-soviet-chess-press/
+- Griffin's own **3-page English PDF translation** of that source: https://dgriffinchess.wordpress.com/wp-content/uploads/2019/06/d.-byrne-fischer-new-york-rosenwald-1956-2.pdf
+- Translation PDF **source-extracted/indexed text** has been examined. The web screenshot for pages 0 and 2 failed with cache miss; **no visual page read**, no original-Russian full-print page read, no literal Russian-to-English translation check. Do not mark primary paper as visually verified or this translation as a blind witness.
+
+### New conflicting date: original-language verification needed
+The translator's introductory game metadata on translation **PDF p.1 (0-index P0), line 20** explicitly dates Byrne–Fischer **20 October 1956**, round 8. This is inconsistent with a better documented **17 October 1956** date, cited by historian Edward Winter from Jack Spence's contemporaneous 1958 tournament book and handwritten scoresheet reproductions:
+https://www.chesshistory.com/winter/extra/byrnefischer.html
+
+**Status:** `1957_SOVIET_TRANSLATION_DATE=1956-10-20` (verified as text index), `PREVAILING_DATE=1956-10-17`, `DATE_CONFLICT_NOT_ADJUDICATED_IN_RUSSIAN_ORIGINAL`. Until the original Russian p.61 wording is inspected, it is unknown whether 20 October is from the Russian original, a later translator's mistake, or an editorial identification error. Do **not** silently replace EP01's date with October 20 or assert the USSR original made that error.
+
+### Bounded event agreement, distinct commentary, not independently signed game scoresheet
+Griffin's translation from **P2 lines 85–95** records `17...Be6!`, `18.Bxb6`, `25...Nxd1` and continuation through `41...Rc2#`. It describes the move and tactics in Yudovich's **separately attributed Soviet analytical voice**, apparently a substantive 1957 printed reception of the New York game. This is valuable as **different contemporary analysis/interpretation**; however:
+- it is **not a third original on-board scoresheet**, an independent game arbiter report, a proof of played checkmate, a qualified FEN replay, or validation of the 14-ply T10 gap;
+- it may have reprinted or relied on pre-existing American game scores, including `Chess Review`, without documenting direct custody; source **genealogical independence of the move score is UNKNOWN**;
+- printed analytical assessments and adjectives do **not** establish exclusive optimality of `24...Ra4` or authorize claims prohibited by F03.
+
+It has **research-only reuse scope**; do not copy Yudovich's translated prose, Soviet page facsimile or diagram to published video without independent rights review.
+
+### 1956 notes → 1959 book genealogy warning
+Chess historian **John Donaldson** explains in publisher excerpt to `Inside the Mind of Bobby Fischer` (2025) that Fischer/Collins' **20 Dec 1956 `Chess Life` annotations** were later republished with **almost identical notes, with a small Black 11th-move difference**, in `Bobby Fischer's Games of Chess`. Historian Edward Winter locates the Byrne–Fischer section on **pp. 64–67** of Fischer's **1959 US** and **1960 UK** printings.
+
+- Donaldson publisher PDF index: https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf
+- Winter, source bibliography and early edition context: https://www.chesshistory.com/winter/extra/byrnefischer.html
+
+The 1959/60 annotated book therefore must **not** be counted as an independent publication-origin for Fischer's analytical prose from 1956; its precise difference is *author-reported*, not a visual page-to-page comparison conducted here. Historical source independence must be decided separately for original moves, annotation text, and publication objects.
+
+### Acquisition and release implications
+- Exact primary Russian no.2/1957 p.61 image **remains unverified**. One public noninstitutional magazine index `publ.lib.ru` lists other years, but issue no.2/1957 was NOT located as a confirmed accessible original in this pass; do not invent or download an exact scan.
+- US Chess `Chess Life` 20 Dec 1956 p.6 remains **PDF OCR/INDEXED TEXT ONLY**, because the original 8-page PDF browser screenshot page 5 and direct container download both failed. The new translation cannot proxy for inspection of the US print page.
+- This cross-national witness corroborates the **kind of 1956–57 published tactical story** we want, but it **does not turn EP01 into a renderable or publishable case**.
+
+E5B4D remains STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL / NO-GO under M. Strict Policy B (all processes terminated AND confirmed <120 sec; independent stdout/stderr lifetime ≤1,048,576 bytes *emitted and accepted*) unchanged. 66 semantic/77 router negatives/oracle NOT_RUN; R6 PENDING, IVV_GLOBAL and CASE_APPROVAL NOT APPROVED; no CODEX, project code, test, execution, media, merge, main or PR#12 modification.
