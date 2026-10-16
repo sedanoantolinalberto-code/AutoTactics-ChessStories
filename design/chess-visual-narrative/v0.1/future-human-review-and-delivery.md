@@ -45,7 +45,7 @@ This is a documentary handoff field proposal, NOT a schema change. Do not create
 
 ## Immediate Codex-compatible *documentary* follow-up, if requested later
 
-Read these four files and compare per-event truth contract against pinned OVER1 and CASE without running parsers, test suites, engines, Actions or renderers. Report only concrete discrepancies or ambiguities, preferably as a review note on a separate branch. Do not approve any truth claim or change the canonical scene contract on the authority of this design. Codex is NOT required to read or edit these documents today.
+Read **all six files listed in README.md (including README.md itself)** and compare per-event truth contract against pinned OVER1 and CASE without running parsers, test suites, engines, Actions or renderers. Report only concrete discrepancies or ambiguities, preferably as a review note on a separate branch. Do not approve any truth claim or change the canonical scene contract on the authority of this design. Codex is NOT required to read or edit these documents today.
 
 ## Stop conditions
 
