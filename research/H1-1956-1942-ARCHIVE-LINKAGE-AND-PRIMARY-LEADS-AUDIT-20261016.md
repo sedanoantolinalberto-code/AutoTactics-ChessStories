@@ -159,3 +159,38 @@ Later editions exist (second 1958, third 1973, fourth 1982, fifth 1986), and **p
 `→?` and even some unmarked arrows here denote research-order/claimed transmission, **not a demonstrated copying relationship**; only event chronology and bibliographic pointers have established dates. Importantly this 1942 tree is **segregated from EP01 1956**. A similar tactical theme does NOT imply plagiarism or score identity.
 
 Frozen gates/rights remain unchanged.
+
+
+## N. EP01's 1956 contemporaneous actor-attributed commentary: source-to-event crosswalk (16 Oct 2026)
+
+**New directed verification:** consult the publicly served US Chess-original PDF `Chess Life`, **Thursday 20 December 1956**, Vol. XI, no. 8, printed **p.6**, PDF 0-index page **5** (full issue eight PDF pages):
+https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_12_2.pdf
+
+This page's machine-indexed text can be read in its entirety by source line range **1049–1177 @ P5** in the research web viewer. Repeated attempts to use the web PDF screenshot on page 5 returned **Internal Error/cache miss**. A separate command-line retrieval attempt also failed on DNS resolution in the available private research container. Thus **this is OCR/INDEXED ORIGINAL-EDITION TEXT, NOT A VISUALLY VERIFIED IMAGE OR A NEW BLIND HUMAN WITNESS**. The failures are recorded to prevent silent provenance promotion.
+
+**Attribution chain:** printed section `GAMES BY USCF MEMBERS`, edited by chess master **John W. Collins**. This Byrne–Fischer game appears under the article/section heading `ONE OF THE GREATEST` and the byline **`Notes by Robert J. Fischer`**. The editor's introductory text expressly says Fischer's notes were written **in collaboration with the Editor** and describes them as Fischer's first effort in the field of annotation. This is editor-declared attribution, **not** independent certification that every unquoted evaluative remark came directly from Fischer. Avoid labeling the annotations `unedited private thoughts from Fischer`.
+
+### Bounded original-to-EP01 alignment; source OCR only
+
+| Frozen EP01 event/claim | `Chess Life` 20 Dec 1956 indexed observation | Evidential classification and caveat |
+| --- | --- | --- |
+| T01 setup (queen attacked) | Game appears under Byrne–Fischer, 1956 Rosenwald, Grünfeld defence; p.6 descriptive record leads into 17th move. | Primary periodical metadata and game context via **indexed scan**; exact board geometry not independently validated. |
+| T02 / T08 `17...Be6` | Indexed mid-score region at source lines **1131–1138** reads `17. K-Bl` / `B-K3!1` in old descriptive notation with a queen-sacrifice annotation. | Strong **OCR-level** clue for 17...B-K3 as 17...Be6 in historical replay convention; precise print glyphs `!?` and all conversion require page image / independent legality. Not independent best-move proof. |
+| T03 / T09 `18.Bxb6` | Immediately following p.6 source line **1143** has `18. BxQ` in descriptive notation and the editor's discussion of alternatives. | Source records **bishop takes queen**, but printed square and independent conversion to `Bxb6` not image-read in this additional issue. Frozen case alignment remains a hypothesis needing authorized rules and source validation. |
+| T06 unplayed `17...Qd8` | The source's indexed analysis discusses other alternative moves, including a line OCR'd as `17...Kt-Kt4??`; **no page-verified original identification of `17...Qd8`**. | Do not claim Fischer or Collins actually contemplated our 17...Qd8 scenario. It is an editorially labeled hypothetical; legality and historical provenance are separate. |
+| T10 omitted 14 plies | The page contains source game notation covering the broad sequence, but the OCR's multicolumn line order is intermixed around moves 18–35. | **Not** an independently verified 14-ply gap transcription, no 14/14 OCR source PASS; use only the separately labeled documentary secondary candidate as lead. |
+| T11 `25...Nxd1` | In the move-number grid, source around line **1156** reads `25. ... KtxR` and the accompanying left/right column line is interleaved with other moves. | OCR establishes a **candidate knight-captures-rook entry on move 25** but does not independently prove the exact origin and destination squares or legal move. |
+| T12 editor closes at earlier point, match continues | This 1956 publication's indexed actual game score continues until line **1175** `41. K-Bl R-B7 mate`. | A contemporary **published historical score beyond EP01 endpoint** supports why early editorial stop must not be described as game termination. It does NOT establish physically played checkmate. |
+
+### Specific historical claims not to auto-promote
+- Annotation source text around line **1137** calls the queen sacrifice a forced win; this is an **1956 player-associated analytical evaluation** and *not an engine-proven unique-best/forced move certificate*. F03 forbids independent unique-best claim on `24...Ra4`, not just a specific phrase; do not import broad forced-mate or optimality labels without separate review.
+- Editor's mention of a “first Brilliancy prize” at line 1176 is a **1956 printed tournament claim** only, not a licensing/production pass and not evidence of independent scorekeeping.
+- Multiple original printings of the 41st-move mate are **distinct printed witnesses but not automatically independent recording events**. The Russell 1992 reported different manuscript endings still requires a legitimate on-board termination qualification; both claims can coexist as different categories of evidence.
+- The status of Dec 1956 `Chess Review` pp.374–375 remains **DIRECT US CHESS RESEARCH PDF, IMAGE INSPECTED NON_BLIND** separately; do not confuse that visual read with this **`Chess Life` Dec 20 PDF INDEX ONLY**.
+
+**Operational value:** the deployed 45/60-second editorial plans need not narrate final historical mate; only actually displayed and captioned assertions should progress through independent history/legality/gates. No rights cleared by publisher online access and no page screenshot, game score facsimile or copyrighted annotations are embedded in a deliverable.
+
+### EX / Policy B feasibility decision confirmed, no false new mechanism
+Current original model M permits **Windows suspension, supervisor failure/unavailability and non-cooperative producers**. Earlier E5B4D studied **PowerShell, Windows Job Objects, VMs, watchdogs and pipes** and reported `STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL`. No newly specified, independently reviewed mechanism was located to universally guarantee (i) all relevant processes terminated **and confirmed strictly before 120 seconds**, (ii) each stdout/stderr stream separately <=1,048,576 **emitted and accepted** lifetime bytes. This note does not recycle an old timeout, capture truncation, Job Object or external watchdog as a novel PASS. Under a permitted system-wide suspension or unavailable supervisor, observing no deadline confirmation is a straightforward counterexample to guarantees that must hold for **all** admitted M failures. This is **conditional impossibility under M**, not a claim that all conceivable restricted fault models are impossible.
+
+**No change** to Policy B/model M, E5B4D NO-GO, R6 PENDING, IVV_GLOBAL/CASE_APPROVAL NOT APPROVED, 66 semantic/77 router negatives NOT_RUN or independent chess oracle NOT_RUN. No project scripts, chess engine, validator, tests, Actions, executable media, review-signoff, merge, main/PR #12 update, copyright export or publication.
