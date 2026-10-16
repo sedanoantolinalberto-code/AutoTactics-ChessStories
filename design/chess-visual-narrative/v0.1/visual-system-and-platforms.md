@@ -30,6 +30,8 @@ There is no fixed pixel safe-area in this RFC: mobile app overlays and UI placem
 
 ### Camera and motion grammar
 
+**Unambiguous framing constraint (all platforms):** From the first visible board frame through each camera move, all 64 squares **and** the exact, persistent OVER1 `display_label` must stay in frame and readable. Closer cinematic framing changes external margins, apparent scale or nonchess atmospheric depth, **not** board occupancy/cropping or truth-band visibility. This also applies to T01, T08 and 9:16 derivatives; no local shot note overrides it.
+
 | Scene purpose | Candidate treatment | Forbidden shortcut |
 |---|---|---|
 | Establish geometry | Slow outward reveal of square-accurate board at V-P1 | Board tilt/crop hiding critical squares |
@@ -54,7 +56,7 @@ A later voiced edition is a **separate derived project** with separate voice/TTS
 
 | Proposed destination | Content framing candidate | Invariants, not negotiable |
 |---|---|---|
-| **YouTube Shorts 9:16** | Hook through queen capture; explanatory rewind in middle; T12 as nonterminal final caption | All 12 events remain causally distinguishable; required labels cannot be cropped/covered by player UI |
+| **YouTube Shorts 9:16** | Hook via **text at T01** foreshadowing the queen capture, actually shown at its declared **T03** position; explanatory rewind then follows in T04; T12 remains a nonterminal final caption. **Do not cold-open with T03 or repeat it outside the contracted sequence** | All 12 events remain causally distinguishable; required labels cannot be cropped/covered by player UI |
 | **Instagram Reels 9:16** | Cover/first visual frame highlights 'real versus hypothetical' and the b6 capture; no account UI mockups presented as verified | Same move identities, alternative status, omission and ending |
 | **TikTok 9:16** | Captions prioritised for sound-off consumption and brief visual attention; large textual claim rather than fast tiny arrows | No loss of hypothetical warning; exact restore and no invented interstitial move |
 | **Longer 16:9 derivative** | More contextual board annotations; potentially one side panel for source qualification and definitions | Does not add 1942 comparison as established proof or add terminal 1956 score |
