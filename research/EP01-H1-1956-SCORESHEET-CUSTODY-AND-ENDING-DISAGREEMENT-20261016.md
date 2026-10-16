@@ -66,3 +66,14 @@ https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf
 
 ## Freeze / non-authorization
 The preceding advances are documentary only. E5B4D: `STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL` with NO-GO execution under M. Strict Policy B: processes completed and termination confirmed before 120s; stdout & stderr each independent lifetime 1,048,576-byte emitted/accepted limits. R6 PENDING; IVV_GLOBAL/CASE_APPROVAL NOT APPROVED; 66 semantic and 77 router negatives plus independent legality oracle NOT_RUN. T01–T12 incl. T12 nonterminal, CASE/OVER1, main and PR#12 unchanged. No production code, engines, games, tests, scripts, Actions, workflow, renderer, merges or publication; no licensed media duplicated to GitHub.
+
+
+## Institutional custody follow-up actually executed (16 Oct 2026)
+Indiana University's official Lilly Library catalogue now concretely identifies:
+- Collection **Collins mss., 1926–2001**, **LMC 2411** (36 boxes, original Collins papers and game records, open for research, no online inventory-level images): https://archives.iu.edu/catalog/InU-Li-VAD1035
+- Contact address `liblilly@indiana.edu`, institutionally published on that collection's page.
+- Archive terms note offsite holdings and one-week advance appointments; private research access does not automatically permit photography/digitization or publication.
+
+A research-only inquiry was **sent and read back successfully** on 2026-10-16 to Lilly Library via the established project inquiry mailbox. Subject: `Research inquiry — 1956 Byrne–Fischer scoresheet reconstruction (Collins mss., LMC 2411)`. It asks for exact folder/item/citation of the reconstructed autograph record, whether ending images can be consulted remotely, and possible referral to Byrne's original scoresheet. It expressly disclaims requests for commercial reproduction rights and does not attach historical images. **No response or item access has yet been received**. This is a real outgoing request, not a claim that the archive supplied the manuscript.
+
+Reference only: the searchable institutional series description includes Fischer-related correspondence and a Game Records series; it does NOT itself authenticate the existence of the exact reconstructed 1956 sheet at a stated folder. That awaits curator reply.
