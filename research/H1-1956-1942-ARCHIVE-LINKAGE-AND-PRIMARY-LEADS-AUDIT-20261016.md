@@ -66,3 +66,21 @@ Lilly Library already has a separate pending email about the Fischer reconstruct
 ## Frozen scope
 No CASE/OVER1/T01–T12 update, no main/PR#12 modification, no chess oracle, scripts, technical tests, rendering, file extraction into repo, public images or publication.
 E5B4D `STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL`; NO-GO under M. Policy B requires all relevant processes terminated/confirmed strictly before 120 seconds and independent stdout/stderr 1,048,576 byte emission/acceptance lifetime caps. R6 PENDING; IVV_GLOBAL/CASE_APPROVAL NOT APPROVED; 66 semantic/77 router negatives and independent chess-legality oracle NOT_RUN.
+
+
+## F. Additional primary-bibliography conflict around Walcker (catalogue-level)
+Edward Winter's Chess Notes `C.N.7930` transmits researcher Peter Anderberg's inspection of `Deutsche Schachblätter` **1 April 1941 pp.60–61** and **1 Jan 1942 p.11**: German magazine p.61 identifies Walcker's forename as **Carl**, and its contemporaneous results differ from the historical 1942 Goniec account of the **1941 Cracow championship**. The German report says Walcker won with 7.5/9 ahead of Mross; the 1942 German account says Mross subsequently won with seven wins and Walcker equal third (4.5 points). The Polish Goniec issue is cited by Winter as claiming first in 1940 and second in 1941. These are **historian-quoted magazine accounts**, not three original source pages we visually inspected. Record as `NAME_VARIANT_CARL_K_WALCKER` and `YEAR_AND_RESULTS_DISPUTED_BY_DIFFERENT_PERIODICALS`; do NOT silently reconcile which event/year each record describes.
+https://chesshistory.com/winter/winter102.html
+
+## G. Same-title archive collision: unrelated years and titles
+JBC offers completely different publications `Goniec Krakowski` in **1831** and **1921** as well as the 1939–1945 occupation-era series. Searching for `Goniec Krakowski nr 274` also surfaces **1943** and other years. The 1943 issue PDF `NDIGCZAS002211_1943_274.pdf` is not the 1942 item; likewise 1831 `nr 274` is unrelated. All future source records MUST use **(publication series identifier, year, issue number, edition id)**, not title+number alone. No downloaded 1942 original obtained.
+https://jbc.bj.uj.edu.pl/en/dlibra/publication/351764/edition/335939/goniec-krakowski-dziennik-polityczny-historyczny-i-literacki-1831-nr-274
+https://jbc.bj.uj.edu.pl/Content/140651/PDF/NDIGCZAS002211_1943_274.pdf
+https://www.jbc.bj.uj.edu.pl/dlibra/publication/24391/edition/18938
+
+Re-check of both canonical issue-274 1942 URL variants still failed in the available page reader. Preserve stage `CATALOG_LINKED, NOT_PAGE_READ`.
+
+## H. 1956 hand-written image misidentification reiterated
+Modern ChessBase and an official FIDE social media image share a well-known autograph sheet and label it `original`; Donaldson's 2025 publisher source asserts a widely reproduced autograph sheet is **Fischer's later postgame reconstruction**. A social-media publisher caption or print reproduction is not sufficient evidence to link a pictured autograph to the original object. Avoid reproducing these copyrighted/uncleared images or declaring a conclusive match from low-resolution crops.
+https://es.chessbase.com/newsroom/post/la-partida-del-siglo-articulo-por-frederic-friedel-abril-2020?page=0
+https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf
