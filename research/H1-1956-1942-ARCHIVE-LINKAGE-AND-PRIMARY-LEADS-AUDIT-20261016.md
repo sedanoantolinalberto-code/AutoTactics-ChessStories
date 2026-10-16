@@ -84,3 +84,13 @@ Re-check of both canonical issue-274 1942 URL variants still failed in the avail
 Modern ChessBase and an official FIDE social media image share a well-known autograph sheet and label it `original`; Donaldson's 2025 publisher source asserts a widely reproduced autograph sheet is **Fischer's later postgame reconstruction**. A social-media publisher caption or print reproduction is not sufficient evidence to link a pictured autograph to the original object. Avoid reproducing these copyrighted/uncleared images or declaring a conclusive match from low-resolution crops.
 https://es.chessbase.com/newsroom/post/la-partida-del-siglo-articulo-por-frederic-friedel-abril-2020?page=0
 https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf
+
+
+## I. Institution replies and corrected email delivery (16 Oct 2026)
+**US Chess:** John Hartmann replied to the targeted enquiry regarding Donald Byrne's original scoresheet at **16:05:04 UTC (18:05 Madrid)**: **"We do not have the scoresheet. Apologies."** This is a direct institutional statement that he/US Chess cannot supply the requested score sheet; it does **not** establish that the original has been destroyed, is missing in all archives, or that an original Fischer manuscript is in US Chess custody. This avenue is closed for that item absent a new specific lead. The prior directly supplied *Chess Review* two-page PDF and US Chess's explicit noncommercial restriction remain unchanged.
+
+**Lilly Library delivery correction:** The initial inquiry addressed to `liblilly@indiana.edu` was NOT delivered. Gmail's automated notification of **16:01:27 UTC** explicitly reports `550 5.4.1 Recipient address rejected: Access denied`. Thus a historical record saying "Lilly inquiry is pending" after the initial October 16 message was **incorrect** as a delivery assertion. The currently published institutional listing gives the correct general contact as `liblilly@iu.edu`: https://archives.iu.edu/repositories/lilly . The same research-only inquiry about the Collins mss. LMC 2411 reconstruction and Byrne's original was **resent to `liblilly@iu.edu`**, with Gmail `SENT` readback confirming the destination and content. At the time of this update, **no new delivery failure** appeared for the corrected message, but **actual successful remote receipt/curator handling is not yet verified**. The Lilly Library site also provides a formal research enquiry form: https://libraries.indiana.edu/lilly-library/ask .
+
+No copyright material, private PDF or attachment was sent. No new original physical manuscript, blind reading, approved commercial rights or on-board termination conclusion resulted from these emails.
+
+All frozen gates remain unchanged.
