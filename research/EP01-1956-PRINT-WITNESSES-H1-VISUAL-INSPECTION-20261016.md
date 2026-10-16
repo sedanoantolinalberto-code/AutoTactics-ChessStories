@@ -146,3 +146,44 @@ For *Chess Review*, the direct PDF remains located but direct scan inspection of
 ## 10. Frozen project limits preserved
 
 No CASE/OVER1/T01–T12 content changes are made. T12 remains editorial/nonterminal. E5B4D remains `STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL` with NO-GO under M. Policy B remains strict. R6 remains PENDING. IVV_GLOBAL and CASE_APPROVAL remain NOT APPROVED. The 66 semantic negatives, 77 router negatives and independent chess oracle remain NOT_RUN. No project engine, validator, test, script, Action, render, integrator, media output, publication, merge, main modification or PR #12 modification was performed.
+
+
+## 11. Additional contemporaneous Chess Life corroboration — visually inspected
+
+These two same-year items were inspected after the initial H-1 note. They add contemporaneous publication-chain evidence, not a new score authentication or termination adjudication.
+
+### Chess Life — 20 November 1956, printed p.3
+
+**Publisher/archive URL:**  
+https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_2.pdf
+
+- **REFERENCE_LOCATED: YES.**
+- **SOURCE-SERVER DIRECTORY METADATA OBSERVED: YES.** The US Chess directory lists `1956_11_2.pdf`, timestamp `11-Oct-2019 04:25`, size `4,601,906` bytes.
+- **PUBLISHER-HOSTED SCAN PAGE VISUALLY INSPECTED: YES, NON-BLIND.** PDF page index 2 is printed **Page 3**, dated **Tuesday, November 20, 1956**.
+- A visible item headed **AWARD FISCHER SPECIAL PRIZE** reports that 13-year-old Bobby Fischer received a special Rosenwald Trophy Tournament prize for his victory over Donald Byrne as the tournament's most meritorious game. It identifies the other individual-game prizes and the award committee.
+- Crucially for publication chronology, the same printed item states that the **Byrne–Fischer** and **Byrne–Reshevsky** games had been published in *Chess Life*'s **November 5, 1956** issue.
+- **RAW BYTES/HASH: NOT FIXED. BLIND TRANSCRIPTION: NOT APPLICABLE/NOT RUN. RIGHTS: NOT CLEARED.**
+
+This is a direct contemporary cross-reference from one *Chess Life* issue to the earlier November 5 publication. It strengthens the publication-history chain but does not authenticate every move or decide whether the physical game ended by mate versus resignation.
+
+### Chess Life — 5 December 1956, printed p.3
+
+**Publisher/archive URL:**  
+https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_12_1.pdf
+
+- **REFERENCE_LOCATED: YES.**
+- **SOURCE-SERVER DIRECTORY METADATA OBSERVED: YES.** The US Chess directory lists `1956_12_1.pdf`, timestamp `11-Oct-2019 04:25`, size `4,608,844` bytes.
+- **PUBLISHER-HOSTED SCAN PAGE VISUALLY INSPECTED: YES, NON-BLIND.** PDF page index 2 is printed **Page 3**, dated **Wednesday, December 5, 1956**.
+- The page visibly carries Harold Sussman's **Highlights On The 3rd "Rosenwald"**. In its tournament assessment, it identifies Bobby Fischer as the 13-year-old sensation and treats his win over Byrne as deserving the **first brilliancy prize**.
+- This is a contemporary narrative/tournament-award witness, not a second full score transcription.
+- **RAW BYTES/HASH: NOT FIXED. BLIND SCORE TRANSCRIPTION: NOT RUN. RIGHTS: NOT CLEARED.**
+
+### Evidential consequence
+
+The publication chain now contains three publisher-hosted *Chess Life* pages visually inspected in this research pass:
+
+1. **5 Nov 1956, printed p.2:** game score witness; visual inspection NON-BLIND; terminal printed “mate” observed.
+2. **20 Nov 1956, printed p.3:** award notice plus explicit retrospective statement that Byrne–Fischer was published in the Nov 5 issue.
+3. **5 Dec 1956, printed p.3:** Sussman tournament retrospective and first-brilliancy-prize characterization.
+
+This materially strengthens **contemporary publication chronology and award corroboration**. It does **not** upgrade physical-original authentication, source-PDF hashes, blinded score transcription, chess-legality validation, historical termination adjudication, or reproduction permission.
