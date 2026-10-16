@@ -4,7 +4,7 @@
 ## Framing and truth caveat
 
 Working title: **«Una dama capturada… y una alternativa que nunca se jugó»**.
-Candidate conceptual hook: **«En esta secuencia candidata de Byrne–Fischer (1956), la dama negra acaba capturada. ¿Qué cambió entre dos decisiones?»** The question is editorial; it must not imply a proven intention, forced tactic, original 1956 footage, verified mate or adjudicated reading. Historical first-party inspection is still pending; do not promote this into a public historical claim.
+Candidate conceptual hook: **«En esta secuencia candidata de Byrne–Fischer (1956), la dama negra acaba capturada. ¿Cómo distinguimos la secuencia declarada de una alternativa que nunca se jugó?»** The question contrasts the source-declared real sequence (17...Be6 and 18.Bxb6) with the explicitly **unplayed** 17...Qd8 alternative; it does not assert two actual decisions, an evaluated consequence of Qd8, proven player intention, a forced tactic, original 1956 footage, verified mate or an adjudicated reading. Historical first-party inspection is still pending; do not promote this into a public historical claim.
 
 Source qualification for any future review: `Recreación editorial a partir de una secuencia candidata; fuentes originales pendientes de autenticación.` This is proposed prominent production disclosure in addition to required per-scene truth bands, not a replacement or an adopted release requirement. Its wording/legal sufficiency requires review.
 
