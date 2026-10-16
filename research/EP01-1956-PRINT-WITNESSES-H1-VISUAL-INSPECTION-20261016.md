@@ -25,6 +25,7 @@ https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CL-ALL/1956/1956_11_1.pdf
 
 - **REFERENCE_LOCATED: YES.**
 - **SEARCHABLE_TEXT/INDEX_OBSERVED: YES.** The archive representation exposes text corresponding to the Byrne–Fischer score; recognition/extraction errors remain possible.
+- **SOURCE-SERVER DIRECTORY METADATA OBSERVED: YES.** US Chess's directory index lists `1956_11_1.pdf`, timestamp `11-Oct-2019 04:25`, size `4,349,771` bytes. This is server-side listing metadata, not a locally verified byte count.
 - **PUBLISHER-HOSTED SCAN PAGE IMAGE VISUALLY INSPECTED: YES, NON-BLIND.**
 - **PHYSICAL ORIGINAL AUTHENTICATED: NO.**
 - **RAW PDF BYTES OBTAINED INTO CONTROLLED WORKSPACE: NO.**
@@ -47,7 +48,7 @@ The independently surfaced searchable text/index and the visual page are mutuall
 
 ### Binary-identity limitation
 
-An attempt to obtain the raw PDF bytes in the available local container did not succeed because that environment could not resolve the archive host. The browser/web renderer could display the PDF page, but that does not provide the source PDF bytes for hashing. Accordingly, no checksum is recorded and **BINARY_IDENTITY_FIXED remains NO**.
+An attempt to obtain the raw PDF bytes in the available local container did not succeed because that environment could not resolve the archive host. The browser/web renderer could display the PDF page, but that does not provide the source PDF bytes for hashing. The archive directory separately reports a remote file size of **4,349,771 bytes**; that strengthens remote reference identity but does not establish that an identical byte sequence was obtained locally. Accordingly, no checksum is recorded and **BINARY_IDENTITY_FIXED remains NO**.
 
 ## 3. Chess Review — December 1956, pp.374–375
 
@@ -58,7 +59,8 @@ https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CR-ALL/CR1956/CR1956_12.pdf
 
 - **REFERENCE_LOCATED: YES.**
 - **DIRECT PDF ENDPOINT REACHED: YES.**
-- **REPORTED REMOTE CONTENT LENGTH: 13,908,048 bytes** in the available web-reading failure response; this is not a locally verified file size or hash.
+- **SOURCE-SERVER DIRECTORY METADATA OBSERVED: YES.** US Chess's directory index lists `CR1956_12.pdf`, timestamp `11-Oct-2019 03:41`, size `13,908,048` bytes. This is server-side listing metadata, not a locally verified byte count or hash.
+- **PUBLISHER-PDF SEARCH/ISSUE INDEX OBSERVED: YES.** The searchable representation of the December issue's printed index lists `Fischer v ... Byrne 374`, independently locating the Byrne–Fischer item at printed p.374 within that issue.
 - **DIRECT ORIGINAL-SCAN pp.374–375 VISUALLY INSPECTED: NO.**
 - **RAW PDF BYTES / SHA-256: NOT OBTAINED.**
 - **SECONDARY REPRODUCTION OF p.374 VISUALLY INSPECTED: YES, NON-BLIND.**
@@ -67,7 +69,7 @@ https://uscf1-nyc1.aodhosting.com/CL-AND-CR-ALL/CR-ALL/CR1956/CR1956_12.pdf
 - **BLIND TRANSCRIPTION: NOT RUN.**
 - **REPRODUCTION RIGHTS: NOT CLEARED.**
 
-The direct PDF is larger than the current web-reading limit, so the tool did not provide a full page-render path for pp.374–375 in this pass.
+The direct PDF is larger than the current web-reading limit, so the tool did not provide a full page-render path for pp.374–375 in this pass. The US Chess directory listing independently confirms the monthly December file name and remote size; the searchable issue index independently points Byrne–Fischer to printed p.374. Neither fact is equivalent to direct visual inspection of pp.374–375.
 
 A secondary reproduction embedded by chess historian Edward Winter was visually inspected. It shows a crop attributed to page 374 with the headings **SELECTED GAMES ANNOTATED BY HANS KMOCH**, **Game of the Century**, and a Byrne–Fischer Grünfeld score/annotation. Winter also reproduces the December 1956 cover. These are useful secondary visual witnesses, but they are **not substitutes for direct inspection of the publisher-hosted pp.374–375 scan**.
 
@@ -109,7 +111,7 @@ These references support discovery/context only; they do not replace the 1956 pr
 | Evidence step | Chess Life 5 Nov 1956 p.2 | Chess Review Dec 1956 pp.374–375 |
 |---|---|---|
 | URL/reference located | YES | YES |
-| Search/index text observed | YES | PARTIAL / SECONDARY INDEXING |
+| Search/index text observed | YES | **YES — publisher-PDF issue index locates Byrne–Fischer at p.374** |
 | Raw source bytes fixed | NO | NO |
 | Cryptographic source hash | NO | NO |
 | Publisher-hosted scan page visually inspected | **YES — p.2, NON-BLIND** | **NO — pp.374–375** |
