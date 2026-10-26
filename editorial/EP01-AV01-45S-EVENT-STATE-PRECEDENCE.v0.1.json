@@ -1,0 +1,227 @@
+{
+  "artifact_version": "chess-stories-av01-45s-event-state-precedence/0.1-draft",
+  "case_id": "ED-CASE-REAL-01",
+  "review_status": "PROPOSED_SOURCE_ONLY_NOT_ADOPTED",
+  "purpose": "One bounded 45-second storyboard/consumer handoff: distinguish audience-visible board, internal semantic state, and branch context for S06/S07/S08. The existing shot plan is left untouched.",
+  "source_pins": {
+    "shotplan": {
+      "path": "editorial/EP01-45S-SHOTPLAN-DRAFT.json",
+      "branch": "chess-stories/ep01-45s-alt-a-source-clarification-20261026",
+      "observed_git_blob": "0f20ef02a32b7275bb6393e0418907429f663053"
+    },
+    "semantic_case": {
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "branch": "chess-stories/semantic-contract-v0.2",
+      "observed_git_blob": "3514f19ac355763a5b4c61d5c573df090b0eccc1"
+    },
+    "truth_overlay": {
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "observed_git_blob": "aafc6429d716863e225361dd4962169bf12ecfae"
+    },
+    "prior_60s_analogue_not_timing_authority": {
+      "path": "editorial/EP01-60S-PHASE-BOARD-BINDINGS.v0.1.json",
+      "branch": "chess-stories/ep01-45s-alt-a-source-clarification-20261026",
+      "observed_git_blob": "95b8c3befe6da95be1a297af4c7bb7722231ab64"
+    }
+  },
+  "provenance_scope": "Git blob identities attest repository revisions only; raw-byte SHA256, authenticity, legal chess replay and actual runtime behavior unqualified.",
+  "adapter_consumer_identity": "NOT_IDENTIFIED",
+  "adapter_schema_acceptance": "UNKNOWN",
+  "proposed_shot_level_state_semantics": "For S06 and S08, shot.state denotes at most a declared terminal state and MUST NOT initialize the audience board at shot entry or override ordered event-local visible states. Treat any contrary or unknown consumer behavior as REQUIRES_ADJUDICATION_FAIL_CLOSED.",
+  "planned_event_intervals": "NOT_ASSIGNED_FOR_45S",
+  "measured_frames": null,
+  "human_readability": "NOT_TESTED",
+  "composite_phases": [
+    {
+      "shot_id": "S06",
+      "shot_target_interval_ms": [
+        29000,
+        34000
+      ],
+      "legacy_shot_state": "V-HYP",
+      "ordered_phases": [
+        {
+          "event_id": "T04",
+          "source_transition": [
+            "V-REAL",
+            "V-P1"
+          ],
+          "branch_context_transition": [
+            "MAIN",
+            "MAIN"
+          ],
+          "audience_board_before": "V-REAL",
+          "audience_board_after": "V-P1",
+          "truth_label": "REBOBINADO · PARTIDA REAL",
+          "required_order": "Complete editorial rewind to exact V-P1 on MAIN before changing hypothetical context. Never represent rewind as an inverse historical SAN.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        },
+        {
+          "event_id": "T05",
+          "source_transition": [
+            "V-P1",
+            "V-P1"
+          ],
+          "branch_context_transition": [
+            "MAIN",
+            "ALT_QD8"
+          ],
+          "audience_board_before": "V-P1",
+          "audience_board_after": "V-P1",
+          "shared_anchor_state_owner": "MAIN",
+          "truth_label": "HIPOTÉTICA · NO JUGADA",
+          "required_order": "Change narrative branch context without changing board occupancy. Display hypothetical warning BEFORE T06 or any unplayed movement; never reassign V-P1 historical state ownership to ALT_QD8.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        },
+        {
+          "event_id": "T06",
+          "source_transition": [
+            "V-P1",
+            "V-HYP"
+          ],
+          "branch_context_transition": [
+            "ALT_QD8",
+            "ALT_QD8"
+          ],
+          "audience_board_before": "V-P1",
+          "audience_board_after": "V-HYP",
+          "truth_label": "HIPOTÉTICA · NO JUGADA",
+          "required_order": "Persist hypothetical warning in every frame of unplayed 17...Qd8. T06 is never a historical move.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        }
+      ]
+    },
+    {
+      "shot_id": "S07",
+      "shot_target_interval_ms": [
+        34000,
+        36000
+      ],
+      "legacy_shot_state": "V-P1",
+      "ordered_phases": [
+        {
+          "event_id": "T07",
+          "source_transition": [
+            "V-HYP",
+            "V-P1"
+          ],
+          "branch_context_transition": [
+            "ALT_QD8",
+            "MAIN"
+          ],
+          "audience_board_before": "V-HYP",
+          "audience_board_after": "V-P1",
+          "warning_while_restoring": "HIPOTÉTICA · NO JUGADA",
+          "post_restore_caption": "REGRESO A LA PARTIDA REAL",
+          "required_order": "Keep the hypothetical warning until exact V-P1 and MAIN are both restored; only then release warning and permit the return banner. A consumer that displays shot-wide caption_es at shot entry without this gate must reject the storyboard.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        }
+      ]
+    },
+    {
+      "shot_id": "S08",
+      "shot_target_interval_ms": [
+        36000,
+        42000
+      ],
+      "legacy_shot_state": "V-EV2",
+      "ordered_phases": [
+        {
+          "event_id": "T08",
+          "source_transition": [
+            "V-P1",
+            "V-EV1"
+          ],
+          "branch_context_transition": [
+            "MAIN",
+            "MAIN"
+          ],
+          "audience_board_before": "V-P1",
+          "audience_board_after": "V-EV1",
+          "truth_label": "PARTIDA REAL",
+          "required_order": "Display source-declared 17...Be6 as T08, without implying legal-oracle or original-history qualification.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        },
+        {
+          "event_id": "T09",
+          "source_transition": [
+            "V-EV1",
+            "V-REAL"
+          ],
+          "branch_context_transition": [
+            "MAIN",
+            "MAIN"
+          ],
+          "audience_board_before": "V-EV1",
+          "audience_board_after": "V-REAL",
+          "truth_label": "PARTIDA REAL",
+          "required_order": "Display source-declared 18.Bxb6 as T09 before the omission.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        },
+        {
+          "event_id": "T10",
+          "source_transition": [
+            "V-REAL",
+            "V-PRE-EV2"
+          ],
+          "branch_context_transition": [
+            "MAIN",
+            "MAIN"
+          ],
+          "audience_board_before": "V-REAL",
+          "audience_board_after": "V-REAL",
+          "internal_after_state": "V-PRE-EV2",
+          "internal_after_visibility": "TECHNICAL_ONLY",
+          "truth_label": "SE OMITEN JUGADAS REALES",
+          "required_order": "Hold the last audience-visible V-REAL board while declaring 14 omitted real plies 36–49; never display V-PRE-EV2, tween V-REAL to V-PRE-EV2, or fabricate a single played move across the gap.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        },
+        {
+          "event_id": "T11",
+          "source_transition": [
+            "V-PRE-EV2",
+            "V-EV2"
+          ],
+          "branch_context_transition": [
+            "MAIN",
+            "MAIN"
+          ],
+          "audience_board_before_cut": "V-REAL",
+          "audience_board_after_cut": "V-EV2",
+          "cut_mode": "STATIC_EDITORIAL_HARD_CUT_ONLY",
+          "truth_label": "PARTIDA REAL",
+          "required_order": "Only after the disclosed T10 ellipsis is complete, hard-cut to source-declared V-EV2, with a static d1 white-rook capture explanation of 25...Nxd1. Do not show source V-PRE-EV2 or animate V-REAL→V-EV2 as one legal move.",
+          "target_start_ms": null,
+          "target_end_ms": null
+        }
+      ]
+    }
+  ],
+  "global_acceptance_dependencies": [
+    "Exact, ordered, nonoverlapping event-local 45s intervals still require an independently reviewed owner; all null timing fields are deliberate UNKNOWN, not defaults or zero-duration.",
+    "Consumer must explicitly accept or version-adapt per-event board and caption schemas. Unknown fields silently ignored are not acceptance.",
+    "S02/T01 and S05/T03 remain hold-only references; no duplicate dispatch.",
+    "Required visual truth must survive muted viewing. A blank shot-wide caption_es is not evidence of correct output.",
+    "Do not reuse unmeasured 60s phase times as 45s intervals.",
+    "No runtime claim, readable-frame claim, rendered artifact, legal-oracle proof, rights clearance or human-IVV result follows from this contract."
+  ],
+  "frozen_gates": {
+    "E5B4D": "NO-GO_UNDER_M",
+    "PolicyB": "STRICT",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT_APPROVED",
+    "CASE_APPROVAL": "NOT_APPROVED",
+    "ORACLE": "NOT_RUN",
+    "render_authorized": false,
+    "publication_authorized": false,
+    "main_merge_authorized": false
+  }
+}
