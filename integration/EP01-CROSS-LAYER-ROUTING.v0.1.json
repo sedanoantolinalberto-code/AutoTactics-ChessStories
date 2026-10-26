@@ -13,7 +13,7 @@
     {
       "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
       "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
-      "observed_git_blob_sha": "57df8acf69cdd8516c5587100bc71c533b8ecf7a",
+      "observed_git_blob_sha": "aafc6429d716863e225361dd4962169bf12ecfae",
       "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE"
     },
     {
@@ -32,7 +32,7 @@
     {
       "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
       "branch": "chess-stories/secondary-pgn-result-reconciliation",
-      "observed_git_blob_sha": "926eae9e8b58d75fbc5f96d5133901f71d8a509b",
+      "observed_git_blob_sha": "c90c42d27279ca0f1809098d0c49774149061cda",
       "raw_byte_authentication": "NOT_QUALIFIED_FROM_GITHUB_BLOB_ID_ALONE",
       "source_level": "MODERN_SCHOLARLY_SECONDARY_82_PLY_CANDIDATE_NOT_ORIGINAL_PERIODICAL",
       "connection": "Cross-branch documentary dependency. Data not copied or merged into integration branch."
@@ -417,5 +417,45 @@
   "all_gates_satisfied": false,
   "executable": false,
   "source_qa_run": false,
-  "cross_layer_data_maturity": "82-PLY-MODERN-SECONDARY-CANDIDATE_LINKED; PRIMARY_1956_VISUAL_TRANSCRIPTION_PENDING; NO_QUALIFIED_LEGAL_REPLAY"
+  "cross_layer_data_maturity": "82-PLY-MODERN-SECONDARY-CANDIDATE_LINKED; PRIMARY_1956_VISUAL_TRANSCRIPTION_PENDING; NO_QUALIFIED_LEGAL_REPLAY",
+  "source_pin_refresh_20261026": {
+    "status": "DOCUMENTARY_CURRENT_BRANCH_READBACK_NOT_QUALIFIED_RAW_BYTES",
+    "scope": "Two historically stable source sequences re-pinned to current branch heads, preserving exact original Git blob identifiers in this record; prior commit remains in branch history.",
+    "unchanged_compared_count": 3,
+    "changed_pins": [
+      {
+        "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+        "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+        "original_observed_git_blob_sha": "57df8acf69cdd8516c5587100bc71c533b8ecf7a",
+        "current_observed_git_blob_sha": "aafc6429d716863e225361dd4962169bf12ecfae",
+        "comparison": "12_OVERLAY_EVENT_OBJECTS_EXACT_JSON_EQUAL",
+        "verified_by": "DIRECT_GITHUB_OLD_BLOB_AND_CURRENT_FILE_PARSE_OBJECT_COMPARISON",
+        "authentic_historical_source_adjudication": "NOT_ESTABLISHED"
+      },
+      {
+        "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+        "branch": "chess-stories/secondary-pgn-result-reconciliation",
+        "original_observed_git_blob_sha": "926eae9e8b58d75fbc5f96d5133901f71d8a509b",
+        "current_observed_git_blob_sha": "c90c42d27279ca0f1809098d0c49774149061cda",
+        "comparison": "82_SECONDARY_MOVE_ROW_OBJECTS_EXACT_JSON_EQUAL",
+        "verified_by": "DIRECT_GITHUB_OLD_BLOB_AND_CURRENT_FILE_PARSE_OBJECT_COMPARISON",
+        "authentic_historical_source_adjudication": "NOT_ESTABLISHED"
+      }
+    ],
+    "immutable_sections": {
+      "events_and_cross_layer_mapping": "UNCHANGED",
+      "required_frozen_gates": "UNCHANGED",
+      "oracles_and_negatives": "NOT_RUN",
+      "process_execution": "NOT_AUTHORIZED",
+      "rights": "R6_PENDING",
+      "ivv": "NOT_APPROVED",
+      "publication": "NOT_APPROVED"
+    },
+    "qualification_limits": [
+      "Git SHA blob identities are not an independently authenticated producer signature or raw scan hash",
+      "Source narrative truth not settled by unchanged moves",
+      "No source code execution or media generated"
+    ],
+    "candidate_only": true
+  }
 }
