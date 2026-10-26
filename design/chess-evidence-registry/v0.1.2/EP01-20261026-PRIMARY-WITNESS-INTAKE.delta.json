@@ -206,5 +206,135 @@
     "reviewer_task": "Adjudicate whether the observed primary-era printed move tokens and identity-attested original object are sufficient to move any claim-specific evidence state without conflating score editions, independent legality, physically played last move or rights",
     "required_classification": "ACCEPT_DELTA_AS_DOCUMENTARY | REQUEST_SOURCE_REVIEW | REJECT_CANDIDATE",
     "forbidden_classification": "FULL_HISTORICAL_CASE_PASS"
+  },
+  "static_coordinate_crosswalk": {
+    "description": "Read-only in-memory comparison of already-declared EP01 JSON state strings and its declared move coordinates against nonblind visually observed 1956 descriptive print tokens. NOT an execution of project source, chess engine, renderer, negative suite or qualified rules oracle. Printed descriptive token alone does not uniquely prove target square; crosswalk is candidate interpretation.",
+    "case_source": {
+      "branch": "chess-stories/semantic-contract-v0.2",
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "git_blob": "3514f19ac355763a5b4c61d5c573df090b0eccc1"
+    },
+    "source_copy_sha256": "d1043d5c62f5f39a7922289fc59c5080927eaac848e5a1c08baf5dab63a575ed",
+    "comparison": "STATIC_BOARD_OCCUPANCY_DIFFERENCE_AND_FEN_COUNTERS",
+    "declarations_compared": 3,
+    "consistent_declarations": 3,
+    "events": [
+      {
+        "event_id": "T02",
+        "printed_descriptive_token_from_nonblind_facsimile_review": "17...B-K3!!",
+        "candidate_san": "Be6",
+        "source_state_id": "V-P1",
+        "destination_state_id": "V-EV1",
+        "from_square": "g4",
+        "to_square": "e6",
+        "source_ply": 33,
+        "destination_ply": 34,
+        "changed_squares": [
+          {
+            "square": "e6",
+            "before": ".",
+            "after": "b"
+          },
+          {
+            "square": "g4",
+            "before": "b",
+            "after": "."
+          }
+        ],
+        "predicates_checked": {
+          "declared_moving_piece_present_at_source": true,
+          "source_vacated": true,
+          "declared_piece_at_destination": true,
+          "capture_victim_matches_declaration": true,
+          "exactly_two_expected_squares_changed": true,
+          "ply_increment_one": true,
+          "side_to_move_flips": true,
+          "fullmove_counter_matches_declared_turn": true,
+          "halfmove_clock_matches_capture_or_quiet_move": true
+        },
+        "classification": "STATIC_DECLARED_STATE_DIFFERENCE_CONSISTENT_NOT_CHESS_RULES_OR_HISTORICAL_AUTHENTICATION"
+      },
+      {
+        "event_id": "T03",
+        "printed_descriptive_token_from_nonblind_facsimile_review": "18 BxQ",
+        "candidate_san": "Bxb6",
+        "source_state_id": "V-EV1",
+        "destination_state_id": "V-REAL",
+        "from_square": "c5",
+        "to_square": "b6",
+        "source_ply": 34,
+        "destination_ply": 35,
+        "changed_squares": [
+          {
+            "square": "b6",
+            "before": "q",
+            "after": "B"
+          },
+          {
+            "square": "c5",
+            "before": "B",
+            "after": "."
+          }
+        ],
+        "predicates_checked": {
+          "declared_moving_piece_present_at_source": true,
+          "source_vacated": true,
+          "declared_piece_at_destination": true,
+          "capture_victim_matches_declaration": true,
+          "exactly_two_expected_squares_changed": true,
+          "ply_increment_one": true,
+          "side_to_move_flips": true,
+          "fullmove_counter_matches_declared_turn": true,
+          "halfmove_clock_matches_capture_or_quiet_move": true
+        },
+        "classification": "STATIC_DECLARED_STATE_DIFFERENCE_CONSISTENT_NOT_CHESS_RULES_OR_HISTORICAL_AUTHENTICATION"
+      },
+      {
+        "event_id": "T11",
+        "printed_descriptive_token_from_nonblind_facsimile_review": "25...NxR",
+        "candidate_san": "Nxd1",
+        "source_state_id": "V-PRE-EV2",
+        "destination_state_id": "V-EV2",
+        "from_square": "c3",
+        "to_square": "d1",
+        "source_ply": 49,
+        "destination_ply": 50,
+        "changed_squares": [
+          {
+            "square": "c3",
+            "before": "n",
+            "after": "."
+          },
+          {
+            "square": "d1",
+            "before": "R",
+            "after": "n"
+          }
+        ],
+        "predicates_checked": {
+          "declared_moving_piece_present_at_source": true,
+          "source_vacated": true,
+          "declared_piece_at_destination": true,
+          "capture_victim_matches_declaration": true,
+          "exactly_two_expected_squares_changed": true,
+          "ply_increment_one": true,
+          "side_to_move_flips": true,
+          "fullmove_counter_matches_declared_turn": true,
+          "halfmove_clock_matches_capture_or_quiet_move": true
+        },
+        "classification": "STATIC_DECLARED_STATE_DIFFERENCE_CONSISTENT_NOT_CHESS_RULES_OR_HISTORICAL_AUTHENTICATION"
+      }
+    ],
+    "excluded_checks": [
+      "KING_SAFETY",
+      "CHECK_STATUS",
+      "PINNED_ORACLE",
+      "COMPLETE_14_PLY_REPLAY",
+      "HISTORICAL_MOVE_AUTHENTICATION",
+      "PRIMARY_BLIND_TRANSCRIPTION",
+      "COMMERCIAL_RIGHTS",
+      "PROCESS_POLICY_B"
+    ],
+    "gate_implication": "NONE"
   }
 }
