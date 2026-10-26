@@ -185,7 +185,7 @@
       ],
       "purpose": "Bridge real line and show 25...Nxd1 with visible omission",
       "narration_es": "Más tarde, 25...Nxd1 capturó la torre blanca en d1.",
-      "caption_es": "T08/T09: PARTIDA REAL → T10: SE OMITEN JUGADAS REALES · 14 medias jugadas → T11: PARTIDA REAL · 25...Nxd1",
+      "caption_es": "",
       "visual": "Replay T08 and T09 as REAL; during T10 retain the last audience-visible real board V-REAL under the persistent `SE OMITEN JUGADAS REALES` label for exactly plies 36–49 (14 real half-moves), while internal semantic context advances to TECHNICAL_ONLY V-PRE-EV2 without an audience-visible frame or chess-piece tween. Only once the ellipsis is explicitly complete, T11 switches back to `PARTIDA REAL` and makes a hard editorial cut to the already declared VISUAL V-EV2 after-position, with a static d1 rook-capture callout for 25...Nxd1. Do not animate V-REAL→V-EV2 or display/tween the hidden V-PRE-EV2 source position as if it were a played move. VIS-TECH-01 ALT-A SOURCE-ONLY CANDIDATE; no qualified replay or rendered frame exists.",
       "risk": "Four semantic events within six seconds; T10 14-ply omission and ALT-A hard cut are still UNRENDERED, RULES_ORACLE_NOT_RUN, RIGHTS_PENDING, and HUMAN_IVV_NOT_RUN. Not evidence of 45-second comprehension or feasibility.",
       "event_truth_sequence": [
@@ -206,7 +206,32 @@
           "event_id": "T11",
           "display_label": "PARTIDA REAL"
         }
-      ]
+      ],
+      "caption_es_role": "NO_SHOT_WIDE_CAPTION_FOR_MULTI_EVENT_SHOT",
+      "legacy_caption_es_is_internal_authoring_summary": "T08/T09: PARTIDA REAL → T10: SE OMITEN JUGADAS REALES · 14 medias jugadas → T11: PARTIDA REAL · 25...Nxd1",
+      "audience_captions_by_event": [
+        {
+          "event_id": "T08",
+          "text_es": "17...Be6 · PARTIDA REAL",
+          "required_truth_label": "PARTIDA REAL"
+        },
+        {
+          "event_id": "T09",
+          "text_es": "18.Bxb6 · PARTIDA REAL",
+          "required_truth_label": "PARTIDA REAL"
+        },
+        {
+          "event_id": "T10",
+          "text_es": "SE OMITEN JUGADAS REALES · 14 medias jugadas (36–49)",
+          "required_truth_label": "SE OMITEN JUGADAS REALES"
+        },
+        {
+          "event_id": "T11",
+          "text_es": "25...Nxd1 · PARTIDA REAL · captura de torre blanca",
+          "required_truth_label": "PARTIDA REAL"
+        }
+      ],
+      "audience_caption_presentation_rule": "REPLACE_PER_EVENT_ONLY; event-specific captions are visible only during their own event after its truth overlay is active. Never render legacy internal summary, event IDs, or all four event captions at once. If event timing/overlay synchronization is unavailable, fail closed: show no shot-wide caption and do not claim the render satisfies IVV."
     },
     {
       "id": "S09",
@@ -239,7 +264,8 @@
     "Narration pacing, subtitle sizes and horizontal recomposition are not measured.",
     "S06 and S07 branch transition comprehension and S08 omission density are priority risk hypotheses.",
     "S08 ALT-A clarification is a source-only 45s visual strategy candidate, aligned conceptually with the 60s board binding; do not infer rendered feasibility, frame-level IVV, source authentication, or approval. Cross-branch source/blob pins and dependent manifests require separate reconciliation if a human adopts this candidate.",
-    "2026-10-26 S02/T01 and S05/T03 source-only duplicate-dispatch prevention: each is a HOLD_ONLY_NO_EVENT_REPLAY reference and must not re-apply its event or move; consistent with 60s declarative binding. No renderer implementation or source QA run."
+    "2026-10-26 S02/T01 and S05/T03 source-only duplicate-dispatch prevention: each is a HOLD_ONLY_NO_EVENT_REPLAY reference and must not re-apply its event or move; consistent with 60s declarative binding. No renderer implementation or source QA run.",
+    "S08 multi-event caption_es formerly included internal T08/T09/T10/T11 IDs and future move cue early. Replaced shot-wide caption with blank fail-closed value and added explicitly ordered event-bound audience captions; rendering schema/consumer acceptance NOT_RUN and still requires independent approval."
   ],
   "publication_status": "NOT_APPROVED",
   "process_execution_authorized": false,
