@@ -354,7 +354,8 @@
       "doc_record": {
         "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
         "path": "research/EP01-DONALDSON-2025-PUBLISHER-PREVIEW-ORIGINAL-VS-RECONSTRUCTION-VISUAL-20261026.md",
-        "git_blob": "a4af9b494857ab187a2243054c370803eb0bfd50"
+        "git_blob": "5132750ed34b3dd3f7134441f34246bb5ab771fb",
+        "previous_git_blob": "a4af9b494857ab187a2243054c370803eb0bfd50"
       },
       "original_image_raw_byte_digest": "NOT_MEASURED",
       "pdf_exact_raw_byte_digest": "NOT_MEASURED",
@@ -409,6 +410,44 @@
       "ORIGINAL_AND_COLLINS_RECONSTRUCTION_IDENTICAL",
       "FULL_PHOTO_BYTE_IDENTIFICATION"
     ],
-    "model_M_policy_B_and_all_gates_unchanged": true
+    "model_M_policy_B_and_all_gates_unchanged": true,
+    "manuscript_photo_readback_20261026": {
+      "method": "NONBLIND_DIRECT_VISUAL_READ_FROM_PUBLISHER_PDF_ZERO_BASED_PAGE_23",
+      "believed_source_object": "FISCHER_ORIGINAL_ATTRIBUTED_PHOTO_NOT_PHYSICAL_INSPECTION",
+      "excerpt_tentative_descriptive_tokens": [
+        {
+          "row": 17,
+          "side": "black",
+          "reading": "B-K3",
+          "compare_printed": "17...B-K3!!",
+          "agreement": "TENTATIVE_NOT_BLIND"
+        },
+        {
+          "row": 18,
+          "side": "white",
+          "reading": "BxQ",
+          "compare_printed": "18 BxQ",
+          "agreement": "TENTATIVE_NOT_BLIND"
+        },
+        {
+          "row": 25,
+          "side": "black",
+          "reading": "NxR",
+          "compare_printed": "25...NxR",
+          "agreement": "TENTATIVE_NOT_BLIND"
+        }
+      ],
+      "notes": "Original-attributed image is cropped/degraded, end record not visible in full; Collins later reconstruction page 24 must not supply original's end. Round label appears on original-attributed image; exact historic round/venue is not independently adjudicated.",
+      "not_verified": [
+        "full_firsthand_transcription",
+        "exact_SAN_FEN_translation",
+        "physical_end",
+        "original_object_custody",
+        "rights",
+        "legality_oracle",
+        "IVV"
+      ],
+      "gate_change": "NONE"
+    }
   }
 }
