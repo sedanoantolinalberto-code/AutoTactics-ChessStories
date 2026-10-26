@@ -336,5 +336,79 @@
       "PROCESS_POLICY_B"
     ],
     "gate_implication": "NONE"
+  },
+  "supplemental_2025_publisher_image_review": {
+    "date": "2026-10-26",
+    "status": "PUBLISHER_PREVIEW_PHOTOGRAPHS_DIRECTLY_VIEWED_NONBLIND_NOT_PHYSICAL_OBJECT",
+    "source": {
+      "author": "John Donaldson",
+      "title": "Inside the Mind of Bobby Fischer",
+      "publisher": "Silman-James Press",
+      "publication_year": 2025,
+      "public_publisher_preview_pdf": "https://www.silmanjamespress.com/wp-content/uploads/2025/09/INMIBO-flipbook.pdf",
+      "pdf_page_indices_zero_based": [
+        22,
+        23,
+        24
+      ],
+      "doc_record": {
+        "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+        "path": "research/EP01-DONALDSON-2025-PUBLISHER-PREVIEW-ORIGINAL-VS-RECONSTRUCTION-VISUAL-20261026.md",
+        "git_blob": "a4af9b494857ab187a2243054c370803eb0bfd50"
+      },
+      "original_image_raw_byte_digest": "NOT_MEASURED",
+      "pdf_exact_raw_byte_digest": "NOT_MEASURED",
+      "rights_to_reproduce": "NOT_GRANTED"
+    },
+    "distinguish_objects": [
+      {
+        "id": "WIT-DONALDSON-2025-PUBLISHED-ORIGINAL-ATTRIBUTED-FACSIMILE",
+        "claimed_object": "Fischer tournament original in David DeLucia collection",
+        "readily_visible_source": "Publisher PDF page index 23 photographic facsimile (published image)",
+        "subject_artifact_directly_examined": false,
+        "public_reproduction_visually_examined": true,
+        "image_notation_full_82_ply_examined": false,
+        "exact_final_move_original_entry_verified": false,
+        "observation_class": "PUBLIC_REPRODUCTION_OF_CLAIMED_ORIGINAL_NONBLIND"
+      },
+      {
+        "id": "WIT-DONALDSON-2025-COLLINS-RECONSTRUCTION-FACSIMILE",
+        "claimed_object": "Separate later Fischer-written Collins/Lilly reconstruction, not original or carbon",
+        "readily_visible_source": "Publisher PDF page index 24 photographic reproduction with printed explanatory text",
+        "subject_artifact_directly_examined": false,
+        "public_reproduction_visually_examined": true,
+        "qualifies_as_original_1956_tournament_scoresheet": false,
+        "explains_printed_mate_but_not_physical_last_move": true,
+        "observation_class": "PUBLISHED_RECONSTRUCTION_VISUAL_NONBLIND"
+      }
+    ],
+    "related_sources": [
+      {
+        "kind": "PUBLISHER_OFFICIAL_ISSUE_INDEX",
+        "url": "https://www.newinchess.com/new-in-chess-2024-3",
+        "assertion": "2024/3 p82 The Scoresheet Fischer handwriting Byrne–Fischer 1956",
+        "original_image_not_checked_pixel_for_pixel": true
+      },
+      {
+        "kind": "PUBLISHER_EDITOR_ATTESTATION",
+        "message_id": "1a162886b3737197",
+        "assertion": "editor identifies New In Chess 2024/3 reproduced item as DeLucia-held original",
+        "formal_ownership_custody_independently_verified": false
+      }
+    ],
+    "interaction_with_prior_negative_result": "The Oct 18 Donaldson-attached PNG remained an actual cover crop only, with NO handwritten score; publisher-hosted 2025 book-preview facsimile is a DIFFERENT, directly accessed object. Do not rewrite that negative observation as if it were a manuscript image.",
+    "new_qualified_conclusion": "PUBLISHED_ORIGINAL_ATTRIBUTED_FACSIMILE_AVAILABLE_NONBLIND_VISUAL_REVIEW",
+    "withheld_promotions": [
+      "PHYSICAL_SCORESHEET_AUTHENTICATED",
+      "BLIND_82_PLY_TRANSCRIPTION",
+      "ORIGINAL_MATE_PHYSICALLY_PLAYED",
+      "INDEPENDENT_RULES_ORACLE_PASS",
+      "RIGHTS_TO_COMMERCIAL_REUSE",
+      "IVV_GLOBAL_PASS",
+      "E5B4D_GO",
+      "ORIGINAL_AND_COLLINS_RECONSTRUCTION_IDENTICAL",
+      "FULL_PHOTO_BYTE_IDENTIFICATION"
+    ],
+    "model_M_policy_B_and_all_gates_unchanged": true
   }
 }
