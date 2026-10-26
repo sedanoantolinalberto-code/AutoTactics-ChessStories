@@ -1,0 +1,210 @@
+{
+  "delta_version": "chess-evidence-registry/witness-intake-delta/0.1.2-candidate",
+  "created_date": "2026-10-26",
+  "registry_id": "CER-EP01-20261026-WITNESS-INTAKE-CANDIDATE",
+  "status": "DOCUMENTARY_DELTA_NOT_APPLIED_NOT_APPROVED",
+  "purpose": "Update EP01 original-era printed-witness accessibility, publisher manuscript-identification lead and false manuscription-image assumption without altering 2026-10-15 v0.1.1 registry or promoting legal/release gates.",
+  "base_registry": {
+    "branch": "chess-stories/e5b4d-release-path-decision-packet-20261017",
+    "path": "design/chess-evidence-registry/v0.1.1/ep01-example.json",
+    "git_blob": "479cea6cd499aef4c1961c3d09e509911457727a",
+    "registry_id": "CER-EP01-v0.1.1-CANDIDATE",
+    "classification": "OLDER_HISTORICAL_SNAPSHOT_DO_NOT_MUTATE"
+  },
+  "source_readback_refs": {
+    "publisher": {
+      "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+      "path": "research/EP01-1956-ORIGINAL-SCORESHEET-EDITOR-ATTESTATION-20261026.md",
+      "git_blob": "13251c42b9dc797732e22e911c32fb490b3d3e76",
+      "git_identity_only": true
+    },
+    "chessReview": {
+      "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+      "path": "research/EP01-CHESS-REVIEW-1956-PP374-375-DIRECT-NONBLIND-VISUAL-OBSERVATION-20261026.md",
+      "git_blob": "ecd0a14fe6bb0b2d4fdd8152e514771bce87a7f1",
+      "git_identity_only": true
+    },
+    "donaldson": {
+      "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+      "path": "research/EP01-DONALDSON-EMAIL-ATTACHMENT-DOES-NOT-SHOW-SCORESHEET-20261026.md",
+      "git_blob": "d8700165cc7572e9955f4c863567c463fc1aa3ec",
+      "git_identity_only": true
+    }
+  },
+  "invariants": {
+    "no_private_email_contents_in_repository": true,
+    "no_copyrighted_pages_or_original_scoresheet_images_committed": true,
+    "never_equate_printed_score_to_physically_played_move": true,
+    "never_infer_commercial_reuse_rights_from_research_access": true,
+    "no_oracle_or_media_or_runner_executed": true,
+    "no_main_merge": true,
+    "do_not_autopromote_historical_truth_or_gates": true,
+    "baseline_registry_preserved": true
+  },
+  "proposed_changes": [
+    {
+      "operation": "UPDATE_WITNESS_CURRENT_OBSERVATION_NOT_HISTORICAL_MUTATION",
+      "id": "WIT-CR-FULL",
+      "source_ref": "SOURCE-CR-1956-12",
+      "previous_record": {
+        "witness_id": "WIT-CR-FULL",
+        "acquisition_status": "NOT_ACQUIRED",
+        "inspection_status": "NOT_INSPECTED_IN_REGISTRY_PHASE",
+        "version_scope": "2026-10-15 registry time; valid historically, superseded only for CURRENT information"
+      },
+      "candidate_current": {
+        "target_material": "Chess Review December 1956, printed pp.374–375 as two-page modern publisher/US Chess supplied facsimile",
+        "observed_copy_class": "MODERN_FACSIMILE_OF_CONTEMPORARY_PRINT",
+        "acquisition_status": "ACQUIRED_PRIVATE_2026-10-26",
+        "inspection_status": "DIRECT_VISUAL_SINGLE_READER_NONBLIND_2026-10-26",
+        "original_1956_paper_copy_inspected": false,
+        "parent_message_id": "1a1455478de24b0d",
+        "original_attachment_filename": "Pages from Chess Review 1956.pdf",
+        "source_copy_size_bytes": 1148045,
+        "source_copy_sha256": "d1043d5c62f5f39a7922289fc59c5080927eaac848e5a1c08baf5dab63a575ed",
+        "pdf_page_count": 2,
+        "historical_game_ending_authenticated": false,
+        "primary_facsimile_and_exact_page_authentication": "SENDER_SUPPLIED_VIA_US_CHESS_WITH_MATCHED_PRINTED_HEADER_NOT_INDEPENDENT_PHYSICAL_EXAMINATION",
+        "observation_document_ref": "chessReview"
+      },
+      "historical_registry_scope": "Supersede NOT_ACQUIRED only for the new 2026-10-26 current view; keep October15 provenance intact",
+      "do_not_infer": [
+        "ORIGINAL_PHYSICAL_EDITION_INSPECTED",
+        "BLIND_SOURCE_TRANSCRIPTION",
+        "82_PLY_PRIMARY_VERIFIED",
+        "ORACLE_PASS",
+        "R6_APPROVED"
+      ]
+    },
+    {
+      "operation": "REGISTER_NEW_WITNESS_IDENTITY_LEAD",
+      "id": "WIT-NIC-2024-3-SCORESHEET-IDENTITY-EMAIL",
+      "classification": "EDITOR_FIRSTHAND_PUBLISHER_ATTESTATION_ONLY",
+      "witness_subject": "New In Chess 2024/3 reproduced handwritten Fischer Byrne–Fischer 1956 scoresheet",
+      "artifact_itself_viewed": false,
+      "email_date": "2026-10-22",
+      "email_message_id": "1a162886b3737197",
+      "observed_assertion": "The publication's editor-in-chief identifies the depicted object as the original Fischer scoresheet in David DeLucia's collection and describes the distinct Jack Collins version and carbon copy.",
+      "independent_accession_or_custody_proven": false,
+      "paper_handwriting_verified": false,
+      "exact_game_final_move_verified": false,
+      "rights_status": "NOT_GRANTED",
+      "observation_document_ref": "publisher"
+    },
+    {
+      "operation": "REGISTER_NEW_NEGATIVE_WITNESS",
+      "id": "WIT-DONALDSON-2026-10-CHESS-COVER-CROP",
+      "classification": "EMAIL_ATTACHMENT_VISUALLY_OBSERVED_NEGATIVE",
+      "email_date": "2026-10-18",
+      "email_message_id": "1a15027c1c6551e3",
+      "attached_filename": "October 2026 issue of Chess.png",
+      "observed_bytes": 541779,
+      "image_format": "PNG",
+      "image_dimensions_px": [
+        995,
+        445
+      ],
+      "raw_attachment_sha256": "afe153a6999624b629b6603d4d37eee288ee546a5d86ba6711ac03b47ce5db9c",
+      "visible_subject": "Partial cover of CHESS October 2026, not score sheet, no visible move notation",
+      "printed_original_scoresheet_visible": false,
+      "correspondent_bibliography_lead_preserved": true,
+      "reason_attachment_is_cover_only": "UNKNOWN",
+      "observation_document_ref": "donaldson"
+    }
+  ],
+  "new_observations": [
+    {
+      "id": "OBS-CR-20261026-DIRECT",
+      "subject": "WIT-CR-FULL",
+      "method": "PRIVATE_PDF_BYTES_DIGEST_AND_VISUAL_INSPECTION_NO_OCR",
+      "observer_blinded": false,
+      "selected_short_descriptive_move_tokens": [
+        "17...B-K3!!",
+        "18 BxQ",
+        "25...NxR"
+      ],
+      "printed_terminal_line_observed": "41...R-QB7 mate",
+      "observation_scope": "PRINTED_SCORE_EXISTS_NOT_PHYSICAL_LAST_MOVE",
+      "historical_truth_adjudication": "PENDING",
+      "document_ref": "chessReview"
+    },
+    {
+      "id": "OBS-NIC-20261022-EDITOR",
+      "subject": "WIT-NIC-2024-3-SCORESHEET-IDENTITY-EMAIL",
+      "method": "DIRECT_RESEARCH_EMAIL_READ",
+      "independence_class": "DIRECT_PUBLISHER_IDENTITY_ATTESTATION",
+      "not_equivalent_to": "INDEPENDENT_PHYSICAL_OBJECT_INSPECTION",
+      "document_ref": "publisher"
+    },
+    {
+      "id": "OBS-CHESS-20261026-COVER-ONLY",
+      "subject": "WIT-DONALDSON-2026-10-CHESS-COVER-CROP",
+      "method": "PRIVATE_IMAGE_BYTES_DIGEST_AND_VISUAL_INSPECTION",
+      "outcome": "NO_HANDWRITTEN_SCORE_VISIBLE",
+      "document_ref": "donaldson"
+    }
+  ],
+  "new_claim_boundaries": [
+    {
+      "claim_id": "CLAIM-REAL-MOVES",
+      "current_case_claim_status": "PENDING_REVIEW",
+      "new_evidence_relation": "PARTIAL_SUPPORTS_PRINTED_DESCRIPTIVE_TOKENS_NOT_SAN_FEN_AUTHENTICATION",
+      "printed_tokens": [
+        "17...B-K3!!",
+        "18 BxQ",
+        "25...NxR"
+      ],
+      "required_next": "Independent descriptive-to-SAN/FEN position and T10 source-sequence reconciliation"
+    },
+    {
+      "claim_id": "CLAIM-SOURCE-ENDING",
+      "current_case_claim_status": "PENDING_REVIEW",
+      "new_evidence_relation": "SUPPORTS_PRINTED_MATE_LINE_ONLY_NOT_PHYSICAL_MATE",
+      "required_next": "Two original player score objects or another sufficiently authenticated independent historical record; distinguish print and actual over-the-board play"
+    },
+    {
+      "claim_id": "NEW-DELUCIA-MANUSCRIPT-IDENTITY",
+      "new_evidence_relation": "DIRECT_EDITOR_ATTESTATION_OF_PUBLISHED_REPRODUCTION_IDENTITY",
+      "required_next": "Actual qualified image/object inspection with proper permission and documented accession/provenance"
+    }
+  ],
+  "rights_delta": {
+    "rights_record_id": "RIGHTS-CR",
+    "sender_message_id": "1a1455478de24b0d",
+    "sender_position": "US Chess material copyrighted; supplied for educational research, explicitly not for commercial use",
+    "commercial_reuse_of_supplied_print_fascimile": "NOT_AUTHORIZED",
+    "manuscript_reproduction_in_new_in_chess": "NOT_CLEARED",
+    "other_publication_or_image": "REQUIRES_SEPARATE_PER_ASSET_PERMISSION",
+    "records_granting_commercial_use": []
+  },
+  "unresolved": [
+    "Original physical DeLucia manuscript or independently qualified photo not directly examined",
+    "No independent blind transcriptions (inspector saw prior candidate SAN)",
+    "Descriptive 1956 tokens not yet independently cross-walked to all six EP01 FENs and 14 omitted real plies",
+    "Original 82-ply last-move physical event disputed; published mate not proof of physical play",
+    "US Chess copyrighted scan not cleared for commercial use",
+    "R6 remains pending; no per-asset commercial media permission",
+    "Original E5B4D v0.1 normative contract not retrieved; EP01 execution/model-scope adjudication not resolved",
+    "66 semantic and 77 router tests NOT_RUN, legal oracle NOT_RUN, IVV_GLOBAL and CASE_APPROVAL not approved"
+  ],
+  "gates_unchanged": {
+    "E5B4D": "STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL",
+    "model": "M",
+    "execution": "NO_GO",
+    "policy_b": "STRICT_UNCHANGED",
+    "R6": "PENDING",
+    "IVV_GLOBAL": "NOT_APPROVED",
+    "CASE_APPROVAL": "NOT_APPROVED",
+    "legal_oracle": "NOT_RUN",
+    "semantic_negative_tests": "NOT_RUN",
+    "router_negative_tests": "NOT_RUN",
+    "render": "NOT_AUTHORIZED",
+    "main_merge": false,
+    "publication": false
+  },
+  "review_request": {
+    "reviewer_task": "Adjudicate whether the observed primary-era printed move tokens and identity-attested original object are sufficient to move any claim-specific evidence state without conflating score editions, independent legality, physically played last move or rights",
+    "required_classification": "ACCEPT_DELTA_AS_DOCUMENTARY | REQUEST_SOURCE_REVIEW | REJECT_CANDIDATE",
+    "forbidden_classification": "FULL_HISTORICAL_CASE_PASS"
+  }
+}
