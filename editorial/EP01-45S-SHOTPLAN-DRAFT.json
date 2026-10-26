@@ -60,7 +60,11 @@
       "narration_es": "El alfil blanco de c5 amenazaba la dama negra en b6.",
       "caption_es": "Alfil c5 → dama b6",
       "visual": "Slow isolated highlight on c5 and b6, no extra legal move.",
-      "risk": "Real mobile readability untested."
+      "risk": "Real mobile readability untested.",
+      "event_behavior": "HOLD_ONLY_NO_EVENT_REPLAY",
+      "event_dispatch_allowed_in_this_shot": false,
+      "held_board_state_id": "V-P1",
+      "original_event_id_reference_purpose": "TRUTH_LABEL_AND_CONTINUITY_REFERENCE_ONLY"
     },
     {
       "id": "S03",
@@ -105,7 +109,11 @@
       "narration_es": "La combinación continuó con nuevos ataques y capturas.",
       "caption_es": "La combinación continúa",
       "visual": "Hold V-REAL. No unverified move or future-board animation.",
-      "risk": "No engine evaluation or forced line asserted."
+      "risk": "No engine evaluation or forced line asserted.",
+      "event_behavior": "HOLD_ONLY_NO_EVENT_REPLAY",
+      "event_dispatch_allowed_in_this_shot": false,
+      "held_board_state_id": "V-REAL",
+      "original_event_id_reference_purpose": "TRUTH_LABEL_AND_CONTINUITY_REFERENCE_ONLY"
     },
     {
       "id": "S06",
@@ -230,7 +238,8 @@
     "R6 commercial rights pending per asset.",
     "Narration pacing, subtitle sizes and horizontal recomposition are not measured.",
     "S06 and S07 branch transition comprehension and S08 omission density are priority risk hypotheses.",
-    "S08 ALT-A clarification is a source-only 45s visual strategy candidate, aligned conceptually with the 60s board binding; do not infer rendered feasibility, frame-level IVV, source authentication, or approval. Cross-branch source/blob pins and dependent manifests require separate reconciliation if a human adopts this candidate."
+    "S08 ALT-A clarification is a source-only 45s visual strategy candidate, aligned conceptually with the 60s board binding; do not infer rendered feasibility, frame-level IVV, source authentication, or approval. Cross-branch source/blob pins and dependent manifests require separate reconciliation if a human adopts this candidate.",
+    "2026-10-26 S02/T01 and S05/T03 source-only duplicate-dispatch prevention: each is a HOLD_ONLY_NO_EVENT_REPLAY reference and must not re-apply its event or move; consistent with 60s declarative binding. No renderer implementation or source QA run."
   ],
   "publication_status": "NOT_APPROVED",
   "process_execution_authorized": false,
