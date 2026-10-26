@@ -431,10 +431,10 @@
     "VIS-TECH-02": "T10's internal state after a 14-ply jump must not be confused with an audience-visible board or a fabricated one-ply transition.",
     "status": "ALT_A_SOURCE_MITIGATION_SPECIFIED_NOT_QUALIFIED_NOT_RENDERED"
   },
-  "provenance_note": "Observed Git identities are an authoring-time source readback, not a qualified content-integrity mechanism. Later legitimate edits require rereview/re-pinning. 2026-10-26 isolated source-only 45s ALT-A candidate: cross-version narration was re-compared as normalized nonempty Spanish text in shot/phase order; 45s proposed visual/risk/QA edit leaves narration untouched. Re-pinned comparison to 45s Git blob on branch chess-stories/ep01-45s-alt-a-source-clarification-20261026 and current 60s source Git blob. These are Git identities, not separately qualified raw-file digests; no audio/timing or media test.",
+  "provenance_note": "Observed Git identities are an authoring-time source readback, not a qualified content-integrity mechanism. Later legitimate edits require rereview/re-pinning. 2026-10-26 isolated source-only 45s ALT-A candidate: cross-version narration was re-compared as normalized nonempty Spanish text in shot/phase order; 45s proposed visual/risk/QA edit leaves narration untouched. Re-pinned comparison to 45s Git blob on branch chess-stories/ep01-45s-alt-a-source-clarification-20261026 and current 60s source Git blob. These are Git identities, not separately qualified raw-file digests; no audio/timing or media test. 2026-10-26 follow-up: source-only 45s S02/T01 and S05/T03 HOLD_ONLY_NO_EVENT_REPLAY metadata, no narrated text/event sequence changed. 45s source Git blob re-pinned from 3be65f994d752cc9f911c70b4a15cb799a1b5653 to 58c7e39f01c79e840a4ce9d35f8d85388c215367. No executed scene, timing, legality or audio measurement.",
   "cross_version_narration_alignment": {
     "status": "STATIC_TEXT_EQUALITY_MATCHED",
-    "v45_git_blob_sha": "3be65f994d752cc9f911c70b4a15cb799a1b5653",
+    "v45_git_blob_sha": "58c7e39f01c79e840a4ce9d35f8d85388c215367",
     "v60_git_blob_sha": "3f8f3c35a802167b5c22fad6e45b899e283b507b",
     "measurement": "NOT_AUDIO_MEASURED",
     "source_only": true
