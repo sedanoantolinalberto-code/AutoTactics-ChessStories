@@ -1,5 +1,21 @@
 # Chess Stories — Goniec Krakowski 1942 nr 274: direct IPN archival reply and public digital-library locator
 
+> **Current superseding direct-byte status, 26 October 2026:** The original research-team **19 October 2026** Gmail correspondence with the Jagiellonian Digital Library already shows the PDF was supplied and that the recipient reported finding the Russner–Walcker game on printed p.3. In this present review, the **actual attachment was independently retrieved, hashed and the printed p.3 directly visually re-inspected**. The historical `ORIGINAL_PAGE_3_NOT_VIEWED`, `JBC_ISSUE_ITEM_BYTES_RETRIEVED = NO`, `PAGE_3_ORIGINAL_IMAGE_DIRECTLY_INSPECTED = NO`, and `ORIGINAL_PDF_OR_IMAGE_SHA256 = UNKNOWN` entries **below** now describe an earlier access state and must **NOT** be cited as current. All source/authenticity, rights, execution and release gates remain unchanged.
+
+## 26 October direct PDF receipt and page-three visual reinspection
+
+- **Actual original custodian reply:** Jagiellonian Digital Library (Biblioteka Jagiellońska) sent a PDF on **19 October 2026** in its reply to the user's 16 Oct request, Gmail message **`1a152db2b79a201b`**, thread **`1a1458a10bd08a51`**. The user had **already confirmed finding the game on printed p.3** in a 19 October outgoing thank-you; a 20 October reply from the archive curator acknowledges that note (message **`1a157b226c12f42e`**). **Do not claim this is the first time the recipient had seen the original scan**.
+- Attached filename **`18938_Goniec_Krakowski_1942_nr_274_PDF.pdf`**, **2,448,245 bytes**, actual attachment SHA-256 **`62ea339dc22ae7b2cb0f3d917cf5d56dfd0b8216107d9bf976a038c8bc74b2f5`**, **six pages**, PDF page index **2** corresponds to **printed p.3**. Modern attached PDF is a **facsimile scan**, not the original paper object.
+- Printed masthead page 1 visually/source-extraction identifies _Goniec Krakowski_, **issue 274**, **Sunday 22 / Monday 23 November 1942**, consistent with IPN and JBC institutional locators; page 3 visibly has **`Kącik szachowy`**, **Nr. 4**, editorial dateline **Kraków, 22 listopada** and **`Partja Nr. 5`**.
+- Under Partja Nr. 5, the actual image labels **White H. W. Russner** and **Black Dr K. Walcker**, identifies **Warsaw team tournament, 28 VI [current] year** (which is **1942 given issue date**), and says **`Gambit hetmański`**. A **30-full-move printed table** is visible. This source verifies the *presence* of this periodical game report and its claims, not the independent truth of location/date, every historical SAN token or the author's evaluation of the result. A separate **Partja Nr. 6** (Bogoljubow–Walcker) appears immediately below; keep the two scores segregated.
+- The paper was published under wartime occupation; do not treat its editorial context, biography or editorial commentary as unbiased historical truth. The narrow objective here is historical chess bibliographic/source authentication.
+- The recipient's private research access and the archive's helpful reply are **NOT a licence to redistribute scans or incorporate the original photograph or newspaper images into commercial videos**. Original PDF was inspected privately; **not attached to GitHub**.
+
+**Current narrow evidence fields:** `JBC_ISSUE_274_MODERN_FACSIMILE_ACQUIRED=YES`, `JBC_ISSUE_274_PDF_SHA256=62ea339dc22ae7b2cb0f3d917cf5d56dfd0b8216107d9bf976a038c8bc74b2f5`, `P3_RUSSNER_WALCKER_CHESS_PRINT_OBSERVED=YES_NONBLIND`, `30_MOVE_TABLE_VISIBLE=YES`, `FULL_INDEPENDENT_30_MOVE_TRANSCRIPTION=NOT_DONE`, `CHESS_RULES_ORACLE=NOT_RUN`, `COMMERCIAL_FACSIMILE_RIGHTS=NOT_GRANTED`. This is a **different 1942 research case** and does **not unlock** Byrne–Fischer EP01.
+
+---
+
+
 **Recorded 26 October 2026 | IPN_EMAIL_RECEIVED_16_OCT | PUBLIC_SCAN_LOCATOR_SUPPLIED | ORIGINAL_PAGE_3_NOT_VIEWED | RESEARCH_ONLY | NO_GO_UNCHANGED**
 
 ## Why this is new evidence
