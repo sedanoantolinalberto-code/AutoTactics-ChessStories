@@ -185,7 +185,8 @@
     "US Chess copyrighted scan not cleared for commercial use",
     "R6 remains pending; no per-asset commercial media permission",
     "Original E5B4D v0.1 normative contract not retrieved; EP01 execution/model-scope adjudication not resolved",
-    "66 semantic and 77 router tests NOT_RUN, legal oracle NOT_RUN, IVV_GLOBAL and CASE_APPROVAL not approved"
+    "66 semantic and 77 router tests NOT_RUN, legal oracle NOT_RUN, IVV_GLOBAL and CASE_APPROVAL not approved",
+    "Direct Oct18 1956 NYT newsroom resignation report versus Nov/Dec printed 41st-move mate — actual physically played final move not adjudicated"
   ],
   "gates_unchanged": {
     "E5B4D": "STRICT_GUARANTEES_INCOMPATIBLE_UNDER_STATED_MODEL",
@@ -449,5 +450,65 @@
       ],
       "gate_change": "NONE"
     }
+  },
+  "supplemental_1956_NYT_contemporary_resignation_report": {
+    "status": "DIRECT_PRIVATE_RESEARCH_FACSIMILE_VISUALLY_INSPECTED_NONBLIND",
+    "witness_id": "WIT-NYT-1956-10-18-P44",
+    "source": {
+      "title": "The New York Times",
+      "date": "1956-10-18",
+      "printed_page": 44,
+      "item_description": "Paragraph mentioning Fischer victory over Byrne, embedded within FEUERSTEIN HOLDS RESHEVSKY TO DRAW report",
+      "publisher_source_class": "CONTEMPORANEOUS_GENERAL_NEWSPAPER_REPORT_NOT_EYEWITNESS",
+      "custodian": "New York Public Library, General Research Division",
+      "received": "2026-10-19",
+      "message_id": "1a155264c1679dee",
+      "pdf_filename": "Oct 18th, 1956 - NYT pg. 44.pdf",
+      "pdf_size_bytes": 955735,
+      "pdf_sha256": "6de7fefbba2bd1d949e1ea342b18e6d4f29ec004d65a3bf877269d84436e7cc9",
+      "pages": 1,
+      "page_visual_observed": true,
+      "raw_pdf_image_shared_in_repository": false,
+      "source_note_ref": {
+        "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+        "path": "research/EP01-NYT-1956-10-18-P44-CONTEMPORARY-RESIGNATION-REPORT-20261026.md",
+        "git_blob": "b95aeca386ee6f2a4d546e8ea9f1a59584b23390"
+      }
+    },
+    "observed": {
+      "claim": "The contemporaneous newspaper text reports Donald Byrne resigned at midnight after forty moves and Fischer had adopted the Gruenfeld Defence",
+      "observation_method": "PRIVATE_CUSTODIAN_PDF_PAGE_IMAGE_DIRECT_VISUAL_NONBLIND",
+      "journalist_eyewitness_status": "UNKNOWN",
+      "precise_physical_final_ply_proven": false,
+      "independent_original_scoresheet_read": false,
+      "rights_to_reproduce_pdf": "NOT_GRANTED",
+      "special_note": "This is a REPORT OF RESIGNATION dated 18 October, distinct from the later 1956 printed mate score convention. Neither witness displaces the other automatically."
+    },
+    "relation_to_other_printed_sources": [
+      {
+        "witness": "Chess Life 1956-11-05 printed p2",
+        "recorded_terminal": "MATE_41_PUBLICATION",
+        "actual_original_physical_end": "UNKNOWN"
+      },
+      {
+        "witness": "Chess Life 1956-12-20 printed p6",
+        "recorded_terminal": "MATE_41_PUBLISHED_TEXT",
+        "actual_original_physical_end": "UNKNOWN"
+      },
+      {
+        "witness": "Chess Review 1956-12 pp374-375",
+        "recorded_terminal": "MATE_41_PUBLISHED_TEXT",
+        "actual_original_physical_end": "UNKNOWN"
+      }
+    ],
+    "claim_boundaries": {
+      "historical_terminal_type": "CONTEMPORANEOUS_NEWS_REPORT_VS_PUBLISHED_MATE_DISAGREEMENT_NEEDS_ADJUDICATION",
+      "EP01_editorial_endpoint": "PLY50_NONTERMINAL_NO_ORIGINAL_MATE_ASSERTION",
+      "event_T02_T03_T11_historical_status": "UNCHANGED_PENDING",
+      "primary_82_ply_blinded_review": "NOT_DONE",
+      "unknown_reporting_precision": "FORTY_MOVES_NEWS_REPORT_NOT_EXACT_PLY_MEASUREMENT",
+      "ownership_or_rights": "NO_COMMERCIAL_GRANT"
+    },
+    "gate_implication": "NONE"
   }
 }
