@@ -177,5 +177,114 @@
   "R6": "PENDING",
   "IVV_GLOBAL": "NOT APPROVED",
   "E5B4D": "NO-GO under failure model M",
-  "editorial_instruction": "T10 still appears as explicit omitted real plies 36–49, even if sequence can later be verified; never animate as single move"
+  "editorial_instruction": "T10 still appears as explicit omitted real plies 36–49, even if sequence can later be verified; never animate as single move",
+  "current_source_access_reconciliation_20261026": {
+    "status": "CURRENT_ACCESS_DELTA_SOURCE_ONLY_CANDIDATE_NOT_EXECUTION_GATE",
+    "earlier_field_interpretation": "original_1956_score_page_inspected=NO faithfully describes the original version's review phase; it is not the state as of 2026-10-26.",
+    "current_observation": "1956 Chess Review printed pages 374-375 supplied by US Chess as private 2-page modern facsimile, its bytes SHA-256-pinned and the pages directly viewed NONBLIND; only narrow printed anchors 17...B-K3!!, 18 BxQ, 25...NxR observed. The intervening 14 plies were NOT independently transcribed from the primary witness.",
+    "witness": {
+      "institution": "US Chess",
+      "dated_publication": "Chess Review December 1956",
+      "printed_pages": "374-375",
+      "retrieved_bytes": 1148045,
+      "raw_private_pdf_sha256": "d1043d5c62f5f39a7922289fc59c5080927eaac848e5a1c08baf5dab63a575ed",
+      "direct_visual_nonblind": true,
+      "blind_14_move_source_transcription": false,
+      "source_note": {
+        "path": "research/EP01-CHESS-REVIEW-1956-PP374-375-DIRECT-NONBLIND-VISUAL-OBSERVATION-20261026.md",
+        "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+        "git_blob_sha": "ecd0a14fe6bb0b2d4fdd8152e514771bce87a7f1"
+      }
+    },
+    "static_reference_comparison": {
+      "source_gap_git_blob_sha_before_addendum": "06746705894dcd797c13d4775b4367848da61023",
+      "source_secondary_winter": {
+        "path": "sources/EP01-WINTER-SECONDARY-MAINLINE-82-PLIES.v0.1.json",
+        "branch": "chess-stories/secondary-pgn-result-reconciliation",
+        "git_blob_sha": "c90c42d27279ca0f1809098d0c49774149061cda"
+      },
+      "source_case": {
+        "path": "cases/ED-CASE-REAL-01.v0.2.json",
+        "branch": "chess-stories/semantic-contract-v0.2",
+        "git_blob_sha": "3514f19ac355763a5b4c61d5c573df090b0eccc1"
+      },
+      "matched_14_gap_rows_count": 14,
+      "expected_14_gap_rows_count": 14,
+      "all_14_san_ply_side_move_number_equal": true,
+      "case_endpoint_fen_equal_declared_gap": true,
+      "real_case_events_checked": [
+        {
+          "id": "T02",
+          "from": "V-P1",
+          "to": "V-EV1",
+          "ply": 34,
+          "san": "Be6",
+          "reference_san": "Be6",
+          "match": true
+        },
+        {
+          "id": "T03",
+          "from": "V-EV1",
+          "to": "V-REAL",
+          "ply": 35,
+          "san": "Bxb6",
+          "reference_san": "Bxb6",
+          "match": true
+        },
+        {
+          "id": "T08",
+          "from": "V-P1",
+          "to": "V-EV1",
+          "ply": 34,
+          "san": "Be6",
+          "reference_san": "Be6",
+          "match": true
+        },
+        {
+          "id": "T09",
+          "from": "V-EV1",
+          "to": "V-REAL",
+          "ply": 35,
+          "san": "Bxb6",
+          "reference_san": "Bxb6",
+          "match": true
+        },
+        {
+          "id": "T11",
+          "from": "V-PRE-EV2",
+          "to": "V-EV2",
+          "ply": 50,
+          "san": "Nxd1",
+          "reference_san": "Nxd1",
+          "match": true
+        }
+      ],
+      "hypothetical_T06_excluded_from_mainline_comparison": true,
+      "proof_classification": "STATIC_SOURCE_TEXT_AND_DECLARED_FEN_ENDPOINT_EQUALITY_ONLY_NOT_CHESS_RULES_REPLAY"
+    },
+    "separate_contemporary_ending_report": {
+      "event_source": "The New York Times, 18 October 1956 p44",
+      "news_facsimile_sha256": "6de7fefbba2bd1d949e1ea342b18e6d4f29ec004d65a3bf877269d84436e7cc9",
+      "report_type": "RESIGNATION_AFTER_FORTY_MOVES",
+      "source_note": {
+        "path": "research/EP01-NYT-1956-10-18-P44-CONTEMPORARY-RESIGNATION-REPORT-20261026.md",
+        "branch": "chess-stories/ep01-scoresheet-editor-attestation-20261026",
+        "git_blob_sha": "b95aeca386ee6f2a4d546e8ea9f1a59584b23390"
+      },
+      "note": "This report does not authenticate the precise last physical ply and is not necessary to claim EP01 editorial end at ply50."
+    },
+    "gates_unchanged": {
+      "E5B4D": "NO-GO under model M",
+      "Policy_B": "STRICT_UNCHANGED",
+      "oracle": "NOT_RUN",
+      "R6": "PENDING",
+      "IVV_GLOBAL": "NOT APPROVED",
+      "CASE_APPROVAL": "NOT APPROVED",
+      "original_score_blind_transcription": "NOT_DONE",
+      "published_reuse_rights": "NOT_GRANTED",
+      "execution_authorized": false,
+      "render_authorized": false,
+      "main_merge_authorized": false
+    }
+  }
 }
