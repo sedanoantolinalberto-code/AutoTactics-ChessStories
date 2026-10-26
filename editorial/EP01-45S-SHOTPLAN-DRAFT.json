@@ -178,8 +178,8 @@
       "purpose": "Bridge real line and show 25...Nxd1 with visible omission",
       "narration_es": "Más tarde, 25...Nxd1 capturó la torre blanca en d1.",
       "caption_es": "T08/T09: PARTIDA REAL → T10: SE OMITEN JUGADAS REALES · 14 medias jugadas → T11: PARTIDA REAL · 25...Nxd1",
-      "visual": "Replay T08 and T09 as REAL; then explicitly change overlay to `SE OMITEN JUGADAS REALES` for T10 (plies 36–49 inclusive, 14 half-moves); only after the ellipsis completes return to `PARTIDA REAL` and show 25...Nxd1. V-PRE-EV2 remains technical input, not a silently presented move.",
-      "risk": "Four semantic events within six seconds is UNTESTED and likely too dense. Requires longer edit trial.",
+      "visual": "Replay T08 and T09 as REAL; during T10 retain the last audience-visible real board V-REAL under the persistent `SE OMITEN JUGADAS REALES` label for exactly plies 36–49 (14 real half-moves), while internal semantic context advances to TECHNICAL_ONLY V-PRE-EV2 without an audience-visible frame or chess-piece tween. Only once the ellipsis is explicitly complete, T11 switches back to `PARTIDA REAL` and makes a hard editorial cut to the already declared VISUAL V-EV2 after-position, with a static d1 rook-capture callout for 25...Nxd1. Do not animate V-REAL→V-EV2 or display/tween the hidden V-PRE-EV2 source position as if it were a played move. VIS-TECH-01 ALT-A SOURCE-ONLY CANDIDATE; no qualified replay or rendered frame exists.",
+      "risk": "Four semantic events within six seconds; T10 14-ply omission and ALT-A hard cut are still UNRENDERED, RULES_ORACLE_NOT_RUN, RIGHTS_PENDING, and HUMAN_IVV_NOT_RUN. Not evidence of 45-second comprehension or feasibility.",
       "event_truth_sequence": [
         {
           "event_id": "T08",
@@ -229,7 +229,8 @@
     "IVV-05/06/09/10/12 pending; no media use authorization.",
     "R6 commercial rights pending per asset.",
     "Narration pacing, subtitle sizes and horizontal recomposition are not measured.",
-    "S06 and S07 branch transition comprehension and S08 omission density are priority risk hypotheses."
+    "S06 and S07 branch transition comprehension and S08 omission density are priority risk hypotheses.",
+    "S08 ALT-A clarification is a source-only 45s visual strategy candidate, aligned conceptually with the 60s board binding; do not infer rendered feasibility, frame-level IVV, source authentication, or approval. Cross-branch source/blob pins and dependent manifests require separate reconciliation if a human adopts this candidate."
   ],
   "publication_status": "NOT_APPROVED",
   "process_execution_authorized": false,
