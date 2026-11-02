@@ -1,0 +1,113 @@
+{
+  "artifact_version": "engineyt-editorial-risk-report/0.1",
+  "evidence_level": "UNMEASURED_DESIGN_HEURISTICS_ONLY",
+  "advisory_status": "ALL_SHOTS_REQUIRE_REAL_TIMING_AND_FRAME_REVIEW",
+  "render_authorized": false,
+  "release_authority": false,
+  "high_risk_shot_ids": [
+    "S06",
+    "S07",
+    "S08"
+  ],
+  "assessments": [
+    {
+      "shot_id": "S01",
+      "target_duration_ms": 4000,
+      "event_count": 1,
+      "draft_narration_word_count": 10,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 2.5,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": null
+    },
+    {
+      "shot_id": "S02",
+      "target_duration_ms": 6000,
+      "event_count": 0,
+      "draft_narration_word_count": 11,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 1.83,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": null
+    },
+    {
+      "shot_id": "S03",
+      "target_duration_ms": 7000,
+      "event_count": 1,
+      "draft_narration_word_count": 12,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 1.71,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": null
+    },
+    {
+      "shot_id": "S04",
+      "target_duration_ms": 6000,
+      "event_count": 1,
+      "draft_narration_word_count": 10,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 1.67,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": null
+    },
+    {
+      "shot_id": "S05",
+      "target_duration_ms": 6000,
+      "event_count": 0,
+      "draft_narration_word_count": 8,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 1.33,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": null
+    },
+    {
+      "shot_id": "S06",
+      "target_duration_ms": 5000,
+      "event_count": 3,
+      "draft_narration_word_count": 10,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 2,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": "COMPOSITE_REWIND_AND_HYPOTHETICAL_UNMEASURED"
+    },
+    {
+      "shot_id": "S07",
+      "target_duration_ms": 2000,
+      "event_count": 1,
+      "draft_narration_word_count": 5,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 2.5,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": "RETURN_TO_REAL_TWO_SECOND_TARGET_UNTESTED"
+    },
+    {
+      "shot_id": "S08",
+      "target_duration_ms": 6000,
+      "event_count": 4,
+      "draft_narration_word_count": 9,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 1.5,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": "FOUR_EVENTS_ELLIPSIS_AND_T11_STAGING_OPEN"
+    },
+    {
+      "shot_id": "S09",
+      "target_duration_ms": 3000,
+      "event_count": 1,
+      "draft_narration_word_count": 9,
+      "word_density_per_target_second_ARITHMETIC_ONLY": 3,
+      "audio_duration_measured": false,
+      "event_phase_duration_measured": false,
+      "frame_overlay_readability_tested": false,
+      "specific_documentary_risk": null
+    }
+  ]
+}
