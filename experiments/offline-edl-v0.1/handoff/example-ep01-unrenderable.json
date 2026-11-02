@@ -1,0 +1,407 @@
+{
+  "artifact_version": "engineyt-documentary-production-handoff/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "RESEARCH_ONLY_INCOMPLETE_AND_UNRENDERABLE",
+  "source_edl_version": "engineyt-offline-edl-proposal/0.1",
+  "editorial_target_duration_ms": 45000,
+  "measured_final_duration_ms": null,
+  "automatic_execution_authorized": false,
+  "automatic_asset_generation_authorized": false,
+  "direct_capcut_project_write_authorized": false,
+  "auto_dependency_install_authorized": false,
+  "financial_spend_authorized": false,
+  "integration_authorized": false,
+  "media_render_authorized": false,
+  "publication_authorized": false,
+  "independent_verification_completed": false,
+  "legal_rights_qualified": false,
+  "protocol": "WRITE_NEUTRAL_SOURCE_METADATA_ONLY",
+  "stages": [
+    {
+      "stage": "SCRIPT_EVIDENCE_AND_FACTUALITY",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "VOICEOVER_WORD_TIMING",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "CHARACTER_REFERENCE_APPROVAL",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "VISUAL_ASSET_AND_LICENSES",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "PER_SHOT_TRUTH_QC",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "EDITABLE_TIMELINE_INTEGRITY",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "INDEPENDENT_COMPREHENSION",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    },
+    {
+      "stage": "RELEASE_GATES",
+      "status": "NOT_VERIFIED",
+      "evidence_refs": [],
+      "can_advance": false
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "S01",
+      "editorial_target_interval_ms": [
+        0,
+        4000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T01",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-P1",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S02",
+      "editorial_target_interval_ms": [
+        4000,
+        10000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T01",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-P1",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S03",
+      "editorial_target_interval_ms": [
+        10000,
+        17000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T02",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-EV1",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S04",
+      "editorial_target_interval_ms": [
+        17000,
+        23000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T03",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-REAL",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S05",
+      "editorial_target_interval_ms": [
+        23000,
+        29000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T03",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-REAL",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S06",
+      "editorial_target_interval_ms": [
+        29000,
+        34000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T04",
+          "mandatory_label": "REBOBINADO · PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        },
+        {
+          "event_id": "T05",
+          "mandatory_label": "HIPOTÉTICA · NO JUGADA",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        },
+        {
+          "event_id": "T06",
+          "mandatory_label": "HIPOTÉTICA · NO JUGADA",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-HYP",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S07",
+      "editorial_target_interval_ms": [
+        34000,
+        36000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T07",
+          "mandatory_label": "REGRESO A LA PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-P1",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S08",
+      "editorial_target_interval_ms": [
+        36000,
+        42000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T08",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        },
+        {
+          "event_id": "T09",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        },
+        {
+          "event_id": "T10",
+          "mandatory_label": "SE OMITEN JUGADAS REALES",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        },
+        {
+          "event_id": "T11",
+          "mandatory_label": "PARTIDA REAL",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-EV2",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "BLOCKED_T11_TECHNICAL_SOURCE"
+    },
+    {
+      "shot_id": "S09",
+      "editorial_target_interval_ms": [
+        42000,
+        45000
+      ],
+      "editorial_target_not_measured": true,
+      "source_events": [
+        {
+          "event_id": "T12",
+          "mandatory_label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+          "visual_duration_ms": null,
+          "visibility_proved": false
+        }
+      ],
+      "planned_board": "V-EV2",
+      "visual_identity_key": null,
+      "voiceover_segment_verified": false,
+      "word_level_alignment": null,
+      "asset_manifest_hashes": [],
+      "character_reference_approval": null,
+      "music_rights_approval": null,
+      "subtitle_fidelity_verified": false,
+      "frame_truth_overlay_verified": false,
+      "candidate_export_formats": [
+        "EDL_NEUTRAL_METADATA_ONLY"
+      ],
+      "capcut_native_project_path": null,
+      "direct_editor_write_permitted": false,
+      "rendering_permitted": false,
+      "shot_quality_gate": "NOT_REVIEWED"
+    }
+  ],
+  "caveats": [
+    "NEVER_ASSUME_WORD_TIMES_FROM_TEXT_ONLY",
+    "NO_CAPCUT_NATIVE_FILE_WRITE_OR_INSTALLER",
+    "NO_AI_GENERATED_HISTORICAL_CLAIM_WITHOUT_SOURCE",
+    "CROSS_SHOT_CHARACTER_IDENTITY_NEEDS_VISUAL_REVIEW",
+    "NO_RENDER_OR_UPLOAD_WITH_E5B4D_NO_GO"
+  ],
+  "frozen_gates": [
+    "E5B4D_NO_GO_MODEL_M_POLICY_B",
+    "R6_RIGHTS_PENDING",
+    "IVV_GLOBAL_NOT_APPROVED",
+    "CASE_APPROVAL_NOT_APPROVED",
+    "VOICE_AND_FRAME_TIMINGS_UNMEASURED",
+    "S06_S07_S08_PHASE_INTERVALS_UNASSIGNED",
+    "S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED",
+    "ADAPTER_CONSUMER_NOT_QUALIFIED",
+    "NO_RENDER_NO_UPLOAD"
+  ]
+}
