@@ -6,6 +6,7 @@ import { reviewDraft } from "../src/review-draft.mjs";
 import { compareEditorialDrafts } from "../src/compare-editorial-drafts.mjs";
 import { analyzeEditorialTargetRisks } from "../src/editorial-target-risks.mjs";
 import { gitBlobSha1, verifySourcePins } from "../tools/verify-source-pins.mjs";
+import { verifyGeneratedReports } from "../tools/verify-generated-reports.mjs";
 
 
 const root = new URL("../../../", import.meta.url);
@@ -191,4 +192,11 @@ test("risk report rejects a forged execution/release authority", async () => {
   const draft=compileDraft(shotplan,semantic,precedence);
   draft.release_authority=true;
   assert.throws(()=>analyzeEditorialTargetRisks(draft),/EDL_RISK_REJECT:UNQUALIFIED_DRAFT/);
+});
+
+test("all three checked-in documentary reports replay deterministically", async () => {
+  const result=await verifyGeneratedReports();
+  assert.equal(result.status,"PASS_LIMITED_STATIC_DOCUMENT_REPLAY_ONLY");
+  assert.equal(result.deterministic_report_count,3);
+  assert.equal(result.release_authority,false);
 });
