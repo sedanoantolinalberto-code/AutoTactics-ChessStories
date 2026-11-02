@@ -16,6 +16,15 @@ export function compileDraft(shotplan, semantic, precedence) {
   requireThat(semantic.frozen_gates?.R6 === "PENDING" && semantic.frozen_gates?.CASE_APPROVAL === "NOT APPROVED", "REVIEW_GATE");
   requireThat(precedence.review_status === "PROPOSED_SOURCE_ONLY_NOT_ADOPTED" && precedence.adapter_consumer_identity === "NOT_IDENTIFIED", "UNKNOWN_CONSUMER");
   requireThat(precedence.adapter_schema_acceptance === "UNKNOWN" && precedence.planned_event_intervals === "NOT_ASSIGNED_FOR_45S", "UNMEASURED_PHASES");
+  const expectedPins = {
+    shotplan:"0f20ef02a32b7275bb6393e0418907429f663053",
+    semantic_case:"3514f19ac355763a5b4c61d5c573df090b0eccc1",
+    truth_overlay:"aafc6429d716863e225361dd4962169bf12ecfae",
+    prior_60s_analogue_not_timing_authority:"95b8c3befe6da95be1a297af4c7bb7722231ab64"
+  };
+  for (const [key, sha] of Object.entries(expectedPins)) {
+    requireThat(precedence.source_pins?.[key]?.observed_git_blob === sha, "SOURCE_PIN_" + key);
+  }
   const expectedIds = Array.from({length:12}, (_, i) => "T" + String(i + 1).padStart(2, "0"));
   const timelineIds = Array.isArray(semantic.timeline) ? semantic.timeline.map(e => e.id) : [];
   requireThat(JSON.stringify(timelineIds) === JSON.stringify(expectedIds), "CANONICAL_TIMELINE");
@@ -121,7 +130,7 @@ export function compileDraft(shotplan, semantic, precedence) {
     rights_clearance_verified:false,
     semantic_legality_verified:false,
     original_sources_unchanged:true,
-    source_revisions:precedence.source_pins,
+    source_revisions:JSON.parse(JSON.stringify(precedence.source_pins)),
     source_revision_scope:"OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION",
     target_duration_ms:shotplan.target.target_duration_ms,
     shots:processed,
