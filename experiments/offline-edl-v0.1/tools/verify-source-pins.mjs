@@ -26,11 +26,22 @@ export async function verifySourcePins() {
   for (const item of manifest.source_files) {
     const bytes = await readFile(new URL("../../../" + item.path, import.meta.url));
     if (bytes.byteLength > 262144) throw new Error("SOURCE_PIN_REJECT:FILE_SIZE_CAP");
-    const observed = gitBlobSha1(bytes);
-    if (observed !== item.expected_git_blob_sha1) {
-      throw new Error("SOURCE_PIN_REJECT:SOURCE_BYTES_MISMATCH:" + item.path);
+    const observedRaw = gitBlobSha1(bytes);
+    let matchMode = "EXACT_CHECKOUT_BYTES";
+    if (observedRaw !== item.expected_git_blob_sha1) {
+      // Git has '* text=auto': on Windows, checkout can convert LF to CRLF.
+      // Accept ONLY the strictly reversible CRLF -> LF worktree transformation.
+      const decoded = bytes.toString("utf8");
+      if (!decoded.includes("\r\n")) {
+        throw new Error("SOURCE_PIN_REJECT:SOURCE_BYTES_MISMATCH:" + item.path);
+      }
+      const canonical = decoded.replace(/\r\n/g, "\n");
+      if (canonical.includes("\r") || gitBlobSha1(Buffer.from(canonical,"utf8")) !== item.expected_git_blob_sha1) {
+        throw new Error("SOURCE_PIN_REJECT:SOURCE_BYTES_MISMATCH:" + item.path);
+      }
+      matchMode = "GIT_LF_CANONICALIZED_FROM_CRLF_CHECKOUT";
     }
-    results.push({path:item.path,git_blob_sha1:observed,match:true});
+    results.push({path:item.path,git_blob_sha1:item.expected_git_blob_sha1,match:true,match_mode:matchMode});
   }
   return {
     status:"PASS_LIMITED_LOCAL_GIT_BLOB_MATCH",
