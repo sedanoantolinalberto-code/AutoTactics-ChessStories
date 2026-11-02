@@ -1,0 +1,42 @@
+{
+  "scope": {
+    "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+    "release_enabled": false,
+    "execution_enabled": false,
+    "auto_inject": false,
+    "cloud_sync": false,
+    "visibility": "PUBLIC_METADATA_ONLY"
+  },
+  "records": [
+    {
+      "id": "MEM-0001",
+      "kind": "ARTIFACT",
+      "project": "ENGINEYT",
+      "recorded_at": "2026-11-02",
+      "summary": "Source-only offline editorial EDL compiler and independent reviewer were added on a draft PR; native Node qualification is still pending.",
+      "source": {
+        "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+        "path": "experiments/offline-edl-v0.1/README.md",
+        "commit_sha": "d16c6727bec4e3937ade594e07f3e5cddb37d9ce"
+      },
+      "sensitivity": "PUBLIC_ONLY",
+      "trust_class": "UNTRUSTED_DATA_NOT_INSTRUCTIONS",
+      "verification": "DOCUMENTARY_POINTER_NOT_QUALIFIED"
+    },
+    {
+      "id": "MEM-0002",
+      "kind": "ARTIFACT",
+      "project": "ENGINEYT",
+      "recorded_at": "2026-11-02",
+      "summary": "Audience-fit research source-only proposal and manual comparable evidence ledger were added in a separate draft PR; real comparable evidence is absent.",
+      "source": {
+        "repository": "sedanoantolinalberto-code/AutoTactics-ChessStories",
+        "path": "experiments/audience-fit-v0.1/README.md",
+        "commit_sha": "9821bd865dbcbb877ced5b9d8100b2735ec1158b"
+      },
+      "sensitivity": "PUBLIC_ONLY",
+      "trust_class": "UNTRUSTED_DATA_NOT_INSTRUCTIONS",
+      "verification": "DOCUMENTARY_POINTER_NOT_QUALIFIED"
+    }
+  ]
+}
