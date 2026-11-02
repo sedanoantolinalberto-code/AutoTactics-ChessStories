@@ -15,6 +15,16 @@ export function reviewDraft(draft, shotplan, semantic) {
   check(draft?.case_id === shotplan?.case_id && draft?.case_id === semantic?.case_id, "CASE_BINDING");
   check(semantic?.execution_policy?.execution_authorized === false && semantic?.frozen_gates?.PERMISSION_TO_PUBLISH === false, "ORIGINAL_GATES");
   check(draft?.source_revision_scope === "OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION", "PROVENANCE_CAVEAT");
+  check(draft?.original_sources_unchanged === true, "SOURCES_INTEGRITY_CLAIM");
+  const expectedPins = {
+    shotplan:"0f20ef02a32b7275bb6393e0418907429f663053",
+    semantic_case:"3514f19ac355763a5b4c61d5c573df090b0eccc1",
+    truth_overlay:"aafc6429d716863e225361dd4962169bf12ecfae",
+    prior_60s_analogue_not_timing_authority:"95b8c3befe6da95be1a297af4c7bb7722231ab64"
+  };
+  for (const [key,sha] of Object.entries(expectedPins)) {
+    check(draft?.source_revisions?.[key]?.observed_git_blob === sha, "PIN_" + key);
+  }
   check(Array.isArray(draft?.hard_blockers) && draft.hard_blockers.includes("E5B4D_NO_GO_MODEL_M_POLICY_B") && draft.hard_blockers.includes("S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED"), "BLOCKER_PRESERVATION");
   const expectedShots = Array.isArray(shotplan?.shots) ? shotplan.shots : [];
   const actualShots = Array.isArray(draft?.shots) ? draft.shots : [];
@@ -31,6 +41,9 @@ export function reviewDraft(draft, shotplan, semantic) {
       check(s?.time_authority === "UNMEASURED_EDITORIAL_TARGET" && s?.editorial_review === "REQUIRED" && s?.visual_review === "NOT_EXECUTED", "SHOT_MEASUREMENT_" + i);
       check(s?.audio_file === null && s?.render_instruction === null && Array.isArray(s?.subtitle_cues) && s.subtitle_cues.length === 0 && Array.isArray(s?.visual_asset_files) && s.visual_asset_files.length === 0, "NO_MEDIA_" + i);
       check(JSON.stringify(s?.event_ids) === JSON.stringify(source?.events), "SHOT_EVENTS_" + i);
+      check(s?.narration_text_draft === (source?.narration_es ?? "") &&
+            s?.caption_text_draft === (source?.caption_es ?? ""),
+            "EDITORIAL_COPY_MUST_MATCH_UNADOPTED_SOURCE_" + i);
       check(s?.declared_terminal_board === source?.state && s?.declared_terminal_board !== "V-PRE-EV2", "TECHNICAL_VISIBILITY_" + i);
       const anns=s?.truth_annotations;
       check(Array.isArray(anns) && anns.length === (source?.events?.length ?? -1), "TRUTH_COUNT_" + i);
