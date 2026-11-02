@@ -1,0 +1,21 @@
+{
+  "artifact_version": "engineyt-source-pin-manifest/0.1",
+  "status": "DOCUMENTARY_GIT_BLOB_IDENTITY_ONLY_NOT_EXTERNAL_AUTHENTICATION",
+  "bound_to_source_branch": "chess-stories/ep01-av01-45s-phase-state-candidate-20261026",
+  "base_commit": "6766767ae5db7e2ec1a3a0a683351e3060068d18",
+  "note": "SHA-1 Git blob identity is checked against the local source bytes. This does not prove external provenance, copyright, GCP/security, chess legality, runtime safety or qualification under E5B4D.",
+  "source_files": [
+    {
+      "path": "editorial/EP01-45S-SHOTPLAN-DRAFT.json",
+      "expected_git_blob_sha1": "0f20ef02a32b7275bb6393e0418907429f663053"
+    },
+    {
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "expected_git_blob_sha1": "3514f19ac355763a5b4c61d5c573df090b0eccc1"
+    },
+    {
+      "path": "editorial/EP01-AV01-45S-EVENT-STATE-PRECEDENCE.v0.1.json",
+      "expected_git_blob_sha1": "e67ce056c67e7b05b2a4be7540487f3d4c88cc38"
+    }
+  ]
+}
