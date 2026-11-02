@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:engineyt:offline-edl:proposal:0.1",
+  "title": "Engine YT draft-only EDL proposal (not a release certificate)",
+  "description": "Structural guard only; cannot establish factuality, timing, Policy B/M, rights or publish authorization.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_version",
+    "case_id",
+    "classification",
+    "evidence_level",
+    "source_revisions",
+    "source_revision_scope",
+    "target_duration_ms",
+    "shots",
+    "hard_blockers",
+    "execution_authorized",
+    "render_authorized",
+    "publishing_authorized",
+    "integration_authorized",
+    "release_authority",
+    "measured_voice_timing",
+    "frame_visibility_verified",
+    "rights_clearance_verified",
+    "semantic_legality_verified",
+    "original_sources_unchanged"
+  ],
+  "properties": {
+    "artifact_version": {
+      "const": "engineyt-offline-edl-proposal/0.1"
+    },
+    "case_id": {
+      "const": "ED-CASE-REAL-01"
+    },
+    "classification": {
+      "const": "SOURCE_ONLY_DOCUMENTARY_PROPOSAL"
+    },
+    "evidence_level": {
+      "const": "STATIC_SOURCE_CONCORDANCE_ONLY"
+    },
+    "source_revisions": {
+      "type": "object"
+    },
+    "source_revision_scope": {
+      "const": "OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION"
+    },
+    "target_duration_ms": {
+      "const": 45000
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 9,
+      "maxItems": 9,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "shot_id",
+          "time_authority",
+          "target_start_ms",
+          "target_end_ms",
+          "declared_terminal_board",
+          "event_dispatch_allowed",
+          "event_ids",
+          "truth_annotations",
+          "narration_text_draft",
+          "caption_text_draft",
+          "audio_file",
+          "subtitle_cues",
+          "visual_asset_files",
+          "render_instruction",
+          "editorial_review",
+          "visual_review"
+        ],
+        "properties": {
+          "shot_id": {
+            "type": "string",
+            "pattern": "^S0[1-9]$"
+          },
+          "time_authority": {
+            "const": "UNMEASURED_EDITORIAL_TARGET"
+          },
+          "target_start_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "target_end_ms": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "declared_terminal_board": {
+            "type": "string",
+            "not": {
+              "const": "V-PRE-EV2"
+            }
+          },
+          "event_dispatch_allowed": {
+            "type": "boolean"
+          },
+          "event_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "truth_annotations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "event_id",
+                "required_display_label",
+                "mandatory_omission",
+                "audience_board_before_declared",
+                "audience_board_after_declared",
+                "phase_start_ms",
+                "phase_end_ms",
+                "visible_on_real_frames_verified"
+              ],
+              "properties": {
+                "event_id": {
+                  "type": "string"
+                },
+                "required_display_label": {
+                  "type": "string"
+                },
+                "mandatory_omission": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "audience_board_before_declared": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "audience_board_after_declared": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "phase_start_ms": {
+                  "const": null
+                },
+                "phase_end_ms": {
+                  "const": null
+                },
+                "visible_on_real_frames_verified": {
+                  "const": false
+                }
+              }
+            },
+            "minItems": 1
+          },
+          "narration_text_draft": {
+            "type": "string"
+          },
+          "caption_text_draft": {
+            "type": "string"
+          },
+          "audio_file": {
+            "const": null
+          },
+          "subtitle_cues": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "visual_asset_files": {
+            "type": "array",
+            "maxItems": 0
+          },
+          "render_instruction": {
+            "const": null
+          },
+          "editorial_review": {
+            "const": "REQUIRED"
+          },
+          "visual_review": {
+            "const": "NOT_EXECUTED"
+          }
+        }
+      }
+    },
+    "hard_blockers": {
+      "type": "array",
+      "minItems": 8,
+      "items": {
+        "type": "string"
+      }
+    },
+    "execution_authorized": {
+      "const": false
+    },
+    "render_authorized": {
+      "const": false
+    },
+    "publishing_authorized": {
+      "const": false
+    },
+    "integration_authorized": {
+      "const": false
+    },
+    "release_authority": {
+      "const": false
+    },
+    "measured_voice_timing": {
+      "const": false
+    },
+    "frame_visibility_verified": {
+      "const": false
+    },
+    "rights_clearance_verified": {
+      "const": false
+    },
+    "semantic_legality_verified": {
+      "const": false
+    },
+    "original_sources_unchanged": {
+      "const": true
+    }
+  }
+}
