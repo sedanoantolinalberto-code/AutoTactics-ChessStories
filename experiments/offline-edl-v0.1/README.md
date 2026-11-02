@@ -23,7 +23,8 @@ No MakeaVideos or ECC package is installed. No commercial subscription or API ke
 - `proposals/EP01-45S-EDL-SOURCE-ONLY.v0.1.json` — generated, unapproved EDL document with 9 shots and 12 ordered events.
 - `reports/EP01-TARGET-RISK.v0.1.json` — scene pacing flags without audio, frame, or human testing.
 - `reports/EP01-INDEPENDENT-STATIC-REVIEW.v0.1.json` — limited static review status, not a release decision.
-- `tests/offline-edl.test.mjs` — **26 Node test definitions**, including adversarial negative cases for source pins, factuality, rights, time gaps, technical board visibility, copy revision, and release flags.
+- `tools/verify-generated-reports.mjs` — read-only, offline deterministic replay of the three checked-in EDL/review/risk JSON artifacts.
+- `tests/offline-edl.test.mjs` — **27 Node test definitions**, including adversarial negative cases for source pins, factuality, rights, time gaps, technical board visibility, copy revision, and release flags.
 - `proposal.schema.json` — data exchange schema for proposals, not a runner certificate.
 
 ## Review model (roles separated)
@@ -62,7 +63,7 @@ These tests exercise pure data compilation and static review; their result canno
 
 ## Evidence status
 
-A first isolated pure-function check of the compiler and reviewer in the connected tool runtime passed **12 focused cases** (including adverse mutations) on the unchanged candidate inputs. After further hardening, **24 of the 26 committed test cases** were executed with actual GitHub-sourced module text and EP01 JSON source content in a **V8 JavaScript harness with emulated read-only file access**: **24 PASS, 0 FAIL**. The remaining **2 Node-specific checks** (actual checkout-file Git blob identity and SHA-1 reference vector) were **not executed as part of the committed Node test suite**. Separately, the SHA-1 reference vector was checked using Node v22.16.0 in an isolated container, but the GitHub repository files were not available inside that Node checkout. **No completed native Node suite run, CI run, Windows run, cross-platform verification, E5B4D runner qualification, or audiovisual test is claimed.** No gate upgrades are inferred.
+A first isolated pure-function check of the compiler and reviewer in the connected tool runtime passed **12 focused cases** (including adverse mutations) on the unchanged candidate inputs. After further hardening, **24 of the 27 committed test cases** were executed with actual GitHub-sourced module text and EP01 JSON source content in a **V8 JavaScript harness with emulated read-only file access**: **24 PASS, 0 FAIL**. The remaining **3 Node-specific checks** (actual checkout-file Git blob identity, SHA-1 reference vector, and the read-only full report replay) were **not executed as part of the committed native Node test suite**. Separately, the SHA-1 reference vector was checked using Node v22.16.0 in an isolated container, but the GitHub repository files were not available inside that Node checkout. **The three generated EDL/risk/review JSON files were separately compared with fresh V8-generated results and **all 3 matched**. No completed native Node suite run, CI run, Windows run, cross-platform verification, E5B4D runner qualification, or audiovisual test is claimed.** No gate upgrades are inferred.
 
 ## 2026-11-02 isolated extension and ready-to-review handoff
 
