@@ -8,7 +8,9 @@ export function compileDraft(shotplan, semantic, precedence) {
   requireThat(semantic.schema_version === "chess-stories-semantic-case/0.2", "CASE_VERSION");
   requireThat(shotplan.target?.target_duration_ms === 45000 && shotplan.target?.voice_timing_measured === false && shotplan.target?.rendered_duration_verified === false, "UNMEASURED_TARGET");
   requireThat(shotplan.timing_semantics === "EDITORIAL_DESIGN_TARGET_NOT_TIMING_MEASURED", "TIMING_AUTHORITY");
-  requireThat(shotplan.publication_status !== "PUBLISHED" && shotplan.process_execution_authorized === false, "SOURCE_EXECUTION_FLAG");
+  requireThat(shotplan.status === "DRAFT_NOT_RENDERED_TRUTH_OVERLAY_HARDENED" && shotplan.publication_status === "NOT_APPROVED" && shotplan.process_execution_authorized === false, "SOURCE_EXECUTION_FLAG");
+  requireThat(shotplan.assets_status === "VISUALS_MUSIC_FONTS_VOICES_RIGHTS_UNCLEARED", "RIGHTS_UNCLEARED");
+  requireThat(precedence.frozen_gates?.render_authorized === false && precedence.frozen_gates?.publication_authorized === false && precedence.frozen_gates?.main_merge_authorized === false, "PRECEDENCE_GATES");
   requireThat(semantic.execution_policy?.execution_authorized === false && semantic.execution_policy?.policy === "STRICT_POLICY_B", "EXECUTION_GATE");
   requireThat(semantic.frozen_gates?.["PERMISSION_TO_PUBLISH"] === false && String(semantic.frozen_gates?.E5B4D).startsWith("NO-GO"), "PUBLISH_GATE");
   requireThat(semantic.frozen_gates?.R6 === "PENDING" && semantic.frozen_gates?.CASE_APPROVAL === "NOT APPROVED", "REVIEW_GATE");
