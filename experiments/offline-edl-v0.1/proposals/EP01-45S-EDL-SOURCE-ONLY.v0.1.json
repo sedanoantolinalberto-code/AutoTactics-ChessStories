@@ -1,0 +1,387 @@
+{
+  "artifact_version": "engineyt-offline-edl-proposal/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "classification": "SOURCE_ONLY_DOCUMENTARY_PROPOSAL",
+  "evidence_level": "STATIC_SOURCE_CONCORDANCE_ONLY",
+  "execution_authorized": false,
+  "render_authorized": false,
+  "publishing_authorized": false,
+  "integration_authorized": false,
+  "release_authority": false,
+  "measured_voice_timing": false,
+  "frame_visibility_verified": false,
+  "rights_clearance_verified": false,
+  "semantic_legality_verified": false,
+  "original_sources_unchanged": true,
+  "source_revisions": {
+    "shotplan": {
+      "path": "editorial/EP01-45S-SHOTPLAN-DRAFT.json",
+      "branch": "chess-stories/ep01-45s-alt-a-source-clarification-20261026",
+      "observed_git_blob": "0f20ef02a32b7275bb6393e0418907429f663053"
+    },
+    "semantic_case": {
+      "path": "cases/ED-CASE-REAL-01.v0.2.json",
+      "branch": "chess-stories/semantic-contract-v0.2",
+      "observed_git_blob": "3514f19ac355763a5b4c61d5c573df090b0eccc1"
+    },
+    "truth_overlay": {
+      "path": "editorial/EP01-TRUTH-OVERLAYS-12-EVENTS.v0.1.json",
+      "branch": "chess-stories/presentation-truth-overlay-rfc-v0.1",
+      "observed_git_blob": "aafc6429d716863e225361dd4962169bf12ecfae"
+    },
+    "prior_60s_analogue_not_timing_authority": {
+      "path": "editorial/EP01-60S-PHASE-BOARD-BINDINGS.v0.1.json",
+      "branch": "chess-stories/ep01-45s-alt-a-source-clarification-20261026",
+      "observed_git_blob": "95b8c3befe6da95be1a297af4c7bb7722231ab64"
+    }
+  },
+  "source_revision_scope": "OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION",
+  "target_duration_ms": 45000,
+  "shots": [
+    {
+      "shot_id": "S01",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 0,
+      "target_end_ms": 4000,
+      "declared_terminal_board": "V-P1",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T01"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T01",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "La dama de Fischer estaba atacada. Y no la retiró.",
+      "caption_text_draft": "1956 · ¿Salvarías la dama?",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S02",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 4000,
+      "target_end_ms": 10000,
+      "declared_terminal_board": "V-P1",
+      "event_dispatch_allowed": false,
+      "event_ids": [
+        "T01"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T01",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "El alfil blanco de c5 amenazaba la dama negra en b6.",
+      "caption_text_draft": "Alfil c5 → dama b6",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S03",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 10000,
+      "target_end_ms": 17000,
+      "declared_terminal_board": "V-EV1",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T02"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T02",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "Fischer jugó 17...Be6. Su alfil pasó a atacar el alfil de c4.",
+      "caption_text_draft": "17...Be6 · PARTIDA REAL",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S04",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 17000,
+      "target_end_ms": 23000,
+      "declared_terminal_board": "V-REAL",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T03"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T03",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "Byrne capturó la dama: 18.Bxb6. La partida no había terminado.",
+      "caption_text_draft": "18.Bxb6 · captura de dama",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S05",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 23000,
+      "target_end_ms": 29000,
+      "declared_terminal_board": "V-REAL",
+      "event_dispatch_allowed": false,
+      "event_ids": [
+        "T03"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T03",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "La combinación continuó con nuevos ataques y capturas.",
+      "caption_text_draft": "La combinación continúa",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S06",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 29000,
+      "target_end_ms": 34000,
+      "declared_terminal_board": "V-HYP",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T04",
+          "required_display_label": "REBOBINADO · PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": "V-REAL",
+          "audience_board_after_declared": "V-P1",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        },
+        {
+          "event_id": "T05",
+          "required_display_label": "HIPOTÉTICA · NO JUGADA",
+          "mandatory_omission": null,
+          "audience_board_before_declared": "V-P1",
+          "audience_board_after_declared": "V-P1",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        },
+        {
+          "event_id": "T06",
+          "required_display_label": "HIPOTÉTICA · NO JUGADA",
+          "mandatory_omission": null,
+          "audience_board_before_declared": "V-P1",
+          "audience_board_after_declared": "V-HYP",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "¿Y si hubiera jugado 17...Qd8? Es una alternativa no jugada.",
+      "caption_text_draft": "",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S07",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 34000,
+      "target_end_ms": 36000,
+      "declared_terminal_board": "V-P1",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T07"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T07",
+          "required_display_label": "REGRESO A LA PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": "V-HYP",
+          "audience_board_after_declared": "V-P1",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "Volvemos a la partida real.",
+      "caption_text_draft": "REGRESO A LA PARTIDA REAL",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S08",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 36000,
+      "target_end_ms": 42000,
+      "declared_terminal_board": "V-EV2",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T08",
+        "T09",
+        "T10",
+        "T11"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T08",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": "V-P1",
+          "audience_board_after_declared": "V-EV1",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        },
+        {
+          "event_id": "T09",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": "V-EV1",
+          "audience_board_after_declared": "V-REAL",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        },
+        {
+          "event_id": "T10",
+          "required_display_label": "SE OMITEN JUGADAS REALES",
+          "mandatory_omission": "14 medias jugadas omitidas · plies 36–49 inclusive",
+          "audience_board_before_declared": "V-REAL",
+          "audience_board_after_declared": "V-REAL",
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        },
+        {
+          "event_id": "T11",
+          "required_display_label": "PARTIDA REAL",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "Más tarde, 25...Nxd1 capturó la torre blanca en d1.",
+      "caption_text_draft": "",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    },
+    {
+      "shot_id": "S09",
+      "time_authority": "UNMEASURED_EDITORIAL_TARGET",
+      "target_start_ms": 42000,
+      "target_end_ms": 45000,
+      "declared_terminal_board": "V-EV2",
+      "event_dispatch_allowed": true,
+      "event_ids": [
+        "T12"
+      ],
+      "truth_annotations": [
+        {
+          "event_id": "T12",
+          "required_display_label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+          "mandatory_omission": null,
+          "audience_board_before_declared": null,
+          "audience_board_after_declared": null,
+          "phase_start_ms": null,
+          "phase_end_ms": null,
+          "visible_on_real_frames_verified": false
+        }
+      ],
+      "narration_text_draft": "Y la partida siguió: este no fue su final.",
+      "caption_text_draft": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA",
+      "audio_file": null,
+      "subtitle_cues": [],
+      "visual_asset_files": [],
+      "render_instruction": null,
+      "editorial_review": "REQUIRED",
+      "visual_review": "NOT_EXECUTED"
+    }
+  ],
+  "hard_blockers": [
+    "E5B4D_NO_GO_MODEL_M_POLICY_B",
+    "R6_RIGHTS_PENDING",
+    "IVV_GLOBAL_NOT_APPROVED",
+    "CASE_APPROVAL_NOT_APPROVED",
+    "VOICE_AND_FRAME_TIMINGS_UNMEASURED",
+    "S06_S07_S08_PHASE_INTERVALS_UNASSIGNED",
+    "S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED",
+    "ADAPTER_CONSUMER_NOT_QUALIFIED",
+    "NO_RENDER_NO_UPLOAD"
+  ]
+}
