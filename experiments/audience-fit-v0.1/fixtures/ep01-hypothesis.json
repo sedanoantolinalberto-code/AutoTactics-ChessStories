@@ -1,0 +1,50 @@
+{
+  "version": "engineyt-audience-fit-candidate/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "review_status": "UNAPPROVED_EDITORIAL_HYPOTHESIS",
+  "publication_authorized": false,
+  "render_authorized": false,
+  "integration_authorized": false,
+  "audience": {
+    "primary_interest": "Historias de ajedrez: partidas clásicas y decisiones sorprendentes",
+    "sophistication": "beginner",
+    "viewer_promise": "Distinguir una jugada real y una alternativa hipotética rotulada",
+    "excluded_expectation": "No es una lección de táctica verificada por un motor ni demuestra la mejor jugada"
+  },
+  "packaging": {
+    "anchor": "Fischer y la dama atacada en una partida de 1956",
+    "novelty": "Contraste claramente rotulado entre jugada real y alternativa no jugada",
+    "viewer_question": "¿Qué ocurrió realmente y qué alternativa no se jugó?",
+    "title_draft": "Fischer y la dama atacada: la jugada real y la alternativa no jugada",
+    "thumbnail_text_draft": "¿SALVAR LA DAMA?"
+  },
+  "guardrails": {
+    "chess_legality_qualified": false,
+    "historical_primary_sources_verified": false,
+    "rights_cleared": false,
+    "human_approval": false,
+    "source_case_path": "cases/ED-CASE-REAL-01.v0.2.json",
+    "required_disclosures": [
+      "PARTIDA REAL",
+      "REBOBINADO · PARTIDA REAL",
+      "HIPOTÉTICA · NO JUGADA",
+      "REGRESO A LA PARTIDA REAL",
+      "SE OMITEN JUGADAS REALES",
+      "CIERRE EDITORIAL · LA PARTIDA CONTINÚA"
+    ]
+  },
+  "hypotheses": [
+    {
+      "id": "H01",
+      "testable_question": "¿Entiende el público no experto la diferencia entre una jugada real y una alternativa no jugada?",
+      "counter_evidence_needed": "Pruebas de confusión en lectura de etiquetas REAL/HIPOTÉTICA",
+      "validation_metric": "Comprensión y recordación del estatus real/hipotético por evaluación humana"
+    },
+    {
+      "id": "H02",
+      "testable_question": "¿Promete el título solo lo que efectivamente muestra el storyboard?",
+      "counter_evidence_needed": "Usuarios que esperan mate o una evaluación táctica verificada",
+      "validation_metric": "Porcentaje de evaluadores que describe correctamente la promesa del título"
+    }
+  ]
+}
