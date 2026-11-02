@@ -1,0 +1,10 @@
+{
+  "review_version": "engineyt-independent-static-review/0.1",
+  "status": "PASS_LIMITED_STATIC_ONLY",
+  "independent_release_authority": false,
+  "checked_executable_media": false,
+  "checked_human_comprehension": false,
+  "checked_licensing": false,
+  "checked_chess_legality": false,
+  "failures": []
+}
