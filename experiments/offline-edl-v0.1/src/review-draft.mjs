@@ -16,8 +16,9 @@ export function reviewDraft(draft, shotplan, semantic) {
   check(semantic?.execution_policy?.execution_authorized === false && semantic?.frozen_gates?.PERMISSION_TO_PUBLISH === false, "ORIGINAL_GATES");
   check(draft?.source_revision_scope === "OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION", "PROVENANCE_CAVEAT");
   check(Array.isArray(draft?.hard_blockers) && draft.hard_blockers.includes("E5B4D_NO_GO_MODEL_M_POLICY_B") && draft.hard_blockers.includes("S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED"), "BLOCKER_PRESERVATION");
-  const expectedShots = shotplan?.shots ?? [];
-  const actualShots = draft?.shots ?? [];
+  const expectedShots = Array.isArray(shotplan?.shots) ? shotplan.shots : [];
+  const actualShots = Array.isArray(draft?.shots) ? draft.shots : [];
+  check(Array.isArray(draft?.shots), "SHOT_ARRAY");
   check(expectedShots.length === 9 && actualShots.length === expectedShots.length, "SHOT_COUNT");
   if (Array.isArray(actualShots)) {
     let running = 0;
