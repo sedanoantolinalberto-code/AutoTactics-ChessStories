@@ -17,7 +17,13 @@ No MakeaVideos or ECC package is installed. No commercial subscription or API ke
 - `src/compile-draft.mjs` — pure `compileDraft(shotplan, semantic, precedence)`, no I/O. It reads the **existing** 9-shot / 12-event / 45,000-ms **unmeasured editorial target**, checks order and contiguous shot allocations, keeps event-local disclosure labels, checks 14 omitted real plies 36–49, forbids exposing `TECHNICAL_ONLY` state `V-PRE-EV2`, preserves all relevant NO-GO flags, and returns a documentary EDL proposal.
 - `src/compile-draft.mjs` — pure `proposeEdit(draft, change)` supports only a separate **unapplied** caption or narration proposal. It never changes original sources or truth labels; independent editorial review is required.
 - `src/review-draft.mjs` — separately implemented `reviewDraft(draft, shotplan, semantic)`; it rechecks the EDL against source events, fixed mandatory disclosures, unknown timing, media absence and frozen release flags. `PASS_LIMITED_STATIC_ONLY` is **not** an approval.
-- `tests/offline-edl.test.mjs` — 14 Node built-in tests, including negative cases for factuality tampering, rights, time gaps, technical board visibility and release flags.
+- `src/compare-editorial-drafts.mjs` — pure *before/after* comparison allowing **only** narration and caption text changes; all other changes, including timing, source pins, rights/release flags and truth disclosures, fail closed. Outputs an **unapplied** diff requiring human editorial review.
+- `src/editorial-target-risks.mjs` — source-only design-density report identifying the pre-existing high-risk S06/S07/S08 segments. Calculated ratios are **not measured voice/frame timing**.
+- `source-pins.json` + `tools/verify-source-pins.mjs` — offline Git SHA-1 blob identity checks for the three checked-in EP01 documentary inputs; not an external authenticity attestation.
+- `proposals/EP01-45S-EDL-SOURCE-ONLY.v0.1.json` — generated, unapproved EDL document with 9 shots and 12 ordered events.
+- `reports/EP01-TARGET-RISK.v0.1.json` — scene pacing flags without audio, frame, or human testing.
+- `reports/EP01-INDEPENDENT-STATIC-REVIEW.v0.1.json` — limited static review status, not a release decision.
+- `tests/offline-edl.test.mjs` — **26 Node test definitions**, including adversarial negative cases for source pins, factuality, rights, time gaps, technical board visibility, copy revision, and release flags.
 - `proposal.schema.json` — data exchange schema for proposals, not a runner certificate.
 
 ## Review model (roles separated)
@@ -56,4 +62,14 @@ These tests exercise pure data compilation and static review; their result canno
 
 ## Evidence status
 
-A first isolated pure-function check of the compiler and reviewer in the connected tool runtime passed **12 focused cases** (including adverse mutations) on the unchanged candidate inputs. The GitHub-committed Node test suite is a **reproducibility deliverable**, not claimed to have run in Node, on Windows/Linux or in CI during this change. The later hardening edits to source flag checks and reviewer array checks were not separately runtime-qualified. No gate upgrades are inferred.
+A first isolated pure-function check of the compiler and reviewer in the connected tool runtime passed **12 focused cases** (including adverse mutations) on the unchanged candidate inputs. After further hardening, **24 of the 26 committed test cases** were executed with actual GitHub-sourced module text and EP01 JSON source content in a **V8 JavaScript harness with emulated read-only file access**: **24 PASS, 0 FAIL**. The remaining **2 Node-specific checks** (actual checkout-file Git blob identity and SHA-1 reference vector) were **not executed as part of the committed Node test suite**. Separately, the SHA-1 reference vector was checked using Node v22.16.0 in an isolated container, but the GitHub repository files were not available inside that Node checkout. **No completed native Node suite run, CI run, Windows run, cross-platform verification, E5B4D runner qualification, or audiovisual test is claimed.** No gate upgrades are inferred.
+
+## 2026-11-02 isolated extension and ready-to-review handoff
+
+- **Working branch:** `research/engineyt-offline-edl-ecc-review-v01-20261102`.
+- **Draft PR:** [#14](https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/14) targeting the prior EP01 candidate branch, **not `main`**.
+- **Safe next test:** in an authorized isolated checkout with Node.js, run `node --test experiments/offline-edl-v0.1/tests/offline-edl.test.mjs`. Do not infer production runner permission from a passing result.
+- **Source verification:** the two Node-specific tests validate the three exact local Git blob identities and a known SHA-1 vector.
+- **No adoption of third-party code:** neither ECC nor MakeaVideos code has been copied, installed, paid for or contacted. Only general workflow ideas were implemented independently.
+- **Unresolved:** historical primary sources and chess oracle, `S08/T11` presentation, `S06/S07` comprehension, rights/voice/font clearance, measured audio timings, real subtitles, human IVV, Policy B/M qualification.
+- **Do not merge**, and do not run any blocked media execution/publishing tasks as part of this experiment.
