@@ -1,0 +1,338 @@
+{
+  "version": "engineyt-media-capability-plan/0.1",
+  "case_id": "ED-CASE-REAL-01",
+  "mode": "SOURCE_ONLY_SIMULATION_NOT_RENDERABLE",
+  "all_third_party_dependencies_uninstalled": true,
+  "runtime_commands_authorized": false,
+  "media_processing_authorized": false,
+  "generation_authorized": false,
+  "integration_authorized": false,
+  "publish_authorized": false,
+  "proof_of_determinism": false,
+  "media_rights_reviewed": false,
+  "human_perceptual_reviewed": false,
+  "capability_map": [
+    {
+      "id": "pyscenedetect",
+      "capability": "scene-detection",
+      "upstream_url": "https://github.com/Breakthrough/PySceneDetect",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "auto-editor",
+      "capability": "silence-analysis",
+      "upstream_url": "https://github.com/WyattBlue/auto-editor",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "vid-stab",
+      "capability": "stabilization",
+      "upstream_url": "https://github.com/georgmartius/vid.stab",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "color-matcher",
+      "capability": "color-match",
+      "upstream_url": "https://github.com/hahnec/color-matcher",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "rembg",
+      "capability": "background-removal",
+      "upstream_url": "https://github.com/danielgatis/rembg",
+      "availability": "OPTIONAL_IF_ASSETS_APPROVED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "rife",
+      "capability": "frame-interpolation",
+      "upstream_url": "https://github.com/hzwer/ECCV2022-RIFE",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "real-esrgan",
+      "capability": "upscaling",
+      "upstream_url": "https://github.com/xinntao/Real-ESRGAN",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "demucs",
+      "capability": "audio-separation",
+      "upstream_url": "https://github.com/facebookresearch/demucs",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "librosa",
+      "capability": "beat-analysis",
+      "upstream_url": "https://github.com/librosa/librosa",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "hyperframes",
+      "capability": "html-motion",
+      "upstream_url": "https://github.com/heygen-com/hyperframes",
+      "availability": "SOURCE_ONLY_COMPOSITION",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "ffmpeg",
+      "capability": "media-encoding",
+      "upstream_url": "https://github.com/FFmpeg/FFmpeg",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    }
+  ],
+  "phases": [
+    {
+      "shot_id": "S01",
+      "event_ids": [
+        "T01"
+      ],
+      "target_start_ms": 0,
+      "target_end_ms": 4000,
+      "target_unmeasured": true,
+      "source_board": "V-P1",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S02",
+      "event_ids": [
+        "T01"
+      ],
+      "target_start_ms": 4000,
+      "target_end_ms": 10000,
+      "target_unmeasured": true,
+      "source_board": "V-P1",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S03",
+      "event_ids": [
+        "T02"
+      ],
+      "target_start_ms": 10000,
+      "target_end_ms": 17000,
+      "target_unmeasured": true,
+      "source_board": "V-EV1",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S04",
+      "event_ids": [
+        "T03"
+      ],
+      "target_start_ms": 17000,
+      "target_end_ms": 23000,
+      "target_unmeasured": true,
+      "source_board": "V-REAL",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S05",
+      "event_ids": [
+        "T03"
+      ],
+      "target_start_ms": 23000,
+      "target_end_ms": 29000,
+      "target_unmeasured": true,
+      "source_board": "V-REAL",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S06",
+      "event_ids": [
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "target_start_ms": 29000,
+      "target_end_ms": 34000,
+      "target_unmeasured": true,
+      "source_board": "V-HYP",
+      "requested_capabilities": [
+        "html-motion"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "UNASSIGNED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "REBOBINADO · PARTIDA REAL",
+        "HIPOTÉTICA · NO JUGADA",
+        "HIPOTÉTICA · NO JUGADA"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S07",
+      "event_ids": [
+        "T07"
+      ],
+      "target_start_ms": 34000,
+      "target_end_ms": 36000,
+      "target_unmeasured": true,
+      "source_board": "V-P1",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "REGRESO A LA PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S08",
+      "event_ids": [
+        "T08",
+        "T09",
+        "T10",
+        "T11"
+      ],
+      "target_start_ms": 36000,
+      "target_end_ms": 42000,
+      "target_unmeasured": true,
+      "source_board": "V-EV2",
+      "requested_capabilities": [],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "UNASSIGNED",
+      "if_blocked_reason": "T11_TECHNICAL_ONLY_VISUAL_NOT_ADJUDICATED",
+      "source_disclosures": [
+        "PARTIDA REAL",
+        "PARTIDA REAL",
+        "SE OMITEN JUGADAS REALES",
+        "PARTIDA REAL"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    },
+    {
+      "shot_id": "S09",
+      "event_ids": [
+        "T12"
+      ],
+      "target_start_ms": 42000,
+      "target_end_ms": 45000,
+      "target_unmeasured": true,
+      "source_board": "V-EV2",
+      "requested_capabilities": [
+        "html-motion",
+        "media-encoding"
+      ],
+      "compatibility": "SCHEMA_CONCEPT_ONLY_NO_TOOL_EXECUTION",
+      "phase_timing_status": "NOT_MEASURED",
+      "if_blocked_reason": null,
+      "source_disclosures": [
+        "CIERRE EDITORIAL · LA PARTIDA CONTINÚA"
+      ],
+      "actual_frames": null,
+      "actual_media": null,
+      "tool_command": null
+    }
+  ],
+  "hard_blockers": [
+    "E5B4D_NO_GO_MODEL_M_POLICY_B",
+    "R6_RIGHTS_PENDING",
+    "IVV_GLOBAL_NOT_APPROVED",
+    "CASE_APPROVAL_NOT_APPROVED",
+    "VOICE_AND_FRAME_TIMINGS_UNMEASURED",
+    "S06_S07_S08_PHASE_INTERVALS_UNASSIGNED",
+    "S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED",
+    "ADAPTER_CONSUMER_NOT_QUALIFIED",
+    "NO_RENDER_NO_UPLOAD"
+  ],
+  "required_next_review": [
+    "INDEPENDENT_STATIC_SOURCE_REVIEW",
+    "PER_TOOL_LICENSE_AND_WEIGHTS_REVIEW",
+    "NO_MEDIA_EXECUTION_BEFORE_POLICY_B_M_QUALIFICATION",
+    "S08_T11_ADJUDICATION",
+    "ACTUAL_FRAME_TIMING_AND_TRUTH_VISIBILITY",
+    "R6_IVV_CASE_APPROVAL"
+  ]
+}

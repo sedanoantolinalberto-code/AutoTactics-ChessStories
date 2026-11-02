@@ -1,0 +1,107 @@
+{
+  "version": "engineyt-media-capabilities/0.1",
+  "auto_install": false,
+  "execute_tools": false,
+  "network_enabled": false,
+  "tools": [
+    {
+      "id": "pyscenedetect",
+      "capability": "scene-detection",
+      "upstream_url": "https://github.com/Breakthrough/PySceneDetect",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "auto-editor",
+      "capability": "silence-analysis",
+      "upstream_url": "https://github.com/WyattBlue/auto-editor",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "vid-stab",
+      "capability": "stabilization",
+      "upstream_url": "https://github.com/georgmartius/vid.stab",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "color-matcher",
+      "capability": "color-match",
+      "upstream_url": "https://github.com/hahnec/color-matcher",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "rembg",
+      "capability": "background-removal",
+      "upstream_url": "https://github.com/danielgatis/rembg",
+      "availability": "OPTIONAL_IF_ASSETS_APPROVED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "rife",
+      "capability": "frame-interpolation",
+      "upstream_url": "https://github.com/hzwer/ECCV2022-RIFE",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "real-esrgan",
+      "capability": "upscaling",
+      "upstream_url": "https://github.com/xinntao/Real-ESRGAN",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "demucs",
+      "capability": "audio-separation",
+      "upstream_url": "https://github.com/facebookresearch/demucs",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "librosa",
+      "capability": "beat-analysis",
+      "upstream_url": "https://github.com/librosa/librosa",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "hyperframes",
+      "capability": "html-motion",
+      "upstream_url": "https://github.com/heygen-com/hyperframes",
+      "availability": "SOURCE_ONLY_COMPOSITION",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    },
+    {
+      "id": "ffmpeg",
+      "capability": "media-encoding",
+      "upstream_url": "https://github.com/FFmpeg/FFmpeg",
+      "availability": "INPUT_MEDIA_REQUIRED",
+      "planning_only": true,
+      "license_review_required": true,
+      "runtime_qualification": "NOT_RUN"
+    }
+  ]
+}
