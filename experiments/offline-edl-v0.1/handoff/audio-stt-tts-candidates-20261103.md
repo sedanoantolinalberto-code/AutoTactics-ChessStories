@@ -1,6 +1,6 @@
 # Audio/Subtitle candidate benchmark — research source only (2026-11-03)
 
-**Scope:** user-provided @flxrnc X screenshot (status https://x.com/flxrnc/status/2117318336837017846) enumerated 14 audio/video repositories. This note documents the **new candidates** for the existing non-renderable Chess Stories EP01 handoff. No installation, inference, speech generation, recording, MP4 encoding, browser session, credential use or authorization to advance gates.
+**Scope:** user-provided @flxrnc screenshots enumerate 14 audio/video repositories. The earlier link was https://x.com/flxrnc/status/2117318336837017846, whereas the follow-up accompanying the screenshots was https://x.com/flxrnc/status/2105311836190978392; **do not treat these as the same source post without a direct match**. This note documents the **new candidates** for the existing non-renderable Chess Stories EP01 handoff. No installation, inference, speech generation, recording, MP4 encoding, browser session, credential use or authorization to advance gates.
 
 ## Repository-specific evidence observed
 
