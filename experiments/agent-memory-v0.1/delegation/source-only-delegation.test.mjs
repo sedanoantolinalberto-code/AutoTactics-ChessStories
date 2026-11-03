@@ -1,0 +1,25 @@
+import test from "node:test";
+import assert from "node:assert/strict";
+import {prepareDelegation,reviewDelegation,assessDelegationReceipts} from "./source-only-delegation.mjs";
+const sourceCommit="a297dddc1467b049aca2a5b921c8713c3bab73b4";
+const req=()=>({version:"engineyt-source-delegation-request/0.1",case_id:"ED-CASE-REAL-01",mode:"OFFLINE_SOURCE_ONLY",source_commit:sourceCommit,lead:"lead-orchestrator",permissions:{execute:false,write_repo:false,network:false,spend:false,merge:false,render:false,publish:false,schedule:false,external_connectors:false},tasks:[
+{id:"D1",agent:"source-agent",role:"source_proposal",objective:"Propose a research-only improvement to the handoff module",source_path:"experiments/offline-edl-v0.1/README.md",must_verify:["Source identity and scope unchanged"]},
+{id:"D2",agent:"review-agent",role:"independent_reviewer",objective:"Review all source-proposed changes without approval powers",source_path:"experiments/offline-edl-v0.1/README.md",must_verify:["Gates remain frozen and never auto approved"]}
+]});
+const copy=x=>structuredClone(x);
+test("source-only plan and distinct maker checker",()=>{let p=prepareDelegation(req());assert.equal(p.tasks.length,2);assert.equal(p.no_dispatch,true);assert.equal(p.final_status,"PLAN_ONLY_UNDISPATCHED")});
+test("independent review limited",()=>{let x=req();assert.equal(reviewDelegation(prepareDelegation(x),x).verdict,"PASS_LIMITED_STATIC_PLAN_ONLY")});
+test("reject backend scheduling permission",()=>{let x=req();x.permissions.schedule=true;assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:PERMISSIONS_NOT_ALL_DENIED/)});
+test("reject repo write permission",()=>{let x=req();x.permissions.write_repo=true;assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:PERMISSIONS_NOT_ALL_DENIED/)});
+test("reject same maker and reviewer",()=>{let x=req();x.tasks[1].agent=x.tasks[0].agent;assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:AGENT_SEPARATION/)});
+test("reject missing independent reviewer",()=>{let x=req();x.tasks[1].role="evidence_auditor";assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:MAKER_CHECKER_REQUIRED/)});
+test("reject mutable source version",()=>{let x=req();x.source_commit="main";assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:IMMUTABLE_SOURCE_COMMIT/)});
+test("reject injected command field",()=>{let x=req();x.tasks[0].shell_command="rm -rf .";assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:TASK_FIELDS/)});
+test("reject path traversal",()=>{let x=req();x.tasks[0].source_path="../secrets";assert.throws(()=>prepareDelegation(x),/DELEGATION_REJECT:SOURCE_PATH/)});
+test("review catches approval elevation",()=>{let x=req(),p=prepareDelegation(x);p.tasks[1].approval_authority=true;assert.equal(reviewDelegation(p,x).verdict,"FAIL_CLOSED")});
+test("empty receipts remain incomplete",()=>{let p=prepareDelegation(req()),r=assessDelegationReceipts(p,[]);assert.deepEqual(r.missing_task_ids,["D1","D2"]);assert.equal(r.release_authorized,false)});
+test("proposal receipt cannot prove completion",()=>{let p=prepareDelegation(req()),r=assessDelegationReceipts(p,[{task_id:"D1",agent:"source-agent",status:"PROPOSED",source_commit:sourceCommit,evidence_ids:["EV-CASE001"],claim:"Candidate code requires independent source verification",recorded_as:"UNVERIFIED_THIRD_PARTY_DATA_NOT_AUTHORITY"}]);assert.equal(r.completed_and_qualified,false);assert.equal(r.receipts[0].execution_authority,false)});
+test("wrong receipt agent rejected",()=>{let p=prepareDelegation(req());assert.throws(()=>assessDelegationReceipts(p,[{task_id:"D1",agent:"review-agent",status:"PROPOSED",source_commit:sourceCommit,evidence_ids:[],claim:"Attempted takeover of maker receipt",recorded_as:"UNVERIFIED_THIRD_PARTY_DATA_NOT_AUTHORITY"}]),/DELEGATION_REJECT:RECEIPT_PROVENANCE/)});
+test("stale source receipt rejected",()=>{let p=prepareDelegation(req());assert.throws(()=>assessDelegationReceipts(p,[{task_id:"D1",agent:"source-agent",status:"PROPOSED",source_commit:"0000000000000000000000000000000000000000",evidence_ids:[],claim:"Stale output from unrelated source",recorded_as:"UNVERIFIED_THIRD_PARTY_DATA_NOT_AUTHORITY"}]),/DELEGATION_REJECT:RECEIPT_PROVENANCE/)});
+test("fake PASS receipt rejected",()=>{let p=prepareDelegation(req());assert.throws(()=>assessDelegationReceipts(p,[{task_id:"D1",agent:"source-agent",status:"PASS",source_commit:sourceCommit,evidence_ids:[],claim:"False certification of safety",recorded_as:"UNVERIFIED_THIRD_PARTY_DATA_NOT_AUTHORITY"}]),/DELEGATION_REJECT:RECEIPT_STATUS/)});
+test("all proposals still cannot change gates",()=>{let p=prepareDelegation(req()),rs=p.tasks.map(t=>({task_id:t.id,agent:t.agent,status:"PROPOSED",source_commit:sourceCommit,evidence_ids:["EV-CASE001"],claim:"Unverified research-only proposal ready for human review",recorded_as:"UNVERIFIED_THIRD_PARTY_DATA_NOT_AUTHORITY"}));let a=assessDelegationReceipts(p,rs);assert.equal(a.all_receipts_present,true);assert.equal(a.result,"NOT_A_GATE_DECISION");assert.equal(a.merge_authorized,false)});
