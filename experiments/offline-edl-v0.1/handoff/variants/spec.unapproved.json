@@ -1,0 +1,26 @@
+{
+  "version": "engineyt-variant-spec/0.1",
+  "source_commit": "5b368f2ef4ae9e4e45177401a80e41572ea63540",
+  "case_id": "ED-CASE-REAL-01",
+  "hook_ids": [
+    "H1",
+    "H2",
+    "H3"
+  ],
+  "aspect_ratios": [
+    "16:9",
+    "9:16",
+    "1:1"
+  ],
+  "cta_ids": [
+    "C1",
+    "C2"
+  ],
+  "asset_rights_verified": false,
+  "claims_verified": false,
+  "render_allowed": false,
+  "publish_allowed": false,
+  "layout_verified": false,
+  "audio_beats_verified": false,
+  "frame_seek_verified": false
+}
