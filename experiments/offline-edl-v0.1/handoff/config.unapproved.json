@@ -1,0 +1,13 @@
+{
+  "version": "engineyt-documentary-handoff-config/0.1",
+  "approval_case": "ED-CASE-REAL-01",
+  "allow_cloud_generation": false,
+  "allow_direct_editor_write": false,
+  "allow_media_execution": false,
+  "assets_rights_qualified": false,
+  "audio_alignment_qualified": false,
+  "auto_install_dependencies": false,
+  "character_consistency_qualified": false,
+  "external_spend_authorized": false,
+  "source_visibility_qualified": false
+}
