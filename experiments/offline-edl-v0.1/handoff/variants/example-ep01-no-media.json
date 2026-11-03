@@ -1,0 +1,715 @@
+{
+  "version": "engineyt-campaign-variant-plan/0.1",
+  "source_commit": "5b368f2ef4ae9e4e45177401a80e41572ea63540",
+  "case_id": "ED-CASE-REAL-01",
+  "status": "SOURCE_ONLY_18_CANDIDATES_NO_OUTPUT",
+  "input_source_handoff_version": "engineyt-documentary-production-handoff/0.1",
+  "truth_snapshot": [
+    {
+      "shot_id": "S01",
+      "editorial_target_interval_ms": [
+        0,
+        4000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T01",
+          "label": "PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S02",
+      "editorial_target_interval_ms": [
+        4000,
+        10000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T01",
+          "label": "PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S03",
+      "editorial_target_interval_ms": [
+        10000,
+        17000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T02",
+          "label": "PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S04",
+      "editorial_target_interval_ms": [
+        17000,
+        23000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T03",
+          "label": "PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S05",
+      "editorial_target_interval_ms": [
+        23000,
+        29000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T03",
+          "label": "PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S06",
+      "editorial_target_interval_ms": [
+        29000,
+        34000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T04",
+          "label": "REBOBINADO · PARTIDA REAL"
+        },
+        {
+          "event_id": "T05",
+          "label": "HIPOTÉTICA · NO JUGADA"
+        },
+        {
+          "event_id": "T06",
+          "label": "HIPOTÉTICA · NO JUGADA"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S07",
+      "editorial_target_interval_ms": [
+        34000,
+        36000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T07",
+          "label": "REGRESO A LA PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    },
+    {
+      "shot_id": "S08",
+      "editorial_target_interval_ms": [
+        36000,
+        42000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T08",
+          "label": "PARTIDA REAL"
+        },
+        {
+          "event_id": "T09",
+          "label": "PARTIDA REAL"
+        },
+        {
+          "event_id": "T10",
+          "label": "SE OMITEN JUGADAS REALES"
+        },
+        {
+          "event_id": "T11",
+          "label": "PARTIDA REAL"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "BLOCKED_T11_TECHNICAL_SOURCE"
+    },
+    {
+      "shot_id": "S09",
+      "editorial_target_interval_ms": [
+        42000,
+        45000
+      ],
+      "mandatory_disclosures": [
+        {
+          "event_id": "T12",
+          "label": "CIERRE EDITORIAL · LA PARTIDA CONTINÚA"
+        }
+      ],
+      "source_visibility_qualified": false,
+      "render_gate": "NOT_REVIEWED"
+    }
+  ],
+  "source_duration_unmeasured": true,
+  "source_duration_target_ms": 45000,
+  "variant_count": 18,
+  "variants": [
+    {
+      "variant_id": "H1-16x9-C1",
+      "hook_id": "H1",
+      "aspect_ratio": "16:9",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H1-16x9-C2",
+      "hook_id": "H1",
+      "aspect_ratio": "16:9",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H1-9x16-C1",
+      "hook_id": "H1",
+      "aspect_ratio": "9:16",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H1-9x16-C2",
+      "hook_id": "H1",
+      "aspect_ratio": "9:16",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H1-1x1-C1",
+      "hook_id": "H1",
+      "aspect_ratio": "1:1",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H1-1x1-C2",
+      "hook_id": "H1",
+      "aspect_ratio": "1:1",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H2-16x9-C1",
+      "hook_id": "H2",
+      "aspect_ratio": "16:9",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H2-16x9-C2",
+      "hook_id": "H2",
+      "aspect_ratio": "16:9",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H2-9x16-C1",
+      "hook_id": "H2",
+      "aspect_ratio": "9:16",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H2-9x16-C2",
+      "hook_id": "H2",
+      "aspect_ratio": "9:16",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H2-1x1-C1",
+      "hook_id": "H2",
+      "aspect_ratio": "1:1",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H2-1x1-C2",
+      "hook_id": "H2",
+      "aspect_ratio": "1:1",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H3-16x9-C1",
+      "hook_id": "H3",
+      "aspect_ratio": "16:9",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H3-16x9-C2",
+      "hook_id": "H3",
+      "aspect_ratio": "16:9",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H3-9x16-C1",
+      "hook_id": "H3",
+      "aspect_ratio": "9:16",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H3-9x16-C2",
+      "hook_id": "H3",
+      "aspect_ratio": "9:16",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H3-1x1-C1",
+      "hook_id": "H3",
+      "aspect_ratio": "1:1",
+      "cta_id": "C1",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    },
+    {
+      "variant_id": "H3-1x1-C2",
+      "hook_id": "H3",
+      "aspect_ratio": "1:1",
+      "cta_id": "C2",
+      "copy_or_promotional_claims": null,
+      "selected_source_shot_ids": [
+        "S01",
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09"
+      ],
+      "requires_fact_check": true,
+      "requires_layout_and_truth_label_inspection": true,
+      "source_duration_target_ms": 45000,
+      "output_duration_measured_ms": null,
+      "frame_seek_qualified": false,
+      "ffmpeg_command": null,
+      "output_media_path": null,
+      "encode_qualified": false,
+      "render_authorized": false,
+      "publish_authorized": false,
+      "review_state": "NOT_REVIEWED_S08_BLOCKED"
+    }
+  ],
+  "completed_exports": 0,
+  "assets_generated": 0,
+  "real_frames_examined": 0,
+  "source_claims_verified": false,
+  "source_rights_verified": false,
+  "layout_verified": false,
+  "audio_sync_verified": false,
+  "deterministic_frame_seek_demonstrated": false,
+  "executable": false,
+  "runtime_dependencies_installed": false,
+  "render_authorized": false,
+  "publish_authorized": false,
+  "hard_gates": [
+    "E5B4D_NO_GO_MODEL_M_POLICY_B",
+    "R6_RIGHTS_PENDING",
+    "IVV_GLOBAL_NOT_APPROVED",
+    "CASE_APPROVAL_NOT_APPROVED",
+    "VOICE_AND_FRAME_TIMINGS_UNMEASURED",
+    "S06_S07_S08_PHASE_INTERVALS_UNASSIGNED",
+    "S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED",
+    "ADAPTER_CONSUMER_NOT_QUALIFIED",
+    "NO_RENDER_NO_UPLOAD"
+  ],
+  "release_decision": "NOT_A_RELEASE_OR_PRODUCTION_APPROVAL"
+}
