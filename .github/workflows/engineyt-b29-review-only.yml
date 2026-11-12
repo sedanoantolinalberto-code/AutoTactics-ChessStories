@@ -4,12 +4,16 @@ on:
   push:
     branches:
       - review/engineyt-media-plan-failclosed-b29-20261112
+  pull_request:
+    branches:
+      - research/engineyt-media-capability-map-v01-20261103
 
 permissions:
   contents: read
 
 jobs:
   b29-static-review:
+    if: github.event_name == 'push' || github.head_ref == 'review/engineyt-media-plan-failclosed-b29-20261112'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
