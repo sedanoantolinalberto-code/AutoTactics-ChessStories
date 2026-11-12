@@ -9,11 +9,40 @@
   "negative_mutations_fail_closed": 2519,
   "unexpected_pass": 0,
   "throws": 0,
-  "node_runner_status": "NOT_VERIFIED",
+  "node_runner_status": "PASS_CONFIRMED",
   "native_media_status": "NOT_EXECUTED",
   "rendering_go": false,
   "publishing_go": false,
   "production_code_changed": false,
   "source_test_cases_defined": 36,
-  "additional_malformed_edl_cases": 3
+  "additional_malformed_edl_cases": 3,
+  "node_ci": {
+    "run_id": 43134828534,
+    "job_id": 130907558422,
+    "commit_sha": "2b32a1762cc4dc61c2341797fcc36c8eba40c26b",
+    "node_version": "v22.23.4",
+    "suites": [
+      {
+        "name": "plan-media.test.mjs",
+        "pass": 10,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "name": "plan-media.hardening.test.mjs",
+        "pass": 36,
+        "fail": 0,
+        "skip": 0
+      },
+      {
+        "name": "offline-edl.test.mjs",
+        "pass": 27,
+        "fail": 0,
+        "skip": 0
+      }
+    ],
+    "total_pass": 73,
+    "total_fail": 0,
+    "total_skip": 0
+  }
 }
