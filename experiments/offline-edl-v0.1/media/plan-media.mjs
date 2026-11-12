@@ -133,7 +133,7 @@ export function reviewMediaCapabilities(plan,edl,registry){
   c(p?.shot_id===s?.shot_id&&JSON.stringify(p?.event_ids)===JSON.stringify(s?.event_ids),"EVENT_BIND_"+i);
   c(p?.target_start_ms===s?.target_start_ms&&p?.target_end_ms===s?.target_end_ms&&p?.target_unmeasured===true,"TIMING_"+i);
   c(p?.actual_frames===null&&p?.actual_media===null&&p?.tool_command===null,"MEDIA_"+i);
-  c(JSON.stringify(p?.source_disclosures)===JSON.stringify(s?.truth_annotations?.map(x=>x.required_display_label)),"TRUTH_"+i);
+  c(JSON.stringify(p?.source_disclosures)===JSON.stringify(Array.isArray(s?.truth_annotations)?s.truth_annotations.map(x=>x?.required_display_label):null),"TRUTH_"+i);
   const expectedCapabilities=p?.shot_id==="S08"?[]:["html-motion",...(s?.event_ids?.length>1?[]:["media-encoding"])];
   c(JSON.stringify(p?.requested_capabilities)===JSON.stringify(expectedCapabilities),"CAPABILITY_REQUEST_"+i);
   c(p?.source_board===s?.declared_terminal_board,"BOARD_BIND_"+i);
