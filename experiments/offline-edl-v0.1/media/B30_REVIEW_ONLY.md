@@ -38,7 +38,7 @@ Los efectos demostrados son **falsos positivos del revisor documental**; no se h
 
 - Ejecución de las funciones reales `compileDraft`, `planMediaCapabilities` y `reviewMediaCapabilities` obtenidas de la rama y con los JSON originales: baseline `PASS_LIMITED_SOURCE_ONLY`.
 - **2.516 mutaciones negativas** sobre plan, fases, registro, mapa de herramientas y seis casos de EDL + plan: **2.516 `FAIL_CLOSED`**, **0 aceptaciones indebidas**, **0 excepciones**.
-- Archivo `plan-media.hardening.test.mjs`: **34 casos** definidos (un baseline y 33 mutaciones). El workflow existente ejecuta también las suites de pruebas previas.
+- Archivo `plan-media.hardening.test.mjs`: **36 casos** definidos (un baseline y 33 mutaciones). El workflow existente ejecuta también las suites de pruebas previas.
 
 **IMPORTANTE:** estas 2.516 mutaciones se ejecutaron con las funciones originales mediante un motor JavaScript aislado. La ejecución oficial con `node --test` y el estado de GitHub Actions **no se pudieron verificar**. No atribuir `PASS` a la suite Node.js antes de recuperar registros del runner.
 
@@ -63,3 +63,9 @@ Evidencia exigida: versión Node, commit exacto, códigos de salida, conteo tota
 ## Integración
 
 No hacer merge. Requiere regresión Node.js, revisión independiente del diff y confirmación de que la función continúa siendo exclusivamente documental.
+
+## Comprobación adicional de entradas malformadas
+
+Tres alteraciones de `edl.shots[0].truth_annotations` (objeto, texto y número) provocaban una excepción no estructurada en el revisor. Se cambió la lectura por una comprobación explícita de `Array.isArray`. En el candidato actual las tres devuelven `FAIL_CLOSED` y el baseline documental conserva `PASS_LIMITED_SOURCE_ONLY`.
+
+Matriz final V8 sobre el código de esta rama: **2519 mutaciones**, **2519 rechazos**, **0 aceptaciones inesperadas**, **0 excepciones**. Archivo de pruebas Node.js: **36 casos**, pendiente de ejecución nativa.
