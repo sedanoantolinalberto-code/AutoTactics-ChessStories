@@ -43,3 +43,12 @@ Este revisor no es un *sandbox* de ejecución y sus resultados no levantan `E5B4
 **Independencia:** la rama `review/engineyt-media-plan-failclosed-b29-20261112` parte exclusivamente de `research/engineyt-media-capability-map-v01-20261103`; no contiene T21-R09 ni cambios al supervisor.
 
 **Prohibido** confundir `PASS_LIMITED_SOURCE_ONLY` con un GO productivo.
+
+
+## CI aislado de B29
+
+El workflow `.github/workflows/engineyt-b29-review-only.yml` se ha incorporado **solo a esta rama de revisión**. Configuración: `push` limitado a `review/engineyt-media-plan-failclosed-b29-20261112`; permisos `contents: read`; `ubuntu-latest`; Node.js 22; tres suites `node --test`. No instala dependencias ni solicita secretos.
+
+GitHub Actions: https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/actions
+
+**Estado verificable en esta sesión:** ejecución de las funciones reales del repositorio en V8 con fixtures reales: 21/21 comprobaciones, 20 mutaciones rechazadas. El workflow ha sido versionado, pero su conclusión remota no es accesible desde la conexión actual; **no se afirma `node --test PASS` hasta obtener el job log**.
