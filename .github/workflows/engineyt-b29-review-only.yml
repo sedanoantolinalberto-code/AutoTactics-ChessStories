@@ -1,0 +1,35 @@
+name: EngineYT B29 — source-only review validation
+
+on:
+  push:
+    branches:
+      - review/engineyt-media-plan-failclosed-b29-20261112
+
+permissions:
+  contents: read
+
+jobs:
+  b29-static-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Show runtime and commit
+        shell: bash
+        run: |
+          node --version
+          git rev-parse HEAD
+      - name: Run existing media planner tests
+        shell: bash
+        run: node --test experiments/offline-edl-v0.1/media/plan-media.test.mjs
+      - name: Run B29 adversarial tests
+        shell: bash
+        run: node --test experiments/offline-edl-v0.1/media/plan-media.hardening.test.mjs
+      - name: Run existing offline EDL tests
+        shell: bash
+        run: node --test experiments/offline-edl-v0.1/tests/offline-edl.test.mjs
