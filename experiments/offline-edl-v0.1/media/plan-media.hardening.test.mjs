@@ -38,3 +38,10 @@ await rejects("technical-only board substitution rejected",p=>{p.phases[0].sourc
 await rejects("mandatory blockers removed rejected",p=>{p.hard_blockers=p.hard_blockers.filter(x=>x!=="R6_RIGHTS_PENDING")});
 await rejects("shortened plan and EDL rejected", (p,e)=>{p.phases.pop();e.shots.pop()});
 await rejects("unverified phase status rejected",p=>{p.phases[0].phase_timing_status="VERIFIED"});
+await rejects("numeric render authorization rejected",p=>{p.render_authorized=1});
+await rejects("unexpected top-level executable plan field rejected",p=>{p.execute_command="rm nothing"});
+await rejects("unexpected phase subprocess request rejected",p=>{p.phases[0].execute_command="echo test"});
+await rejects("unexpected tool privilege flag rejected",p=>{p.capability_map[0].can_execute=true});
+await rejects("untrusted registry runtime switch rejected",(_p,_e,r)=>{r.execute_tools=true});
+await rejects("forged EDL runtime gate rejected",(_p,e)=>{e.render_authorized=true});
+
