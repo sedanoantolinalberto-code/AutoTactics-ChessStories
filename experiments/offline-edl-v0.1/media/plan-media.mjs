@@ -53,15 +53,23 @@ export function planMediaCapabilities(edl, registry){
 
 export function reviewMediaCapabilities(plan,edl,registry){
  const problems=[],c=(ok,k)=>{if(!ok)problems.push(k)};
+ const exactKeys=(obj,keys)=>obj!==null&&typeof obj==="object"&&!Array.isArray(obj)&&JSON.stringify(Object.keys(obj).sort())===JSON.stringify([...keys].sort());
+ const planKeys=["version","case_id","mode","all_third_party_dependencies_uninstalled","runtime_commands_authorized","media_processing_authorized","generation_authorized","integration_authorized","publish_authorized","proof_of_determinism","media_rights_reviewed","human_perceptual_reviewed","capability_map","phases","hard_blockers","required_next_review"];
+ const phaseKeys=["shot_id","event_ids","target_start_ms","target_end_ms","target_unmeasured","source_board","requested_capabilities","compatibility","phase_timing_status","if_blocked_reason","source_disclosures","actual_frames","actual_media","tool_command"];
+ const toolKeys=["id","capability","upstream_url","availability","license_review_required","runtime_qualification"];
+ c(exactKeys(plan,planKeys),"PLAN_EXACT_SCHEMA");
  c(plan?.version==="engineyt-media-capability-plan/0.1"&&plan?.case_id===edl?.case_id,"VERSION_CASE");
  for(const k of ["runtime_commands_authorized","media_processing_authorized","generation_authorized","integration_authorized","publish_authorized","proof_of_determinism","media_rights_reviewed","human_perceptual_reviewed"])c(plan?.[k]===false,"AUTHORITY_"+k);
  // Guard against additional authorization fields that are not emitted by this source-only schema.
  for(const k of ["execution_authorized","render_authorized","publishing_authorized","process_execution_authorized"])c(plan?.[k]!==true,"UNEXPECTED_AUTHORITY_"+k);
  c(plan?.mode==="SOURCE_ONLY_SIMULATION_NOT_RENDERABLE"&&plan?.all_third_party_dependencies_uninstalled===true,"SCOPE");
  c(Array.isArray(plan?.phases)&&plan.phases.length===9&&plan.phases.length===edl?.shots?.length,"PHASES");
+ c(registry?.version==="engineyt-media-capabilities/0.1"&&registry?.auto_install===false&&registry?.execute_tools===false&&registry?.network_enabled===false&&Array.isArray(registry.tools)&&registry.tools.length===11,"REGISTRY_SOURCE_SCOPE");
+ c(edl?.artifact_version==="engineyt-offline-edl-proposal/0.1"&&edl?.case_id==="ED-CASE-REAL-01"&&edl?.render_authorized===false&&edl?.execution_authorized===false&&edl?.publishing_authorized===false&&edl?.integration_authorized===false,"EDL_SOURCE_SCOPE");
  const original=edl?.shots??[];
  if(Array.isArray(plan?.phases))for(let i=0;i<plan.phases.length;i++){
   const p=plan.phases[i],s=original[i];
+  c(exactKeys(p,phaseKeys),"PHASE_EXACT_SCHEMA_"+i);
   c(p?.shot_id===s?.shot_id&&JSON.stringify(p.event_ids)===JSON.stringify(s.event_ids),"EVENT_BIND_"+i);
   c(p?.target_start_ms===s?.target_start_ms&&p?.target_end_ms===s?.target_end_ms&&p?.target_unmeasured===true,"TIMING_"+i);
   c(p?.actual_frames===null&&p?.actual_media===null&&p?.tool_command===null,"MEDIA_"+i);
@@ -77,6 +85,7 @@ export function reviewMediaCapabilities(plan,edl,registry){
  c(Array.isArray(plan?.capability_map)&&plan.capability_map.length===11&&plan.capability_map.length===registry?.tools?.length,"CAP_COUNT");
  if(Array.isArray(plan?.capability_map))for(let i=0;i<plan.capability_map.length;i++){
   const t=plan.capability_map[i],source=registry?.tools?.[i];
+  c(exactKeys(t,toolKeys),"CAP_EXACT_SCHEMA_"+i);
   c(t?.license_review_required===true&&t?.runtime_qualification==="NOT_RUN","LICENSE_RUNTIME_"+i);
   c(t?.id===source?.id&&t?.capability===source?.capability&&t?.upstream_url===source?.upstream_url&&t?.availability===source?.availability,"CAP_SOURCE_BIND_"+i);
  }
