@@ -57,3 +57,11 @@ await rejects("forged EDL provenance rejected",(_p,e)=>{e.source_revision_scope=
 await rejects("forged EDL source pin rejected",(_p,e)=>{e.source_revisions.shotplan.observed_git_blob="fake"});
 await rejects("missing required EDL blocker rejected",(p,e)=>{p.hard_blockers.splice(1,1);e.hard_blockers.splice(1,1)});
 await rejects("null phase rejected without crash",p=>{p.phases[0]=null});
+
+await rejects("EDL timeline cannot be jointly retimed",(p,e)=>{e.shots[0].target_end_ms=9000;p.phases[0].target_end_ms=9000});
+await rejects("EDL event ID and plan cannot be jointly forged",(p,e)=>{e.shots[0].event_ids[0]="T99";p.phases[0].event_ids[0]="T99"});
+await rejects("EDL board and plan cannot be jointly forged",(p,e)=>{e.shots[0].declared_terminal_board="FABRICATED";p.phases[0].source_board="FABRICATED"});
+await rejects("truth-label and plan cannot be jointly forged",(p,e)=>{e.shots[0].truth_annotations[0].required_display_label="PARTIDA FICTICIA";p.phases[0].source_disclosures[0]="PARTIDA FICTICIA"});
+await rejects("EDL duration cannot be forged",(_p,e)=>{e.target_duration_ms=1000});
+await rejects("EDL source cannot carry executable extra",(_p,e)=>{e.execute_tools=true});
+await rejects("EDL shot source cannot carry hidden render command",(_p,e)=>{e.shots[0].tool_command="echo forbidden"});
