@@ -66,6 +66,43 @@ export function reviewMediaCapabilities(plan,edl,registry){
  c(Array.isArray(plan?.phases)&&plan.phases.length===9&&plan.phases.length===edl?.shots?.length,"PHASES");
  c(registry?.version==="engineyt-media-capabilities/0.1"&&registry?.auto_install===false&&registry?.execute_tools===false&&registry?.network_enabled===false&&Array.isArray(registry.tools)&&registry.tools.length===11,"REGISTRY_SOURCE_SCOPE");
  c(edl?.artifact_version==="engineyt-offline-edl-proposal/0.1"&&edl?.case_id==="ED-CASE-REAL-01"&&edl?.render_authorized===false&&edl?.execution_authorized===false&&edl?.publishing_authorized===false&&edl?.integration_authorized===false,"EDL_SOURCE_SCOPE");
+ // Independently pin the editorial invariants for this single, non-renderable EP01 case.
+ // Cross-document agreement alone is insufficient: an attacker could alter the EDL and plan together.
+ const edlKeys=["artifact_version","case_id","classification","evidence_level","execution_authorized","render_authorized","publishing_authorized","integration_authorized","release_authority","measured_voice_timing","frame_visibility_verified","rights_clearance_verified","semantic_legality_verified","original_sources_unchanged","source_revisions","source_revision_scope","target_duration_ms","shots","hard_blockers"];
+ const shotKeys=["shot_id","time_authority","target_start_ms","target_end_ms","declared_terminal_board","event_dispatch_allowed","event_ids","truth_annotations","narration_text_draft","caption_text_draft","audio_file","subtitle_cues","visual_asset_files","render_instruction","editorial_review","visual_review"];
+ c(exactKeys(edl,edlKeys)&&edl?.classification==="SOURCE_ONLY_DOCUMENTARY_PROPOSAL"&&edl?.evidence_level==="STATIC_SOURCE_CONCORDANCE_ONLY"&&edl?.original_sources_unchanged===true,"EDL_DOCUMENTARY_SCHEMA");
+ c(edl?.target_duration_ms===45000,"EDL_TARGET_45S");
+ const editorialShots=[
+  [0,4000,"V-P1",["T01"],true],
+  [4000,10000,"V-P1",["T01"],false],
+  [10000,17000,"V-EV1",["T02"],true],
+  [17000,23000,"V-REAL",["T03"],true],
+  [23000,29000,"V-REAL",["T03"],false],
+  [29000,34000,"V-HYP",["T04","T05","T06"],true],
+  [34000,36000,"V-P1",["T07"],true],
+  [36000,42000,"V-EV2",["T08","T09","T10","T11"],true],
+  [42000,45000,"V-EV2",["T12"],true]
+ ];
+ const truthLabels={
+  T01:"PARTIDA REAL",T02:"PARTIDA REAL",T03:"PARTIDA REAL",
+  T04:"REBOBINADO · PARTIDA REAL",T05:"HIPOTÉTICA · NO JUGADA",T06:"HIPOTÉTICA · NO JUGADA",
+  T07:"REGRESO A LA PARTIDA REAL",T08:"PARTIDA REAL",T09:"PARTIDA REAL",
+  T10:"SE OMITEN JUGADAS REALES",T11:"PARTIDA REAL",T12:"CIERRE EDITORIAL · LA PARTIDA CONTINÚA"
+ };
+ c(Array.isArray(edl?.shots)&&edl.shots.length===editorialShots.length,"EDL_CANONICAL_SHOTS");
+ if(Array.isArray(edl?.shots))for(let i=0;i<edl.shots.length;i++){
+  const s=edl.shots[i],expected=editorialShots[i];
+  c(exactKeys(s,shotKeys),"EDL_SHOT_EXACT_SCHEMA_"+i);
+  c(!!expected&&s?.shot_id==="S0"+(i+1)&&s?.target_start_ms===expected?.[0]&&s?.target_end_ms===expected?.[1]&&s?.declared_terminal_board===expected?.[2]&&s?.event_dispatch_allowed===expected?.[4]&&JSON.stringify(s?.event_ids)===JSON.stringify(expected?.[3]),"EDL_CANONICAL_SEQUENCE_"+i);
+  c(Array.isArray(s?.truth_annotations)&&s.truth_annotations.length===(expected?.[3]?.length??-1),"EDL_TRUTH_COUNT_"+i);
+  if(Array.isArray(s?.truth_annotations))for(let j=0;j<s.truth_annotations.length;j++){
+   const a=s.truth_annotations[j],id=expected?.[3]?.[j];
+   c(a?.event_id===id&&a?.required_display_label===truthLabels[id]&&a?.visible_on_real_frames_verified===false&&a?.phase_start_ms===null&&a?.phase_end_ms===null,"EDL_TRUTH_LABEL_"+i+"_"+j);
+   if(id==="T10")c(typeof a?.mandatory_omission==="string"&&/14/.test(a.mandatory_omission)&&/36[–-]49/.test(a.mandatory_omission),"EDL_MANDATORY_OMISSION");
+   if(id==="T11")c(a?.audience_board_before_declared===null&&a?.audience_board_after_declared===null,"EDL_T11_UNRESOLVED");
+  }
+ }
+
  for(const k of ["release_authority","frame_visibility_verified","rights_clearance_verified","semantic_legality_verified","measured_voice_timing"])c(edl?.[k]===false,"EDL_UNQUALIFIED_"+k);
  c(edl?.source_revision_scope==="OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION","EDL_PROVENANCE_SCOPE");
  const requiredPins={
