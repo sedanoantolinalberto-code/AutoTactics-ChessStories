@@ -45,3 +45,15 @@ await rejects("unexpected tool privilege flag rejected",p=>{p.capability_map[0].
 await rejects("untrusted registry runtime switch rejected",(_p,_e,r)=>{r.execute_tools=true});
 await rejects("forged EDL runtime gate rejected",(_p,e)=>{e.render_authorized=true});
 
+
+await rejects("registry license spoof rejected",(_p,_e,r)=>{r.tools[0].license_review_required=false});
+await rejects("registry runtime spoof rejected",(_p,_e,r)=>{r.tools[0].runtime_qualification="PASS"});
+await rejects("registry capability and output map spoof rejected",(p,_e,r)=>{r.tools[0].capability="execute-shell";p.capability_map[0].capability="execute-shell"});
+await rejects("registry URL and output map spoof rejected",(p,_e,r)=>{r.tools[0].upstream_url="file:///tmp/evil";p.capability_map[0].upstream_url="file:///tmp/evil"});
+await rejects("forged EDL shot visual approval rejected",(_p,e)=>{e.shots[0].visual_review="APPROVED"});
+await rejects("forged EDL render instruction rejected",(_p,e)=>{e.shots[0].render_instruction="ffmpeg ..."});
+await rejects("forged EDL rights clearance rejected",(_p,e)=>{e.rights_clearance_verified=true});
+await rejects("forged EDL provenance rejected",(_p,e)=>{e.source_revision_scope="CERTIFIED_BYTE_EXACT"});
+await rejects("forged EDL source pin rejected",(_p,e)=>{e.source_revisions.shotplan.observed_git_blob="fake"});
+await rejects("missing required EDL blocker rejected",(p,e)=>{p.hard_blockers.splice(1,1);e.hard_blockers.splice(1,1)});
+await rejects("null phase rejected without crash",p=>{p.phases[0]=null});
