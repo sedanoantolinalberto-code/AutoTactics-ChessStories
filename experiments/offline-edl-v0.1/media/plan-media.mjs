@@ -66,11 +66,34 @@ export function reviewMediaCapabilities(plan,edl,registry){
  c(Array.isArray(plan?.phases)&&plan.phases.length===9&&plan.phases.length===edl?.shots?.length,"PHASES");
  c(registry?.version==="engineyt-media-capabilities/0.1"&&registry?.auto_install===false&&registry?.execute_tools===false&&registry?.network_enabled===false&&Array.isArray(registry.tools)&&registry.tools.length===11,"REGISTRY_SOURCE_SCOPE");
  c(edl?.artifact_version==="engineyt-offline-edl-proposal/0.1"&&edl?.case_id==="ED-CASE-REAL-01"&&edl?.render_authorized===false&&edl?.execution_authorized===false&&edl?.publishing_authorized===false&&edl?.integration_authorized===false,"EDL_SOURCE_SCOPE");
+ for(const k of ["release_authority","frame_visibility_verified","rights_clearance_verified","semantic_legality_verified","measured_voice_timing"])c(edl?.[k]===false,"EDL_UNQUALIFIED_"+k);
+ c(edl?.source_revision_scope==="OBSERVED_GIT_BLOBS_NOT_RAW_BYTE_AUTHENTICATION","EDL_PROVENANCE_SCOPE");
+ const requiredPins={
+  shotplan:"0f20ef02a32b7275bb6393e0418907429f663053",
+  semantic_case:"3514f19ac355763a5b4c61d5c573df090b0eccc1",
+  truth_overlay:"aafc6429d716863e225361dd4962169bf12ecfae",
+  prior_60s_analogue_not_timing_authority:"95b8c3befe6da95be1a297af4c7bb7722231ab64"
+ };
+ for(const [name,pin] of Object.entries(requiredPins))c(edl?.source_revisions?.[name]?.observed_git_blob===pin,"EDL_PIN_"+name);
+ const requiredBlockers=["E5B4D_NO_GO_MODEL_M_POLICY_B","R6_RIGHTS_PENDING","IVV_GLOBAL_NOT_APPROVED","CASE_APPROVAL_NOT_APPROVED","VOICE_AND_FRAME_TIMINGS_UNMEASURED","S06_S07_S08_PHASE_INTERVALS_UNASSIGNED","S08_T11_TECHNICAL_SOURCE_VISUAL_TREATMENT_UNRESOLVED","ADAPTER_CONSUMER_NOT_QUALIFIED","NO_RENDER_NO_UPLOAD"];
+ c(Array.isArray(edl?.hard_blockers)&&requiredBlockers.every(k=>edl.hard_blockers.includes(k)),"EDL_REQUIRED_BLOCKERS");
+ const knownCapabilities=new Set(["scene-detection","silence-analysis","stabilization","color-match","background-removal","frame-interpolation","upscaling","audio-separation","beat-analysis","html-motion","media-encoding"]);
+ const ids=new Set();
+ if(Array.isArray(registry?.tools))for(let i=0;i<registry.tools.length;i++){
+  const t=registry.tools[i];
+  c(typeof t?.id==="string"&&/^[a-z0-9-]+$/.test(t.id)&&!ids.has(t.id),"REGISTRY_TOOL_ID_"+i);
+  if(typeof t?.id==="string")ids.add(t.id);
+  c(knownCapabilities.has(t?.capability)&&t?.planning_only===true&&t?.license_review_required===true&&t?.runtime_qualification==="NOT_RUN","REGISTRY_TOOL_GATE_"+i);
+  c(typeof t?.upstream_url==="string"&&/^https:\/\/github\.com\/[A-Za-z0-9._-]+\/[A-Za-z0-9._-]+$/.test(t.upstream_url),"REGISTRY_UPSTREAM_"+i);
+  c(["INPUT_MEDIA_REQUIRED","SOURCE_ONLY_COMPOSITION","OPTIONAL_IF_ASSETS_APPROVED"].includes(t?.availability),"REGISTRY_AVAILABILITY_"+i);
+ }
  const original=edl?.shots??[];
  if(Array.isArray(plan?.phases))for(let i=0;i<plan.phases.length;i++){
   const p=plan.phases[i],s=original[i];
   c(exactKeys(p,phaseKeys),"PHASE_EXACT_SCHEMA_"+i);
-  c(p?.shot_id===s?.shot_id&&JSON.stringify(p.event_ids)===JSON.stringify(s.event_ids),"EVENT_BIND_"+i);
+  c(s?.shot_id==="S0"+(i+1)&&s?.time_authority==="UNMEASURED_EDITORIAL_TARGET"&&s?.visual_review==="NOT_EXECUTED"&&s?.editorial_review==="REQUIRED"&&s?.render_instruction===null&&s?.audio_file===null,"EDL_SHOT_GATE_"+i);
+  c(Array.isArray(s?.visual_asset_files)&&s.visual_asset_files.length===0&&Array.isArray(s?.subtitle_cues)&&s.subtitle_cues.length===0,"EDL_NO_MEDIA_"+i);
+  c(p?.shot_id===s?.shot_id&&JSON.stringify(p?.event_ids)===JSON.stringify(s?.event_ids),"EVENT_BIND_"+i);
   c(p?.target_start_ms===s?.target_start_ms&&p?.target_end_ms===s?.target_end_ms&&p?.target_unmeasured===true,"TIMING_"+i);
   c(p?.actual_frames===null&&p?.actual_media===null&&p?.tool_command===null,"MEDIA_"+i);
   c(JSON.stringify(p?.source_disclosures)===JSON.stringify(s?.truth_annotations?.map(x=>x.required_display_label)),"TRUTH_"+i);
