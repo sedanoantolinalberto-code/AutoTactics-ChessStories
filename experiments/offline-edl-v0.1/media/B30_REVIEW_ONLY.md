@@ -37,10 +37,10 @@ Los efectos demostrados son **falsos positivos del revisor documental**; no se h
 ## Comprobaciones realizadas
 
 - Ejecución de las funciones reales `compileDraft`, `planMediaCapabilities` y `reviewMediaCapabilities` obtenidas de la rama y con los JSON originales: baseline `PASS_LIMITED_SOURCE_ONLY`.
-- **2.516 mutaciones negativas** sobre plan, fases, registro, mapa de herramientas y seis casos de EDL + plan: **2.516 `FAIL_CLOSED`**, **0 aceptaciones indebidas**, **0 excepciones**.
+- **2.519 mutaciones negativas** sobre plan, fases, registro, mapa de herramientas y seis casos de EDL + plan: **2.519 `FAIL_CLOSED`**, **0 aceptaciones indebidas**, **0 excepciones**.
 - Archivo `plan-media.hardening.test.mjs`: **36 casos** definidos (un baseline y 33 mutaciones). El workflow existente ejecuta también las suites de pruebas previas.
 
-**IMPORTANTE:** estas 2.516 mutaciones se ejecutaron con las funciones originales mediante un motor JavaScript aislado. La ejecución oficial con `node --test` y el estado de GitHub Actions **no se pudieron verificar**. No atribuir `PASS` a la suite Node.js antes de recuperar registros del runner.
+**IMPORTANTE:** estas 2.519 mutaciones se ejecutaron con las funciones originales mediante un motor JavaScript aislado. La ejecución oficial de Node.js fue **confirmada posteriormente**; véase la sección CI nativo al final. No atribuir `PASS` a la suite Node.js antes de recuperar registros del runner.
 
 ## Reproducción nativa requerida
 
@@ -68,4 +68,19 @@ No hacer merge. Requiere regresión Node.js, revisión independiente del diff y 
 
 Tres alteraciones de `edl.shots[0].truth_annotations` (objeto, texto y número) provocaban una excepción no estructurada en el revisor. Se cambió la lectura por una comprobación explícita de `Array.isArray`. En el candidato actual las tres devuelven `FAIL_CLOSED` y el baseline documental conserva `PASS_LIMITED_SOURCE_ONLY`.
 
-Matriz final V8 sobre el código de esta rama: **2519 mutaciones**, **2519 rechazos**, **0 aceptaciones inesperadas**, **0 excepciones**. Archivo de pruebas Node.js: **36 casos**, pendiente de ejecución nativa.
+Matriz final V8 sobre el código de esta rama: **2519 mutaciones**, **2519 rechazos**, **0 aceptaciones inesperadas**, **0 excepciones**. Archivo de pruebas Node.js: **36 casos**, validado después en GitHub Actions (véase sección CI).
+
+## CI nativo confirmado — ejecución GitHub Actions #43134828534
+
+- PR de revisión borrador: https://github.com/sedanoantolinalberto-code/AutoTactics-ChessStories/pull/22
+- Job ID: `130907558422`, commit evaluado: `2b32a1762cc4dc61c2341797fcc36c8eba40c26b`.
+- Ubuntu; Node.js `v22.23.4`.
+- `plan-media.test.mjs`: **10/10 PASS**.
+- `plan-media.hardening.test.mjs`: **36/36 PASS**.
+- `offline-edl.test.mjs`: **27/27 PASS**.
+- **Total: 73/73 PASS; 0 FAIL, 0 SKIP, 0 CANCELLED**.
+- Evidencia observada por lectura del log del job y sus tres bloques de resultados Node.
+
+La evidencia V8 de 2.519 mutaciones es **adicional** y no debe sumarse a los 73 casos Node. La suite nativa acredita validación funcional sobre Linux/Node del plan documental, no capacidades audiovisuales ni garantías de subprocesos.
+
+Este documento se ha actualizado después del commit evaluado; ningún cambio posterior en documentación altera los módulos bajo prueba. Revalidar el último SHA de rama antes de decidir integración.
