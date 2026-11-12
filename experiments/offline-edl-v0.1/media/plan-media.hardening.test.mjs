@@ -65,3 +65,6 @@ await rejects("truth-label and plan cannot be jointly forged",(p,e)=>{e.shots[0]
 await rejects("EDL duration cannot be forged",(_p,e)=>{e.target_duration_ms=1000});
 await rejects("EDL source cannot carry executable extra",(_p,e)=>{e.execute_tools=true});
 await rejects("EDL shot source cannot carry hidden render command",(_p,e)=>{e.shots[0].tool_command="echo forbidden"});
+
+await rejects("malformed truth annotations as object return FAIL_CLOSED",(_p,e)=>{e.shots[0].truth_annotations={}});
+await rejects("malformed truth annotations as string return FAIL_CLOSED",(_p,e)=>{e.shots[0].truth_annotations="FORGED"});
