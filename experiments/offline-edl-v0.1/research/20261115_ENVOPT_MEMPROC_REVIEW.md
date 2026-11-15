@@ -58,3 +58,24 @@ Los prototipos ENVOPT/MEM-PROC representan únicamente nuevas capas de recuperac
 4. Someter a revisión independiente antes de cualquier decisión de integración.
 
 **Esta rama/PR agrega solamente la presente nota, no ejecuta el prototipo, no abre la VM ni toca contratos de producción.**
+
+ 
+## Actualización de los diez trabajos — paquete independiente offline (15/11/2026)
+
+Se cerró una **entrega separada en el chat**, no subida ni incorporada a este repositorio, llamada `EngineYT_10Steps_OFFLINE_20261115_v01.zip`:
+
+- SHA-256 del ZIP: `385010dfe0c574c3165b5dd2876b9c10e074bfbb994da46c5aee3dc2deb3f6b7`.
+- Tamaño: 72.131 bytes; 60 miembros, incluidos `MANIFEST_SHA256.json` y `verify_package.py` (59 archivos cubiertos por el manifiesto).
+- `143/143 PASS` tests sintéticos en CPython 3.13.5, repetidos desde un ZIP recién extraído, más 18 JSON de la demo.
+- Comprobador de integridad: PASS inicial y posterior a la demo; rechaza modificaciones de contenido con tamaño constante, modificación de tamaño, archivo adicional y archivo faltante. Es **consistencia interna**, no autenticación de autoría ni garantía frente a filesystem hostil.
+- NIC05-COMPAT-01: contrato y fixture sintético; la conciliación del árbol Windows real sigue `BLOCKED_REAL_INPUT`.
+- ENVOPT-BENCH-01: comparador A/B de datos de prueba; no hay ahorro de tokens medido con modelos reales.
+- MEM-PROC-02 / KTS-01: índices y candidatos documentales sin promoción ni autoridad.
+- VID-ARCH-01: comparación funcional con el mapa multimedia y EDL ya existentes; no se incorpora código de proveedores.
+- SCENE-QA-01 / STORYBOARD-02: validación solo de metadatos, propuestas editoriales no aplicadas y S08/T11 bloqueado.
+- I18N-AUDIO-01: contrato multilingüe sin generación de audio, subtítulos cronometrados ni publicación.
+- NARR-HMM-01: benchmark ilustrativo con dos series sintéticas, sin mejora respecto a heurística (ambos 10/10); `DESIGN_ONLY`.
+- EXT-AUDIT-01: **autorrevisión limitada**, nunca auditoría independiente.
+- HARNESS-OPT-01: propuestas restringidas a contexto documental, sin modificación de supervisores, gates o ejecución.
+
+Los documentos originales del repositorio, fuentes de datos, ramas protegidas, media y releases permanecen sin cambios por esta entrega. Esta PR sigue `DRAFT / SOURCE_ONLY / NO_MERGE`; **R17/E5B4D NO-GO, TB09/G3 BLOCKED, B10-7 PRE-CAMPAIGN/BLOCKED, PF02/COM03 BLOCKED, NIC05 adquisición real BLOCKED; render/publicación DISABLED**.
